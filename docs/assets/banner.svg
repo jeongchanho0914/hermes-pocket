@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="t d">
+  <title id="t">Hermes Pocket</title>
+  <desc id="d">An unofficial Android pocket agent that talks directly to model APIs.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.55" stop-color="#141b3a"/>
+      <stop offset="1" stop-color="#1d1442"/>
+    </linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7dd3fc"/>
+      <stop offset="1" stop-color="#c4b5fd"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="screen"><rect x="905" y="62" width="150" height="236" rx="16"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <circle cx="980" cy="180" r="230" fill="url(#glow)"/>
+  <g stroke="#ffffff" stroke-opacity="0.05">
+    <path d="M0 90H1200M0 180H1200M0 270H1200"/>
+    <path d="M200 0V360M400 0V360M600 0V360M800 0V360M1000 0V360"/>
+  </g>
+
+  <!-- phone -->
+  <g>
+    <rect x="890" y="44" width="180" height="272" rx="30" fill="#0f1530" stroke="url(#ac)" stroke-width="3"/>
+    <rect x="905" y="62" width="150" height="236" rx="16" fill="#0b1020"/>
+    <g clip-path="url(#screen)" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11">
+      <rect x="915" y="76" width="95" height="26" rx="8" fill="#1f2a55"/>
+      <rect x="941" y="112" width="104" height="38" rx="8" fill="url(#ac)" opacity="0.9"/>
+      <rect x="915" y="160" width="120" height="18" rx="6" fill="#1f2a55"/>
+      <rect x="915" y="184" width="84" height="18" rx="6" fill="#1f2a55"/>
+      <text x="917" y="226" fill="#7dd3fc">$ /bg analyze…</text>
+      <text x="917" y="244" fill="#a78bfa">▸ job #3 running</text>
+      <rect x="915" y="266" width="130" height="22" rx="11" fill="#141b3a" stroke="#7dd3fc" stroke-opacity="0.5"/>
+    </g>
+    <rect x="950" y="52" width="60" height="5" rx="2.5" fill="#1f2a55"/>
+  </g>
+
+  <!-- text -->
+  <g font-family="Inter,'Segoe UI',system-ui,-apple-system,sans-serif">
+    <text x="70" y="108" font-size="20" font-weight="600" fill="#7dd3fc" letter-spacing="4">UNOFFICIAL · ANDROID · v0.13 BETA</text>
+    <text x="70" y="190" font-size="84" font-weight="800" fill="#ffffff" letter-spacing="-2">Hermes Pocket</text>
+    <rect x="72" y="212" width="132" height="6" rx="3" fill="url(#ac)"/>
+    <text x="70" y="262" font-size="28" fill="#c7d2fe">A pocket-sized agent that talks</text>
+    <text x="70" y="298" font-size="28" fill="#c7d2fe">straight to your model API.</text>
+  </g>
+</svg>

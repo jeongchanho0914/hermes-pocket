@@ -26,3 +26,11 @@ __pycache__/
 /hermes-android/engine-spike/termux-assets/*.deb
 /hermes-android/engine-spike/dependencies/upstream.tar.gz
 /hermes-android/engine-spike/exploratory/webp-build-arm64/
+
+# Large / reproducible artifacts (keep out of git)
+*.apk
+/hermes-android/engine-spike/dependencies/
+/hermes-android/engine-spike/candidates/
+/hermes-android/engine-spike/exploratory/
+/hermes-android/engine-spike/android/
+.DS_Store

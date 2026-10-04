@@ -25,7 +25,7 @@
 | Android 요구 | minSdk 26, targetSdk 35 |
 | 서명 인증서 SHA-256 | `6d997f21e5f0c15e3756f5cc2b792262b40ed6d9c6e688f79ab7081a1c6d8e7c` |
 
-최신 설치 근거: [s24-install.json](hermes-android/docs/android-v012/s24-install.json).
+최신 설치 근거: [s24-install.json](../../hermes-android/docs/android-v012/s24-install.json).
 
 ## 2. 사용자의 최종 목표와 지속되는 작업 조건
 
@@ -209,7 +209,7 @@ Java 파일은 아래 공통 폴더에 있다.
 | v0.12 최초 후보 | DB4 순서, compact, MD 메모리, 간결한 생각 UI, 오류 기록·수집, 도구/권한 분리, 백그라운드/STOP. |
 | v0.12 최종 | 실제 QS 검사에서 남아 있던 애니메이션 중 관찰 실패를 추가 수정. 최종 hash `98e5fa…`, 에뮬레이터 검증 후 S24에 업데이트 설치. |
 
-v0.12 최초 후보 `d2e353…`의 실제 QS 실패 로그는 삭제하지 않고 남겼다. [실패 기록](hermes-android/docs/android-v012/native-forward-guards-d2-failed.json), [최종 성공 기록](hermes-android/docs/android-v012/native-forward-guards.json).
+v0.12 최초 후보 `d2e353…`의 실제 QS 실패 로그는 삭제하지 않고 남겼다. [실패 기록](../../hermes-android/docs/android-v012/native-forward-guards-d2-failed.json), [최종 성공 기록](../../hermes-android/docs/android-v012/native-forward-guards.json).
 
 ## 6. 검증 완료 범위와 미검증 범위
 
@@ -220,7 +220,7 @@ v0.12 최초 후보 `d2e353…`의 실제 QS 실패 로그는 삭제하지 않�
 - 진단 생산 코드의 호스트 파일 검사 **10개**.
 - Python 검사 **128개**: 브라우저 UI 101개 + 수집기/전송/Manifest/버전 등 27개.
 - 전체 실행·재개 실행·의도된 UI 변경에 따른 표적 재실행의 합산이다. 단일 무실패 전체 실행이라고 표현하지 않는다.
-- 테스트별 PASS 및 보관된 로그 해시: [host-regression-results.json](hermes-android/docs/android-v012/host-regression-results.json).
+- 테스트별 PASS 및 보관된 로그 해시: [host-regression-results.json](../../hermes-android/docs/android-v012/host-regression-results.json).
 
 ### 최종 APK의 API35 에뮬레이터 검사
 
@@ -230,7 +230,7 @@ v0.12 최초 후보 `d2e353…`의 실제 QS 실패 로그는 삭제하지 않�
 - 실제 manual compact: 표시 메시지 16개와 원본 transcript 17행의 SHA 유지, 체크포인트 저장 및 프로세스 재개 확인.
 - 설치된 에뮬레이터 APK를 다시 읽어 최종 파일의 해시와 일치 확인.
 - DB1/2/3→4, 진단 권한·손상 파일 거절, 실제 3라운드 순서 검사는 이전 후보 APK에서 실행했다. 해당 구현은 최종본과 같고, 최종 후보 변경은 QS 관찰 경로였다.
-- [native-completion-summary.json](hermes-android/docs/android-v012/native-completion-summary.json).
+- [native-completion-summary.json](../../hermes-android/docs/android-v012/native-completion-summary.json).
 
 ### S24 실제 휴대폰에서 마지막으로 확인한 사항
 
@@ -254,7 +254,7 @@ v0.12 최초 후보 `d2e353…`의 실제 QS 실패 로그는 삭제하지 않�
 
 초기 인벤토리는 도구 정확 이름 107개(기본 90/플러그인 17), 플러그인 manifest 102개, gateway 이름 24개, 스킬 문서 210개를 조사했다. 이것은 고정 버전 기준이며 최신 upstream 전체라는 주장이 아니다.
 
-[HERMES_FEATURE_MATRIX.md](hermes-android/docs/HERMES_FEATURE_MATRIX.md)는 **초기 감사 자료**다. 그 안의 compact 없음·문자 수 제한·단일 메모리 등의 설명은 이후 v0.12에서 바뀌었으므로 현재 구현 판단에 그대로 사용하면 안 된다. 앞으로 도구별 현재 상태와 근거를 갱신해야 한다.
+[HERMES_FEATURE_MATRIX.md](../../hermes-android/docs/HERMES_FEATURE_MATRIX.md)는 **초기 감사 자료**다. 그 안의 compact 없음·문자 수 제한·단일 메모리 등의 설명은 이후 v0.12에서 바뀌었으므로 현재 구현 판단에 그대로 사용하면 안 된다. 앞으로 도구별 현재 상태와 근거를 갱신해야 한다.
 
 이전 parity 문서들에도 오래된 설명이 남아 있을 수 있다. 충돌할 때는 최종 v0.12 소스·설치 기록·검증 보고서의 실제 증거를 먼저 확인한다.
 
@@ -275,7 +275,7 @@ v0.12 최초 후보 `d2e353…`의 실제 QS 실패 로그는 삭제하지 않�
 - 현재 검사에 사용한 에뮬레이터는 x86_64이고 후보는 arm64이므로, 후보 실행 검증에는 호환되는 arm64 환경이 필요하다.
 - 이 후보를 현재 메인 APK와 혼동하거나 실험 완료만으로 production 포함 처리하지 않는다.
 - 현재 메인 APK에는 그 native Python/ELF 엔진이 들어 있지 않다.
-- [원본 엔진 이식 계획](hermes-android/engine-spike/docs/UPSTREAM_ANDROID_ENGINE_PLAN.md).
+- [원본 엔진 이식 계획](../../hermes-android/engine-spike/docs/UPSTREAM_ANDROID_ENGINE_PLAN.md).
 
 ## 8. Web Hermes에서 이어갈 권장 순서
 
@@ -336,20 +336,20 @@ PYTHONPATH=/tmp/hermes-v008-test-deps:tests python3 -m unittest test_model_progr
 
 ## 10. 다음 담당자가 먼저 읽을 파일
 
-- [README](hermes-android/README.md)
-- [최신 검증 보고서](hermes-android/docs/TEST_REPORT.md)
-- [v0.12 상세 보고서](hermes-android/docs/android-v012/TEST_REPORT.md)
-- [S24 실제 설치](hermes-android/docs/android-v012/s24-install.json)
-- [최종 에뮬레이터 검사](hermes-android/docs/android-v012/native-completion-summary.json)
-- [호스트 검사별 증거](hermes-android/docs/android-v012/host-regression-results.json)
-- [문맥·요약](hermes-android/docs/CONTEXT_COMPACTION.md)
-- [메모리 문서 계약](hermes-android/docs/android-v012/MEMORY_DOCUMENTS.md)
-- [오류 기록](hermes-android/docs/ANDROID_DIAGNOSTICS.md)
-- [오류 검토·빌드 흐름](hermes-android/docs/diagnostics/README.md)
-- [초기 원본 기능 감사 — 최신 상태로 갱신 필요](hermes-android/docs/HERMES_FEATURE_MATRIX.md)
-- [일반 휴대폰 조작 범위](hermes-android/docs/HERMES_ANDROID_HUMAN_CONTROL_AUDIT.md)
-- [원본 Hermes 참조](hermes-android/docs/HERMES_REFERENCE.md)
-- [ARM/Python 엔진 이식 계획](hermes-android/engine-spike/docs/UPSTREAM_ANDROID_ENGINE_PLAN.md)
+- [README](../../hermes-android/README.md)
+- [최신 검증 보고서](../../hermes-android/docs/TEST_REPORT.md)
+- [v0.12 상세 보고서](../../hermes-android/docs/android-v012/TEST_REPORT.md)
+- [S24 실제 설치](../../hermes-android/docs/android-v012/s24-install.json)
+- [최종 에뮬레이터 검사](../../hermes-android/docs/android-v012/native-completion-summary.json)
+- [호스트 검사별 증거](../../hermes-android/docs/android-v012/host-regression-results.json)
+- [문맥·요약](../../hermes-android/docs/CONTEXT_COMPACTION.md)
+- [메모리 문서 계약](../../hermes-android/docs/android-v012/MEMORY_DOCUMENTS.md)
+- [오류 기록](../../hermes-android/docs/ANDROID_DIAGNOSTICS.md)
+- [오류 검토·빌드 흐름](../../hermes-android/docs/diagnostics/README.md)
+- [초기 원본 기능 감사 — 최신 상태로 갱신 필요](../../hermes-android/docs/HERMES_FEATURE_MATRIX.md)
+- [일반 휴대폰 조작 범위](../../hermes-android/docs/HERMES_ANDROID_HUMAN_CONTROL_AUDIT.md)
+- [원본 Hermes 참조](../../hermes-android/docs/HERMES_REFERENCE.md)
+- [ARM/Python 엔진 이식 계획](../../hermes-android/engine-spike/docs/UPSTREAM_ANDROID_ENGINE_PLAN.md)
 
 ### Web Hermes에 붙여 넣을 시작 요청
 
