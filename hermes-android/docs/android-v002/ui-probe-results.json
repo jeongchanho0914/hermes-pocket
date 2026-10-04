@@ -1,0 +1,38 @@
+{
+  "settings-home": {
+    "ok": true,
+    "result": {
+      "page": "settings",
+      "bodyWidth": 412,
+      "width": 412,
+      "providerCount": 16
+    }
+  },
+  "provider-first": {
+    "ok": true,
+    "result": {
+      "page": "settings",
+      "bodyWidth": 412,
+      "width": 412,
+      "providerCount": 16
+    }
+  },
+  "models-popup": {
+    "ok": true,
+    "result": {
+      "page": "chat",
+      "bodyWidth": 412,
+      "width": 412,
+      "providerCount": 16
+    }
+  },
+  "skills-popup": {
+    "ok": true,
+    "result": {
+      "page": "chat",
+      "bodyWidth": 412,
+      "width": 412,
+      "providerCount": 16
+    }
+  }
+}

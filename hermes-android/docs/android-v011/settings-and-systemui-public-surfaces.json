@@ -1,0 +1,337 @@
+{
+  "wifi": {
+    "probe": {
+      "windowTitle": "Sound & vibration",
+      "windowType": 1,
+      "windowBounds": "[0,0][1080,2400]",
+      "package": "com.android.settings",
+      "rootClass": "android.widget.FrameLayout",
+      "windowId": 117,
+      "visibleIds": [
+        {
+          "id": "com.android.settings:id/content_parent",
+          "class": "android.widget.ScrollView",
+          "password": false
+        },
+        {
+          "id": "com.android.settings:id/collapsing_toolbar",
+          "class": "android.widget.FrameLayout",
+          "password": false
+        },
+        {
+          "id": "com.android.settings:id/recycler_view",
+          "class": "androidx.recyclerview.widget.RecyclerView",
+          "password": false
+        },
+        {
+          "id": "android:id/title",
+          "class": "android.widget.TextView",
+          "password": false
+        },
+        {
+          "id": "android:id/seekbar",
+          "class": "android.widget.SeekBar",
+          "password": false
+        },
+        {
+          "id": "android:id/title",
+          "class": "android.widget.TextView",
+          "password": false
+        },
+        {
+          "id": "android:id/summary",
+          "class": "android.widget.TextView",
+          "password": false
+        },
+        {
+          "id": "android:id/title",
+          "class": "android.widget.TextView",
+          "password": false
+        },
+        {
+          "id": "android:id/seekbar",
+          "class": "android.widget.SeekBar",
+          "password": false
+        },
+        {
+          "id": "android:id/title",
+          "class": "android.widget.TextView",
+          "password": false
+        },
+        {
+          "id": "android:id/seekbar",
+          "class": "android.widget.SeekBar",
+          "password": false
+        },
+        {
+          "id": "android:id/title",
+          "class": "android.widget.TextView",
+          "password": false
+        },
+        {
+          "id": "android:id/seekbar",
+          "class": "android.widget.SeekBar",
+          "password": false
+        },
+        {
+          "id": "android:id/title",
+          "class": "android.widget.TextView",
+          "password": false
+        },
+        {
+          "id": "android:id/seekbar",
+          "class": "android.widget.SeekBar",
+          "password": false
+        },
+        {
+          "id": "android:id/title",
+          "class": "android.widget.TextView",
+          "password": false
+        },
+        {
+          "id": "android:id/summary",
+          "class": "android.widget.TextView",
+          "password": false
+        },
+        {
+          "id": "android:id/title",
+          "class": "android.widget.TextView",
+          "password": false
+        },
+        {
+          "id": "android:id/summary",
+          "class": "android.widget.TextView",
+          "password": false
+        }
+      ],
+      "titleCandidates": [
+        {
+          "id": "com.android.settings:id/collapsing_toolbar",
+          "class": "android.widget.FrameLayout",
+          "heading": false,
+          "bounds": "[0,63][1080,533]",
+          "text": "[omitted]",
+          "description": "Sound & vibration"
+        }
+      ]
+    },
+    "requestedSurfaceVerified": false,
+    "note": "Warm Settings intent routed to prior Sound page; this is not Wi-Fi evidence."
+  },
+  "notifications": {
+    "probe": {
+      "windowTitle": "null",
+      "windowType": 3,
+      "windowBounds": "[0,0][1080,2400]",
+      "package": "com.android.systemui",
+      "rootClass": "android.widget.FrameLayout",
+      "windowId": 141,
+      "visibleIds": [
+        {
+          "id": "com.android.systemui:id/legacy_window_root",
+          "class": "android.widget.FrameLayout",
+          "password": false
+        },
+        {
+          "id": "com.android.systemui:id/notification_panel",
+          "class": "android.widget.FrameLayout",
+          "password": false
+        },
+        {
+          "id": "com.android.systemui:id/notification_stack_scroller",
+          "class": "android.widget.ScrollView",
+          "password": false
+        },
+        {
+          "id": "com.android.systemui:id/header_label",
+          "class": "android.widget.TextView",
+          "password": false
+        },
+        {
+          "id": "com.android.systemui:id/expandableNotificationRow",
+          "class": "android.widget.FrameLayout",
+          "password": false
+        },
+        {
+          "id": "android:id/notification_top_line",
+          "class": "android.view.ViewGroup",
+          "password": false
+        },
+        {
+          "id": "android:id/app_name_text",
+          "class": "android.widget.TextView",
+          "password": false
+        },
+        {
+          "id": "android:id/expand_button",
+          "class": "android.widget.Button",
+          "password": false
+        },
+        {
+          "id": "android:id/title",
+          "class": "android.widget.TextView",
+          "password": false
+        },
+        {
+          "id": "android:id/text",
+          "class": "android.widget.TextView",
+          "password": false
+        },
+        {
+          "id": "com.android.systemui:id/manage_text",
+          "class": "android.widget.Button",
+          "password": false
+        },
+        {
+          "id": "com.android.systemui:id/split_shade_status_bar",
+          "class": "android.view.ViewGroup",
+          "password": false
+        },
+        {
+          "id": "com.android.systemui:id/clock",
+          "class": "android.widget.TextView",
+          "password": false
+        },
+        {
+          "id": "com.android.systemui:id/date",
+          "class": "android.widget.TextView",
+          "password": false
+        },
+        {
+          "id": "com.android.systemui:id/hover_system_icons_container",
+          "class": "android.widget.LinearLayout",
+          "password": false
+        },
+        {
+          "id": "com.android.systemui:id/wifi_signal",
+          "class": "android.widget.ImageView",
+          "password": false
+        },
+        {
+          "id": "com.android.systemui:id/mobile_combo",
+          "class": "android.widget.FrameLayout",
+          "password": false
+        },
+        {
+          "id": "com.android.systemui:id/batteryRemainingIcon",
+          "class": "android.widget.LinearLayout",
+          "password": false
+        }
+      ],
+      "titleCandidates": []
+    }
+  },
+  "quick_settings": {
+    "probe": {
+      "windowTitle": "null",
+      "windowType": 3,
+      "windowBounds": "[0,0][1080,2400]",
+      "package": "com.android.systemui",
+      "rootClass": "android.widget.FrameLayout",
+      "windowId": 152,
+      "visibleIds": [
+        {
+          "id": "com.android.systemui:id/legacy_window_root",
+          "class": "android.widget.FrameLayout",
+          "password": false
+        },
+        {
+          "id": "com.android.systemui:id/notification_panel",
+          "class": "android.widget.FrameLayout",
+          "password": false
+        },
+        {
+          "id": "com.android.systemui:id/quick_settings_panel",
+          "class": "android.widget.LinearLayout",
+          "password": false
+        },
+        {
+          "id": "com.android.systemui:id/slider",
+          "class": "android.widget.SeekBar",
+          "password": false
+        },
+        {
+          "id": "com.android.systemui:id/qs_pager",
+          "class": "androidx.viewpager.widget.ViewPager",
+          "password": false
+        },
+        {
+          "id": "com.android.systemui:id/qs_footer",
+          "class": "android.widget.FrameLayout",
+          "password": false
+        },
+        {
+          "id": "android:id/edit",
+          "class": "android.widget.ImageView",
+          "password": false
+        },
+        {
+          "id": "com.android.systemui:id/settings_button_container",
+          "class": "android.view.View",
+          "password": false
+        },
+        {
+          "id": "com.android.systemui:id/pm_lite",
+          "class": "android.view.View",
+          "password": false
+        },
+        {
+          "id": "com.android.systemui:id/notification_stack_scroller",
+          "class": "android.widget.ScrollView",
+          "password": false
+        },
+        {
+          "id": "com.android.systemui:id/split_shade_status_bar",
+          "class": "android.view.ViewGroup",
+          "password": false
+        },
+        {
+          "id": "com.android.systemui:id/carrier_group",
+          "class": "android.widget.LinearLayout",
+          "password": false
+        },
+        {
+          "id": "com.android.systemui:id/carrier1",
+          "class": "android.widget.LinearLayout",
+          "password": false
+        },
+        {
+          "id": "com.android.systemui:id/mobile_carrier_text",
+          "class": "android.widget.TextView",
+          "password": false
+        },
+        {
+          "id": "com.android.systemui:id/clock",
+          "class": "android.widget.TextView",
+          "password": false
+        },
+        {
+          "id": "com.android.systemui:id/date",
+          "class": "android.widget.TextView",
+          "password": false
+        },
+        {
+          "id": "com.android.systemui:id/hover_system_icons_container",
+          "class": "android.widget.LinearLayout",
+          "password": false
+        },
+        {
+          "id": "com.android.systemui:id/wifi_signal",
+          "class": "android.widget.ImageView",
+          "password": false
+        },
+        {
+          "id": "com.android.systemui:id/mobile_combo",
+          "class": "android.widget.FrameLayout",
+          "password": false
+        },
+        {
+          "id": "com.android.systemui:id/batteryRemainingIcon",
+          "class": "android.widget.LinearLayout",
+          "password": false
+        }
+      ],
+      "titleCandidates": []
+    }
+  }
+}

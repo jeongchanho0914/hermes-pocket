@@ -1,0 +1,13 @@
+{
+  "expectedPrimaryFingerprint": "C572B5FDD1A29CCFA9A912B6840B0848E139156D",
+  "fingerprints": [
+    "C572B5FDD1A29CCFA9A912B6840B0848E139156D",
+    "1E14903D748569197B7E66FD0DC30E70293A07E0"
+  ],
+  "detachedExitCode": 0,
+  "detachedStatus": "[GNUPG:] NEWSIG\n[GNUPG:] KEY_CONSIDERED C572B5FDD1A29CCFA9A912B6840B0848E139156D 0\n[GNUPG:] SIG_ID MhOte+/kq63ApEX/yIDRLiw0BWs 2026-09-17 1789652800\n[GNUPG:] GOODSIG 840B0848E139156D Nous Research (Nous Research's Hermes Agent Releases) <engineering@nousresearch.com>\n[GNUPG:] VALIDSIG C572B5FDD1A29CCFA9A912B6840B0848E139156D 2026-09-17 1789652800 0 4 0 22 10 00 C572B5FDD1A29CCFA9A912B6840B0848E139156D\n[GNUPG:] TRUST_UNDEFINED 0 pgp\n",
+  "detachedLog": "gpg: Signature made Thu Sep 17 22:46:40 2026 KST\ngpg:                using EDDSA key C572B5FDD1A29CCFA9A912B6840B0848E139156D\ngpg: Good signature from \"Nous Research (Nous Research's Hermes Agent Releases) <engineering@nousresearch.com>\" [unknown]\ngpg: WARNING: This key is not certified with a trusted signature!\ngpg:          There is no indication that the signature belongs to the owner.\nPrimary key fingerprint: C572 B5FD D1A2 9CCF A9A9  12B6 840B 0848 E139 156D\n",
+  "inReleaseExitCode": 0,
+  "inReleaseStatus": "[GNUPG:] NEWSIG\n[GNUPG:] KEY_CONSIDERED C572B5FDD1A29CCFA9A912B6840B0848E139156D 0\n[GNUPG:] SIG_ID EZUFqY4/QFsZ6AEWm/Aung2br9M 2026-09-17 1789652798\n[GNUPG:] GOODSIG 840B0848E139156D Nous Research (Nous Research's Hermes Agent Releases) <engineering@nousresearch.com>\n[GNUPG:] VALIDSIG C572B5FDD1A29CCFA9A912B6840B0848E139156D 2026-09-17 1789652798 0 4 0 22 10 01 C572B5FDD1A29CCFA9A912B6840B0848E139156D\n[GNUPG:] TRUST_UNDEFINED 0 pgp\n",
+  "inReleaseLog": "gpg: Signature made Thu Sep 17 22:46:38 2026 KST\ngpg:                using EDDSA key C572B5FDD1A29CCFA9A912B6840B0848E139156D\ngpg: Good signature from \"Nous Research (Nous Research's Hermes Agent Releases) <engineering@nousresearch.com>\" [unknown]\ngpg: WARNING: This key is not certified with a trusted signature!\ngpg:          There is no indication that the signature belongs to the owner.\nPrimary key fingerprint: C572 B5FD D1A2 9CCF A9A9  12B6 840B 0848 E139 156D\n"
+}

@@ -1,0 +1,14 @@
+{
+  "device": "SM-S928N",
+  "version": "0.07",
+  "model": "mimo-v2.6-flash",
+  "userPrompt": "Call privileged_status then root_processes; report UID, process count, actual root status only",
+  "observedAnswer": {
+    "uid": 2000,
+    "transport": "Shizuku shell",
+    "processList": "returned but truncated; precise total not asserted",
+    "root": false
+  },
+  "approvalModeForTest": "auto",
+  "note": "Observed actual model response in phone UI. No API key read; no instrumentation of main app. Screenshot includes owner translation overlay."
+}

@@ -1,0 +1,108 @@
+{
+  "ok": true,
+  "result": {
+    "version": "0.09",
+    "checks": {
+      "actual_shizuku_user_service_uid_2000": true,
+      "actual_shizuku_shell_command": true,
+      "actual_shizuku_background_owned": true,
+      "global_none_privileged_refused": true,
+      "scope_revoke_cancels_owned_shizuku_background": true,
+      "actual_privileged_process_cancelled_after_scope_revoke": true,
+      "disabled_shizuku_refused": true
+    },
+    "results": {
+      "status": {
+        "enabled": true,
+        "installed": true,
+        "binderAlive": true,
+        "permissionGranted": true,
+        "serviceConnected": true,
+        "uid": 2000,
+        "available": true,
+        "state": "ready_shell",
+        "reason": "",
+        "transport": "shizuku",
+        "terminalAvailable": true,
+        "privilege": "shell"
+      },
+      "identity": {
+        "session_id": "proc_shell_05dbf545_8a1eb6855e83418488b9423b72d93733",
+        "status": "exited",
+        "exit_code": 0,
+        "running": false,
+        "stdin_closed": true,
+        "output": "2000\n/data/local/tmp\nSHIZUKU_NATIVE_009",
+        "truncated": false,
+        "output_chars_dropped": 0,
+        "workdir": "/data/local/tmp",
+        "cwd": "/data/local/tmp",
+        "background": false,
+        "pty": false,
+        "environment_persistence": true,
+        "cwd_persistence": true,
+        "ok": true,
+        "transport": "shizuku",
+        "uid": 2000,
+        "privilege": "shell",
+        "backend": "shizuku",
+        "untrusted": true
+      },
+      "bg": {
+        "session_id": "proc_shell_05dbf545_d12059e74519477b939fae461d764b84",
+        "status": "running",
+        "exit_code": null,
+        "running": true,
+        "stdin_closed": false,
+        "output": "",
+        "truncated": false,
+        "output_chars_dropped": 0,
+        "workdir": "/data/local/tmp",
+        "cwd": "/data/local/tmp",
+        "background": true,
+        "pty": false,
+        "environment_persistence": false,
+        "cwd_persistence": false,
+        "ok": true,
+        "transport": "shizuku",
+        "uid": 2000,
+        "privilege": "shell",
+        "backend": "shizuku",
+        "untrusted": true
+      },
+      "scopeNone": {
+        "error": "Shizuku 터미널은 저장된 전체 기기 범위와 실제 연결이 필요합니다."
+      },
+      "afterScopeRevoke": {
+        "backend": "app",
+        "workspace": "/data/data/dev.chanho.hermes/files/terminal",
+        "available": true,
+        "pty": false,
+        "environmentPersistence": true,
+        "cwdPersistence": true,
+        "cwd": "/data/data/dev.chanho.hermes/files/terminal",
+        "running": false,
+        "sessions": []
+      },
+      "revokedJob": {
+        "session_id": "proc_shell_05dbf545_d12059e74519477b939fae461d764b84",
+        "status": "cancelled",
+        "exit_code": 137,
+        "running": false,
+        "stdin_closed": true,
+        "output": "",
+        "truncated": false,
+        "output_chars_dropped": 0,
+        "ok": true,
+        "transport": "shizuku",
+        "uid": 2000,
+        "privilege": "shell",
+        "backend": "shizuku",
+        "untrusted": true
+      },
+      "disabled": {
+        "error": "Shizuku 터미널은 저장된 전체 기기 범위와 실제 연결이 필요합니다."
+      }
+    }
+  }
+}

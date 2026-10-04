@@ -1,0 +1,27 @@
+Serving...
+Performing Incremental Install
+Success
+Install command complete in 113 ms
+{
+  "ok": true,
+  "result": {
+    "mode": "direct",
+    "providerId": "custom",
+    "endpoint": "http://127.0.0.1:8877/v1",
+    "model": "",
+    "hasToken": false,
+    "allowLan": false,
+    "rootEnabled": false,
+    "allowedApps": [],
+    "memory": "",
+    "maxRounds": 8,
+    "contextChars": 48000,
+    "skillId": "code",
+    "enabledPlugins": [
+      "screen",
+      "root"
+    ],
+    "reasoningEffort": "auto",
+    "effectiveReasoningEffort": "auto"
+  }
+}

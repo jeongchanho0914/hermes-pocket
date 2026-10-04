@@ -1,0 +1,8 @@
+{
+  "version": "0.07",
+  "device": "SM-S928N",
+  "android": 16,
+  "observedUi": "연결됨 · Shell UID 2000",
+  "rootVerified": false,
+  "note": "App renders this state only when enabled, binder alive, permission granted, UserService connected and UID=2000."
+}

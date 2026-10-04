@@ -1,0 +1,12 @@
+test_all_provider_phases_show_compact_brain_and_elapsed_without_invented_public_thought (test_model_progress.ModelProgressUITest.test_all_provider_phases_show_compact_brain_and_elapsed_without_invented_public_thought) ... ok
+test_busy_composer_stop_and_background_send_real_native_requests_without_claiming_completion (test_model_progress.ModelProgressUITest.test_busy_composer_stop_and_background_send_real_native_requests_without_claiming_completion) ... ok
+test_historical_public_thoughts_reload_from_separate_session_api_without_provider_message_roles (test_model_progress.ModelProgressUITest.test_historical_public_thoughts_reload_from_separate_session_api_without_provider_message_roles) ... ok
+test_public_provider_source_session_run_and_round_are_checked_and_unknown_fields_are_discarded (test_model_progress.ModelProgressUITest.test_public_provider_source_session_run_and_round_are_checked_and_unknown_fields_are_discarded) ... ok
+test_public_text_cap_and_portrait_details_preserve_literal_unicode_without_overflow (test_model_progress.ModelProgressUITest.test_public_text_cap_and_portrait_details_preserve_literal_unicode_without_overflow) ... ok
+test_public_thought_is_visible_before_answer_and_cumulative_updates_preserve_expanded_card (test_model_progress.ModelProgressUITest.test_public_thought_is_visible_before_answer_and_cumulative_updates_preserve_expanded_card) ... ok
+test_real_phase_and_elapsed_ui_advance_only_while_running_and_stop_on_final_cancel_or_failure (test_model_progress.ModelProgressUITest.test_real_phase_and_elapsed_ui_advance_only_while_running_and_stop_on_final_cancel_or_failure) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 10.835s
+
+OK

@@ -1,0 +1,47 @@
+{
+  "probe": {
+    "result": {
+      "ok": true,
+      "result": {
+        "checks": {
+          "actual_persisted_tree_read_write": true,
+          "real_saf_directory_list": true,
+          "real_file_approval_denied": true,
+          "denied_write_created_nothing": true,
+          "approved_saf_utf8_create_byte_verified": true,
+          "actual_saf_utf8_readback": true,
+          "existing_file_without_overwrite_refused": true,
+          "approved_overwrite_byte_verified": true,
+          "reject_path_../escape.md": true,
+          "reject_path_/absolute.md": true,
+          "reject_path_content://evil": true,
+          "reject_path_a\\b.md": true,
+          "binary_extension_refused": true
+        },
+        "status": {
+          "configured": true,
+          "readable": true,
+          "writable": true,
+          "displayName": "HermesAndroidProbe",
+          "message": "선택한 폴더에서 파일 읽기·쓰기를 사용할 수 있습니다."
+        },
+        "path": "hello-006.md.txt",
+        "version": "0.06"
+      }
+    }
+  },
+  "approvalUiEvents": [
+    {
+      "decision": "거부",
+      "detail": "      파일 저장 승인     선택한 폴더: HermesAndroidProbe\n파일: denied-006.md\n작업: 새 파일 생성\n\nDENY_PUBLIC_TEST\n\n이번 작업 한 번에만 적용됩니다.   거부 이번만 허용"
+    },
+    {
+      "decision": "이번만 허용",
+      "detail": "      파일 저장 승인     선택한 폴더: HermesAndroidProbe\n파일: hello-006.md\n작업: 새 파일 생성\n\nPUBLIC_UTF8 한글 테스트\n\n이번 작업 한 번에만 적용됩니다.   거부 이번만 허용"
+    },
+    {
+      "decision": "이번만 허용",
+      "detail": "      파일 저장 승인     선택한 폴더: HermesAndroidProbe\n파일: hello-006.md.txt\n작업: 기존 내용 전체 교체\n\nPUBLIC_UTF8 교체 완료\n\n이번 작업 한 번에만 적용됩니다.   거부 이번만 허용"
+    }
+  ]
+}

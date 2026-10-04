@@ -1,0 +1,2 @@
+INSTRUMENTATION_RESULT: trace=[{"matchedOwnTest":true},{"called_name":"get_device_statenull"},{"ok":false,"error":"이 도구의 플러그인이 꺼져 있어 실행하지 않았습니다."}]
+INSTRUMENTATION_CODE: -1

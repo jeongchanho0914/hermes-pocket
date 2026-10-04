@@ -1,0 +1,155 @@
+PASS terminal plugin advertises canonical upstream terminal and process_manage contracts only
+PASS valid SSE conversation and persisted transcript
+PASS fragmented tool name and JSON execute exactly once
+PASS MiMo null name id and argument fragments never append literal null
+PASS non string streamed function name id or arguments reject before execution
+PASS truncated SSE without DONE is rejected before tool execution
+PASS length finish reason rejected
+PASS missing finish reason rejected
+PASS malformed tool arguments never execute
+PASS entire tool batch validates before any side effect
+PASS HTTP auth failure has no retry
+PASS API error in SSE rejected
+PASS incorrect response content type rejected
+PASS pre cancelled run sends no HTTP request
+PASS public HTTP, URL credentials and query are rejected
+PASS denied tool cannot be retried automatically
+PASS context trimming preserves system latest turn and complete tool groups
+PASS edited memory refreshes existing session prompt
+PASS last round requests no tools and does not dispatch ignored API tool choice
+PASS SSE cancellation during reading stops parsing
+PASS local catalog validates presets and preserves saved device plugin groups
+PASS file plugin requires explicit grant-enabled group and precise native names
+PASS selected skill refreshes persisted session prompt
+PASS reasoning effort auto omitted explicit options transmitted once
+PASS disabled plugins omit schemas and unsolicited tools never dispatch
+PASS DeepSeek thinking maps none safely and omits automatic parameters
+PASS Hermes reasoning ladder preserves defaults and maps provider limits
+PASS DeepSeek hidden reasoning survives tools and strips across provider switch
+PASS MiMo fixture rejects missing echoed tool reasoning and native agent supplies it
+PASS MiMo none disables thinking and enabled tiers avoid unsupported effort strength
+PASS MiMo exact hostname detection rejects spoofed hosts and preserves selected tier
+PASS available tool inventory prompt and auto choice follow enabled plugins
+PASS selected real SKILL.md enters system context and clears on preference change
+PASS unknown structured function is distinguished from disabled plugin and may correct name
+PASS provider catalog pins official endpoints and preserves custom migration
+PASS model catalog rejects malformed envelope deduplicates and preserves unknown support
+Production Net/DirectAgent JVM checks: 36 passed. API and Android capabilities are test substitutes.
+PASS screen pixels travel as typed image content and never persist or replay next run
+PASS image unsupported API stops with truthful error without tree fallback retry
+PASS cancel immediately after capture sends no pixel HTTP request or success answer
+PASS multiple captures send only fresh pixels and do not treat supplements as user turn boundaries
+PASS capture followed by UI action in same batch discards pre-action pixels
+PASS UI action followed by capture in same batch sends new pixels after complete tool replies
+PASS canonical terminal and process input mutations invalidate earlier capture in same batch
+PASS all eight new phone and intent tools discard pixels captured before a changing action
+PASS canonical process polling preserves capture because observing output does not mutate screen
+ScreenVision: 9 production agent checks passed; Android pixel capture is a substitute.
+PASS documented MiMo public thought arrives over 50ms SSE chunks before answer bytes and latest thought is flushed
+PASS non MiMo reasoning-only first bytes update phase without exposing text while actual tool preparation is observed
+PASS actual stream progress bounds public text redacts credentials and throttles repetitive phases without losing final delta
+PASS real HTTP and empty model response failures do not leave completed progress
+PASS cancellation during real streamed reasoning emits cancelled and no answer or invented thought text
+ModelProgress: 5 actual production streaming/progress checks; native provider-thought persistence is separate Android proof.
+PASS three genuine SSE rounds commit complete public explanations separately and final result contains only last answer
+PASS one public segment precedes actual multi-tool batch without invented per-tool commentary
+PASS silent structured tool calls create no fabricated public explanation segment
+PASS followup HTTP failure preserves committed public explanation and never presents it as final completed answer
+TimelineSegments: 4 production SSE/public-segment checks; SQLite/native timeline order is separate proof.
+PASS built-in Android terminal skill seeds real document once without executing or granting authority
+PASS built-in skill migration preserves existing owner document and malformed bytes
+PASS full owner skill library skips built-in seed without discarding a document
+PASS SKILL.md UTF8 persists reloads replaces lists and deletes
+PASS skill paths frontmatter bounds and symlinks cannot escape storage
+PASS skill library admits more than 64 documents and rejects a 257th without losing owner files
+PASS local memory writes require approval and refuse stale or ambiguous changes
+PASS real local skill tools honor approval and do not execute document text
+PASS Tavily search actual TCP bearer contract filters unsafe sources and bounds text
+PASS web key args URLs cancellation and API failures do not fabricate results
+PASS Tavily extract retains requested and returned sources and bounds content
+PASS keyless Mwmbl TCP search sends no credentials and parses segmented text
+PASS keyless SearXNG TCP search uses explicit JSON format and no auth
+PASS keyless failures empty results unsupported fetch and unsafe endpoints are honest
+Production local skill storage + web API contract checks: 14 passed. Search APIs are TCP fixtures, never live accounts.
+PASS queued timeout prevents late action
+PASS cancellation before dispatch prevents action
+PASS interrupted waiting caller prevents late action
+PASS pre-cancel rejection and normal exactly-once dispatch
+MainThreadCall: 4 meaningful production queue tests passed
+PASS relative root Unicode nested and valid boundary paths
+PASS traversal absolute URI separator and control paths rejected
+PASS filename depth and total-path limits enforced
+PhoneFilesPaths: 3 production path-policy tests passed; actual SAF IO separate emulator checks
+PASS owner preference validation rejects ambiguous modes and scopes
+PASS global control requires owner-enabled scope and unprotected actual target
+PASS stored auto and ask never bypass cancellation or locked-device guards
+PASS pending approval loses validity after mode changes task end cancellation or lock
+OwnerApprovalPolicy: 4 production policy checks passed; actual Android permissions and persistence separate emulator evidence
+PASS typed app control rejects disabled scope malformed packages and command injection
+PASS typed force-stop refuses permission authentication and privilege-controller targets
+PASS typed setting whitelist refuses identifiers other namespaces and command injection
+PASS typed write and rotation bounds prevent uncontrolled settings mutation
+PhonePrivilegePolicy: 4 production validation checks passed; no binder or privileged process simulated
+PASS real host shell merges stdout stderr and reports nonzero exit without fabricated success
+PASS explicit cwd and private HOME TMPDIR are real shell environment
+PASS foreground cd and exported multiline environment persist across actual shell calls
+PASS background work explicit cwd and early exit cannot silently clobber foreground state
+PASS background job accepts partial stdin write then submit and incremental poll does not duplicate output
+PASS deadline terminates real blocked shell and distinguishes timeout from normal exit
+PASS request cancellation stops owned job and cannot leak to independent request or instance
+PASS cancellation kills real child and grandchild process group without leaving executing descendants
+PASS bounded retained output reports loss and Unicode clipping never splits surrogate pair
+PASS invalid ids cwd numeric boolean text and PTY requests fail without starting jobs
+PASS kill and close own lifecycle while completed jobs remain discoverable
+TerminalSessions: 11 production process checks passed using real HOST /bin/sh; no Android/root proof.
+PASS denied native approval starts no process and writes no file
+PASS approved adapter returns actual output exit backend and untrusted provenance
+PASS absent owner locked cancelled and disabled plugin reject before approval
+PASS approval wait rechecks cancellation lock plugin and approval-mode changes
+PASS typed schema malformed arguments and unsupported PTY never prompt approval
+PASS process reads skip mutation approval while stdin requires approval and explicit Shizuku never falls back
+PASS background owner monitor terminates real jobs when phone locks
+TerminalTools: 7 production gate checks passed; owner/lock/Shizuku are fixtures and shell is HOST /bin/sh.
+PASS common YAML quoted and folded descriptions preserve exact user-authored SKILL.md
+PASS 100000-character document boundary accepts full Unicode content and rejects oversized rewrite atomically
+PASS ZIP directory entries and nested Unicode resources roundtrip while preserving script bytes without executing
+PASS original LICENSE README and nested examples survive import read export while author mutations reject read-only paths
+PASS ZIP traversal absolute paths and Unix symlink entries cannot escape or replace package
+PASS invalid replacement package preserves all existing document and resource bytes
+PASS resource traversal and on-disk symlinks never read write or delete outside skill directory
+PASS binary resources survive ZIP export import and read reports base64 without pretending UTF8
+PASS ZIP decompression file count and package limits reject before replacing owner bytes
+PASS canonical operation-array preview is read-only and one atomic commit creates patches writes reads removes deletes
+PASS invalid later batch operation and concurrent owner edit preserve every original package
+SkillPackages: 11 production host file/ZIP checks passed; scripts are resources, not implicitly executed.
+PASS canonical create write patch read remove delete use real files and one approval per batch
+PASS legacy saved body and delete remain usable
+PASS denied or invalid later operation leaves all packages untouched without command execution
+PASS native approval revocation cancellation lock owner plugin and approval mode are rechecked
+PASS concurrent resource edit during approval is preserved and refuses stale transaction
+PASS canonical operation types mixed legacy fields ambiguous patch and overlong batches reject before approval
+PASS read linked shell script never executes but separately approved real terminal invocation does
+PASS real streamed provider tool call carries full 100k Unicode SKILL document into approved native adapter
+LocalSkillTools: 8 production operation/approval checks passed; explicit script execution uses HOST /bin/sh, not Android proof.
+PASS argument summaries exclude raw input document content credentials and pixel payloads
+PASS public response summary is bounded single-line and does not expose credential or image patterns
+PASS activity completion distinguishes nonzero exit denied timeout background and unverified dispatch
+PASS concrete search and terminal summaries retain observed metadata while rejecting sensitive queries and output
+PASS screen and skill summaries expose actual identities and counts without contents or unconfirmed success
+PASS intent activity metadata excludes private recipients coordinates URLs and shared bodies while retaining dispatch uncertainty
+PASS real provider call IDs reach execution or rejection hooks and only public content reaches response hook
+ActivitySummary: 7 production privacy/status checks passed; no Android database claim.
+PASS actual catalog exposes 210 original packages with 209 eligible and one honest size blocker
+PASS all 210 document reads preserve audited original bytes without installation or execution
+PASS all 209 eligible original packages coexist in one real store without automatic activation
+PASS explicit library install refuses overwrite and preserves owner document and resources
+PASS manifest resource lookup rejects traversal and oversized originals and preserves binary byte identity
+PASS tampered packaged ZIP is rejected before read or install changes an owner store
+BuiltinSkillLibrary: 6 real packaged-asset/host-filesystem checks passed; no Android activation claim.
+PASS official MiMo and API metadata budgets exceed old char cap without inventing unknown limits
+PASS pair-aligned checkpoint preserves facts, current user, original history, and full reasoning replay in retained tail
+PASS incomplete summary does not commit or mutate original
+PASS typed overflow differs from quota authentication and opaque errors; error text stays private
+PASS real HTTP overflow summarizes once resubmits model and retains all local messages without executing a tool
+ContextCompactor: 5 checks; HTTP fixtures only, no live provider claim.
+MemoryDocumentsHarness: 21 checks passed

@@ -1,0 +1,44 @@
+PASS valid SSE conversation and persisted transcript
+PASS fragmented tool name and JSON execute exactly once
+PASS MiMo null name id and argument fragments never append literal null
+PASS non string streamed function name id or arguments reject before execution
+PASS truncated SSE without DONE is rejected before tool execution
+PASS length finish reason rejected
+PASS missing finish reason rejected
+PASS malformed tool arguments never execute
+PASS entire tool batch validates before any side effect
+PASS HTTP auth failure has no retry
+PASS API error in SSE rejected
+PASS incorrect response content type rejected
+PASS pre cancelled run sends no HTTP request
+PASS public HTTP, URL credentials and query are rejected
+PASS denied tool cannot be retried automatically
+PASS context trimming preserves system latest turn and complete tool groups
+PASS edited memory refreshes existing session prompt
+PASS last round requests no tools and does not dispatch ignored API tool choice
+PASS SSE cancellation during reading stops parsing
+PASS local catalog validates presets and preserves saved thirteen device tools
+PASS selected skill refreshes persisted session prompt
+PASS reasoning effort auto omitted explicit options transmitted once
+PASS disabled plugins omit schemas and unsolicited tools never dispatch
+PASS DeepSeek thinking maps none safely and omits automatic parameters
+PASS Hermes reasoning ladder preserves defaults and maps provider limits
+PASS DeepSeek hidden reasoning survives tools and strips across provider switch
+PASS MiMo fixture rejects missing echoed tool reasoning and native agent supplies it
+PASS MiMo none disables thinking and enabled tiers avoid unsupported effort strength
+PASS MiMo exact hostname detection rejects spoofed hosts and preserves selected tier
+PASS available tool inventory prompt and auto choice follow enabled plugins
+PASS selected real SKILL.md enters system context and clears on preference change
+PASS unknown structured function is distinguished from disabled plugin and may correct name
+PASS provider catalog pins official endpoints and preserves custom migration
+PASS model catalog rejects malformed envelope deduplicates and preserves unknown support
+Production Net/DirectAgent JVM checks: 34 passed. API and Android capabilities are test substitutes.
+PASS SKILL.md UTF8 persists reloads replaces lists and deletes
+PASS skill paths frontmatter bounds and symlinks cannot escape storage
+PASS skill library bounded at sixty four documents
+PASS local memory writes require approval and refuse stale or ambiguous changes
+PASS real local skill tools honor approval and do not execute document text
+PASS Tavily search actual TCP bearer contract filters unsafe sources and bounds text
+PASS web key args URLs cancellation and API failures do not fabricate results
+PASS Tavily extract retains requested and returned sources and bounds content
+Production local skill storage + web API contract checks: 8 passed. Tavily is a TCP fixture, never a live account.

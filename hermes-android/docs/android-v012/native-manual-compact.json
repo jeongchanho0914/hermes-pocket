@@ -1,0 +1,38 @@
+{
+  "artifactSha256": "98e5fa2fbf5908a0dadb55ccbd02f2fdf76783d3a96f72b3f3212df6efcbdcf7",
+  "seed": {
+    "session": "8ee48633-8e8a-4e60-85e8-bbdaba8ebc11",
+    "originalSha": "DReSG8WCir/bvD+u96N9uCpmAPblFSXWTR62AIgloic=",
+    "originalRows": 17
+  },
+  "compact": {
+    "ok": true,
+    "result": {
+      "version": "0.12",
+      "session": "8ee48633-8e8a-4e60-85e8-bbdaba8ebc11",
+      "result": {
+        "compacted": true,
+        "session": "8ee48633-8e8a-4e60-85e8-bbdaba8ebc11",
+        "summary": "## Goal\nPUBLIC_COMPACT_SUMMARY_012\n## User facts and preferences\nPublic fixture only.\n## Completed actions and actual tool results\nOriginal records preserved.\n## Current task and pending actions\nContinue fixture.\n## Files, skills, identifiers and recovery pointers\nRecover original via session_search.\n## Constraints and unresolved errors\nNo hidden reasoning or pixels included."
+      },
+      "checks": {
+        "actual_configured_API_compaction": true,
+        "actual_original_visible_messages_preserved": true,
+        "actual_original_native_message_count_16": true
+      }
+    }
+  },
+  "verify": {
+    "session": "8ee48633-8e8a-4e60-85e8-bbdaba8ebc11",
+    "originalSha": "DReSG8WCir/bvD+u96N9uCpmAPblFSXWTR62AIgloic=",
+    "originalRows": 17,
+    "originalTranscriptUnchanged": true,
+    "currentRows": 17,
+    "publicReasoningOriginalRetained": true,
+    "checkpoint": {
+      "covered": 8,
+      "summary": "## Goal\nPUBLIC_COMPACT_SUMMARY_012\n## User facts and preferences\nPublic fixture only.\n## Completed actions and actual tool results\nOriginal records preserved.\n## Current task and pending actions\nContinue fixture.\n## Files, skills, identifiers and recovery pointers\nRecover original via session_search.\n## Constraints and unresolved errors\nNo hidden reasoning or pixels included.",
+      "fingerprint": "0229f440c52d0c8ef3cddae002085aba12808a495ca9f0a2a13cf0d275bb6c84"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "targetVersion": "v0.12",
+  "collectedAt": "2026-10-04T05:37:39.540352+00:00",
+  "package": "dev.chanho.hermes",
+  "source": "app-private-diagnostics",
+  "status": "offline",
+  "records": [],
+  "freshDiagnosticsAvailable": false,
+  "offlineReason": "User disconnected USB; prepare v0.12 after a bounded passive QS transition observation fix without claiming fresh physical-device diagnostics.",
+  "cachedReports": [],
+  "cachedReportsReviewed": true,
+  "cachedReviewCompletedAt": "2026-10-04T05:37:39.541303+00:00",
+  "cachedPendingIds": [],
+  "cachedCriticalIds": [],
+  "criticalDeferral": null
+}

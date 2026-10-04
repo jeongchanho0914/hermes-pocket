@@ -1,0 +1,10 @@
+{
+  "installed": true,
+  "version": "0.11",
+  "sha256": "d3e484dff19c480be498b414a50eeb3195220cf2111cd861d91a18a31a7b0d75",
+  "bytes": 7042567,
+  "matchesFinalArtifact": true,
+  "method": "adb install -r, explicit direct-phone installation request",
+  "mailSent": false,
+  "dataPreserved": true
+}

@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "result": {
+    "mode": "direct",
+    "providerId": "custom",
+    "endpoint": "http://127.0.0.1:8877/v1",
+    "model": "android-fixture",
+    "hasToken": true,
+    "allowLan": false,
+    "rootEnabled": false,
+    "allowedApps": [],
+    "memory": "",
+    "maxRounds": 8,
+    "contextChars": 48000,
+    "skillId": "code",
+    "enabledPlugins": [
+      "screen",
+      "root"
+    ],
+    "reasoningEffort": "high",
+    "effectiveReasoningEffort": "high"
+  }
+}

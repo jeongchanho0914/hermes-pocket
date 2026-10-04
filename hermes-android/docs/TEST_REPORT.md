@@ -1,0 +1,11 @@
+# Hermes Pocket v0.12 verification
+
+Frozen APK: `dist/hermes-pocket-v0.12.apk`, 7,075,335 bytes, SHA-256 `98e5fa2fbf5908a0dadb55ccbd02f2fdf76783d3a96f72b3f3212df6efcbdcf7`. Existing signing certificate, v2/v3 verification, manifest, resource-table alignment, ZIP integrity and source-hash checks pass.
+
+Detailed results and limitations: [v0.12 report](android-v012/TEST_REPORT.md). Latest thinking UI uses a small brain icon, cycling dots and elapsed seconds across all models; actual documented public provider output alone supplies expandable content. Root's final lifecycle/chronology/browser-diagnostics tests passed 13/13.
+
+Production JVM checks total 161 unique checks across the full run and final focused reruns; actual SDK contracts 8 passed. API35 emulator migration and sanitized release diagnostic-provider checks passed. All 128 current Python regression cases have explicit passing receipts across full portions and resumed/focused runs (101 GUI + 27 other). Native three-round SSE, two tool calls and process reopen preserve chronological ordering. The final pulled emulator APK hash matches; thinking14, forward guards17, protected-root refusals2 and immutable-transcript manual compact passed. Independent diagnostic-provider caller denial also passed. Detailed evidence and exact aggregation are in the linked report.
+
+After the user reconnected USB, the final v0.12 APK was installed on the physical S24 with adb install -r. Pulled installed APK hash matches the prepared file, Android reports versionCode12/versionName0.12, MainActivity launch succeeded and the process is running. The sanitized diagnostic collector returned 0 recorded events at this time. This is installation/startup verification, not proof of every live-provider/device workflow. See android-v012/s24-install.json. No email delivery occurred.
+
+Default-browser search displays the browser while Hermes continues the task; intent dispatch does not prove search completion or invisible background browsing. Known/actual API model context limits are used; unknown limits remain explicitly unverified. Root UID0 and complete upstream Python/tool parity were not added. See [feature matrix](HERMES_FEATURE_MATRIX.md), [context](CONTEXT_COMPACTION.md), [diagnostics](ANDROID_DIAGNOSTICS.md).

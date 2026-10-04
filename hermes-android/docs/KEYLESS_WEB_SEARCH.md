@@ -1,0 +1,13 @@
+# Genuine keyless web search — v007
+
+`web_search` now supports Mwmbl's official anonymous search JSON API, optional Tavily, or a user-configured SearXNG JSON API. Requests go directly from the Android process to these public APIs. No PC or separate Hermes relay is required. This is an Android tool adapter; it does not claim to bundle the original Hermes Python search provider.
+
+Mwmbl searches a small independent general-web index, not just Wikipedia. Coverage and freshness are limited; an empty result does not prove that a source does not exist. This option needs no API key. Existing installations with a saved Tavily search key keep Tavily as their effective default. Provider changes preserve the separate encrypted Tavily key and model key; neither key is sent to Mwmbl or SearXNG.
+
+The request is `GET https://api.mwmbl.org/api/v1/search/?s=<encoded query>`. The [official Mwmbl API source](https://github.com/mwmbl/mwmbl/blob/main/mwmbl/api.py) documents v1's plain-list search response. The [official SearXNG Mwmbl engine](https://github.com/searxng/searxng/blob/master/searx/engines/mwmbl.py) uses that endpoint and explicitly marks the official API as requiring no API key. The adapter joins `title`/`extract` segment `value` fields, returns only actual public HTTPS source URLs, bounds title/snippet/result count, and marks all search content as untrusted.
+
+SearXNG implements the [documented JSON Search API](https://docs.searxng.org/dev/search_api.html): `GET <configured endpoint>/search?q=...&format=json&pageno=1`. There is no unverified public default. Twenty sampled public instances failed host probes with HTTP 429/403, HTML/CAPTCHA, bad gateway, or expired certificates. Those failures do not imply all instances fail on a phone network. The adapter never bypasses CAPTCHA or scrapes HTML. JSON must be enabled by the chosen service.
+
+Mwmbl and SearXNG provide search only. `web_fetch` explicitly refuses with instructions to select Tavily and supply its independent API key for content extraction. It does not fabricate full-page content from search snippets or silently send stored credentials to another service.
+
+Host evidence: [keyless-web-host-proof.json](android-v007/keyless-web-host-proof.json), two successful anonymous Mwmbl HTTP 200 searches including `Android accessibility API`. Android standalone probe: `tests/keyless-web-probe/keyless-web-probe.jar`, built against SDK 35, with an 8-second overall deadline and 500 KB response limit. Physical-phone and production tool-loop proof must be recorded separately before claiming that the shipped APK works on the device.

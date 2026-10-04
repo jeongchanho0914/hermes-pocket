@@ -1,0 +1,9 @@
+Package: hermes-agent
+Version: 0.27.1~canary.20260917131241-1
+Architecture: aarch64
+Maintainer: Nous Research
+Installed-Size: 723516
+Description: Hermes Agent CLI for Termux (self-contained bundled python/node/venv)
+Filename: pool/h/hermes-agent_0.27.1~canary.20260917131241-1_aarch64.deb
+Size: 161855904
+SHA256: 324397ce52887ce24f124e0396fde3974062d20451b0254613f9c3c5f4064fb4

@@ -1,0 +1,30 @@
+{
+  "uid": 10148,
+  "actualSameUidRead": true,
+  "rawFailureMessageExcluded": true,
+  "report": "{\"schema\":1,\"id\":\"d4623e56c6d198a4c20d9d56508ec95979e1782f1b8d0bfba269c42c3837e013\",\"versionCode\":12,\"versionName\":\"0.12\",\"phase\":\"runtime\",\"type\":\"caught\",\"firstSeen\":1791091372166,\"lastSeen\":1791091372166,\"count\":1,\"exceptions\":[{\"class\":\"java.lang.IllegalStateException\",\"frames\":[{\"class\":\"dev.chanho.hermes.tests.PocketProbeInstrumentation\",\"method\":\"actualDiagnosticsProof\",\"source\":\"PocketProbeInstrumentation.java\",\"line\":174},{\"class\":\"dev.chanho.hermes.tests.PocketProbeInstrumentation\",\"method\":\"onStart\",\"source\":\"PocketProbeInstrumentation.java\",\"line\":188},{\"class\":\"android.app.Instrumentation$InstrumentationThread\",\"method\":\"run\",\"source\":\"Instrumentation.java\",\"line\":2594}]}]}\n",
+  "invalidPathAndWriteDenied": [
+    {
+      "uri": "content://dev.chanho.hermes.diagnostics/events",
+      "mode": "rw",
+      "denied": true,
+      "exceptionClass": "SecurityException"
+    },
+    {
+      "uri": "content://dev.chanho.hermes.diagnostics/other",
+      "mode": "r",
+      "denied": true,
+      "exceptionClass": "SecurityException"
+    },
+    {
+      "uri": "content://dev.chanho.hermes.diagnostics/events?path=/data",
+      "mode": "r",
+      "denied": true,
+      "exceptionClass": "SecurityException"
+    }
+  ],
+  "corruptReadFailsClosed": true,
+  "corruptReadErrorClass": "FileNotFoundException",
+  "originalDiagnosticBytesRestored": true,
+  "artifactSha256": "d2e353af3d6f73acc4c4542f31e9794413c4f4af4cf1372c72f9b7acf20a1d08"
+}

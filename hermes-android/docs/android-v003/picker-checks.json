@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "result": {
+    "checks": {
+      "model_button_opens_model_only": true,
+      "actual_model_list_16": true,
+      "no_manual_or_thought_in_model_picker": true,
+      "model_pick_preserves_high_effort": true,
+      "thought_button_opens_thought_only": true,
+      "thought_choices_all_nine": true,
+      "no_models_in_thought_picker": true,
+      "thought_pick_preserves_model": true
+    },
+    "geometry": {
+      "listHeight": 258,
+      "rowHeight": 52,
+      "width": 412,
+      "bodyWidth": 412
+    },
+    "config": {
+      "model": "fixture-model-14",
+      "reasoningEffort": "low"
+    },
+    "version": "0.03"
+  }
+}

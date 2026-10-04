@@ -1,0 +1,48 @@
+{
+  "ok": true,
+  "result": {
+    "stateConfig": {
+      "mode": "direct",
+      "endpoint": "http://127.0.0.1:8877/v1",
+      "allowedApps": [],
+      "providerId": "custom",
+      "model": "fixture-model-14",
+      "hasToken": true,
+      "allowLan": true,
+      "rootEnabled": false,
+      "memory": "",
+      "maxRounds": 8,
+      "contextChars": 48000,
+      "skillId": "code",
+      "enabledPlugins": [
+        "screen",
+        "root"
+      ],
+      "reasoningEffort": "high",
+      "effectiveReasoningEffort": "high"
+    },
+    "page": "chat",
+    "setupClass": "mobile-sheet setup-dialog hidden",
+    "toast": "",
+    "native": {
+      "mode": "direct",
+      "providerId": "custom",
+      "endpoint": "http://127.0.0.1:8877/v1",
+      "model": "fixture-model-14",
+      "hasToken": true,
+      "allowLan": true,
+      "rootEnabled": false,
+      "allowedApps": [],
+      "memory": "",
+      "maxRounds": 8,
+      "contextChars": 48000,
+      "skillId": "code",
+      "enabledPlugins": [
+        "screen",
+        "root"
+      ],
+      "reasoningEffort": "high",
+      "effectiveReasoningEffort": "high"
+    }
+  }
+}

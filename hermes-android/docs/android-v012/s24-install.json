@@ -1,0 +1,17 @@
+{
+  "version": "0.12",
+  "serial": "R3CX20QTRPD",
+  "installedAt": "2026-10-04T06:23:01.084119+00:00",
+  "installMode": "adb install -r",
+  "installResult": "Success",
+  "bytes": 7075335,
+  "sha256": "98e5fa2fbf5908a0dadb55ccbd02f2fdf76783d3a96f72b3f3212df6efcbdcf7",
+  "matchesPreparedApk": true,
+  "packageVersions": [
+    "versionCode=12 minSdk=26 targetSdk=35",
+    "versionName=0.12"
+  ],
+  "processRunning": true,
+  "activityLaunch": "am start MainActivity succeeded",
+  "privateAppDataRead": false
+}

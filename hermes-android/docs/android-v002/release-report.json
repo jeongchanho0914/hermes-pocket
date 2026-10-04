@@ -1,0 +1,165 @@
+{
+  "release": "0.02",
+  "apkSha256": "bb94a35d534cec262359d34e75374668e9f56cd7c3566313318909addb47a4c0",
+  "apkBytes": 1491735,
+  "installation": {
+    "android16Api36": "PASS: exact final APK installed through adb",
+    "android15Api35": "PASS: final APK upgraded existing v0.01 data"
+  },
+  "functionalSdk": 35,
+  "nativeProbe": {
+    "ok": true,
+    "result": {
+      "checks": {
+        "actual_save_api_and_keystore": true,
+        "actual_model_api_catalog_16": true,
+        "nonstream_api_connection": true,
+        "native_defaults_selected": true,
+        "session_NativeOrdinary": true,
+        "actual_streamed_reply_stored": true,
+        "session_NativeDisabledToolCheck": true,
+        "disabled_tool_run_completed": true,
+        "cancel_partial_preserved_tail_absent": true,
+        "provider_change_key_model_effort_reset_builtin_endpoint_fixed": true
+      },
+      "version": "0.02",
+      "config": {
+        "providerId": "custom",
+        "model": "android-fixture",
+        "hasToken": true,
+        "skillId": "code",
+        "reasoningEffort": "high",
+        "enabledPlugins": [
+          "screen",
+          "root"
+        ],
+        "maxRounds": 8,
+        "contextChars": 48000,
+        "allowLan": true
+      },
+      "sessions": [
+        {
+          "id": "494de8ca-e831-430e-90ff-d89f3c6b3857",
+          "title": "NativeCancelCheck",
+          "count": 3
+        },
+        {
+          "id": "3bdbf159-1df0-4c14-951a-ef698f71f3db",
+          "title": "NativeDisabledToolCheck",
+          "count": 2
+        },
+        {
+          "id": "ec53338a-0357-415e-ae68-763bea5f1760",
+          "title": "NativeOrdinary",
+          "count": 2
+        },
+        {
+          "id": "8497f863-2c51-4749-97e8-612076fd7a49",
+          "title": "NativeCancelCheck",
+          "count": 3
+        },
+        {
+          "id": "c46ef581-9ff5-424d-8510-fc1ffbdcb61f",
+          "title": "NativeDisabledToolCheck",
+          "count": 2
+        },
+        {
+          "id": "00bf159e-c6a1-4d16-9bea-d7298fa496ee",
+          "title": "NativeOrdinary",
+          "count": 2
+        },
+        {
+          "id": "2bb6a670-3187-4705-91ae-db540a1834f6",
+          "title": "FinalApkCheck",
+          "count": 2
+        },
+        {
+          "id": "605a3231-495e-4bd1-926f-7ca949a23535",
+          "title": "InsetsCheck",
+          "count": 2
+        },
+        {
+          "id": "0f294ea5-fa02-4a36-ae05-0024aba920a3",
+          "title": "ReleaseCheck",
+          "count": 2
+        },
+        {
+          "id": "217fc198-5777-4d0f-bec1-1d6da09d975b",
+          "title": "FastOne",
+          "count": 11
+        },
+        {
+          "id": "df88c5ec-3ca3-4842-8771-5b30efe2bfb9",
+          "title": "Hello",
+          "count": 2
+        }
+      ]
+    }
+  },
+  "wireAssertions": {
+    "bearer_encrypted_key_used": true,
+    "reasoning_high_on_actual_http": true,
+    "code_skill_in_actual_prompt": true,
+    "device_plugin_tools_absent": true,
+    "forced_disabled_tool_refused": true,
+    "restart_defaults_restored": true,
+    "restart_sqlite_history_restored": true
+  },
+  "keystore": {
+    "plaintextFixtureTokenAbsent": true,
+    "secretExists": true,
+    "secretLength": 77
+  },
+  "crashBufferEmpty": true,
+  "limitations": [
+    "No Samsung S24 Ultra was connected; reported installation error not reproduced.",
+    "API 36 System UI ANR occurred with Hermes uninstalled, limiting Android 16 to install evidence.",
+    "API 35 also displayed one System UI ANR overlay; dismissed before clean final popup screenshots.",
+    "Model API is a local labeled HTTP fixture, not a paid live provider account.",
+    "Actual release WebView bridge invoked by separate same-signed test-only instrumentation; test APK is not included in release."
+  ],
+  "screenshots": {
+    "provider-first.png": {
+      "sha256": "3af4e07bbe845632ef49e692719a66df802b3c911159cc9aa74ad128f232b5d6",
+      "scope": "actual installed Android app screenshot"
+    },
+    "preliminary-startup.png": {
+      "sha256": "afe91e5a2b7c85100d83c5afd5eba3fe2d1b8ecdeb459662a7725a4ba6a45d28",
+      "scope": "actual installed Android app screenshot"
+    },
+    "preliminary-model-popup.png": {
+      "sha256": "025cf62d0e28c3de739fd6f4a37650d3811cc65089d4e70f2a5751b679a8d15c",
+      "scope": "actual installed Android app screenshot"
+    },
+    "preliminary-startup-after-os-restart.png": {
+      "sha256": "b819f410feb4a53f3eb3ea52fb3d43d29830b9c90c650cf0341696c021e33a5a",
+      "scope": "actual installed Android app screenshot"
+    },
+    "files-installer-route.png": {
+      "sha256": "e3d6c4ab6434887cb832da6c686f00661401628480f2f2d3bb76fdf6c5d40162",
+      "scope": "actual installed Android app screenshot"
+    },
+    "models-popup.png": {
+      "sha256": "a0540d25349aec11868d12787e3f801104da11bdb903bfa468f41f872361897d",
+      "scope": "actual installed Android app screenshot"
+    },
+    "skills-popup.png": {
+      "sha256": "65a12abbc68a1ab225219f1a6abb3342520e6f58f16d1e54f0ed8bb6e0a51d1b",
+      "scope": "actual installed Android app screenshot"
+    },
+    "keyboard-composer.png": {
+      "sha256": "25e6819cbbfd331fcfc8ab224630cd1a8da79389fb9d75ec734ebd110644c75f",
+      "scope": "actual installed Android app screenshot"
+    },
+    "settings-home.png": {
+      "sha256": "8577f6dc8d7e2ba65dc2d8315adab34ee8764751aa2d3d9c5d4b41646e25b692",
+      "scope": "actual installed Android app screenshot"
+    }
+  },
+  "gui": {
+    "nativeWebViewWidth": 412,
+    "horizontalOverflow": false,
+    "actualImeScreenshot": false,
+    "note": "Programmatic composer focus did not display IME. No new IME geometry claim made."
+  }
+}

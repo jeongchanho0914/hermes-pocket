@@ -1,0 +1,1190 @@
+{
+  "probe": {
+    "ok": true,
+    "result": {
+      "initial": {
+        "config": {
+          "mode": "direct",
+          "providerId": "custom",
+          "endpoint": "http://127.0.0.1:8890",
+          "model": "native-vision-fixture",
+          "hasToken": true,
+          "webProvider": "mwmbl",
+          "webEndpoint": "",
+          "hasWebToken": false,
+          "activeSkillName": "emulator-public-knowledge",
+          "allowLan": true,
+          "rootEnabled": false,
+          "allowedApps": [
+            "dev.hermesfixture.android"
+          ],
+          "memory": "PUBLIC_ANDROID_MEMORY_MARKER\nPUBLIC_ANDROID_MEMORY_MARKER",
+          "maxRounds": 8,
+          "contextChars": 48000,
+          "skillId": "code",
+          "enabledPlugins": [
+            "device",
+            "screen",
+            "agent"
+          ],
+          "reasoningEffort": "auto",
+          "effectiveReasoningEffort": "auto",
+          "availableTools": {
+            "count": 23,
+            "names": [
+              "get_device_state",
+              "list_apps",
+              "launch_app",
+              "open_settings",
+              "set_volume",
+              "set_brightness",
+              "read_screen",
+              "capture_screen",
+              "click_element",
+              "type_text",
+              "scroll_element",
+              "press_back",
+              "press_home",
+              "tap_screen",
+              "swipe_screen",
+              "privileged_status",
+              "get_phone_settings",
+              "set_phone_setting",
+              "memory",
+              "session_search",
+              "skills_list",
+              "skill_view",
+              "skill_manage"
+            ]
+          },
+          "fileTreeConfigured": false,
+          "deviceScope": "all",
+          "approvalMode": "auto",
+          "floatingEnabled": true,
+          "shizukuEnabled": true
+        },
+        "availableTools": {
+          "count": 23,
+          "names": [
+            "get_device_state",
+            "list_apps",
+            "launch_app",
+            "open_settings",
+            "set_volume",
+            "set_brightness",
+            "read_screen",
+            "capture_screen",
+            "click_element",
+            "type_text",
+            "scroll_element",
+            "press_back",
+            "press_home",
+            "tap_screen",
+            "swipe_screen",
+            "privileged_status",
+            "get_phone_settings",
+            "set_phone_setting",
+            "memory",
+            "session_search",
+            "skills_list",
+            "skill_view",
+            "skill_manage"
+          ]
+        },
+        "capabilities": {
+          "providers": [
+            {
+              "id": "openrouter",
+              "name": "OpenRouter",
+              "endpoint": "https://openrouter.ai/api/v1",
+              "requiresKey": true,
+              "apiMode": "chat_completions",
+              "description": "Claude·GPT·Gemini 등 여러 제공자의 모델을 하나의 API 키로 사용합니다."
+            },
+            {
+              "id": "openai-api",
+              "name": "OpenAI API",
+              "endpoint": "https://api.openai.com/v1",
+              "requiresKey": true,
+              "apiMode": "chat_completions",
+              "description": "OpenAI의 Chat Completions 지원 모델 · ChatGPT 구독과 별도 API 키"
+            },
+            {
+              "id": "gemini",
+              "name": "Google Gemini",
+              "endpoint": "https://generativelanguage.googleapis.com/v1beta/openai",
+              "requiresKey": true,
+              "apiMode": "chat_completions",
+              "description": "Google AI Studio API 키 · 공식 OpenAI 호환 API"
+            },
+            {
+              "id": "deepseek",
+              "name": "DeepSeek",
+              "endpoint": "https://api.deepseek.com/v1",
+              "requiresKey": true,
+              "apiMode": "chat_completions",
+              "description": "DeepSeek API 키 · 모델에 따라 생각 수준 지원이 다릅니다."
+            },
+            {
+              "id": "groq",
+              "name": "Groq",
+              "endpoint": "https://api.groq.com/openai/v1",
+              "requiresKey": true,
+              "apiMode": "chat_completions",
+              "description": "Groq API 키 · 계정에서 제공되는 모델 목록을 불러옵니다."
+            },
+            {
+              "id": "nvidia",
+              "name": "NVIDIA NIM",
+              "endpoint": "https://integrate.api.nvidia.com/v1",
+              "requiresKey": true,
+              "apiMode": "chat_completions",
+              "description": "NVIDIA API 키 · 계정에서 제공되는 모델 목록을 불러옵니다."
+            },
+            {
+              "id": "zai",
+              "name": "Z.AI / GLM",
+              "endpoint": "https://api.z.ai/api/paas/v4",
+              "requiresKey": true,
+              "apiMode": "chat_completions",
+              "description": "Z.AI API 키 · GLM 모델 API"
+            },
+            {
+              "id": "kimi-coding",
+              "name": "Kimi / Moonshot",
+              "endpoint": "https://api.moonshot.ai/v1",
+              "requiresKey": true,
+              "apiMode": "chat_completions",
+              "description": "Moonshot 플랫폼 API 키 · Kimi Coding 전용 키는 별도 연결이 필요합니다."
+            },
+            {
+              "id": "kimi-coding-cn",
+              "name": "Kimi / Moonshot 중국",
+              "endpoint": "https://api.moonshot.cn/v1",
+              "requiresKey": true,
+              "apiMode": "chat_completions",
+              "description": "Moonshot 중국 플랫폼 API 키"
+            },
+            {
+              "id": "alibaba",
+              "name": "Qwen Cloud",
+              "endpoint": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1",
+              "requiresKey": true,
+              "apiMode": "chat_completions",
+              "description": "Alibaba Model Studio 국제 API 키 · OpenAI 호환 연결"
+            },
+            {
+              "id": "arcee",
+              "name": "Arcee AI",
+              "endpoint": "https://api.arcee.ai/api/v1",
+              "requiresKey": true,
+              "apiMode": "chat_completions",
+              "description": "Arcee API 키 · 계정에서 제공되는 모델을 사용합니다."
+            },
+            {
+              "id": "gmi",
+              "name": "GMI Cloud",
+              "endpoint": "https://api.gmi-serving.com/v1",
+              "requiresKey": true,
+              "apiMode": "chat_completions",
+              "description": "GMI API 키 · OpenAI 호환 모델 API"
+            },
+            {
+              "id": "huggingface",
+              "name": "Hugging Face",
+              "endpoint": "https://router.huggingface.co/v1",
+              "requiresKey": true,
+              "apiMode": "chat_completions",
+              "description": "Hugging Face 추론 권한이 있는 토큰 · 제공되는 모델 목록"
+            },
+            {
+              "id": "xiaomi",
+              "name": "Xiaomi MiMo",
+              "endpoint": "https://api.xiaomimimo.com/v1",
+              "requiresKey": true,
+              "apiMode": "chat_completions",
+              "description": "Xiaomi MiMo API 키 · OpenAI 호환 모델 API"
+            },
+            {
+              "id": "custom",
+              "name": "직접 연결",
+              "endpoint": "",
+              "requiresKey": false,
+              "apiMode": "chat_completions",
+              "description": "OpenAI 호환 모델 API 주소를 직접 입력합니다."
+            }
+          ],
+          "skills": [
+            {
+              "id": "general",
+              "name": "일반",
+              "description": "질문에 답하고 필요한 기기 작업을 도와줍니다."
+            },
+            {
+              "id": "write",
+              "name": "글쓰기",
+              "description": "초안 작성, 문장 다듬기, 요약을 돕습니다."
+            },
+            {
+              "id": "plan",
+              "name": "계획",
+              "description": "목표를 실행 가능한 순서와 단계로 정리합니다."
+            },
+            {
+              "id": "code",
+              "name": "코딩",
+              "description": "코드 작성과 오류 분석을 돕습니다."
+            }
+          ],
+          "plugins": [
+            {
+              "id": "device",
+              "name": "기기 제어",
+              "description": "앱 실행, 설정, 볼륨과 밝기 · 동작마다 승인",
+              "tools": [
+                "get_device_state",
+                "list_apps",
+                "launch_app",
+                "open_settings",
+                "set_volume",
+                "set_brightness",
+                "get_phone_settings",
+                "set_phone_setting",
+                "privileged_status"
+              ]
+            },
+            {
+              "id": "screen",
+              "name": "화면 도우미",
+              "description": "허용한 앱의 화면 읽기·탭·입력 · 접근성 및 승인 필요",
+              "tools": [
+                "read_screen",
+                "capture_screen",
+                "click_element",
+                "type_text",
+                "scroll_element",
+                "press_back",
+                "press_home",
+                "tap_screen",
+                "swipe_screen"
+              ]
+            },
+            {
+              "id": "root",
+              "name": "루트 도구",
+              "description": "실제 Root 또는 Shizuku로 프로세스·Wi-Fi·앱 종료 · 소유자 승인 방식 적용",
+              "tools": [
+                "root_processes",
+                "set_wifi",
+                "force_stop_app",
+                "probe_root"
+              ]
+            },
+            {
+              "id": "agent",
+              "name": "에이전트 도구",
+              "description": "영구 메모리·이전 대화 검색·실제 SKILL.md 관리 · 변경은 승인 필요",
+              "tools": [
+                "memory",
+                "session_search",
+                "skills_list",
+                "skill_view",
+                "skill_manage"
+              ]
+            },
+            {
+              "id": "web",
+              "name": "웹 검색",
+              "description": "Mwmbl 무료 검색 또는 선택한 검색 API · 페이지 읽기는 Tavily 키 필요",
+              "tools": [
+                "web_search",
+                "web_fetch"
+              ]
+            },
+            {
+              "id": "files",
+              "name": "휴대폰 파일",
+              "description": "직접 선택한 폴더의 파일 목록·UTF-8 읽기·승인 후 쓰기",
+              "tools": [
+                "phone_list_files",
+                "phone_read_file",
+                "phone_write_file"
+              ]
+            }
+          ],
+          "webProviders": [
+            {
+              "id": "mwmbl",
+              "name": "Mwmbl",
+              "endpoint": "https://api.mwmbl.org",
+              "requiresKey": false,
+              "description": "무료 검색 API · 검색 범위와 최신성은 제한될 수 있습니다."
+            },
+            {
+              "id": "tavily",
+              "name": "Tavily",
+              "endpoint": "https://api.tavily.com",
+              "requiresKey": true
+            },
+            {
+              "id": "searxng",
+              "name": "SearXNG",
+              "endpoint": "",
+              "requiresKey": false,
+              "requiresEndpoint": true,
+              "description": "사용자 지정 HTTPS JSON API 서버가 필요합니다."
+            }
+          ],
+          "reasoningEfforts": [
+            "auto",
+            "none",
+            "minimal",
+            "low",
+            "medium",
+            "high",
+            "xhigh",
+            "max",
+            "ultra"
+          ]
+        },
+        "files": {
+          "configured": false,
+          "readable": false,
+          "writable": false,
+          "displayName": "",
+          "message": "사용할 폴더를 직접 선택하세요."
+        },
+        "shizuku": {
+          "enabled": true,
+          "installed": true,
+          "binderAlive": true,
+          "permissionGranted": true,
+          "serviceConnected": true,
+          "uid": 2000,
+          "available": true,
+          "state": "ready_shell",
+          "reason": "",
+          "transport": "shizuku"
+        },
+        "sessions": [
+          {
+            "id": "184029a9-7dd4-48b0-a872-4ec0e23acc12",
+            "title": "Capture actual native visual fixture pixels, then tap the Visual incre…",
+            "created": 1791074581402,
+            "count": 2
+          },
+          {
+            "id": "767ab63f-5081-4249-815c-6decd0c0100d",
+            "title": "Read actual native screenshot pixels of the canvas visual fixture usin…",
+            "created": 1791074391407,
+            "count": 2
+          },
+          {
+            "id": "bbad0cf7-d0d4-47df-be06-88ed44c4055b",
+            "title": "Hello native idle overlay",
+            "created": 1791074238411,
+            "count": 4
+          },
+          {
+            "id": "e1414289-6dae-4f14-82b8-9ac6eccfaafc",
+            "title": "cancel live overlay native test",
+            "created": 1791074224406,
+            "count": 3
+          },
+          {
+            "id": "3b38cd2e-a088-4a79-9cc4-4c8f064d5456",
+            "title": "V004LocalKnowledge",
+            "created": 1791066369882,
+            "count": 2
+          },
+          {
+            "id": "494de8ca-e831-430e-90ff-d89f3c6b3857",
+            "title": "NativeCancelCheck",
+            "created": 1791060655003,
+            "count": 3
+          },
+          {
+            "id": "3bdbf159-1df0-4c14-951a-ef698f71f3db",
+            "title": "NativeDisabledToolCheck",
+            "created": 1791060654810,
+            "count": 2
+          },
+          {
+            "id": "ec53338a-0357-415e-ae68-763bea5f1760",
+            "title": "NativeOrdinary",
+            "created": 1791060654691,
+            "count": 2
+          },
+          {
+            "id": "8497f863-2c51-4749-97e8-612076fd7a49",
+            "title": "NativeCancelCheck",
+            "created": 1791060593006,
+            "count": 3
+          },
+          {
+            "id": "c46ef581-9ff5-424d-8510-fc1ffbdcb61f",
+            "title": "NativeDisabledToolCheck",
+            "created": 1791060592890,
+            "count": 2
+          },
+          {
+            "id": "00bf159e-c6a1-4d16-9bea-d7298fa496ee",
+            "title": "NativeOrdinary",
+            "created": 1791060592772,
+            "count": 2
+          },
+          {
+            "id": "2bb6a670-3187-4705-91ae-db540a1834f6",
+            "title": "FinalApkCheck",
+            "created": 1791046920094,
+            "count": 2
+          },
+          {
+            "id": "605a3231-495e-4bd1-926f-7ca949a23535",
+            "title": "InsetsCheck",
+            "created": 1791046793241,
+            "count": 2
+          },
+          {
+            "id": "0f294ea5-fa02-4a36-ae05-0024aba920a3",
+            "title": "ReleaseCheck",
+            "created": 1791046542222,
+            "count": 2
+          },
+          {
+            "id": "217fc198-5777-4d0f-bec1-1d6da09d975b",
+            "title": "FastOne",
+            "created": 1791046391768,
+            "count": 11
+          },
+          {
+            "id": "df88c5ec-3ca3-4842-8771-5b30efe2bfb9",
+            "title": "Hello",
+            "created": 1791046192026,
+            "count": 2
+          }
+        ],
+        "device": {
+          "model": "unknown Android SDK built for x86_64",
+          "android": "15",
+          "sdk": 35,
+          "battery": 100,
+          "charging": true,
+          "memoryTotalGb": 2.4,
+          "memoryAvailableGb": 1.4,
+          "volume": 53,
+          "brightness": 102,
+          "wifi": true,
+          "root": false,
+          "rootEnabled": false,
+          "rootStatus": {
+            "enabled": false,
+            "root": false,
+            "state": "disabled",
+            "message": "Root 연동이 꺼져 있습니다. Root는 기기의 실제 su 권한이 별도로 필요합니다."
+          },
+          "shizuku": {
+            "enabled": true,
+            "installed": true,
+            "binderAlive": true,
+            "permissionGranted": true,
+            "serviceConnected": true,
+            "uid": 2000,
+            "available": true,
+            "state": "ready_shell",
+            "reason": "",
+            "transport": "shizuku"
+          },
+          "deviceScope": "all",
+          "approvalMode": "auto",
+          "systemUid": false,
+          "accessibility": true,
+          "gestures": true,
+          "locked": false,
+          "writeSettings": false,
+          "floating": {
+            "enabled": true,
+            "available": true,
+            "visible": true,
+            "collapsed": true,
+            "session": "184029a9-7dd4-48b0-a872-4ec0e23acc12",
+            "status": "완료"
+          },
+          "screenshotSupported": true,
+          "screenshotCapability": true,
+          "screenshotAvailable": true,
+          "screenshotReason": "허용 앱에서만 캡처 · 키보드/보안 화면 제외"
+        },
+        "audit": [
+          {
+            "tool": "capture_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791074581746
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791074581593
+          },
+          {
+            "tool": "capture_screen",
+            "status": "failed",
+            "detail": "IllegalStateException",
+            "created": 1791074507428
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791074507419
+          },
+          {
+            "tool": "read_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791074507411
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791074507406
+          },
+          {
+            "tool": "capture_screen",
+            "status": "failed",
+            "detail": "SecurityException",
+            "created": 1791074444432
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791074444428
+          },
+          {
+            "tool": "read_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791074444416
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791074444411
+          },
+          {
+            "tool": "read_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791074392695
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791074392692
+          },
+          {
+            "tool": "click_element",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791074392685
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791074392427
+          },
+          {
+            "tool": "read_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791074392417
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791074392412
+          },
+          {
+            "tool": "capture_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791074391739
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791074391594
+          },
+          {
+            "tool": "capture_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791074348520
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791074348421
+          },
+          {
+            "tool": "read_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791074348411
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791074348406
+          },
+          {
+            "tool": "capture_screen",
+            "status": "failed",
+            "detail": "SecurityException",
+            "created": 1791074034428
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791074034423
+          },
+          {
+            "tool": "read_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791074034416
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791074034411
+          },
+          {
+            "tool": "read_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072885181
+          },
+          {
+            "tool": "type_text",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072874982
+          },
+          {
+            "tool": "read_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072871794
+          },
+          {
+            "tool": "click_element",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072868608
+          },
+          {
+            "tool": "read_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072865473
+          },
+          {
+            "tool": "launch_app",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072862268
+          },
+          {
+            "tool": "read_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072791511
+          },
+          {
+            "tool": "type_text",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072786142
+          },
+          {
+            "tool": "read_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072782945
+          },
+          {
+            "tool": "click_element",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072779711
+          },
+          {
+            "tool": "read_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072776502
+          },
+          {
+            "tool": "launch_app",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072770135
+          },
+          {
+            "tool": "read_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072706466
+          },
+          {
+            "tool": "type_text",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072701367
+          },
+          {
+            "tool": "read_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072699908
+          },
+          {
+            "tool": "click_element",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072695767
+          },
+          {
+            "tool": "read_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072694477
+          },
+          {
+            "tool": "launch_app",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072690611
+          },
+          {
+            "tool": "read_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072617440
+          },
+          {
+            "tool": "type_text",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072612589
+          },
+          {
+            "tool": "read_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072610641
+          },
+          {
+            "tool": "click_element",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072607045
+          },
+          {
+            "tool": "read_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072604511
+          },
+          {
+            "tool": "launch_app",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072599948
+          },
+          {
+            "tool": "set_phone_setting",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072553336
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791072553130
+          },
+          {
+            "tool": "get_phone_settings",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072553123
+          },
+          {
+            "tool": "root_processes",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072553112
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791072552998
+          },
+          {
+            "tool": "privileged_status",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072552983
+          },
+          {
+            "tool": "get_phone_settings",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072519295
+          },
+          {
+            "tool": "root_processes",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072519286
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791072519182
+          },
+          {
+            "tool": "privileged_status",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072519162
+          },
+          {
+            "tool": "launch_app",
+            "status": "failed",
+            "detail": "기기 작업 조건 미충족 · 인자는 기록하지 않음",
+            "created": 1791072161425
+          },
+          {
+            "tool": "read_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072161415
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791072161406
+          },
+          {
+            "tool": "press_home",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072160435
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791072160430
+          },
+          {
+            "tool": "read_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072160412
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791072160405
+          },
+          {
+            "tool": "press_back",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072158427
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791072158424
+          },
+          {
+            "tool": "read_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072158413
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791072158409
+          },
+          {
+            "tool": "click_element",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072157542
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791072157532
+          },
+          {
+            "tool": "read_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072157510
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791072157440
+          },
+          {
+            "tool": "swipe_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072156790
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791072156428
+          },
+          {
+            "tool": "read_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072156411
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791072156405
+          },
+          {
+            "tool": "tap_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072155533
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791072155446
+          },
+          {
+            "tool": "read_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072155416
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791072155407
+          },
+          {
+            "tool": "type_text",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072152435
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791072152425
+          },
+          {
+            "tool": "read_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072152412
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791072152409
+          },
+          {
+            "tool": "click_element",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072151503
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791072151496
+          },
+          {
+            "tool": "read_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072151476
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791072151427
+          },
+          {
+            "tool": "launch_app",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072149582
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791072149570
+          },
+          {
+            "tool": "launch_app",
+            "status": "failed",
+            "detail": "기기 작업 조건 미충족 · 인자는 기록하지 않음",
+            "created": 1791072102421
+          },
+          {
+            "tool": "read_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072102408
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791072102404
+          },
+          {
+            "tool": "press_home",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072101435
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791072101428
+          },
+          {
+            "tool": "read_screen",
+            "status": "completed",
+            "detail": "반환 상태를 확인하세요. 입력 내용은 기록하지 않음",
+            "created": 1791072101414
+          },
+          {
+            "tool": "automatic_approval",
+            "status": "approved",
+            "detail": "현재 요청에 사용자가 선택한 자동 승인 적용 · 상세 내용은 기록하지 않음",
+            "created": 1791072101407
+          }
+        ],
+        "busy": false,
+        "session": "184029a9-7dd4-48b0-a872-4ec0e23acc12",
+        "live": "NATIVE_TAP_FAILED_REAL_POSTSTATE: {'ok': False, 'error': '키보드·알림·다른 창이 좌표 위에 있습니다. 해당 창을 닫고 화면을 다시 조회하세요.'}",
+        "status": "완료",
+        "version": "0.08",
+        "versionCode": 8,
+        "releaseChannel": "beta"
+      },
+      "messages": [
+        {
+          "role": "user",
+          "content": "Capture actual native visual fixture pixels, then tap the Visual increment button using the returned snapshot and verify counter 1.",
+          "created": 1791074581403
+        },
+        {
+          "role": "assistant",
+          "content": "NATIVE_TAP_FAILED_REAL_POSTSTATE: {'ok': False, 'error': '키보드·알림·다른 창이 좌표 위에 있습니다. 해당 창을 닫고 화면을 다시 조회하세요.'}",
+          "created": 1791074582123
+        }
+      ],
+      "idle": {
+        "enabled": true,
+        "available": true,
+        "visible": true,
+        "collapsed": true,
+        "session": "184029a9-7dd4-48b0-a872-4ec0e23acc12",
+        "status": "완료"
+      },
+      "ownerOpen": {
+        "enabled": true,
+        "available": true,
+        "visible": true,
+        "collapsed": true,
+        "session": "184029a9-7dd4-48b0-a872-4ec0e23acc12",
+        "status": "완료"
+      },
+      "whileScreenOff": {
+        "enabled": true,
+        "available": true,
+        "visible": true,
+        "collapsed": true,
+        "session": "184029a9-7dd4-48b0-a872-4ec0e23acc12",
+        "status": "완료"
+      },
+      "afterWake": {
+        "enabled": true,
+        "available": false,
+        "visible": false,
+        "collapsed": true,
+        "session": "184029a9-7dd4-48b0-a872-4ec0e23acc12",
+        "status": "완료"
+      },
+      "afterRevoke": {
+        "enabled": true,
+        "available": false,
+        "visible": false,
+        "collapsed": true,
+        "session": "184029a9-7dd4-48b0-a872-4ec0e23acc12",
+        "status": "완료"
+      }
+    }
+  },
+  "events": [
+    {
+      "screenOffPanelWindowPresent": false
+    },
+    {
+      "revokePanelWindowPresent": false
+    }
+  ]
+}

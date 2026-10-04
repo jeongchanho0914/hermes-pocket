@@ -1,0 +1,7 @@
+test_collapsed_document_reads_full_text_only_on_open_and_core_delete_stays_forbidden (test_memory_documents.MemoryDocumentsUITest.test_collapsed_document_reads_full_text_only_on_open_and_core_delete_stays_forbidden) ... ok
+test_save_uncertain_reply_preserves_draft_and_native_confirmed_save_carries_exact_name_content (test_memory_documents.MemoryDocumentsUITest.test_save_uncertain_reply_preserves_draft_and_native_confirmed_save_carries_exact_name_content) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 4.546s
+
+OK

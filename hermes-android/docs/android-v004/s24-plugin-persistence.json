@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "result": {
+    "version": "0.04",
+    "freshNoModel": false,
+    "freshNoKey": false,
+    "checkedBefore": [
+      "device",
+      "screen",
+      "root",
+      "agent",
+      "web"
+    ],
+    "unsavedNativeUnchanged": true,
+    "savedWithoutDevice": [
+      "screen",
+      "root",
+      "agent",
+      "web"
+    ],
+    "disabledCount": 14,
+    "restoredPlugins": [
+      "device",
+      "screen",
+      "root",
+      "agent",
+      "web"
+    ],
+    "restoredCount": 20,
+    "setupGuideVisible": false,
+    "footerRemoved": true
+  }
+}

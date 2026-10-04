@@ -1,0 +1,27 @@
+PASS valid SSE conversation and persisted transcript
+PASS fragmented tool name and JSON execute exactly once
+PASS truncated SSE without DONE is rejected before tool execution
+PASS length finish reason rejected
+PASS missing finish reason rejected
+PASS malformed tool arguments never execute
+PASS entire tool batch validates before any side effect
+PASS HTTP auth failure has no retry
+PASS API error in SSE rejected
+PASS incorrect response content type rejected
+PASS pre cancelled run sends no HTTP request
+PASS public HTTP, URL credentials and query are rejected
+PASS denied tool cannot be retried automatically
+PASS context trimming preserves system latest turn and complete tool groups
+PASS edited memory refreshes existing session prompt
+PASS last round requests no tools and does not dispatch ignored API tool choice
+PASS SSE cancellation during reading stops parsing
+PASS local catalog validates presets and preserves thirteen default tools
+PASS selected skill refreshes persisted session prompt
+PASS reasoning effort auto omitted explicit options transmitted once
+PASS disabled plugins omit schemas and unsolicited tools never dispatch
+PASS DeepSeek thinking maps none safely and omits automatic parameters
+PASS Hermes reasoning ladder preserves defaults and maps provider limits
+PASS DeepSeek hidden reasoning survives tools and strips across provider switch
+PASS provider catalog pins official endpoints and preserves custom migration
+PASS model catalog rejects malformed envelope deduplicates and preserves unknown support
+Production Net/DirectAgent JVM checks: 26 passed. API and Android capabilities are test substitutes.

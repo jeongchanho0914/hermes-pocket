@@ -1,0 +1,83 @@
+{
+  "file": "hermes-pocket-v0.04.apk",
+  "bytes": 1508119,
+  "sha256": "ab0a2400fe571bde90ca26194a1b5908ab2d42443016582c7cd0d669c1f0989d",
+  "package": "dev.chanho.hermes",
+  "version": "0.04",
+  "versionCode": 4,
+  "displayVersion": "v0.04",
+  "channel": "beta",
+  "builtAt": "2026-10-03T21:43:44.837403+00:00",
+  "sourceHashes": {
+    "app/src/main/AndroidManifest.xml": "3008a5bebc60018c68fba2d35e6cadac567a5e154a2e0bbf773fe0af0b40940e",
+    "app/src/main/assets/app.css": "1f14d90597b615b27fac5d3d1882fc59be8a0bfbbbed51d4fa35e09a2ec91208",
+    "app/src/main/assets/app.js": "75b44d8b5132e1b2b0a3b080000888ba7603e5256814780ca848e55d5ddc77a6",
+    "app/src/main/assets/index.html": "789ced72fcc3e358177de10d5787721d3eb28b3e1751bfc1369ad2fc7704886e",
+    "app/src/main/assets/logo.svg": "8c58a0c555929a3642448df39a322d6674c4b4a620d3c9343e0430e3bde6bfd5",
+    "app/src/main/java/dev/chanho/hermes/AgentForegroundService.java": "0afcd15ce8e3ebea23181c01882f083666634899a9176494eea3e202a813cb05",
+    "app/src/main/java/dev/chanho/hermes/AgentRuntime.java": "84d29878d9d7eb0a3e7dd1c894f83e90bb8dafd0333cc437d840195d9c61609a",
+    "app/src/main/java/dev/chanho/hermes/ApprovalGate.java": "04590fc4c4604e60a024a50319ad769f0a0d8ea3b675db933adad53ae58c4535",
+    "app/src/main/java/dev/chanho/hermes/ApprovalReceiver.java": "1e9a4209f2bb2bc94a01cc164888e74106819cd2028485a99271911b409f7f1e",
+    "app/src/main/java/dev/chanho/hermes/BuildConfig.java": "bd45c5a3781b75610389e7f3bb7e7de9faa2f179e63bcca297ef872045671b43",
+    "app/src/main/java/dev/chanho/hermes/DeviceTools.java": "ad1e86ffea95ba5114fb7f36d91ed67ba66812872c24b5889ad07d9c43f8a523",
+    "app/src/main/java/dev/chanho/hermes/DirectAgent.java": "f3d3dee41c7f7aa4fc86561b1d6241e326366786250f7c3ea60fb3f35cca1ce3",
+    "app/src/main/java/dev/chanho/hermes/J.java": "106cdf0e63244957bfb1beb89e11458a555e3f34b4feb95e3b18662d3417065d",
+    "app/src/main/java/dev/chanho/hermes/LocalAgentTools.java": "65002d9b2bf86ef26334c1406126cb5542ad1b3cf9a7bd4a41656495aa476adc",
+    "app/src/main/java/dev/chanho/hermes/LocalCapabilities.java": "a6a750683357c49c6d6737ab31968d1991b61e9d79e85ed5a657cd724bd5e1ae",
+    "app/src/main/java/dev/chanho/hermes/LocalSkillStore.java": "9e88091042474e6dfdec9f3c4264d9055b23c8197aef13351f30ed87644044f0",
+    "app/src/main/java/dev/chanho/hermes/MainActivity.java": "e9ba6c47888a0c3d5d83ac2ad7a76cff7513ca36279fecb18e592ef0425524df",
+    "app/src/main/java/dev/chanho/hermes/Net.java": "ade9fca947d09dd0e02d424f65e081435367405c634684c86e5fa81542b32222",
+    "app/src/main/java/dev/chanho/hermes/PhoneAccessibilityService.java": "f2bcb4cd6d9aaaeb2f7dc320e327f938aeb10df3b9c15e13f30dc6c1c3234a4c",
+    "app/src/main/java/dev/chanho/hermes/RootGateway.java": "cd92bf37f70175c55fd01211d7be3e0daa9911c71a150f179edd14c1cb440095",
+    "app/src/main/java/dev/chanho/hermes/Store.java": "f711b3af34c3c9e5ac7a0ae1f0507bbb0871dd11f36e7b23ed7a37480bcd2a96",
+    "app/src/main/java/dev/chanho/hermes/WebTools.java": "b741883a8733cc2392e97ce58ff8ba1b8320c395aeda35c936c5248f4c455ed4",
+    "app/src/main/res/drawable/ic_launcher.xml": "dc645bb0dadc0ded3dcc64f4948f6cede1b796852c95bdaa14474f5020777fda",
+    "app/src/main/res/values/styles.xml": "a60af30457272718c12bb6d822266364711305c8bc5be808b90ea27792026f77",
+    "app/src/main/res/xml/accessibility.xml": "5304ab91d9cfec248367f1453255c2fdea75a7653d98033cdcb07124761ee798"
+  },
+  "toolchain": {
+    "java_home": "/home/chanho/Desktop/hermes-pocket-source/hermes-android/.toolchain/jdk/usr/lib/jvm/java-17-openjdk-amd64",
+    "android_jar": "/home/chanho/Desktop/hermes-pocket-source/hermes-android/.toolchain/platform/android-35/android.jar",
+    "build_tools": "/home/chanho/Desktop/hermes-pocket-source/hermes-android/.toolchain/build-tools/android-15",
+    "java_version": "openjdk version \"17.0.20.1\" 2026-08-18\nOpenJDK Runtime Environment (build 17.0.20.1+1-1-26.04-Ubuntu)\nOpenJDK 64-Bit Server VM (build 17.0.20.1+1-1-26.04-Ubuntu, mixed mode, sharing)",
+    "sdk_platform": 35,
+    "build_tools_version": "35.0.0"
+  },
+  "minSdk": 26,
+  "targetSdk": 35,
+  "signing": "local development key; not Play Store release",
+  "signatureSchemes": [
+    "v1",
+    "v2",
+    "v3"
+  ],
+  "signatureVerification": "signature-verification.txt",
+  "alignmentVerified": true,
+  "manifestVerified": true,
+  "resourceTableUncompressed": true,
+  "resourceTableDataOffset": 2444,
+  "toolchainDownloads": [
+    {
+      "file": "build-tools_r35_linux.zip",
+      "sha256": "bd3a4966912eb8b30ed0d00b0cda6b6543b949d5ffe00bea54c04c81e1561d88",
+      "source": "https://dl.google.com/android/repository/build-tools_r35_linux.zip",
+      "verification": "SHA1 matched Google repository2-1.xml"
+    },
+    {
+      "file": "platform-35_r02.zip",
+      "sha256": "0988cacad01b38a18a47bac14a0695f246bc76c1b06c0eeb8eb0dc825ab0c8e0",
+      "source": "https://dl.google.com/android/repository/platform-35_r02.zip",
+      "verification": "SHA1 matched Google repository2-1.xml"
+    },
+    {
+      "file": "openjdk-17-jdk-headless_17.0.20.1+1-1~26.04_amd64.deb",
+      "sha256": "e440a910fd940d2f7eb49d91aad25b2200703b3ebc76e6eadabe9c0b3eed382a",
+      "verification": "SHA256 matched signed Ubuntu APT package index"
+    },
+    {
+      "file": "openjdk-17-jre-headless_17.0.20.1+1-1~26.04_amd64.deb",
+      "sha256": "bed7ea25ac704932b8658c77a0642040e6d46713f4e2f43830ea82d063814716",
+      "verification": "SHA256 matched signed Ubuntu APT package index"
+    }
+  ]
+}

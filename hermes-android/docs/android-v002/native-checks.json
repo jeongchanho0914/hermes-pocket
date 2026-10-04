@@ -1,0 +1,89 @@
+{
+  "ok": true,
+  "result": {
+    "checks": {
+      "actual_save_api_and_keystore": true,
+      "actual_model_api_catalog_16": true,
+      "nonstream_api_connection": true,
+      "native_defaults_selected": true,
+      "session_NativeOrdinary": true,
+      "actual_streamed_reply_stored": true,
+      "session_NativeDisabledToolCheck": true,
+      "disabled_tool_run_completed": true,
+      "cancel_partial_preserved_tail_absent": true,
+      "provider_change_key_model_effort_reset_builtin_endpoint_fixed": true
+    },
+    "version": "0.02",
+    "config": {
+      "providerId": "custom",
+      "model": "android-fixture",
+      "hasToken": true,
+      "skillId": "code",
+      "reasoningEffort": "high",
+      "enabledPlugins": [
+        "screen",
+        "root"
+      ],
+      "maxRounds": 8,
+      "contextChars": 48000,
+      "allowLan": true
+    },
+    "sessions": [
+      {
+        "id": "494de8ca-e831-430e-90ff-d89f3c6b3857",
+        "title": "NativeCancelCheck",
+        "count": 3
+      },
+      {
+        "id": "3bdbf159-1df0-4c14-951a-ef698f71f3db",
+        "title": "NativeDisabledToolCheck",
+        "count": 2
+      },
+      {
+        "id": "ec53338a-0357-415e-ae68-763bea5f1760",
+        "title": "NativeOrdinary",
+        "count": 2
+      },
+      {
+        "id": "8497f863-2c51-4749-97e8-612076fd7a49",
+        "title": "NativeCancelCheck",
+        "count": 3
+      },
+      {
+        "id": "c46ef581-9ff5-424d-8510-fc1ffbdcb61f",
+        "title": "NativeDisabledToolCheck",
+        "count": 2
+      },
+      {
+        "id": "00bf159e-c6a1-4d16-9bea-d7298fa496ee",
+        "title": "NativeOrdinary",
+        "count": 2
+      },
+      {
+        "id": "2bb6a670-3187-4705-91ae-db540a1834f6",
+        "title": "FinalApkCheck",
+        "count": 2
+      },
+      {
+        "id": "605a3231-495e-4bd1-926f-7ca949a23535",
+        "title": "InsetsCheck",
+        "count": 2
+      },
+      {
+        "id": "0f294ea5-fa02-4a36-ae05-0024aba920a3",
+        "title": "ReleaseCheck",
+        "count": 2
+      },
+      {
+        "id": "217fc198-5777-4d0f-bec1-1d6da09d975b",
+        "title": "FastOne",
+        "count": 11
+      },
+      {
+        "id": "df88c5ec-3ca3-4842-8771-5b30efe2bfb9",
+        "title": "Hello",
+        "count": 2
+      }
+    ]
+  }
+}

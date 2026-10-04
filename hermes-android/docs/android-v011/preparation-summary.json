@@ -1,0 +1,27 @@
+{
+  "serial": "emulator-5554",
+  "sdk": 35,
+  "mainVersion": "0.10",
+  "installedArtifactSha256": "c191bfbfb1bb8b0f77d9fc6d3939b93918ab56805a6cc14ba0c417382da1b923",
+  "v011MainApkInstalled": false,
+  "settingsVerified": [
+    "general",
+    "bluetoothConnectedDevices",
+    "display",
+    "sound"
+  ],
+  "wifiHeadingVerified": false,
+  "wifiNote": "Warm implicit action reused Sound Activity; cold launch WifiSettingsActivity has no active service root in sampled diagnostic.",
+  "systemUiVerified": [
+    "notifications",
+    "quick_settings"
+  ],
+  "metadataTextExcluded": true,
+  "fixturePrepared": [
+    "standardIntentLocalSink",
+    "nativeLongClick",
+    "nativeSeekBarRangeInfo"
+  ],
+  "locationShellReadWriteRestored": true,
+  "nativeV011Functionality": "pending frozen final APK"
+}

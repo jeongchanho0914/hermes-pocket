@@ -1,0 +1,20 @@
+{
+  "props": {
+    "ro.product.model": "SM-S928N",
+    "ro.build.version.release": "16",
+    "ro.boot.flash.locked": "1",
+    "ro.boot.vbmeta.device_state": "locked",
+    "ro.boot.verifiedbootstate": "green",
+    "ro.oem_unlock_supported": "",
+    "ro.boot.warranty_bit": "0",
+    "ro.boot.kg": "0x4"
+  },
+  "su": {
+    "exitCode": 127,
+    "stdout": "",
+    "stderr": "/system/bin/sh: su: inaccessible or not found"
+  },
+  "shizukuServerPid": "9495",
+  "rootVerified": false,
+  "note": "ADB shell starter process is not proof that the Hermes app has client permission; app-level verification remains required."
+}

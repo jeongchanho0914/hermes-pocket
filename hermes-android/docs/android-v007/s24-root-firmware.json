@@ -1,0 +1,7 @@
+{
+  "ro.build.version.oneui": "80500",
+  "ro.build.PDA": "S928NKSS6DZH2",
+  "ro.bootloader": "S928NKSS6DZH2",
+  "ro.build.version.security_patch": "2026-08-05",
+  "ro.boot.rollback_index": ""
+}

@@ -1,0 +1,70 @@
+{
+  "ok": true,
+  "result": {
+    "version": "0.11",
+    "checks": {
+      "actual_elapsed_label_visible": true,
+      "actual_SSE_public_thought_visible_before_answer": true,
+      "actual_public_card_collapsed_default": true,
+      "actual_live_elapsed_advances": true,
+      "actual_timer_stops_after_completion": true,
+      "native_public_thought_cumulative_single_persisted_row": true,
+      "public_thought_separate_from_answer_messages": true,
+      "actual_nonMiMo_reasoning_not_in_public_store_or_UI": true,
+      "actual_distinct_native_sessions": true,
+      "actual_persisted_public_card_reopens": true
+    },
+    "results": {
+      "first": {
+        "thought": "모델이 공개한 생각\nMiMo 공개 스트림 · 1차 요청\n\nPUBLIC_FIXTURE_THOUGHT_FIRST\n\n펼쳐 보기",
+        "body": "PUBLIC_FIXTURE_THOUGHT_FIRST",
+        "collapsed": true,
+        "answerText": "",
+        "busy": true,
+        "phase": "thinking",
+        "timer": 332.3999999999942
+      },
+      "visibleElapsed": {
+        "text": "모델 생각 생성 중 · 1차 요청 · 0초",
+        "width": 137.51190185546875,
+        "height": 16,
+        "display": "block",
+        "parentDisplay": "flex"
+      },
+      "liveElapsed": 733,
+      "publicSession": "925e3732-cd51-4730-b008-a9fb1867cb52",
+      "publicThoughts": [
+        {
+          "provider": "mimo",
+          "source": "mimo.reasoning_content",
+          "session": "925e3732-cd51-4730-b008-a9fb1867cb52",
+          "runId": "3832219a-34f2-49e6-bccd-30bfd33a1350",
+          "round": 1,
+          "text": "PUBLIC_FIXTURE_THOUGHT_FIRST PUBLIC_FIXTURE_THOUGHT_SECOND",
+          "truncated": false,
+          "elapsedMs": 1606,
+          "timestamp": 1791089288547,
+          "firstTimestamp": 1791089287246
+        }
+      ],
+      "publicMessages": [
+        {
+          "role": "user",
+          "content": "Public local streaming fixture only",
+          "created": 1791089286927
+        },
+        {
+          "role": "assistant",
+          "content": "PUBLIC_FIXTURE_FINAL_ANSWER",
+          "created": 1791089289857
+        }
+      ],
+      "finalPhase": "completed",
+      "elapsedEnd": 2907,
+      "ordinarySession": "c4212184-9471-4cd5-b11a-64f1ed5e5436",
+      "ordinaryThoughts": [],
+      "ordinaryConversation": "Non MiMo local privacy fixture only\n\n복사\n\nPUBLIC_FIXTURE_FINAL_ANSWER\n\n복사"
+    }
+  },
+  "artifactSha256": "d3e484dff19c480be498b414a50eeb3195220cf2111cd861d91a18a31a7b0d75"
+}

@@ -1,0 +1,2 @@
+{"path": "/chat/completions", "stream": true, "messageRoles": ["system", "user"], "hasBearer": true, "images": [], "visionValidated": false}
+{"path": "/chat/completions", "stream": true, "messageRoles": ["system", "user", "assistant", "tool", "user"], "hasBearer": true, "images": [{"sha256": "e334357962d50d8395bc6f9d1fb713b4f1cd9da9ffe4bc725908d50a9abc0a7e", "bytes": 26161, "width": 576, "height": 1280, "format": "JPEG", "fixtureColorPixelCounts": [13689, 15516, 16911], "detail": "high"}], "visionValidated": true}

@@ -1,0 +1,8 @@
+test_model_api_credentials_save_and_connection_use_direct_mode (test_ui.UITest.test_model_api_credentials_save_and_connection_use_direct_mode) ... ok
+test_stream_completion_and_failure_all_designs (test_designs.DesignUITest.test_stream_completion_and_failure_all_designs) ... ok
+test_native_provider_catalog_drives_names_and_builtin_endpoint (test_preferences.PreferencesUITest.test_native_provider_catalog_drives_names_and_builtin_endpoint) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 8.494s
+
+OK

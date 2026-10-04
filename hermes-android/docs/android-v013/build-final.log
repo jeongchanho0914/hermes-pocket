@@ -1,0 +1,366 @@
+Diagnostics: collected; 2 records; docs/diagnostics/reports/v0.13-20261004T082545423113Z-84fe01352a92.json
+PENDING error ed49bffc3a9dd53254e1d354dc499a1c8e7dd5d3c36f2c85c2960ab7a3a79439 (tool, v0.12): java.lang.IllegalStateException — WebTools.java:40 execute
+PENDING error ce107326c19c0e83acda8574e4947b620d4a1942a7c05a8819d84183d3bd4d20 (tool, v0.12): java.lang.IllegalStateException — PhoneAccessibilityService.java:263 checkFresh
++ /home/chanho/Desktop/hermes-pocket-source/hermes-android/.toolchain/build-tools/android-15/aapt2 compile
++ /home/chanho/Desktop/hermes-pocket-source/hermes-android/.toolchain/build-tools/android-15/aapt2 link
++ /home/chanho/Desktop/hermes-pocket-source/hermes-android/.toolchain/jdk/usr/lib/jvm/java-17-openjdk-amd64/bin/java -m
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
++ /home/chanho/Desktop/hermes-pocket-source/hermes-android/.toolchain/build-tools/android-15/d8 --lib
++ /home/chanho/Desktop/hermes-pocket-source/hermes-android/.toolchain/build-tools/android-15/zipalign -f
++ /home/chanho/Desktop/hermes-pocket-source/hermes-android/.toolchain/build-tools/android-15/apksigner sign
++ /home/chanho/Desktop/hermes-pocket-source/hermes-android/.toolchain/build-tools/android-15/zipalign -c
+Verifying alignment of /home/chanho/Desktop/hermes-pocket-source/hermes-android/dist/hermes-pocket-v0.13.apk (4)...
+      49 AndroidManifest.xml (OK - compressed)
+    2451 res/drawable/ic_launcher.xml (OK - compressed)
+    2901 res/xml/accessibility.xml (OK - compressed)
+    3328 resources.arsc (OK)
+    5064 assets/app.css (OK - compressed)
+   20261 assets/app.js (OK - compressed)
+   60268 assets/cli.js (OK - compressed)
+   64168 assets/hermes-skills/UPSTREAM-LICENSE.txt (OK - compressed)
+   64861 assets/hermes-skills/UPSTREAM.txt (OK - compressed)
+   65210 assets/hermes-skills/catalog.json (OK - compressed)
+  152164 assets/hermes-skills/packages/optional-skills__autonomous-ai-agents__agent-merge-conflict-arbiter.zip (OK)
+  155832 assets/hermes-skills/packages/optional-skills__autonomous-ai-agents__antigravity-cli.zip (OK)
+  161200 assets/hermes-skills/packages/optional-skills__autonomous-ai-agents__blackbox.zip (OK)
+  163844 assets/hermes-skills/packages/optional-skills__autonomous-ai-agents__dynamic-workflow.zip (OK)
+  169428 assets/hermes-skills/packages/optional-skills__autonomous-ai-agents__grok.zip (OK)
+  175348 assets/hermes-skills/packages/optional-skills__autonomous-ai-agents__honcho.zip (OK)
+  182700 assets/hermes-skills/packages/optional-skills__autonomous-ai-agents__openhands.zip (OK)
+  186376 assets/hermes-skills/packages/optional-skills__blockchain__evm.zip (OK)
+  205556 assets/hermes-skills/packages/optional-skills__blockchain__hyperliquid.zip (OK)
+  220392 assets/hermes-skills/packages/optional-skills__blockchain__solana.zip (OK)
+  231252 assets/hermes-skills/packages/optional-skills__communication__one-three-one-rule.zip (OK)
+  233552 assets/hermes-skills/packages/optional-skills__creative__ai-presenter-video.zip (OK)
+  252760 assets/hermes-skills/packages/optional-skills__creative__archify.zip (OK)
+  254292 assets/hermes-skills/packages/optional-skills__creative__ascii-art.zip (OK)
+  258984 assets/hermes-skills/packages/optional-skills__creative__audiocraft-audio-generation.zip (OK)
+  273624 assets/hermes-skills/packages/optional-skills__creative__auteur.zip (OK)
+  441860 assets/hermes-skills/packages/optional-skills__creative__baoyu-article-illustrator.zip (OK)
+  494564 assets/hermes-skills/packages/optional-skills__creative__baoyu-comic.zip (OK)
+  553552 assets/hermes-skills/packages/optional-skills__creative__brag-slim.zip (OK)
+  554836 assets/hermes-skills/packages/optional-skills__creative__brag.zip (OK)
+  556540 assets/hermes-skills/packages/optional-skills__creative__comfyui.zip (OK)
+  653372 assets/hermes-skills/packages/optional-skills__creative__concept-diagrams.zip (OK)
+  714288 assets/hermes-skills/packages/optional-skills__creative__creative-ideation.zip (OK)
+  783332 assets/hermes-skills/packages/optional-skills__creative__draw-your-font.zip (OK)
+  788388 assets/hermes-skills/packages/optional-skills__creative__dream-loop.zip (OK)
+  795648 assets/hermes-skills/packages/optional-skills__creative__excalidraw.zip (OK)
+  805760 assets/hermes-skills/packages/optional-skills__creative__heartmula.zip (OK)
+  809124 assets/hermes-skills/packages/optional-skills__creative__hyperframes.zip (OK)
+  840008 assets/hermes-skills/packages/optional-skills__creative__impeccable.zip (OK)
+  841060 assets/hermes-skills/packages/optional-skills__creative__ip-as-logo.zip (OK)
+  849408 assets/hermes-skills/packages/optional-skills__creative__kanban-video-orchestrator.zip (OK)
+  892508 assets/hermes-skills/packages/optional-skills__creative__meme-generation.zip (OK)
+  902164 assets/hermes-skills/packages/optional-skills__creative__mono-color.zip (OK)
+  925172 assets/hermes-skills/packages/optional-skills__creative__pixel-art.zip (OK)
+  939388 assets/hermes-skills/packages/optional-skills__creative__pretext.zip (OK)
+  968152 assets/hermes-skills/packages/optional-skills__creative__simple-english.zip (OK)
+  980424 assets/hermes-skills/packages/optional-skills__creative__sketch.zip (OK)
+  985112 assets/hermes-skills/packages/optional-skills__creative__social-media-content-calendar.zip (OK)
+  987196 assets/hermes-skills/packages/optional-skills__creative__system-atlas.zip (OK)
+ 1015200 assets/hermes-skills/packages/optional-skills__creative__tldraw-offline.zip (OK)
+ 1026712 assets/hermes-skills/packages/optional-skills__creative__unreal-mcp.zip (OK)
+ 1067312 assets/hermes-skills/packages/optional-skills__data-science__jupyter-notebook.zip (OK)
+ 1070260 assets/hermes-skills/packages/optional-skills__devops__actual-setup.zip (OK)
+ 1075416 assets/hermes-skills/packages/optional-skills__devops__docker-management.zip (OK)
+ 1079624 assets/hermes-skills/packages/optional-skills__devops__hermes-s6-container-supervision.zip (OK)
+ 1084644 assets/hermes-skills/packages/optional-skills__devops__inference-sh-cli.zip (OK)
+ 1091364 assets/hermes-skills/packages/optional-skills__devops__pinggy-tunnel.zip (OK)
+ 1096908 assets/hermes-skills/packages/optional-skills__devops__setup-wizard-generator.zip (OK)
+ 1102476 assets/hermes-skills/packages/optional-skills__devops__watchers.zip (OK)
+ 1113188 assets/hermes-skills/packages/optional-skills__dogfood__adversarial-ux-test.zip (OK)
+ 1117680 assets/hermes-skills/packages/optional-skills__email__agentmail.zip (OK)
+ 1122820 assets/hermes-skills/packages/optional-skills__finance__3-statement-model.zip (OK)
+ 1138092 assets/hermes-skills/packages/optional-skills__finance__comps-analysis.zip (OK)
+ 1149876 assets/hermes-skills/packages/optional-skills__finance__dcf-model.zip (OK)
+ 1171436 assets/hermes-skills/packages/optional-skills__finance__excel-author.zip (OK)
+ 1176892 assets/hermes-skills/packages/optional-skills__finance__lbo-model.zip (OK)
+ 1184112 assets/hermes-skills/packages/optional-skills__finance__merger-model.zip (OK)
+ 1186740 assets/hermes-skills/packages/optional-skills__finance__polymarket.zip (OK)
+ 1193604 assets/hermes-skills/packages/optional-skills__finance__pptx-author.zip (OK)
+ 1196692 assets/hermes-skills/packages/optional-skills__finance__stocks.zip (OK)
+ 1204464 assets/hermes-skills/packages/optional-skills__gaming__minecraft-modpack-server.zip (OK)
+ 1207808 assets/hermes-skills/packages/optional-skills__gaming__pokemon-player.zip (OK)
+ 1212264 assets/hermes-skills/packages/optional-skills__health__fitness-nutrition.zip (OK)
+ 1221880 assets/hermes-skills/packages/optional-skills__health__neuroskill-bci.zip (OK)
+ 1243156 assets/hermes-skills/packages/optional-skills__mcp__fastmcp.zip (OK)
+ 1251624 assets/hermes-skills/packages/optional-skills__mcp__mcp-oauth-remote-gateway.zip (OK)
+ 1266516 assets/hermes-skills/packages/optional-skills__mcp__mcporter.zip (OK)
+ 1268116 assets/hermes-skills/packages/optional-skills__migration__openclaw-migration.zip (OK)
+ 1305564 assets/hermes-skills/packages/optional-skills__mlops__accelerate.zip (OK)
+ 1321272 assets/hermes-skills/packages/optional-skills__mlops__chroma.zip (OK)
+ 1325012 assets/hermes-skills/packages/optional-skills__mlops__clip.zip (OK)
+ 1329868 assets/hermes-skills/packages/optional-skills__mlops__evaluation__evaluating-llms-harness.zip (OK)
+ 1349996 assets/hermes-skills/packages/optional-skills__mlops__evaluation__weights-and-biases.zip (OK)
+ 1367776 assets/hermes-skills/packages/optional-skills__mlops__faiss.zip (OK)
+ 1372496 assets/hermes-skills/packages/optional-skills__mlops__flash-attention.zip (OK)
+ 1381508 assets/hermes-skills/packages/optional-skills__mlops__guidance.zip (OK)
+ 1401084 assets/hermes-skills/packages/optional-skills__mlops__huggingface-tokenizers.zip (OK)
+ 1425908 assets/hermes-skills/packages/optional-skills__mlops__inference__llama-cpp.zip (OK)
+ 1444144 assets/hermes-skills/packages/optional-skills__mlops__inference__outlines.zip (OK)
+ 1466028 assets/hermes-skills/packages/optional-skills__mlops__inference__serving-llms-vllm.zip (OK)
+ 1480784 assets/hermes-skills/packages/optional-skills__mlops__instructor.zip (OK)
+ 1492508 assets/hermes-skills/packages/optional-skills__mlops__lambda-labs.zip (OK)
+ 1507628 assets/hermes-skills/packages/optional-skills__mlops__llava.zip (OK)
+ 1513020 assets/hermes-skills/packages/optional-skills__mlops__modal.zip (OK)
+ 1525148 assets/hermes-skills/packages/optional-skills__mlops__models__huggingface-hub.zip (OK)
+ 1527184 assets/hermes-skills/packages/optional-skills__mlops__models__segment-anything-model.zip (OK)
+ 1541584 assets/hermes-skills/packages/optional-skills__mlops__nemo-curator.zip (OK)
+ 1547844 assets/hermes-skills/packages/optional-skills__mlops__obliteratus.zip (OK)
+ 1562600 assets/hermes-skills/packages/optional-skills__mlops__peft.zip (OK)
+ 1575248 assets/hermes-skills/packages/optional-skills__mlops__pinecone.zip (OK)
+ 1580264 assets/hermes-skills/packages/optional-skills__mlops__pytorch-fsdp.zip (OK)
+ 1707276 assets/hermes-skills/packages/optional-skills__mlops__pytorch-lightning.zip (OK)
+ 1721868 assets/hermes-skills/packages/optional-skills__mlops__qdrant.zip (OK)
+ 1734920 assets/hermes-skills/packages/optional-skills__mlops__research__dspy.zip (OK)
+ 1754424 assets/hermes-skills/packages/optional-skills__mlops__saelens.zip (OK)
+ 1767128 assets/hermes-skills/packages/optional-skills__mlops__simpo.zip (OK)
+ 1779352 assets/hermes-skills/packages/optional-skills__mlops__slime.zip (OK)
+ 1790824 assets/hermes-skills/packages/optional-skills__mlops__stable-diffusion.zip (OK)
+ 1805108 assets/hermes-skills/packages/optional-skills__mlops__tensorrt-llm.zip (OK)
+ 1816296 assets/hermes-skills/packages/optional-skills__mlops__torchtitan.zip (OK)
+ 1828688 assets/hermes-skills/packages/optional-skills__mlops__training__axolotl.zip (OK)
+ 1909760 assets/hermes-skills/packages/optional-skills__mlops__training__trl-fine-tuning.zip (OK)
+ 1928768 assets/hermes-skills/packages/optional-skills__mlops__training__unsloth.zip (OK)
+ 2429208 assets/hermes-skills/packages/optional-skills__mlops__whisper.zip (OK)
+ 2434536 assets/hermes-skills/packages/optional-skills__payments__mpp-agent.zip (OK)
+ 2437056 assets/hermes-skills/packages/optional-skills__payments__stripe-link-cli.zip (OK)
+ 2440360 assets/hermes-skills/packages/optional-skills__payments__stripe-projects.zip (OK)
+ 2442584 assets/hermes-skills/packages/optional-skills__productivity__canvas.zip (OK)
+ 2446232 assets/hermes-skills/packages/optional-skills__productivity__decision-questionnaire.zip (OK)
+ 2448444 assets/hermes-skills/packages/optional-skills__productivity__here-now.zip (OK)
+ 2461088 assets/hermes-skills/packages/optional-skills__productivity__live-dashboard.zip (OK)
+ 2464744 assets/hermes-skills/packages/optional-skills__productivity__memento-flashcards.zip (OK)
+ 2474392 assets/hermes-skills/packages/optional-skills__productivity__property-listings.zip (OK)
+ 2476896 assets/hermes-skills/packages/optional-skills__productivity__shop.zip (OK)
+ 2493372 assets/hermes-skills/packages/optional-skills__productivity__shopify.zip (OK)
+ 2499396 assets/hermes-skills/packages/optional-skills__productivity__siyuan.zip (OK)
+ 2502524 assets/hermes-skills/packages/optional-skills__productivity__telephony.zip (OK)
+ 2517948 assets/hermes-skills/packages/optional-skills__research__bioinformatics.zip (OK)
+ 2523588 assets/hermes-skills/packages/optional-skills__research__blogwatcher.zip (OK)
+ 2526228 assets/hermes-skills/packages/optional-skills__research__darwinian-evolver.zip (OK)
+ 2537988 assets/hermes-skills/packages/optional-skills__research__domain-intel.zip (OK)
+ 2544796 assets/hermes-skills/packages/optional-skills__research__drug-discovery.zip (OK)
+ 2551836 assets/hermes-skills/packages/optional-skills__research__duckduckgo-search.zip (OK)
+ 2555756 assets/hermes-skills/packages/optional-skills__research__gitnexus-explorer.zip (OK)
+ 2560500 assets/hermes-skills/packages/optional-skills__research__osint-investigation.zip (OK)
+ 2624512 assets/hermes-skills/packages/optional-skills__research__parallel-cli.zip (OK)
+ 2628784 assets/hermes-skills/packages/optional-skills__research__pinecone-research.zip (OK)
+ 2634368 assets/hermes-skills/packages/optional-skills__research__qmd.zip (OK)
+ 2640096 assets/hermes-skills/packages/optional-skills__research__research-paper-writing.zip (OK)
+ 3439144 assets/hermes-skills/packages/optional-skills__research__rss-feeds.zip (OK)
+ 3445200 assets/hermes-skills/packages/optional-skills__research__scrapling.zip (OK)
+ 3448692 assets/hermes-skills/packages/optional-skills__research__searxng-search.zip (OK)
+ 3452200 assets/hermes-skills/packages/optional-skills__security__1password.zip (OK)
+ 3455412 assets/hermes-skills/packages/optional-skills__security__godmode.zip (OK)
+ 3493444 assets/hermes-skills/packages/optional-skills__security__oss-forensics.zip (OK)
+ 3518452 assets/hermes-skills/packages/optional-skills__security__sherlock.zip (OK)
+ 3521340 assets/hermes-skills/packages/optional-skills__security__unbroker.zip (OK)
+ 4002192 assets/hermes-skills/packages/optional-skills__security__web-pentest.zip (OK)
+ 4025668 assets/hermes-skills/packages/optional-skills__smart-home__openhue.zip (OK)
+ 4027104 assets/hermes-skills/packages/optional-skills__social-media__reddit-reading.zip (OK)
+ 4034980 assets/hermes-skills/packages/optional-skills__software-development__ast-grep.zip (OK)
+ 4082724 assets/hermes-skills/packages/optional-skills__software-development__code-wiki.zip (OK)
+ 4090944 assets/hermes-skills/packages/optional-skills__software-development__grill-me.zip (OK)
+ 4093440 assets/hermes-skills/packages/optional-skills__software-development__pr-lens.zip (OK)
+ 4109696 assets/hermes-skills/packages/optional-skills__software-development__rest-graphql-debug.zip (OK)
+ 4116328 assets/hermes-skills/packages/optional-skills__software-development__subagent-driven-development.zip (OK)
+ 4125332 assets/hermes-skills/packages/optional-skills__web-development__cloudflare-temporary-deploy.zip (OK)
+ 4130628 assets/hermes-skills/packages/optional-skills__web-development__har-derived-api-client.zip (OK)
+ 4141144 assets/hermes-skills/packages/optional-skills__web-development__page-agent.zip (OK)
+ 4145196 assets/hermes-skills/packages/optional-skills__web-development__publish-site.zip (OK)
+ 4149212 assets/hermes-skills/packages/optional-skills__web-development__scrollcraft.zip (OK)
+ 4274432 assets/hermes-skills/packages/optional-skills__yuanbao.zip (OK)
+ 4276504 assets/hermes-skills/packages/skills__apple__apple-notes.zip (OK)
+ 4277816 assets/hermes-skills/packages/skills__apple__apple-reminders.zip (OK)
+ 4279620 assets/hermes-skills/packages/skills__apple__findmy.zip (OK)
+ 4281448 assets/hermes-skills/packages/skills__apple__imessage.zip (OK)
+ 4282832 assets/hermes-skills/packages/skills__autonomous-ai-agents__claude-code.zip (OK)
+ 4296060 assets/hermes-skills/packages/skills__autonomous-ai-agents__codex.zip (OK)
+ 4298688 assets/hermes-skills/packages/skills__autonomous-ai-agents__computer-use.zip (OK)
+ 4306748 assets/hermes-skills/packages/skills__autonomous-ai-agents__hermes-agent.zip (OK)
+ 4366196 assets/hermes-skills/packages/skills__autonomous-ai-agents__opencode.zip (OK)
+ 4369380 assets/hermes-skills/packages/skills__creative__architecture-diagram.zip (OK)
+ 4375540 assets/hermes-skills/packages/skills__creative__ascii-video.zip (OK)
+ 4493003 assets/hermes-skills/packages/skills__creative__baoyu-infographic.zip (OK - compressed)
+ 4530592 assets/hermes-skills/packages/skills__creative__claude-design.zip (OK)
+ 4541100 assets/hermes-skills/packages/skills__creative__design-md.zip (OK)
+ 4546392 assets/hermes-skills/packages/skills__creative__humanizer.zip (OK)
+ 4560976 assets/hermes-skills/packages/skills__creative__manim-video.zip (OK)
+ 4606692 assets/hermes-skills/packages/skills__creative__p5js.zip (OK)
+ 4671404 assets/hermes-skills/packages/skills__creative__popular-web-designs.zip (OK)
+ 5015320 assets/hermes-skills/packages/skills__creative__songwriting-and-ai-music.zip (OK)
+ 5020976 assets/hermes-skills/packages/skills__devops__sdlc-review.zip (OK)
+ 5024900 assets/hermes-skills/packages/skills__email__email-inbox-triage.zip (OK)
+ 5027640 assets/hermes-skills/packages/skills__email__himalaya.zip (OK)
+ 5034356 assets/hermes-skills/packages/skills__media__gif-search.zip (OK)
+ 5035820 assets/hermes-skills/packages/skills__media__songsee.zip (OK)
+ 5037180 assets/hermes-skills/packages/skills__media__youtube-content.zip (OK)
+ 5042128 assets/hermes-skills/packages/skills__note-taking__obsidian.zip (OK)
+ 5043688 assets/hermes-skills/packages/skills__productivity__airtable.zip (OK)
+ 5048380 assets/hermes-skills/packages/skills__productivity__box.zip (OK)
+ 5076164 assets/hermes-skills/packages/skills__productivity__document-to-action-items.zip (OK)
+ 5078236 assets/hermes-skills/packages/skills__productivity__docx.zip (OK)
+ 5108708 assets/hermes-skills/packages/skills__productivity__google-workspace.zip (OK)
+ 5135292 assets/hermes-skills/packages/skills__productivity__maps.zip (OK)
+ 5149872 assets/hermes-skills/packages/skills__productivity__meeting-action-items.zip (OK)
+ 5151860 assets/hermes-skills/packages/skills__productivity__notion.zip (OK)
+ 5158664 assets/hermes-skills/packages/skills__productivity__pdf.zip (OK)
+ 5199364 assets/hermes-skills/packages/skills__productivity__powerpoint.zip (OK)
+ 5223096 assets/hermes-skills/packages/skills__productivity__product-price-monitor.zip (OK)
+ 5225344 assets/hermes-skills/packages/skills__productivity__teams-meeting-pipeline.zip (OK)
+ 5228572 assets/hermes-skills/packages/skills__productivity__weekly-review-planning.zip (OK)
+ 5230660 assets/hermes-skills/packages/skills__productivity__xlsx.zip (OK)
+ 5261584 assets/hermes-skills/packages/skills__research__arxiv.zip (OK)
+ 5267076 assets/hermes-skills/packages/skills__research__competitor-news-monitor.zip (OK)
+ 5269460 assets/hermes-skills/packages/skills__research__grounded-citations.zip (OK)
+ 5287236 assets/hermes-skills/packages/skills__research__llm-wiki.zip (OK)
+ 5295848 assets/hermes-skills/packages/skills__social-media__xurl.zip (OK)
+ 5302492 assets/hermes-skills/packages/skills__software-development__codebase-inspection.zip (OK)
+ 5304340 assets/hermes-skills/packages/skills__software-development__dogfood.zip (OK)
+ 5310048 assets/hermes-skills/packages/skills__software-development__github.zip (OK)
+ 5346112 assets/hermes-skills/packages/skills__software-development__hermes-agent-skill-authoring.zip (OK)
+ 5352680 assets/hermes-skills/packages/skills__software-development__inspecting-hermes-desktop-dom.zip (OK)
+ 5356048 assets/hermes-skills/packages/skills__software-development__node-inspect-debugger.zip (OK)
+ 5361008 assets/hermes-skills/packages/skills__software-development__python-debugpy.zip (OK)
+ 5367492 assets/hermes-skills/packages/skills__software-development__requesting-code-review.zip (OK)
+ 5371724 assets/hermes-skills/packages/skills__software-development__simplify-code.zip (OK)
+ 5378520 assets/hermes-skills/packages/skills__software-development__spike.zip (OK)
+ 5382708 assets/hermes-skills/packages/skills__software-development__systematic-debugging.zip (OK)
+ 5389140 assets/hermes-skills/packages/skills__software-development__test-driven-development.zip (OK)
+ 5393744 assets/hermes-skills/packages/skills__web__blocked-page-recovery.zip (OK)
+ 5399883 assets/index.html (OK - compressed)
+ 5409251 assets/logo.svg (OK - compressed)
+ 6802610 assets/third-party-licenses.txt (OK - compressed)
+ 6807217 classes.dex (OK - compressed)
+ 7042519 META-INF/DEVELOPM.SF (OK - compressed)
+ 7053472 META-INF/DEVELOPM.RSA (OK - compressed)
+ 7055010 META-INF/MANIFEST.MF (OK - compressed)
+Verification succesful
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=Hermes Pocket Development, OU=Unpublished Development Build
+Signer #1 certificate SHA-256 digest: 6d997f21e5f0c15e3756f5cc2b792262b40ed6d9c6e688f79ab7081a1c6d8e7c
+Signer #1 certificate SHA-1 digest: b8ffb55ee567eb2ed7ca3993c6da73d5fb98a19e
+Signer #1 certificate MD5 digest: bc72e9d68e329fd22259f57b3b446308
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 3072
+Signer #1 public key SHA-256 digest: 7f55fea87c5b87cb8ce684373e7ff0ae61f5b4f6b5be4807e5037b43c029fde5
+Signer #1 public key SHA-1 digest: f7e8161b1157715d628a8731a181cd3de2599e15
+Signer #1 public key MD5 digest: ead87b8853a7b33081bd2e8dc90c017e
+
+{
+  "file": "hermes-pocket-v0.13.apk",
+  "bytes": 7099970,
+  "sha256": "ce76dfbf9835b895e010ca46b02994676e58da03bf58526f26f9574e4ea342ad",
+  "package": "dev.chanho.hermes",
+  "version": "0.13",
+  "versionCode": 13,
+  "displayVersion": "v0.13",
+  "channel": "beta",
+  "builtAt": "2026-10-04T08:25:49.814872+00:00",
+  "minSdk": 26,
+  "targetSdk": 35,
+  "signing": "local development key; not Play Store release",
+  "signatureSchemes": [
+    "v1",
+    "v2",
+    "v3"
+  ],
+  "signatureVerification": "signature-verification.txt",
+  "alignmentVerified": true,
+  "manifestVerified": true,
+  "resourceTableUncompressed": true,
+  "resourceTableDataOffset": 3328,
+  "androidDependencies": [
+    {
+      "coordinate": "dev.rikka.shizuku:api:13.1.5",
+      "url": "https://repo.maven.apache.org/maven2/dev/rikka/shizuku/api/13.1.5/api-13.1.5.aar",
+      "sha256": "4def9bde498ef8626614c2fc5db9af4749c86f16f6c33e3f5658d35e70bab59b",
+      "classesJarSha256": "4315fcd853f487321548be5a997749fe43105fa29aaaa6f6e7a8cdc958a38357",
+      "license": "MIT",
+      "nativeLibraries": false,
+      "resources": false
+    },
+    {
+      "coordinate": "dev.rikka.shizuku:provider:13.1.5",
+      "url": "https://repo.maven.apache.org/maven2/dev/rikka/shizuku/provider/13.1.5/provider-13.1.5.aar",
+      "sha256": "b0f18cd9812464ec171c53cac93a819fe411718a3965c311f01eb4de265381b3",
+      "classesJarSha256": "35aee86b938cb8d06b315c9d73c30f41ec7cfdc10009a5de83733bc5c4db5051",
+      "license": "MIT",
+      "nativeLibraries": false,
+      "resources": false
+    },
+    {
+      "coordinate": "dev.rikka.shizuku:aidl:13.1.5",
+      "url": "https://repo.maven.apache.org/maven2/dev/rikka/shizuku/aidl/13.1.5/aidl-13.1.5.aar",
+      "sha256": "33fe7191cdd69fcb66d649264f3b0c47acb2f3d6343afc05b98dbbff6f221963",
+      "classesJarSha256": "584945c98f21b0c4e3ccdb74b51528f89852174c30bb2a4786c43a8ca456e496",
+      "license": "MIT",
+      "nativeLibraries": false,
+      "resources": false
+    },
+    {
+      "coordinate": "dev.rikka.shizuku:shared:13.1.5",
+      "url": "https://repo.maven.apache.org/maven2/dev/rikka/shizuku/shared/13.1.5/shared-13.1.5.aar",
+      "sha256": "4659642c9339be0a26e9c65bb8648f7ad6d8f4a465f557993ccbc78802381635",
+      "classesJarSha256": "8557b8c715d374f8da18e148ca5b971d1c7435e91447e6d4f7664403c7328760",
+      "license": "MIT",
+      "nativeLibraries": false,
+      "resources": false
+    },
+    {
+      "coordinate": "androidx.annotation:annotation:1.3.0",
+      "url": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.3.0/annotation-1.3.0.jar",
+      "sha256": "97dc45afefe3a1e421da42b8b6e9f90491477c45fc6178203e3a5e8a05ee8553",
+      "license": "Apache-2.0",
+      "nativeLibraries": false
+    }
+  ],
+  "diagnostics": {
+    "pendingIds": [
+      "ed49bffc3a9dd53254e1d354dc499a1c8e7dd5d3c36f2c85c2960ab7a3a79439",
+      "ce107326c19c0e83acda8574e4947b620d4a1942a7c05a8819d84183d3bd4d20"
+    ],
+    "criticalIds": [],
+    "criticalDeferral": null,
+    "collectedReport": "docs/diagnostics/reports/v0.13-20261004T082545423113Z-84fe01352a92.json",
+    "collectionStatus": "collected",
+    "freshDiagnosticsAvailable": true,
+    "offlineReason": null,
+    "cachedReportsReviewed": null,
+    "cachedReports": []
+  },
+  "toolchainDownloads": [
+    {
+      "file": "build-tools_r35_linux.zip",
+      "sha256": "bd3a4966912eb8b30ed0d00b0cda6b6543b949d5ffe00bea54c04c81e1561d88",
+      "source": "https://dl.google.com/android/repository/build-tools_r35_linux.zip",
+      "verification": "SHA1 matched Google repository2-1.xml"
+    },
+    {
+      "file": "platform-35_r02.zip",
+      "sha256": "0988cacad01b38a18a47bac14a0695f246bc76c1b06c0eeb8eb0dc825ab0c8e0",
+      "source": "https://dl.google.com/android/repository/platform-35_r02.zip",
+      "verification": "SHA1 matched Google repository2-1.xml"
+    },
+    {
+      "file": "openjdk-17-jdk-headless_17.0.20.1+1-1~26.04_amd64.deb",
+      "sha256": "e440a910fd940d2f7eb49d91aad25b2200703b3ebc76e6eadabe9c0b3eed382a",
+      "verification": "SHA256 matched signed Ubuntu APT package index"
+    },
+    {
+      "file": "openjdk-17-jre-headless_17.0.20.1+1-1~26.04_amd64.deb",
+      "sha256": "bed7ea25ac704932b8658c77a0642040e6d46713f4e2f43830ea82d063814716",
+      "verification": "SHA256 matched signed Ubuntu APT package index"
+    }
+  ]
+}

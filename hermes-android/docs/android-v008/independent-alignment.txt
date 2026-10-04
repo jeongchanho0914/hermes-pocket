@@ -1,0 +1,15 @@
+Verifying alignment of /home/chanho/Desktop/hermes-pocket-source/hermes-android/dist/hermes-pocket-v0.08.apk (4)...
+      49 AndroidManifest.xml (OK - compressed)
+    1897 res/drawable/ic_launcher.xml (OK - compressed)
+    2347 res/xml/accessibility.xml (OK - compressed)
+    2776 resources.arsc (OK)
+    4512 assets/app.css (OK - compressed)
+   17881 assets/app.js (OK - compressed)
+   46390 assets/index.html (OK - compressed)
+   54558 assets/logo.svg (OK - compressed)
+ 1447917 assets/third-party-licenses.txt (OK - compressed)
+ 1452524 classes.dex (OK - compressed)
+ 1587115 META-INF/DEVELOPM.SF (OK - compressed)
+ 1587800 META-INF/DEVELOPM.RSA (OK - compressed)
+ 1589337 META-INF/MANIFEST.MF (OK - compressed)
+Verification succesful

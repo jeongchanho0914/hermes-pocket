@@ -1,0 +1,1 @@
+await native('saveSettings',{providerId:'custom',endpoint:'http://127.0.0.1:8877/v1',model:'',token:'',clearToken:true,reasoningEffort:'auto'});await new Promise(r=>setTimeout(r,1500));return (await native('boot')).config;

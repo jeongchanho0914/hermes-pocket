@@ -1,0 +1,11 @@
+PASS durable diagnostic metadata excludes messages headers keys outputs and thoughts before and after reopen
+PASS duplicate failures preserve firstSeen increment count and independent phases get separate IDs
+PASS exception causes frames identifiers and file bytes remain bounded without raw content
+PASS newest 256 failure records survive pruning and exact acknowledgements never clear unrelated errors
+PASS reloading sanitizes extra private fields malformed lines and credential-shaped source identifiers
+PASS failed host atomic adapter commit restores previous bytes and concurrent recording deduplicates without corrupting file
+PASS browser diagnostics preserve only bounded known source locations and never arbitrary JavaScript message or stack
+PASS own process crash and ANR history excludes normal exits descriptions and traces and does not invent historical version
+PASS strict release export refuses corrupt metadata instead of reporting missing errors as clean
+PASS uncaught capture records before delegating unchanged original Throwable and does not replace previous crash authority
+Diagnostics: 10 production capture/host-filesystem checks; Android AtomicFile and process crash behavior are separate proof.

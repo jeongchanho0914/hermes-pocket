@@ -1,0 +1,245 @@
+{
+  "version": "0.12",
+  "scope": "Host fixtures and browser DOM only; no physical phone, emulator dispatch or native SQLite/AtomicFile proof. Aggregate completed full-run cases plus focused reruns after intentional UI fixture updates; not a claim of a single pristine full run.",
+  "normalJvm": 161,
+  "normalJvmEvidence": [
+    "/tmp/hermes-v012-jvm-full.log",
+    "/tmp/hermes-v012-web-router.log",
+    "/tmp/hermes-v012-context-final-targeted.log"
+  ],
+  "actualAndroidSourceValidators": 8,
+  "validatorLog": "/tmp/hermes-v012-sdk-shade-final.log",
+  "productionDiagnosticsHostFiles": 10,
+  "diagnosticsLog": "/tmp/hermes-v012-diagnostics-schema.log",
+  "pythonUniqueCases": 128,
+  "browserGuiCases": 101,
+  "pythonOtherCases": 27,
+  "passedCases": {
+    "test_activity.ActivityUITest.test_actual_call_id_updates_pending_approval_complete_card_without_duplicates_or_losing_open_details": "/tmp/hermes-v012-python-full.log",
+    "test_activity.ActivityUITest.test_boot_rehydrates_separate_session_timeline_without_provider_history_roles_or_private_fields": "/tmp/hermes-v012-python-full.log",
+    "test_activity.ActivityUITest.test_denied_failed_cancelled_and_public_response_cards_never_display_private_event_fields": "/tmp/hermes-v012-python-full.log",
+    "test_activity.ActivityUITest.test_other_session_events_and_late_activity_reload_cannot_overwrite_current_session": "/tmp/hermes-v012-python-full.log",
+    "test_browser_diagnostics.BrowserDiagnosticsUITest.test_browser_error_and_unhandled_rejection_forward_only_known_source_coordinates_without_raw_exception_data": "/tmp/hermes-v012-python-full.log",
+    "test_browser_diagnostics.BrowserDiagnosticsUITest.test_repeated_errors_and_recorder_rejection_do_not_loop_or_replace_chat_with_private_failure": "/tmp/hermes-v012-python-full.log",
+    "test_designs.DesignUITest.test_all_manual_tools_send_native_arguments": "/tmp/hermes-v012-python-full.log",
+    "test_designs.DesignUITest.test_composer_tool_and_model_shortcuts_reach_controls": "/tmp/hermes-v012-python-full.log",
+    "test_designs.DesignUITest.test_design_deep_links_select_requested_choice": "/tmp/hermes-v012-python-full.log",
+    "test_designs.DesignUITest.test_design_shortcut_opens_appearance": "/tmp/hermes-v012-python-full.log",
+    "test_designs.DesignUITest.test_design_switch_preserves_unsaved_data": "/tmp/hermes-v012-python-full.log",
+    "test_designs.DesignUITest.test_design_switch_sends_matching_native_system_bar_appearance": "/tmp/hermes-v012-python-full.log",
+    "test_designs.DesignUITest.test_every_design_all_tabs_fit_mobile_and_wide": "/tmp/hermes-v012-python-full.log",
+    "test_designs.DesignUITest.test_legacy_design_links_migrate_to_two_current_themes": "/tmp/hermes-v012-python-full.log",
+    "test_designs.DesignUITest.test_manual_tool_cancellation_restores_controls": "/tmp/hermes-v012-python-full.log",
+    "test_designs.DesignUITest.test_screen_result_buttons_select_target_and_invalidate_after_action": "/tmp/hermes-v012-python-full.log",
+    "test_designs.DesignUITest.test_sidebar_session_search_open_and_deliberate_delete": "/tmp/hermes-v012-python-full.log",
+    "test_designs.DesignUITest.test_stream_completion_and_failure_all_designs": "/tmp/hermes-v012-doc-selector-targeted.log",
+    "test_diagnostics.DiagnosticsTest.test_browser_error_report_keeps_known_locations_and_drops_raw_javascript_payload": "/tmp/hermes-v012-python-full.log",
+    "test_diagnostics.DiagnosticsTest.test_collection_missing_unconfigured_unauthorized_or_failed_devices_never_fabricates_success": "/tmp/hermes-v012-python-full.log",
+    "test_diagnostics.DiagnosticsTest.test_collector_reads_only_bounded_own_private_file_via_exact_injected_command_and_never_saves_stderr": "/tmp/hermes-v012-python-full.log",
+    "test_diagnostics.DiagnosticsTest.test_counterfeit_logs_failure_results_mismatched_commands_and_protected_or_external_source_evidence_are_rejected": "/tmp/hermes-v012-python-full.log",
+    "test_diagnostics.DiagnosticsTest.test_critical_preflight_requires_review_bound_to_actual_successful_test_execution_and_source_hash": "/tmp/hermes-v012-python-full.log",
+    "test_diagnostics.DiagnosticsTest.test_decoder_rejects_duplicate_ids_invalid_types_utf8_and_caps": "/tmp/hermes-v012-python-full.log",
+    "test_diagnostics.DiagnosticsTest.test_explicit_offline_collection_never_calls_adb_or_marks_cached_critical_errors_clean": "/tmp/hermes-v012-python-full.log",
+    "test_diagnostics.DiagnosticsTest.test_metadata_whitelist_drops_payloads_and_redacts_credential_shaped_frames": "/tmp/hermes-v012-python-full.log",
+    "test_diagnostics.DiagnosticsTest.test_new_occurrence_or_changed_source_or_test_output_reopens_exact_review_without_claiming_fixed": "/tmp/hermes-v012-python-full.log",
+    "test_diagnostics.DiagnosticsTest.test_process_exit_provenance_is_critical_without_claiming_historical_apk_or_retaining_os_trace": "/tmp/hermes-v012-python-full.log",
+    "test_memory_documents.MemoryDocumentsUITest.test_collapsed_document_reads_full_text_only_on_open_and_core_delete_stays_forbidden": "/tmp/hermes-v012-memory-ui.log",
+    "test_memory_documents.MemoryDocumentsUITest.test_save_uncertain_reply_preserves_draft_and_native_confirmed_save_carries_exact_name_content": "/tmp/hermes-v012-memory-ui.log",
+    "test_model_progress.ModelProgressUITest.test_all_provider_phases_show_compact_brain_and_elapsed_without_invented_public_thought": "/tmp/hermes-v012-python-full.log",
+    "test_model_progress.ModelProgressUITest.test_busy_composer_stop_and_background_send_real_native_requests_without_claiming_completion": "/tmp/hermes-v012-python-full.log",
+    "test_model_progress.ModelProgressUITest.test_historical_public_thoughts_reload_from_separate_session_api_without_provider_message_roles": "/tmp/hermes-v012-python-full.log",
+    "test_model_progress.ModelProgressUITest.test_public_provider_source_session_run_and_round_are_checked_and_unknown_fields_are_discarded": "/tmp/hermes-v012-python-full.log",
+    "test_model_progress.ModelProgressUITest.test_public_text_cap_and_portrait_details_preserve_literal_unicode_without_overflow": "/tmp/hermes-v012-python-full.log",
+    "test_model_progress.ModelProgressUITest.test_public_thought_is_visible_before_answer_and_cumulative_updates_preserve_expanded_card": "/tmp/hermes-v012-python-full.log",
+    "test_model_progress.ModelProgressUITest.test_real_phase_and_elapsed_ui_advance_only_while_running_and_stop_on_final_cancel_or_failure": "/tmp/hermes-v012-python-full.log",
+    "test_phone_manifest.PhoneManifestTest.test_ordinary_intents_have_targeted_visibility_and_alarm_permission_without_call_or_send_authority": "/tmp/hermes-v012-python-full.log",
+    "test_phone_manifest.PhoneManifestTest.test_release_diagnostics_endpoint_requires_dump_permission_and_never_enables_debuggable_or_uri_write_grants": "/tmp/hermes-v012-python-full.log",
+    "test_preferences.PreferencesUITest.test_busy_blocks_preference_and_model_controls": "/tmp/hermes-v012-python-full.log",
+    "test_preferences.PreferencesUITest.test_cancelled_folder_picker_retains_authoritative_existing_grant": "/tmp/hermes-v012-python-full.log",
+    "test_preferences.PreferencesUITest.test_capability_draft_requires_save_and_close_does_not_change_saved_plugins": "/tmp/hermes-v012-python-full.log",
+    "test_preferences.PreferencesUITest.test_catalog_five_rows_and_independent_model_thinking_preferences": "/tmp/hermes-v012-python-full.log",
+    "test_preferences.PreferencesUITest.test_compact_settings_nested_back_returns_to_tools_or_advanced": "/tmp/hermes-v012-display-targeted.log",
+    "test_preferences.PreferencesUITest.test_configured_header_is_plain_and_current_chat_has_no_sidebar_nav": "/tmp/hermes-v012-python-full.log",
+    "test_preferences.PreferencesUITest.test_default_model_and_hermes_reasoning_ladder_persist_new_chat_and_boot": "/tmp/hermes-v012-python-full.log",
+    "test_preferences.PreferencesUITest.test_drawer_settings_stays_at_bottom_without_footer_badges": "/tmp/hermes-v012-python-full.log",
+    "test_preferences.PreferencesUITest.test_failed_model_discovery_does_not_fake_models_or_prevent_manual_id": "/tmp/hermes-v012-python-full.log",
+    "test_preferences.PreferencesUITest.test_first_launch_setup_guide_disables_shortcuts_and_does_not_call_api": "/tmp/hermes-v012-python-full.log",
+    "test_preferences.PreferencesUITest.test_floating_pending_rejection_and_busy_preserve_saved_state": "/tmp/hermes-v012-python-full.log",
+    "test_preferences.PreferencesUITest.test_floating_toggle_saves_only_preference_and_hydrates_after_reopen": "/tmp/hermes-v012-python-full.log",
+    "test_preferences.PreferencesUITest.test_folder_picker_readonly_revocation_preserves_model_secret_draft": "/tmp/hermes-v012-python-full.log",
+    "test_preferences.PreferencesUITest.test_global_app_selection_does_not_require_legacy_individual_allowlist": "/tmp/hermes-v012-python-full.log",
+    "test_preferences.PreferencesUITest.test_global_control_and_approval_mode_save_independently_without_credentials": "/tmp/hermes-v012-python-full.log",
+    "test_preferences.PreferencesUITest.test_hosted_model_without_saved_key_stays_disabled_until_key_exists": "/tmp/hermes-v012-python-full.log",
+    "test_preferences.PreferencesUITest.test_keyless_web_save_omits_tavily_secret_and_preserves_unsaved_key": "/tmp/hermes-v012-python-full.log",
+    "test_preferences.PreferencesUITest.test_model_search_literal_name_and_manual_fallback": "/tmp/hermes-v012-python-full.log",
+    "test_preferences.PreferencesUITest.test_native_inventory_controls_tool_count_and_disabled_device_actions": "/tmp/hermes-v012-python-full.log",
+    "test_preferences.PreferencesUITest.test_native_provider_catalog_drives_names_and_builtin_endpoint": "/tmp/hermes-v012-python-full.log",
+    "test_preferences.PreferencesUITest.test_pending_and_failed_device_preference_restore_saved_state": "/tmp/hermes-v012-python-full.log",
+    "test_preferences.PreferencesUITest.test_popup_focus_escape_native_back_and_background_inert": "/tmp/hermes-v012-python-full.log",
+    "test_preferences.PreferencesUITest.test_portrait_approval_selector_keeps_label_and_options_inside_row": "/tmp/hermes-v012-python-full.log",
+    "test_preferences.PreferencesUITest.test_provider_first_catalog_switch_resets_draft_secret_and_selects_model_after_save": "/tmp/hermes-v012-python-full.log",
+    "test_preferences.PreferencesUITest.test_screen_capture_capability_states_do_not_claim_permission_is_actual_capture": "/tmp/hermes-v012-python-full.log",
+    "test_preferences.PreferencesUITest.test_settings_home_keeps_connection_draft_and_removes_manual_context_controls": "/tmp/hermes-v012-python-full.log",
+    "test_preferences.PreferencesUITest.test_shizuku_needs_live_verified_service_and_shell_is_not_root": "/tmp/hermes-v012-python-full.log",
+    "test_preferences.PreferencesUITest.test_shizuku_toggle_and_os_permission_request_never_forward_model_credentials": "/tmp/hermes-v012-python-full.log",
+    "test_preferences.PreferencesUITest.test_short_drawer_last_button_is_reachable_and_does_not_clip": "/tmp/hermes-v012-python-full.log",
+    "test_preferences.PreferencesUITest.test_skill_editor_save_read_and_confirmed_delete_native_requests": "/tmp/hermes-v012-doc-selector-targeted.log",
+    "test_preferences.PreferencesUITest.test_skill_plugin_partial_save_preserves_unsaved_api_secret": "/tmp/hermes-v012-python-full.log",
+    "test_preferences.PreferencesUITest.test_thinking_popup_focus_and_cancel_preserves_model_and_default": "/tmp/hermes-v012-python-full.log",
+    "test_preferences.PreferencesUITest.test_web_key_saves_separately_and_preserves_unsaved_model_api_key": "/tmp/hermes-v012-python-full.log",
+    "test_sidebar_gestures.SidebarGestureTest.test_keyboard_delete_uses_same_explicit_native_request": "/tmp/hermes-v012-python-full.log",
+    "test_sidebar_gestures.SidebarGestureTest.test_large_left_and_right_swipes_delete_exactly_once_without_prompt": "/tmp/hermes-v012-python-full.log",
+    "test_sidebar_gestures.SidebarGestureTest.test_long_hold_release_without_swipe_preserves_conversation": "/tmp/hermes-v012-python-full.log",
+    "test_sidebar_gestures.SidebarGestureTest.test_native_error_or_false_result_restores_row_without_losing_session": "/tmp/hermes-v012-python-full.log",
+    "test_sidebar_gestures.SidebarGestureTest.test_pointer_cancel_lost_capture_and_busy_cancel_armed_swipe": "/tmp/hermes-v012-python-full.log",
+    "test_sidebar_gestures.SidebarGestureTest.test_short_tap_opens_and_never_deletes": "/tmp/hermes-v012-python-full.log",
+    "test_sidebar_gestures.SidebarGestureTest.test_small_armed_swipe_does_not_delete": "/tmp/hermes-v012-python-full.log",
+    "test_sidebar_gestures.SidebarGestureTest.test_vertical_motion_before_hold_does_not_arm_or_delete": "/tmp/hermes-v012-python-full.log",
+    "test_skill_library.SkillLibraryUITest.test_blocked_original_and_busy_owner_disable_install_but_success_requires_explicit_inactive_ack": "/tmp/hermes-v012-python-full.log",
+    "test_skill_library.SkillLibraryUITest.test_cancel_unverified_and_capacity_failure_do_not_claim_original_saved_or_change_active_skill": "/tmp/hermes-v012-python-full.log",
+    "test_skill_library.SkillLibraryUITest.test_source_search_and_original_resource_read_use_exact_ids_without_install_or_activation": "/tmp/hermes-v012-python-full.log",
+    "test_skill_packages.SkillPackageUITest.test_failed_resource_save_preserves_draft_and_disabled_plugin_blocks_editor": "/tmp/hermes-v012-last-fixture-targeted.log",
+    "test_skill_packages.SkillPackageUITest.test_full_yaml_editor_preserves_metadata_in_native_save": "/tmp/hermes-v012-doc-selector-targeted.log",
+    "test_skill_packages.SkillPackageUITest.test_import_export_cancel_and_unverified_response_never_claim_saved_package": "/tmp/hermes-v012-package-import-targeted.log",
+    "test_skill_packages.SkillPackageUITest.test_resource_read_write_and_remove_send_canonical_operation_arrays_without_model_key": "/tmp/hermes-v012-python-resumed.log",
+    "test_skill_packages.SkillPackageUITest.test_unverified_resource_response_does_not_claim_write_succeeded": "/tmp/hermes-v012-python-resumed.log",
+    "test_terminal.TerminalUITest.test_disabled_plugin_actual_inventory_and_busy_block_terminal_without_native_execution": "/tmp/hermes-v012-python-resumed.log",
+    "test_terminal.TerminalUITest.test_native_job_list_and_process_buttons_preserve_backend_and_session_identity": "/tmp/hermes-v012-python-resumed.log",
+    "test_terminal.TerminalUITest.test_pending_terminal_and_stop_wait_for_actual_native_response_before_reenabling": "/tmp/hermes-v012-python-resumed.log",
+    "test_terminal.TerminalUITest.test_shizuku_failure_is_literal_and_never_retried_under_app_backend": "/tmp/hermes-v012-python-resumed.log",
+    "test_terminal.TerminalUITest.test_typed_terminal_arguments_preserve_command_and_omit_unsaved_model_key": "/tmp/hermes-v012-python-resumed.log",
+    "test_timeline_order.TimelineOrderUITest.test_busy_reload_places_current_round_stream_between_persisted_first_appearances_and_failure_uses_native_message_ids": "/tmp/hermes-v012-python-resumed.log",
+    "test_timeline_order.TimelineOrderUITest.test_late_history_snapshot_cannot_revert_live_completed_tool_or_new_public_thought": "/tmp/hermes-v012-python-resumed.log",
+    "test_timeline_order.TimelineOrderUITest.test_three_actual_rounds_interleave_user_thought_public_text_tool_updates_and_final_without_duplicates": "/tmp/hermes-v012-python-resumed.log",
+    "test_timeline_order.TimelineOrderUITest.test_unrelated_tool_append_preserves_selected_public_text_open_thought_details_and_reading_scroll": "/tmp/hermes-v012-python-resumed.log",
+    "test_transport.Tests.test_authenticated_e2e_phone_roundtrip": "/tmp/hermes-v012-python-resumed.log",
+    "test_transport.Tests.test_cancel_wakes_waiting_tool": "/tmp/hermes-v012-python-resumed.log",
+    "test_transport.Tests.test_event_cursor_monotonic": "/tmp/hermes-v012-python-resumed.log",
+    "test_transport.Tests.test_result_idempotency_and_conflict": "/tmp/hermes-v012-python-resumed.log",
+    "test_transport.Tests.test_schema_fails_closed": "/tmp/hermes-v012-python-resumed.log",
+    "test_transport.Tests.test_session_and_request_isolation": "/tmp/hermes-v012-python-resumed.log",
+    "test_transport.Tests.test_tools_are_phone_only": "/tmp/hermes-v012-python-resumed.log",
+    "test_transport.Tests.test_unconfigured_engine_refuses_run": "/tmp/hermes-v012-python-resumed.log",
+    "test_transport.Tests.test_uuid_rejects_paths": "/tmp/hermes-v012-python-resumed.log",
+    "test_transport.Tests.test_weak_token_rejected": "/tmp/hermes-v012-python-resumed.log",
+    "test_ui.UITest.test_accepted_pending_draft_reconciles_with_native_history_without_resend": "/tmp/hermes-v012-python-resumed.log",
+    "test_ui.UITest.test_browser_preview_is_honest": "/tmp/hermes-v012-python-resumed.log",
+    "test_ui.UITest.test_composer_draft_restores_after_reload_without_focus_or_api_key_storage": "/tmp/hermes-v012-python-resumed.log",
+    "test_ui.UITest.test_composer_remains_visible_in_short_keyboard_sized_viewport": "/tmp/hermes-v012-python-resumed.log",
+    "test_ui.UITest.test_failed_stream_preserves_partial_answer_as_incomplete": "/tmp/hermes-v012-python-resumed.log",
+    "test_ui.UITest.test_five_tabs_render_without_overflow": "/tmp/hermes-v012-python-resumed.log",
+    "test_ui.UITest.test_mobile_drawer_keyboard_scrim_and_wide_mobile_preview": "/tmp/hermes-v012-python-resumed.log",
+    "test_ui.UITest.test_model_api_credentials_save_and_connection_use_direct_mode": "/tmp/hermes-v012-last-fixture-targeted.log",
+    "test_ui.UITest.test_model_text_is_not_html": "/tmp/hermes-v012-python-resumed.log",
+    "test_ui.UITest.test_new_chat_clears_conversation_and_disables_blank_send": "/tmp/hermes-v012-python-resumed.log",
+    "test_ui.UITest.test_rapid_stream_completion_flushes_final_text_without_delayed_overwrite": "/tmp/hermes-v012-python-resumed.log",
+    "test_ui.UITest.test_rapid_stream_interruption_preserves_latest_pending_delta": "/tmp/hermes-v012-python-resumed.log",
+    "test_ui.UITest.test_standalone_model_api_setup_has_no_engine_selector": "/tmp/hermes-v012-python-resumed.log",
+    "test_ui.UITest.test_stream_and_stop_state": "/tmp/hermes-v012-stream-stop-targeted.log",
+    "test_ui.UITest.test_stream_preserves_reading_position_and_jump_returns_to_latest": "/tmp/hermes-v012-python-resumed.log",
+    "test_ui.UITest.test_tool_catalog_covers_native_phone_loop": "/tmp/hermes-v012-python-resumed.log",
+    "test_versioning.VersionTests.test_invalid_releases": "/tmp/hermes-v012-versioning.log",
+    "test_versioning.VersionTests.test_major_and_channel_promotion_increase_code": "/tmp/hermes-v012-versioning.log",
+    "test_versioning.VersionTests.test_numbering_and_rollovers": "/tmp/hermes-v012-versioning.log",
+    "test_versioning.VersionTests.test_sync_preserves_manifest_and_check_rejects_stale_metadata": "/tmp/hermes-v012-versioning.log",
+    "test_versioning.VersionTests.test_version_json_rejects_unknown_fields": "/tmp/hermes-v012-versioning.log"
+  },
+  "logs": [
+    {
+      "path": "/tmp/hermes-v012-python-full.log",
+      "sha256": "ba9e9492c7916d1bfc5777b9227a5979b9714addb8546715d6d72815248a66fc"
+    },
+    {
+      "path": "/tmp/hermes-v012-python-resumed.log",
+      "sha256": "b3a299a5a9e1f0870028b14c0af137bd3982aedac7c0f1969ee4a8cb23f0e798"
+    },
+    {
+      "path": "/tmp/hermes-v012-versioning.log",
+      "sha256": "bcadb7e8832a45b5064456c7405210892156d7ff924a386f5120ae48ce425399"
+    },
+    {
+      "path": "/tmp/hermes-v012-display-targeted.log",
+      "sha256": "f9c8fb8b4520c11e1e1b0e0bf0909dfeaf0dc998adb3a81cfd47494eeb252524"
+    },
+    {
+      "path": "/tmp/hermes-v012-doc-selector-targeted.log",
+      "sha256": "bd3583c7fb49dcbbde48208e18c531743a5e19ea593a9a3d4a5ae3341b3bde55"
+    },
+    {
+      "path": "/tmp/hermes-v012-package-import-targeted.log",
+      "sha256": "4b46233c10ad163d39d28d0e62b46e4d3429036ddcaee696c044ed16354ceb68"
+    },
+    {
+      "path": "/tmp/hermes-v012-stream-stop-targeted.log",
+      "sha256": "8c867cdaa3d49df547c980b2f870e03a6e981cf1762807e2632f52ee40443326"
+    },
+    {
+      "path": "/tmp/hermes-v012-memory-ui.log",
+      "sha256": "6b1fcf4f4bddc9932b6763d82a6081b552301d13cebee5e3a4587a2368cf4d7b"
+    },
+    {
+      "path": "/tmp/hermes-v012-last-fixture-targeted.log",
+      "sha256": "44896dd70ebd83b6ce5093be0d94dc3e30e83cbf1bd521909c4c2852378982eb"
+    }
+  ],
+  "archivedLogs": {
+    "/tmp/hermes-v012-context-final-targeted.log": {
+      "path": "docs/android-v012/host-checks/hermes-v012-context-final-targeted.log",
+      "sha256": "5d07b9728dc00554f2e84261d0e16ef3bba588ec509c318aa3bcbf8513f89637"
+    },
+    "/tmp/hermes-v012-diagnostics-schema.log": {
+      "path": "docs/android-v012/host-checks/hermes-v012-diagnostics-schema.log",
+      "sha256": "5b12c1afd607fce2a764c498a00b796dcda5fe32538aeb3d28ad054ecde62ac3"
+    },
+    "/tmp/hermes-v012-display-targeted.log": {
+      "path": "docs/android-v012/host-checks/hermes-v012-display-targeted.log",
+      "sha256": "f9c8fb8b4520c11e1e1b0e0bf0909dfeaf0dc998adb3a81cfd47494eeb252524"
+    },
+    "/tmp/hermes-v012-doc-selector-targeted.log": {
+      "path": "docs/android-v012/host-checks/hermes-v012-doc-selector-targeted.log",
+      "sha256": "bd3583c7fb49dcbbde48208e18c531743a5e19ea593a9a3d4a5ae3341b3bde55"
+    },
+    "/tmp/hermes-v012-jvm-full.log": {
+      "path": "docs/android-v012/host-checks/hermes-v012-jvm-full.log",
+      "sha256": "5e50534a3c0f8e32a9a53c4cedd6f9f29d73ca79c009966b3591ba611bcfdfa2"
+    },
+    "/tmp/hermes-v012-last-fixture-targeted.log": {
+      "path": "docs/android-v012/host-checks/hermes-v012-last-fixture-targeted.log",
+      "sha256": "44896dd70ebd83b6ce5093be0d94dc3e30e83cbf1bd521909c4c2852378982eb"
+    },
+    "/tmp/hermes-v012-memory-ui.log": {
+      "path": "docs/android-v012/host-checks/hermes-v012-memory-ui.log",
+      "sha256": "6b1fcf4f4bddc9932b6763d82a6081b552301d13cebee5e3a4587a2368cf4d7b"
+    },
+    "/tmp/hermes-v012-package-import-targeted.log": {
+      "path": "docs/android-v012/host-checks/hermes-v012-package-import-targeted.log",
+      "sha256": "4b46233c10ad163d39d28d0e62b46e4d3429036ddcaee696c044ed16354ceb68"
+    },
+    "/tmp/hermes-v012-python-full.log": {
+      "path": "docs/android-v012/host-checks/hermes-v012-python-full.log",
+      "sha256": "ba9e9492c7916d1bfc5777b9227a5979b9714addb8546715d6d72815248a66fc"
+    },
+    "/tmp/hermes-v012-python-resumed.log": {
+      "path": "docs/android-v012/host-checks/hermes-v012-python-resumed.log",
+      "sha256": "b3a299a5a9e1f0870028b14c0af137bd3982aedac7c0f1969ee4a8cb23f0e798"
+    },
+    "/tmp/hermes-v012-sdk-contracts.log": {
+      "path": "docs/android-v012/host-checks/hermes-v012-sdk-contracts.log",
+      "sha256": "42ef1f795b48dfe077833f86a0efb99a8b1746f80ecc6fc30d51ad130f39f81c"
+    },
+    "/tmp/hermes-v012-stream-stop-targeted.log": {
+      "path": "docs/android-v012/host-checks/hermes-v012-stream-stop-targeted.log",
+      "sha256": "8c867cdaa3d49df547c980b2f870e03a6e981cf1762807e2632f52ee40443326"
+    },
+    "/tmp/hermes-v012-versioning.log": {
+      "path": "docs/android-v012/host-checks/hermes-v012-versioning.log",
+      "sha256": "bcadb7e8832a45b5064456c7405210892156d7ff924a386f5120ae48ce425399"
+    },
+    "/tmp/hermes-v012-web-router.log": {
+      "path": "docs/android-v012/host-checks/hermes-v012-web-router.log",
+      "sha256": "0f10ca9637e8173e1af790f9d8d456e4a76b209c4f516159b0901ba14f5f6060"
+    }
+  },
+  "shadeFollowupReview": "Only DeviceTools shade passive observation changed after prior regression evidence. Real source compilation and8 validators rerun. Passive snapshot loop reviewed for cancellation/preflight/approval-mode checks and existing same-window max2 Back guard; no host behavior proof of actual native shade transition.",
+  "shadeFollowupSourceSha256": "e208656b2fe87c0d61966492b80064e041a216e6c688b25e855da3ca4b5af71f"
+}

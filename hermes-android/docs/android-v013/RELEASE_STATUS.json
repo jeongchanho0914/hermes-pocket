@@ -1,0 +1,31 @@
+{
+  "generatedAt": "2026-10-04T08:30:16.015573+00:00",
+  "status": "installed_beta_with_documented_verification_gaps",
+  "version": "0.13",
+  "versionCode": 13,
+  "apk": "dist/hermes-pocket-v0.13.apk",
+  "apkBytes": 7099970,
+  "apkSha256": "ce76dfbf9835b895e010ca46b02994676e58da03bf58526f26f9574e4ea342ad",
+  "s24InstallVerified": true,
+  "s24ProcessAlive": true,
+  "dataReset": false,
+  "originalSigningPreserved": true,
+  "fullHermesParity": false,
+  "productionOriginalPythonEngine": false,
+  "nativeJobsCliChecksPassed": 14,
+  "nativeCompleteSuitePassed": false,
+  "nativeSemanticPrerequisiteAvailable": false,
+  "postInstallDiagnostics": {
+    "collectedAt": "2026-10-04T08:28:17.033406+00:00",
+    "records": 2,
+    "newVersionRecords": 0,
+    "oldRecordsNotDeleted": true
+  },
+  "evidence": {
+    "s24-install.json": "16adc349e15d1f18f82d83b5027c92295f20f75cdccc9d8adb60fe53ef6cf0b0",
+    "native-verification.json": "a4846408c758a4a4cd8822ff19caec71760f68af881bce80a653535f5ffd31e1",
+    "host-regression-results.json": "dc1f7c498cb92fb6c39b7cb0dcc355ac19976a823e7897c41317be9f8714d206",
+    "native-asset-fix-verification.json": "a54b16f711a6f7f72a96b4286301d4d8155f10282e854e1bf365ad1d8c601c98",
+    "s24-arm-candidate.json": "33577d76ed7d5fdce80e69c458dc501b982f8dccaee99fd2c6a1bd98ff922f19"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "ok": true,
+  "result": {
+    "version": "0.03",
+    "enabledPlugins": [
+      "device",
+      "screen",
+      "root"
+    ],
+    "hasModel": true,
+    "hasToken": true,
+    "device": {
+      "model": "samsung SM-S928N",
+      "android": "16",
+      "sdk": 36,
+      "battery": 100,
+      "charging": true,
+      "memoryTotalGb": 10.8,
+      "memoryAvailableGb": 2.9,
+      "volume": 67,
+      "brightness": 132,
+      "wifi": true,
+      "root": false,
+      "rootEnabled": true,
+      "systemUid": false,
+      "accessibility": false,
+      "writeSettings": true
+    },
+    "get_device_state": {
+      "ok": true,
+      "result": {
+        "model": "samsung SM-S928N",
+        "android": "16",
+        "sdk": 36,
+        "battery": 100,
+        "charging": true,
+        "memoryTotalGb": 10.8,
+        "memoryAvailableGb": 2.9,
+        "volume": 67,
+        "brightness": 132,
+        "wifi": true,
+        "root": false,
+        "rootEnabled": true,
+        "systemUid": false,
+        "accessibility": false,
+        "writeSettings": true
+      }
+    },
+    "list_apps": {
+      "ok": true,
+      "count": 158
+    }
+  }
+}

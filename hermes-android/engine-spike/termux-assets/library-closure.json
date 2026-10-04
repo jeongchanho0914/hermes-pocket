@@ -1,0 +1,5328 @@
+{
+  "providedLibraries": 391,
+  "libraries": [
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/libpython3.so",
+      "soname": "libpython3.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/libpython3.14.so",
+      "soname": "libpython3.14.so",
+      "needed": [
+        "libandroid-support.so",
+        "libm.so",
+        "libdl.so",
+        "liblog.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_decimal.cpython-314-aarch64-linux-android.so",
+      "soname": "_decimal.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libm.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_testclinic_limited.cpython-314-aarch64-linux-android.so",
+      "soname": "_testclinic_limited.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_hmac.cpython-314-aarch64-linux-android.so",
+      "soname": "_hmac.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_sha2.cpython-314-aarch64-linux-android.so",
+      "soname": "_sha2.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/fcntl.cpython-314-aarch64-linux-android.so",
+      "soname": "fcntl.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/resource.cpython-314-aarch64-linux-android.so",
+      "soname": "resource.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/readline.cpython-314-aarch64-linux-android.so",
+      "soname": "readline.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libreadline.so.8",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/xxlimited.cpython-314-aarch64-linux-android.so",
+      "soname": "xxlimited.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_ctypes_test.cpython-314-aarch64-linux-android.so",
+      "soname": "_ctypes_test.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_elementtree.cpython-314-aarch64-linux-android.so",
+      "soname": "_elementtree.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_struct.cpython-314-aarch64-linux-android.so",
+      "soname": "_struct.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/zlib.cpython-314-aarch64-linux-android.so",
+      "soname": "zlib.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libz.so.1",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_blake2.cpython-314-aarch64-linux-android.so",
+      "soname": "_blake2.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/unicodedata.cpython-314-aarch64-linux-android.so",
+      "soname": "unicodedata.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_codecs_tw.cpython-314-aarch64-linux-android.so",
+      "soname": "_codecs_tw.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_testinternalcapi.cpython-314-aarch64-linux-android.so",
+      "soname": "_testinternalcapi.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_curses.cpython-314-aarch64-linux-android.so",
+      "soname": "_curses.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libncursesw.so.6",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_testclinic.cpython-314-aarch64-linux-android.so",
+      "soname": "_testclinic.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_testsinglephase.cpython-314-aarch64-linux-android.so",
+      "soname": "_testsinglephase.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_statistics.cpython-314-aarch64-linux-android.so",
+      "soname": "_statistics.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libm.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_queue.cpython-314-aarch64-linux-android.so",
+      "soname": "_queue.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/select.cpython-314-aarch64-linux-android.so",
+      "soname": "select.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_dbm.cpython-314-aarch64-linux-android.so",
+      "soname": "_dbm.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libgdbm_compat.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/xxsubtype.cpython-314-aarch64-linux-android.so",
+      "soname": "xxsubtype.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_interpreters.cpython-314-aarch64-linux-android.so",
+      "soname": "_interpreters.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/mmap.cpython-314-aarch64-linux-android.so",
+      "soname": "mmap.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_xxtestfuzz.cpython-314-aarch64-linux-android.so",
+      "soname": "_xxtestfuzz.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_hashlib.cpython-314-aarch64-linux-android.so",
+      "soname": "_hashlib.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libcrypto.so.3",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_ssl.cpython-314-aarch64-linux-android.so",
+      "soname": "_ssl.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libssl.so.3",
+        "libcrypto.so.3",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_lzma.cpython-314-aarch64-linux-android.so",
+      "soname": "_lzma.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "liblzma.so.5",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_codecs_iso2022.cpython-314-aarch64-linux-android.so",
+      "soname": "_codecs_iso2022.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_bz2.cpython-314-aarch64-linux-android.so",
+      "soname": "_bz2.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libbz2.so.1.0",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_codecs_kr.cpython-314-aarch64-linux-android.so",
+      "soname": "_codecs_kr.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_bisect.cpython-314-aarch64-linux-android.so",
+      "soname": "_bisect.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_interpqueues.cpython-314-aarch64-linux-android.so",
+      "soname": "_interpqueues.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_codecs_jp.cpython-314-aarch64-linux-android.so",
+      "soname": "_codecs_jp.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_sqlite3.cpython-314-aarch64-linux-android.so",
+      "soname": "_sqlite3.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libsqlite3.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_testmultiphase.cpython-314-aarch64-linux-android.so",
+      "soname": "_testmultiphase.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_json.cpython-314-aarch64-linux-android.so",
+      "soname": "_json.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_ctypes.cpython-314-aarch64-linux-android.so",
+      "soname": "_ctypes.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libffi.so",
+        "libdl.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_gdbm.cpython-314-aarch64-linux-android.so",
+      "soname": "_gdbm.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libgdbm.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_remote_debugging.cpython-314-aarch64-linux-android.so",
+      "soname": "_remote_debugging.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/grp.cpython-314-aarch64-linux-android.so",
+      "soname": "grp.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_posixshmem.cpython-314-aarch64-linux-android.so",
+      "soname": "_posixshmem.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/xxlimited_35.cpython-314-aarch64-linux-android.so",
+      "soname": "xxlimited_35.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/termios.cpython-314-aarch64-linux-android.so",
+      "soname": "termios.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_testlimitedcapi.cpython-314-aarch64-linux-android.so",
+      "soname": "_testlimitedcapi.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_lsprof.cpython-314-aarch64-linux-android.so",
+      "soname": "_lsprof.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_zoneinfo.cpython-314-aarch64-linux-android.so",
+      "soname": "_zoneinfo.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_testbuffer.cpython-314-aarch64-linux-android.so",
+      "soname": "_testbuffer.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_socket.cpython-314-aarch64-linux-android.so",
+      "soname": "_socket.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/syslog.cpython-314-aarch64-linux-android.so",
+      "soname": "syslog.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_pickle.cpython-314-aarch64-linux-android.so",
+      "soname": "_pickle.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/pyexpat.cpython-314-aarch64-linux-android.so",
+      "soname": "pyexpat.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libexpat.so.1",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/math.cpython-314-aarch64-linux-android.so",
+      "soname": "math.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libm.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_codecs_cn.cpython-314-aarch64-linux-android.so",
+      "soname": "_codecs_cn.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_sha1.cpython-314-aarch64-linux-android.so",
+      "soname": "_sha1.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/array.cpython-314-aarch64-linux-android.so",
+      "soname": "array.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_multiprocessing.cpython-314-aarch64-linux-android.so",
+      "soname": "_multiprocessing.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libandroid-posix-semaphore.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_posixsubprocess.cpython-314-aarch64-linux-android.so",
+      "soname": "_posixsubprocess.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_heapq.cpython-314-aarch64-linux-android.so",
+      "soname": "_heapq.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_csv.cpython-314-aarch64-linux-android.so",
+      "soname": "_csv.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_md5.cpython-314-aarch64-linux-android.so",
+      "soname": "_md5.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_asyncio.cpython-314-aarch64-linux-android.so",
+      "soname": "_asyncio.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_random.cpython-314-aarch64-linux-android.so",
+      "soname": "_random.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/cmath.cpython-314-aarch64-linux-android.so",
+      "soname": "cmath.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libm.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_interpchannels.cpython-314-aarch64-linux-android.so",
+      "soname": "_interpchannels.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/binascii.cpython-314-aarch64-linux-android.so",
+      "soname": "binascii.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libz.so.1",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_zstd.cpython-314-aarch64-linux-android.so",
+      "soname": "_zstd.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libzstd.so.1",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_curses_panel.cpython-314-aarch64-linux-android.so",
+      "soname": "_curses_panel.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpanelw.so.6",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_multibytecodec.cpython-314-aarch64-linux-android.so",
+      "soname": "_multibytecodec.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_testimportmultiple.cpython-314-aarch64-linux-android.so",
+      "soname": "_testimportmultiple.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_sha3.cpython-314-aarch64-linux-android.so",
+      "soname": "_sha3.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_codecs_hk.cpython-314-aarch64-linux-android.so",
+      "soname": "_codecs_hk.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/python/data/data/com.termux/files/usr/lib/python3.14/lib-dynload/_testcapi.cpython-314-aarch64-linux-android.so",
+      "soname": "_testcapi.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/ffmpeg/data/data/com.termux/files/usr/lib/libavdevice.so.62.3.102",
+      "soname": "libavdevice.so.62",
+      "needed": [
+        "libavfilter.so.11",
+        "libavformat.so.62",
+        "libavcodec.so.62",
+        "libavutil.so.60",
+        "libxcb.so",
+        "libxcb-shm.so",
+        "libxcb-shape.so",
+        "libxcb-xfixes.so",
+        "libandroid-shmem.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/ffmpeg/data/data/com.termux/files/usr/lib/libavutil.so",
+      "soname": "libavutil.so.60",
+      "needed": [
+        "libm.so",
+        "libz.so.1",
+        "libOpenCL.so",
+        "libandroid.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/ffmpeg/data/data/com.termux/files/usr/lib/libswscale.so.9",
+      "soname": "libswscale.so.9",
+      "needed": [
+        "libavutil.so.60",
+        "libm.so",
+        "libglslang.so",
+        "libz.so.1",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/ffmpeg/data/data/com.termux/files/usr/lib/libavutil.so.60.26.102",
+      "soname": "libavutil.so.60",
+      "needed": [
+        "libm.so",
+        "libz.so.1",
+        "libOpenCL.so",
+        "libandroid.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/ffmpeg/data/data/com.termux/files/usr/lib/libavdevice.so.62",
+      "soname": "libavdevice.so.62",
+      "needed": [
+        "libavfilter.so.11",
+        "libavformat.so.62",
+        "libavcodec.so.62",
+        "libavutil.so.60",
+        "libxcb.so",
+        "libxcb-shm.so",
+        "libxcb-shape.so",
+        "libxcb-xfixes.so",
+        "libandroid-shmem.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/ffmpeg/data/data/com.termux/files/usr/lib/libavfilter.so.11",
+      "soname": "libavfilter.so.11",
+      "needed": [
+        "libswscale.so.9",
+        "libavformat.so.62",
+        "libavcodec.so.62",
+        "libswresample.so.6",
+        "libavutil.so.60",
+        "libm.so",
+        "libz.so.1",
+        "libbs2b.so",
+        "librubberband.so",
+        "libmysofa.so",
+        "libharfbuzz.so",
+        "libfribidi.so",
+        "liblcms2.so",
+        "libplacebo.so",
+        "libvmaf.so",
+        "libass.so",
+        "libvidstab.so",
+        "libzmq.so",
+        "libzimg.so",
+        "libglslang.so",
+        "libOpenCL.so",
+        "libfontconfig.so",
+        "libfreetype.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/ffmpeg/data/data/com.termux/files/usr/lib/libavcodec.so.62.28.102",
+      "soname": "libavcodec.so.62",
+      "needed": [
+        "libswresample.so.6",
+        "libavutil.so.60",
+        "libvpx.so.12",
+        "libm.so",
+        "libwebpmux.so",
+        "libwebp.so",
+        "libiconv.so",
+        "liblcms2.so",
+        "liblzma.so.5",
+        "libdav1d.so",
+        "libopencore-amrwb.so",
+        "libaom.so",
+        "libjxl.so",
+        "libjxl_threads.so",
+        "libmp3lame.so",
+        "libopencore-amrnb.so",
+        "libopus.so",
+        "librav1e.so",
+        "libSvtAv1Enc.so",
+        "libtheoraenc.so",
+        "libtheoradec.so",
+        "libvo-amrwbenc.so.0",
+        "libvorbis.so",
+        "libvorbisenc.so",
+        "libx264.so.164",
+        "libx265.so",
+        "libxvidcore.so.4",
+        "libandroid.so",
+        "libmediandk.so",
+        "libz.so.1",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": [
+        "libmediandk.so"
+      ]
+    },
+    {
+      "path": "tools/ffmpeg/data/data/com.termux/files/usr/lib/libswscale.so",
+      "soname": "libswscale.so.9",
+      "needed": [
+        "libavutil.so.60",
+        "libm.so",
+        "libglslang.so",
+        "libz.so.1",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/ffmpeg/data/data/com.termux/files/usr/lib/libavformat.so.62",
+      "soname": "libavformat.so.62",
+      "needed": [
+        "libavcodec.so.62",
+        "libavutil.so.60",
+        "libm.so",
+        "libxml2.so.16",
+        "libbz2.so.1.0",
+        "libdvdnav.so.4",
+        "libdvdread.so.8",
+        "libgme.so",
+        "libopenmpt.so",
+        "libbluray.so.4",
+        "libz.so.1",
+        "libssl.so.3",
+        "libcrypto.so.3",
+        "libsrt.so",
+        "libssh.so",
+        "libzmq.so",
+        "libiconv.so",
+        "libandroid-glob.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/ffmpeg/data/data/com.termux/files/usr/lib/libavcodec.so",
+      "soname": "libavcodec.so.62",
+      "needed": [
+        "libswresample.so.6",
+        "libavutil.so.60",
+        "libvpx.so.12",
+        "libm.so",
+        "libwebpmux.so",
+        "libwebp.so",
+        "libiconv.so",
+        "liblcms2.so",
+        "liblzma.so.5",
+        "libdav1d.so",
+        "libopencore-amrwb.so",
+        "libaom.so",
+        "libjxl.so",
+        "libjxl_threads.so",
+        "libmp3lame.so",
+        "libopencore-amrnb.so",
+        "libopus.so",
+        "librav1e.so",
+        "libSvtAv1Enc.so",
+        "libtheoraenc.so",
+        "libtheoradec.so",
+        "libvo-amrwbenc.so.0",
+        "libvorbis.so",
+        "libvorbisenc.so",
+        "libx264.so.164",
+        "libx265.so",
+        "libxvidcore.so.4",
+        "libandroid.so",
+        "libmediandk.so",
+        "libz.so.1",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": [
+        "libmediandk.so"
+      ]
+    },
+    {
+      "path": "tools/ffmpeg/data/data/com.termux/files/usr/lib/libavformat.so.62.12.102",
+      "soname": "libavformat.so.62",
+      "needed": [
+        "libavcodec.so.62",
+        "libavutil.so.60",
+        "libm.so",
+        "libxml2.so.16",
+        "libbz2.so.1.0",
+        "libdvdnav.so.4",
+        "libdvdread.so.8",
+        "libgme.so",
+        "libopenmpt.so",
+        "libbluray.so.4",
+        "libz.so.1",
+        "libssl.so.3",
+        "libcrypto.so.3",
+        "libsrt.so",
+        "libssh.so",
+        "libzmq.so",
+        "libiconv.so",
+        "libandroid-glob.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/ffmpeg/data/data/com.termux/files/usr/lib/libswresample.so.6.3.102",
+      "soname": "libswresample.so.6",
+      "needed": [
+        "libavutil.so.60",
+        "libm.so",
+        "libsoxr.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/ffmpeg/data/data/com.termux/files/usr/lib/libswscale.so.9.5.102",
+      "soname": "libswscale.so.9",
+      "needed": [
+        "libavutil.so.60",
+        "libm.so",
+        "libglslang.so",
+        "libz.so.1",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/ffmpeg/data/data/com.termux/files/usr/lib/libavdevice.so",
+      "soname": "libavdevice.so.62",
+      "needed": [
+        "libavfilter.so.11",
+        "libavformat.so.62",
+        "libavcodec.so.62",
+        "libavutil.so.60",
+        "libxcb.so",
+        "libxcb-shm.so",
+        "libxcb-shape.so",
+        "libxcb-xfixes.so",
+        "libandroid-shmem.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/ffmpeg/data/data/com.termux/files/usr/lib/libavcodec.so.62",
+      "soname": "libavcodec.so.62",
+      "needed": [
+        "libswresample.so.6",
+        "libavutil.so.60",
+        "libvpx.so.12",
+        "libm.so",
+        "libwebpmux.so",
+        "libwebp.so",
+        "libiconv.so",
+        "liblcms2.so",
+        "liblzma.so.5",
+        "libdav1d.so",
+        "libopencore-amrwb.so",
+        "libaom.so",
+        "libjxl.so",
+        "libjxl_threads.so",
+        "libmp3lame.so",
+        "libopencore-amrnb.so",
+        "libopus.so",
+        "librav1e.so",
+        "libSvtAv1Enc.so",
+        "libtheoraenc.so",
+        "libtheoradec.so",
+        "libvo-amrwbenc.so.0",
+        "libvorbis.so",
+        "libvorbisenc.so",
+        "libx264.so.164",
+        "libx265.so",
+        "libxvidcore.so.4",
+        "libandroid.so",
+        "libmediandk.so",
+        "libz.so.1",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": [
+        "libmediandk.so"
+      ]
+    },
+    {
+      "path": "tools/ffmpeg/data/data/com.termux/files/usr/lib/libswresample.so",
+      "soname": "libswresample.so.6",
+      "needed": [
+        "libavutil.so.60",
+        "libm.so",
+        "libsoxr.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/ffmpeg/data/data/com.termux/files/usr/lib/libavformat.so",
+      "soname": "libavformat.so.62",
+      "needed": [
+        "libavcodec.so.62",
+        "libavutil.so.60",
+        "libm.so",
+        "libxml2.so.16",
+        "libbz2.so.1.0",
+        "libdvdnav.so.4",
+        "libdvdread.so.8",
+        "libgme.so",
+        "libopenmpt.so",
+        "libbluray.so.4",
+        "libz.so.1",
+        "libssl.so.3",
+        "libcrypto.so.3",
+        "libsrt.so",
+        "libssh.so",
+        "libzmq.so",
+        "libiconv.so",
+        "libandroid-glob.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/ffmpeg/data/data/com.termux/files/usr/lib/libswresample.so.6",
+      "soname": "libswresample.so.6",
+      "needed": [
+        "libavutil.so.60",
+        "libm.so",
+        "libsoxr.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/ffmpeg/data/data/com.termux/files/usr/lib/libavfilter.so",
+      "soname": "libavfilter.so.11",
+      "needed": [
+        "libswscale.so.9",
+        "libavformat.so.62",
+        "libavcodec.so.62",
+        "libswresample.so.6",
+        "libavutil.so.60",
+        "libm.so",
+        "libz.so.1",
+        "libbs2b.so",
+        "librubberband.so",
+        "libmysofa.so",
+        "libharfbuzz.so",
+        "libfribidi.so",
+        "liblcms2.so",
+        "libplacebo.so",
+        "libvmaf.so",
+        "libass.so",
+        "libvidstab.so",
+        "libzmq.so",
+        "libzimg.so",
+        "libglslang.so",
+        "libOpenCL.so",
+        "libfontconfig.so",
+        "libfreetype.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/ffmpeg/data/data/com.termux/files/usr/lib/libavutil.so.60",
+      "soname": "libavutil.so.60",
+      "needed": [
+        "libm.so",
+        "libz.so.1",
+        "libOpenCL.so",
+        "libandroid.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "tools/ffmpeg/data/data/com.termux/files/usr/lib/libavfilter.so.11.14.102",
+      "soname": "libavfilter.so.11",
+      "needed": [
+        "libswscale.so.9",
+        "libavformat.so.62",
+        "libavcodec.so.62",
+        "libswresample.so.6",
+        "libavutil.so.60",
+        "libm.so",
+        "libz.so.1",
+        "libbs2b.so",
+        "librubberband.so",
+        "libmysofa.so",
+        "libharfbuzz.so",
+        "libfribidi.so",
+        "liblcms2.so",
+        "libplacebo.so",
+        "libvmaf.so",
+        "libass.so",
+        "libvidstab.so",
+        "libzmq.so",
+        "libzimg.so",
+        "libglslang.so",
+        "libOpenCL.so",
+        "libfontconfig.so",
+        "libfreetype.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libvpx.so.12",
+      "soname": "libvpx.so.12",
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libicuio.so.78.3",
+      "soname": "libicuio.so.78",
+      "needed": [
+        "libicuuc.so.78",
+        "libicui18n.so.78",
+        "libc.so",
+        "libc++_shared.so",
+        "libdl.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libglslang-default-resource-limits.so",
+      "soname": "libglslang-default-resource-limits.so",
+      "needed": [
+        "libc++_shared.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libvo-amrwbenc.so.0",
+      "soname": "libvo-amrwbenc.so.0",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libsoxr.so",
+      "soname": "libsoxr.so",
+      "needed": [
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libxcb-sync.so",
+      "soname": "libxcb-sync.so",
+      "needed": [
+        "libxcb.so",
+        "libXau.so",
+        "libXdmcp.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libass.so",
+      "soname": "libass.so",
+      "needed": [
+        "libm.so",
+        "libiconv.so",
+        "libfribidi.so",
+        "libharfbuzz.so",
+        "libfontconfig.so",
+        "libfreetype.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libexpat.so.1.12.4",
+      "soname": "libexpat.so.1",
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libxcb-xtest.so",
+      "soname": "libxcb-xtest.so",
+      "needed": [
+        "libxcb.so",
+        "libXau.so",
+        "libXdmcp.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libtheoraenc.so",
+      "soname": "libtheoraenc.so",
+      "needed": [
+        "libogg.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libOpenCL.so",
+      "soname": "libOpenCL.so",
+      "needed": [
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libharfbuzz-gobject.so",
+      "soname": "libharfbuzz-gobject.so",
+      "needed": [
+        "libharfbuzz.so",
+        "libglib-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libgirepository-2.0.so.0.9000.0",
+      "soname": "libgirepository-2.0.so.0",
+      "needed": [
+        "libandroid-support.so",
+        "libglib-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libgmodule-2.0.so.0",
+        "libffi.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libvulkan.so",
+      "soname": "libvulkan.so.1",
+      "needed": [
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libreadline.so.8",
+      "soname": "libreadline.so.8",
+      "needed": [
+        "libandroid-support.so",
+        "libncursesw.so.6",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libtinfo.so",
+      "soname": "libncursesw.so.6",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libvorbis.so",
+      "soname": "libvorbis.so",
+      "needed": [
+        "libm.so",
+        "libogg.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libtic.so.6",
+      "soname": "libncursesw.so.6",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libvo-amrwbenc.so.0.0.4",
+      "soname": "libvo-amrwbenc.so.0",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libicutu.so",
+      "soname": "libicutu.so.78",
+      "needed": [
+        "libicui18n.so.78",
+        "libicuuc.so.78",
+        "libc.so",
+        "libc++_shared.so",
+        "libdl.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libexpat.so.1",
+      "soname": "libexpat.so.1",
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libncurses.so",
+      "soname": "libncursesw.so.6",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libbrotlicommon.so",
+      "soname": "libbrotlicommon.so",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libicutu.so.78.3",
+      "soname": "libicutu.so.78",
+      "needed": [
+        "libicui18n.so.78",
+        "libicuuc.so.78",
+        "libc.so",
+        "libc++_shared.so",
+        "libdl.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libmenuw.so.6.5",
+      "soname": "libmenuw.so.6",
+      "needed": [
+        "libc.so",
+        "libncursesw.so.6"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libxcb-xinerama.so",
+      "soname": "libxcb-xinerama.so",
+      "needed": [
+        "libxcb.so",
+        "libXau.so",
+        "libXdmcp.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libtiff.so",
+      "soname": "libtiff.so",
+      "needed": [
+        "libzstd.so.1",
+        "liblzma.so.5",
+        "libjpeg.so.8",
+        "libz.so.1",
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libreadline.so",
+      "soname": "libreadline.so.8",
+      "needed": [
+        "libandroid-support.so",
+        "libncursesw.so.6",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libiconv.so",
+      "soname": "libiconv.so",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libxcb-dbe.so",
+      "soname": "libxcb-dbe.so",
+      "needed": [
+        "libxcb.so",
+        "libXau.so",
+        "libXdmcp.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libvpx.so.12.1",
+      "soname": "libvpx.so.12",
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libbluray.so.4",
+      "soname": "libbluray.so.4",
+      "needed": [
+        "libfontconfig.so",
+        "libfreetype.so",
+        "libudfread.so.3",
+        "libxml2.so.16",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libmenu.so",
+      "soname": "libmenuw.so.6",
+      "needed": [
+        "libc.so",
+        "libncursesw.so.6"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libzstd.so",
+      "soname": "libzstd.so.1",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libdvdread.so",
+      "soname": "libdvdread.so.8",
+      "needed": [
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libxcb-xfixes.so",
+      "soname": "libxcb-xfixes.so",
+      "needed": [
+        "libxcb.so",
+        "libXau.so",
+        "libXdmcp.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libdvdread.so.8",
+      "soname": "libdvdread.so.8",
+      "needed": [
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libxcb.so",
+      "soname": "libxcb.so",
+      "needed": [
+        "libXau.so",
+        "libXdmcp.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libsqlite3.53.4.so",
+      "soname": "libsqlite3.53.4.so",
+      "needed": [
+        "libz.so.1",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libxcb-damage.so",
+      "soname": "libxcb-damage.so",
+      "needed": [
+        "libxcb.so",
+        "libXau.so",
+        "libXdmcp.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libcrypt.so",
+      "soname": "libcrypt.so",
+      "needed": [
+        "libcrypto.so.3",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libxvidcore.so.4.3",
+      "soname": "libxvidcore.so.4",
+      "needed": [
+        "libc.so",
+        "libm.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libjxl_threads.so",
+      "soname": "libjxl_threads.so",
+      "needed": [
+        "libc++_shared.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libcares.so",
+      "soname": "libcares.so",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libformw.so",
+      "soname": "libformw.so.6",
+      "needed": [
+        "libc.so",
+        "libncursesw.so.6"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libform.so",
+      "soname": "libformw.so.6",
+      "needed": [
+        "libc.so",
+        "libncursesw.so.6"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libz.so.1.3.2",
+      "soname": "libz.so.1",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libncursesw.so",
+      "soname": "libncursesw.so.6",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libhdr10plus.so",
+      "soname": "libhdr10plus.so",
+      "needed": [
+        "libc++_shared.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libmpg123.so",
+      "soname": "libmpg123.so",
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libwebpmux.so",
+      "soname": "libwebpmux.so",
+      "needed": [
+        "libwebp.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libicui18n.so",
+      "soname": "libicui18n.so.78",
+      "needed": [
+        "libicuuc.so.78",
+        "libc.so",
+        "libm.so",
+        "libc++_shared.so",
+        "libdl.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libformw.so.6",
+      "soname": "libformw.so.6",
+      "needed": [
+        "libc.so",
+        "libncursesw.so.6"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libvo-amrwbenc.so",
+      "soname": "libvo-amrwbenc.so.0",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libgthread-2.0.so.0",
+      "soname": "libgthread-2.0.so.0",
+      "needed": [
+        "libandroid-support.so",
+        "libglib-2.0.so.0",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libform.so.6.5",
+      "soname": "libformw.so.6",
+      "needed": [
+        "libc.so",
+        "libncursesw.so.6"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libexpat.so",
+      "soname": "libexpat.so.1",
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libpanel.so",
+      "soname": "libpanelw.so.6",
+      "needed": [
+        "libc.so",
+        "libncursesw.so.6"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libx264.so.164",
+      "soname": "libx264.so.164",
+      "needed": [
+        "libm.so",
+        "libc.so",
+        "libdl.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libicudata.so.78",
+      "soname": "libicudata.so.78",
+      "needed": [],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libbz2.so.1.0.8",
+      "soname": "libbz2.so.1.0",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/liblzma.so",
+      "soname": "liblzma.so.5",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libopencore-amrwb.so",
+      "soname": "libopencore-amrwb.so",
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libpcre2-8.so",
+      "soname": "libpcre2-8.so",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libncursesw.so.6.5",
+      "soname": "libncursesw.so.6",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libjpeg.so",
+      "soname": "libjpeg.so.8",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libpanelw.so.6.5",
+      "soname": "libpanelw.so.6",
+      "needed": [
+        "libc.so",
+        "libncursesw.so.6"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libncurses.so.6.5",
+      "soname": "libncursesw.so.6",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libhwy.so",
+      "soname": "libhwy.so",
+      "needed": [
+        "libc++_shared.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libopus.so",
+      "soname": "libopus.so",
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libjxl.so",
+      "soname": "libjxl.so",
+      "needed": [
+        "libjxl_cms.so",
+        "libhwy.so",
+        "libbrotlidec.so",
+        "libbrotlienc.so",
+        "libc++_shared.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libxvidcore.so.4",
+      "soname": "libxvidcore.so.4",
+      "needed": [
+        "libc.so",
+        "libm.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libgobject-2.0.so",
+      "soname": "libgobject-2.0.so.0",
+      "needed": [
+        "libandroid-support.so",
+        "libglib-2.0.so.0",
+        "libffi.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libicui18n.so.78",
+      "soname": "libicui18n.so.78",
+      "needed": [
+        "libicuuc.so.78",
+        "libc.so",
+        "libm.so",
+        "libc++_shared.so",
+        "libdl.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libmenuw.so.6",
+      "soname": "libmenuw.so.6",
+      "needed": [
+        "libc.so",
+        "libncursesw.so.6"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libxml2.so.16.1.4",
+      "soname": "libxml2.so.16",
+      "needed": [
+        "libm.so",
+        "libz.so.1",
+        "libiconv.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libmp3lame.so.0",
+      "soname": "libmp3lame.so",
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libwebpdecoder.so",
+      "soname": "libwebpdecoder.so",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libxcb-res.so",
+      "soname": "libxcb-res.so",
+      "needed": [
+        "libxcb.so",
+        "libXau.so",
+        "libXdmcp.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libxcb-xkb.so",
+      "soname": "libxcb-xkb.so",
+      "needed": [
+        "libxcb.so",
+        "libXau.so",
+        "libXdmcp.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libcurses.so",
+      "soname": "libncursesw.so.6",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libcurses.so.6",
+      "soname": "libncursesw.so.6",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libvidstab.so",
+      "soname": "libvidstab.so",
+      "needed": [
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libwebp.so",
+      "soname": "libwebp.so",
+      "needed": [
+        "libsharpyuv.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libdvdnav.so.4.4.0",
+      "soname": "libdvdnav.so.4",
+      "needed": [
+        "libdvdread.so.8",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libpanel.so.6",
+      "soname": "libpanelw.so.6",
+      "needed": [
+        "libc.so",
+        "libncursesw.so.6"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libxcb-present.so",
+      "soname": "libxcb-present.so",
+      "needed": [
+        "libxcb.so",
+        "libXau.so",
+        "libXdmcp.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libxvidcore.so",
+      "soname": "libxvidcore.so.4",
+      "needed": [
+        "libc.so",
+        "libm.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libxcb-render.so",
+      "soname": "libxcb-render.so",
+      "needed": [
+        "libxcb.so",
+        "libXau.so",
+        "libXdmcp.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/librav1e.so.0",
+      "soname": "librav1e.so",
+      "needed": [
+        "libdl.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libheif.so.1.23.4",
+      "soname": "libheif.so.1",
+      "needed": [
+        "libx265.so",
+        "libde265.so",
+        "libaom.so",
+        "libx264.so.164",
+        "libc.so",
+        "libc++_shared.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libmenuw.so",
+      "soname": "libmenuw.so.6",
+      "needed": [
+        "libc.so",
+        "libncursesw.so.6"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libxcb-screensaver.so",
+      "soname": "libxcb-screensaver.so",
+      "needed": [
+        "libxcb.so",
+        "libXau.so",
+        "libXdmcp.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libdav1d.so",
+      "soname": "libdav1d.so",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libsyn123.so",
+      "soname": "libsyn123.so",
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libaom.so",
+      "soname": "libaom.so",
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libbluray.so",
+      "soname": "libbluray.so.4",
+      "needed": [
+        "libfontconfig.so",
+        "libfreetype.so",
+        "libudfread.so.3",
+        "libxml2.so.16",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libicudata.so",
+      "soname": "libicudata.so.78",
+      "needed": [],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libandroid-support.so",
+      "soname": "libandroid-support.so",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libxml2.so.16",
+      "soname": "libxml2.so.16",
+      "needed": [
+        "libm.so",
+        "libz.so.1",
+        "libiconv.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libsharpyuv.so",
+      "soname": "libsharpyuv.so",
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libvpx.so.12.1.0",
+      "soname": "libvpx.so.12",
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libout123.so",
+      "soname": "libout123.so",
+      "needed": [
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libheif.so.1",
+      "soname": "libheif.so.1",
+      "needed": [
+        "libx265.so",
+        "libde265.so",
+        "libaom.so",
+        "libx264.so.164",
+        "libc.so",
+        "libc++_shared.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libandroid-posix-semaphore.so",
+      "soname": "libandroid-posix-semaphore.so",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/librubberband.so",
+      "soname": "librubberband.so",
+      "needed": [
+        "libfftw3.so",
+        "libsamplerate.so",
+        "libc++_shared.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libmp3lame.so",
+      "soname": "libmp3lame.so",
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libpanel.so.6.5",
+      "soname": "libpanelw.so.6",
+      "needed": [
+        "libc.so",
+        "libncursesw.so.6"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libfftw3f_threads.so",
+      "soname": "libfftw3f_threads.so",
+      "needed": [
+        "libfftw3f.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libxcb-shm.so",
+      "soname": "libxcb-shm.so",
+      "needed": [
+        "libxcb.so",
+        "libXau.so",
+        "libXdmcp.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/librav1e.so",
+      "soname": "librav1e.so",
+      "needed": [
+        "libdl.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libfreetype.so",
+      "soname": "libfreetype.so",
+      "needed": [
+        "libz.so.1",
+        "libbz2.so.1.0",
+        "libpng16.so",
+        "libbrotlidec.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libharfbuzz-subset.so",
+      "soname": "libharfbuzz-subset.so",
+      "needed": [
+        "libharfbuzz.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libssh.so",
+      "soname": "libssh.so",
+      "needed": [
+        "libc.so",
+        "libcrypto.so.3",
+        "libz.so.1"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libgobject-2.0.so.0",
+      "soname": "libgobject-2.0.so.0",
+      "needed": [
+        "libandroid-support.so",
+        "libglib-2.0.so.0",
+        "libffi.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libxcb-composite.so",
+      "soname": "libxcb-composite.so",
+      "needed": [
+        "libxcb.so",
+        "libXau.so",
+        "libXdmcp.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libudfread.so",
+      "soname": "libudfread.so.3",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libicutest.so.78",
+      "soname": "libicutest.so.78",
+      "needed": [
+        "libicutu.so.78",
+        "libicuuc.so.78",
+        "libc.so",
+        "libc++_shared.so",
+        "libdl.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libwebpdemux.so",
+      "soname": "libwebpdemux.so",
+      "needed": [
+        "libwebp.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libcurses.so.6.5",
+      "soname": "libncursesw.so.6",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libgthread-2.0.so",
+      "soname": "libgthread-2.0.so.0",
+      "needed": [
+        "libandroid-support.so",
+        "libglib-2.0.so.0",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libgio-2.0.so",
+      "soname": "libgio-2.0.so.0",
+      "needed": [
+        "libandroid-support.so",
+        "libglib-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libgmodule-2.0.so.0",
+        "libz.so.1",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libfribidi.so",
+      "soname": "libfribidi.so",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libicui18n.so.78.3",
+      "soname": "libicui18n.so.78",
+      "needed": [
+        "libicuuc.so.78",
+        "libc.so",
+        "libm.so",
+        "libc++_shared.so",
+        "libdl.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libtermcap.so.6.5",
+      "soname": "libncursesw.so.6",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libicuuc.so.78",
+      "soname": "libicuuc.so.78",
+      "needed": [
+        "libicudata.so.78",
+        "libc.so",
+        "libm.so",
+        "libc++_shared.so",
+        "libdl.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libglib-2.0.so.0.9000.0",
+      "soname": "libglib-2.0.so.0",
+      "needed": [
+        "libandroid-support.so",
+        "libm.so",
+        "libiconv.so",
+        "libpcre2-8.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libdvdnav.so.4",
+      "soname": "libdvdnav.so.4",
+      "needed": [
+        "libdvdread.so.8",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libgio-2.0.so.0",
+      "soname": "libgio-2.0.so.0",
+      "needed": [
+        "libandroid-support.so",
+        "libglib-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libgmodule-2.0.so.0",
+        "libz.so.1",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libgme.so",
+      "soname": "libgme.so",
+      "needed": [
+        "libz.so.1",
+        "libc++_shared.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libcharset.so",
+      "soname": "libcharset.so",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libgmodule-2.0.so.0",
+      "soname": "libgmodule-2.0.so.0",
+      "needed": [
+        "libandroid-support.so",
+        "libglib-2.0.so.0",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libx264.so",
+      "soname": "libx264.so.164",
+      "needed": [
+        "libm.so",
+        "libc.so",
+        "libdl.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libcrypto.so.3",
+      "soname": "libcrypto.so.3",
+      "needed": [
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libxcb-dpms.so",
+      "soname": "libxcb-dpms.so",
+      "needed": [
+        "libxcb.so",
+        "libXau.so",
+        "libXdmcp.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libfftw3l.so",
+      "soname": "libfftw3l.so",
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libgmodule-2.0.so.0.9000.0",
+      "soname": "libgmodule-2.0.so.0",
+      "needed": [
+        "libandroid-support.so",
+        "libglib-2.0.so.0",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libopenjp2.so",
+      "soname": "libopenjp2.so",
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libicuuc.so.78.3",
+      "soname": "libicuuc.so.78",
+      "needed": [
+        "libicudata.so.78",
+        "libc.so",
+        "libm.so",
+        "libc++_shared.so",
+        "libdl.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libhistory.so.8.3",
+      "soname": "libhistory.so.8",
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libturbojpeg.so",
+      "soname": "libturbojpeg.so.0",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libxcb-dri2.so",
+      "soname": "libxcb-dri2.so",
+      "needed": [
+        "libxcb.so",
+        "libXau.so",
+        "libXdmcp.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libopencore-amrnb.so",
+      "soname": "libopencore-amrnb.so",
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libSPIRV.so",
+      "soname": "libSPIRV.so",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libbrotlidec.so",
+      "soname": "libbrotlidec.so",
+      "needed": [
+        "libbrotlicommon.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libandroid-glob.so",
+      "soname": "libandroid-glob.so",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libicuio.so",
+      "soname": "libicuio.so.78",
+      "needed": [
+        "libicuuc.so.78",
+        "libicui18n.so.78",
+        "libc.so",
+        "libc++_shared.so",
+        "libdl.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libxcb-randr.so",
+      "soname": "libxcb-randr.so",
+      "needed": [
+        "libxcb.so",
+        "libXau.so",
+        "libXdmcp.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libSvtAv1Enc.so",
+      "soname": "libSvtAv1Enc.so",
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libbrotlienc.so",
+      "soname": "libbrotlienc.so",
+      "needed": [
+        "libm.so",
+        "libbrotlicommon.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libxcb-xvmc.so",
+      "soname": "libxcb-xvmc.so",
+      "needed": [
+        "libxcb.so",
+        "libXau.so",
+        "libXdmcp.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libopenmpt.so",
+      "soname": "libopenmpt.so",
+      "needed": [
+        "libz.so.1",
+        "libmpg123.so",
+        "libvorbis.so",
+        "libvorbisfile.so",
+        "libc.so",
+        "libc++_shared.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libheif.so",
+      "soname": "libheif.so.1",
+      "needed": [
+        "libx265.so",
+        "libde265.so",
+        "libaom.so",
+        "libx264.so.164",
+        "libc.so",
+        "libc++_shared.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libtic.so",
+      "soname": "libncursesw.so.6",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libfontconfig.so",
+      "soname": "libfontconfig.so",
+      "needed": [
+        "libfreetype.so",
+        "libexpat.so.1",
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libpng.so",
+      "soname": "libpng16.so",
+      "needed": [
+        "libz.so.1",
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libssl.so",
+      "soname": "libssl.so.3",
+      "needed": [
+        "libcrypto.so.3",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libOpenCL.so.1",
+      "soname": "libOpenCL.so",
+      "needed": [
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libncursesw.so.6",
+      "soname": "libncursesw.so.6",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libgraphite2.so",
+      "soname": "libgraphite2.so",
+      "needed": [
+        "libc++_shared.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libzmq.so",
+      "soname": "libzmq.so",
+      "needed": [
+        "libsodium.so",
+        "libc.so",
+        "libc++_shared.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libhistory.so.8",
+      "soname": "libhistory.so.8",
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/liblzma.so.5.8.4",
+      "soname": "liblzma.so.5",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libglib-2.0.so",
+      "soname": "libglib-2.0.so.0",
+      "needed": [
+        "libandroid-support.so",
+        "libm.so",
+        "libiconv.so",
+        "libpcre2-8.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/librubberband-jni.so",
+      "soname": "librubberband-jni.so",
+      "needed": [
+        "libfftw3.so",
+        "libsamplerate.so",
+        "libc++_shared.so",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libc++_shared.so",
+      "soname": "libc++_shared.so",
+      "needed": [
+        "libc.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "runpath": [],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libicutest.so.78.3",
+      "soname": "libicutest.so.78",
+      "needed": [
+        "libicutu.so.78",
+        "libicuuc.so.78",
+        "libc.so",
+        "libc++_shared.so",
+        "libdl.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libtermcap.so.6",
+      "soname": "libncursesw.so.6",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libxcb-glx.so",
+      "soname": "libxcb-glx.so",
+      "needed": [
+        "libxcb.so",
+        "libXau.so",
+        "libXdmcp.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libvulkan.so.1",
+      "soname": "libvulkan.so.1",
+      "needed": [
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libpcre2-posix.so",
+      "soname": "libpcre2-posix.so",
+      "needed": [
+        "libpcre2-8.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libpcre2-16.so",
+      "soname": "libpcre2-16.so",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libgdbm.so",
+      "soname": "libgdbm.so",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libfftw3_threads.so",
+      "soname": "libfftw3_threads.so",
+      "needed": [
+        "libfftw3.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libtic.so.6.5",
+      "soname": "libncursesw.so.6",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libxml2.so",
+      "soname": "libxml2.so.16",
+      "needed": [
+        "libm.so",
+        "libz.so.1",
+        "libiconv.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libde265.so",
+      "soname": "libde265.so",
+      "needed": [
+        "libm.so",
+        "libc++_shared.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libjpeg.so.8",
+      "soname": "libjpeg.so.8",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libmenu.so.6",
+      "soname": "libmenuw.so.6",
+      "needed": [
+        "libc.so",
+        "libncursesw.so.6"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libffi.so",
+      "soname": "libffi.so",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libz.so.1",
+      "soname": "libz.so.1",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libharfbuzz-gpu.so",
+      "soname": "libharfbuzz-gpu.so",
+      "needed": [
+        "libharfbuzz.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libpcre2-32.so",
+      "soname": "libpcre2-32.so",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libicutu.so.78",
+      "soname": "libicutu.so.78",
+      "needed": [
+        "libicui18n.so.78",
+        "libicuuc.so.78",
+        "libc.so",
+        "libc++_shared.so",
+        "libdl.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libicutest.so",
+      "soname": "libicutest.so.78",
+      "needed": [
+        "libicutu.so.78",
+        "libicuuc.so.78",
+        "libc.so",
+        "libc++_shared.so",
+        "libdl.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libsqlite3.so",
+      "soname": "libsqlite3.so",
+      "needed": [
+        "libz.so.1",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libudfread.so.3.0.0",
+      "soname": "libudfread.so.3",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libfftw3f.so",
+      "soname": "libfftw3f.so",
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libharfbuzz-vector.so",
+      "soname": "libharfbuzz-vector.so",
+      "needed": [
+        "libharfbuzz.so",
+        "libm.so",
+        "libz.so.1",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libzimg.so",
+      "soname": "libzimg.so",
+      "needed": [
+        "libc++_shared.so",
+        "libm.so",
+        "libc.so",
+        "libdl.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libandroid-shmem.so",
+      "soname": "libandroid-shmem.so",
+      "needed": [
+        "liblog.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libxcb-xf86dri.so",
+      "soname": "libxcb-xf86dri.so",
+      "needed": [
+        "libxcb.so",
+        "libXau.so",
+        "libXdmcp.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libharfbuzz.so",
+      "soname": "libharfbuzz.so",
+      "needed": [
+        "libm.so",
+        "libfreetype.so",
+        "libglib-2.0.so.0",
+        "libgraphite2.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libplacebo.so",
+      "soname": "libplacebo.so",
+      "needed": [
+        "libm.so",
+        "libglslang.so",
+        "libglslang-default-resource-limits.so",
+        "libdl.so",
+        "libvulkan.so",
+        "liblcms2.so",
+        "libc++_shared.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": [
+        "libvulkan.so"
+      ]
+    },
+    {
+      "path": "runtime-libs/lib/libvulkan.so.1.4.362",
+      "soname": "libvulkan.so.1",
+      "needed": [
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libsqlite3.so.0",
+      "soname": "libsqlite3.so.0",
+      "needed": [
+        "libz.so.1",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libtheora.so",
+      "soname": "libtheora.so",
+      "needed": [
+        "libogg.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libzstd.so.1",
+      "soname": "libzstd.so.1",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libssl.so.3",
+      "soname": "libssl.so.3",
+      "needed": [
+        "libcrypto.so.3",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libgirepository-2.0.so",
+      "soname": "libgirepository-2.0.so.0",
+      "needed": [
+        "libandroid-support.so",
+        "libglib-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libgmodule-2.0.so.0",
+        "libffi.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libgdbm_compat.so",
+      "soname": "libgdbm_compat.so",
+      "needed": [
+        "libgdbm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libpanelw.so.6",
+      "soname": "libpanelw.so.6",
+      "needed": [
+        "libc.so",
+        "libncursesw.so.6"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libncurses.so.6",
+      "soname": "libncursesw.so.6",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libtinfo.so.6.5",
+      "soname": "libncursesw.so.6",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libpng16.so",
+      "soname": "libpng16.so",
+      "needed": [
+        "libz.so.1",
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libicudata.so.78.3",
+      "soname": "libicudata.so.78",
+      "needed": [],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libz.so",
+      "soname": "libz.so.1",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libjxl_cms.so",
+      "soname": "libjxl_cms.so",
+      "needed": [
+        "libhwy.so",
+        "libc++_shared.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libxcb-xinput.so",
+      "soname": "libxcb-xinput.so",
+      "needed": [
+        "libxcb.so",
+        "libXau.so",
+        "libXdmcp.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libbz2.so.1.0",
+      "soname": "libbz2.so.1.0",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libmenu.so.6.5",
+      "soname": "libmenuw.so.6",
+      "needed": [
+        "libc.so",
+        "libncursesw.so.6"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libfftw3.so",
+      "soname": "libfftw3.so",
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libsqlite3.so.3.53.4",
+      "soname": "libsqlite3.so.3.53.4",
+      "needed": [
+        "libz.so.1",
+        "libm.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libcrypto.so",
+      "soname": "libcrypto.so.3",
+      "needed": [
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libudfread.so.3",
+      "soname": "libudfread.so.3",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libxcb-shape.so",
+      "soname": "libxcb-shape.so",
+      "needed": [
+        "libxcb.so",
+        "libXau.so",
+        "libXdmcp.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libzstd.so.1.5.7",
+      "soname": "libzstd.so.1",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libxcb-record.so",
+      "soname": "libxcb-record.so",
+      "needed": [
+        "libxcb.so",
+        "libXau.so",
+        "libXdmcp.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libyaml.so",
+      "soname": "libyaml-0.so",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libbs2b.so",
+      "soname": "libbs2b.so",
+      "needed": [
+        "libc++_shared.so",
+        "libm.so",
+        "libc.so",
+        "libdl.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libgirepository-2.0.so.0",
+      "soname": "libgirepository-2.0.so.0",
+      "needed": [
+        "libandroid-support.so",
+        "libglib-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libgmodule-2.0.so.0",
+        "libffi.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/liblzma.so.5",
+      "soname": "liblzma.so.5",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libglib-2.0.so.0",
+      "soname": "libglib-2.0.so.0",
+      "needed": [
+        "libandroid-support.so",
+        "libm.so",
+        "libiconv.so",
+        "libpcre2-8.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libglslang.so",
+      "soname": "libglslang.so",
+      "needed": [
+        "libc++_shared.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libx265.so",
+      "soname": "libx265.so",
+      "needed": [
+        "libandroid-posix-semaphore.so",
+        "libc.so",
+        "libdl.so",
+        "libc++_shared.so",
+        "libm.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libvorbisfile.so",
+      "soname": "libvorbisfile.so",
+      "needed": [
+        "libvorbis.so",
+        "libogg.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/librav1e.so.0.8.1",
+      "soname": "librav1e.so",
+      "needed": [
+        "libdl.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libgmodule-2.0.so",
+      "soname": "libgmodule-2.0.so.0",
+      "needed": [
+        "libandroid-support.so",
+        "libglib-2.0.so.0",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libreadline.so.8.3",
+      "soname": "libreadline.so.8",
+      "needed": [
+        "libandroid-support.so",
+        "libncursesw.so.6",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libtermcap.so",
+      "soname": "libncursesw.so.6",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libXdmcp.so",
+      "soname": "libXdmcp.so",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libmysofa.so",
+      "soname": "libmysofa.so",
+      "needed": [
+        "libz.so.1",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libicuuc.so",
+      "soname": "libicuuc.so.78",
+      "needed": [
+        "libicudata.so.78",
+        "libc.so",
+        "libm.so",
+        "libc++_shared.so",
+        "libdl.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libtiffxx.so",
+      "soname": "libtiffxx.so",
+      "needed": [
+        "libtiff.so",
+        "libzstd.so.1",
+        "liblzma.so.5",
+        "libjpeg.so.8",
+        "libz.so.1",
+        "libc++_shared.so",
+        "libm.so",
+        "libc.so",
+        "libdl.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libjpeg.so.8.3.2",
+      "soname": "libjpeg.so.8",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libsoxr-lsr.so",
+      "soname": "libsoxr-lsr.so",
+      "needed": [
+        "libsoxr.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libharfbuzz-cairo.so",
+      "soname": "libharfbuzz-cairo.so",
+      "needed": [
+        "libharfbuzz.so",
+        "libm.so",
+        "libcairo.so.2",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": [
+        "libcairo.so.2"
+      ]
+    },
+    {
+      "path": "runtime-libs/lib/libvorbisenc.so",
+      "soname": "libvorbisenc.so",
+      "needed": [
+        "libvorbis.so",
+        "libogg.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libxcb-xv.so",
+      "soname": "libxcb-xv.so",
+      "needed": [
+        "libxcb.so",
+        "libXau.so",
+        "libXdmcp.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libform.so.6",
+      "soname": "libformw.so.6",
+      "needed": [
+        "libc.so",
+        "libncursesw.so.6"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libbluray.so.4.0.0",
+      "soname": "libbluray.so.4",
+      "needed": [
+        "libfontconfig.so",
+        "libfreetype.so",
+        "libudfread.so.3",
+        "libxml2.so.16",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libXau.so",
+      "soname": "libXau.so",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libsodium.so",
+      "soname": "libsodium.so",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libturbojpeg.so.0",
+      "soname": "libturbojpeg.so.0",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libsrt.so",
+      "soname": "libsrt.so",
+      "needed": [
+        "libcrypto.so.3",
+        "libc.so",
+        "libc++_shared.so",
+        "libm.so",
+        "libdl.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libxcb-dri3.so",
+      "soname": "libxcb-dri3.so",
+      "needed": [
+        "libxcb.so",
+        "libXau.so",
+        "libXdmcp.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libtinfo.so.6",
+      "soname": "libncursesw.so.6",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libharfbuzz-raster.so",
+      "soname": "libharfbuzz-raster.so",
+      "needed": [
+        "libharfbuzz.so",
+        "libm.so",
+        "libpng16.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libgio-2.0.so.0.9000.0",
+      "soname": "libgio-2.0.so.0",
+      "needed": [
+        "libandroid-support.so",
+        "libglib-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libgmodule-2.0.so.0",
+        "libz.so.1",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libpanelw.so",
+      "soname": "libpanelw.so.6",
+      "needed": [
+        "libc.so",
+        "libncursesw.so.6"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libhwy_test.so",
+      "soname": "libhwy_test.so",
+      "needed": [
+        "libhwy.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/liblcms2.so",
+      "soname": "liblcms2.so",
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libvpx.so",
+      "soname": "libvpx.so.12",
+      "needed": [
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libturbojpeg.so.0.5.0",
+      "soname": "libturbojpeg.so.0",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libhwy_contrib.so",
+      "soname": "libhwy_contrib.so",
+      "needed": [
+        "libhwy.so",
+        "libc.so",
+        "libc++_shared.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libdvdnav.so",
+      "soname": "libdvdnav.so.4",
+      "needed": [
+        "libdvdread.so.8",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libyaml-0.so",
+      "soname": "libyaml-0.so",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libgthread-2.0.so.0.9000.0",
+      "soname": "libgthread-2.0.so.0",
+      "needed": [
+        "libandroid-support.so",
+        "libglib-2.0.so.0",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libgobject-2.0.so.0.9000.0",
+      "soname": "libgobject-2.0.so.0",
+      "needed": [
+        "libandroid-support.so",
+        "libglib-2.0.so.0",
+        "libffi.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libhistory.so",
+      "soname": "libhistory.so.8",
+      "needed": [
+        "libandroid-support.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libsamplerate.so",
+      "soname": "libsamplerate.so",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libfftw3l_threads.so",
+      "soname": "libfftw3l_threads.so",
+      "needed": [
+        "libfftw3l.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libformw.so.6.5",
+      "soname": "libformw.so.6",
+      "needed": [
+        "libc.so",
+        "libncursesw.so.6"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libicuio.so.78",
+      "soname": "libicuio.so.78",
+      "needed": [
+        "libicuuc.so.78",
+        "libicui18n.so.78",
+        "libc.so",
+        "libc++_shared.so",
+        "libdl.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libtheoradec.so",
+      "soname": "libtheoradec.so",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libogg.so",
+      "soname": "libogg.so",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libvmaf.so",
+      "soname": "libvmaf.so",
+      "needed": [
+        "libm.so",
+        "libc++_shared.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libbz2.so",
+      "soname": "libbz2.so.1.0",
+      "needed": [
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "runtime-libs/lib/libdvdread.so.8.2.0",
+      "soname": "libdvdread.so.8",
+      "needed": [
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "venv/lib/python3.14/site-packages/_cffi_backend.cpython-314-aarch64-linux-android.so",
+      "soname": "_cffi_backend.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libffi.so",
+        "libpython3.14.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/bin/../../usr/lib:/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "venv/lib/python3.14/site-packages/_pillow_heif.cpython-314-aarch64-linux-android.so",
+      "soname": "_pillow_heif.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libheif.so.1",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/bin/../../usr/lib:/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "venv/lib/python3.14/site-packages/_ruamel_yaml.cpython-314-aarch64-linux-android.so",
+      "soname": "_ruamel_yaml.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/bin/../../usr/lib:/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "venv/lib/python3.14/site-packages/watchfiles/_rust_notify.cpython-314-aarch64-linux-android.so",
+      "soname": "_rust_notify.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libpython3.14.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/bin/../../usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "venv/lib/python3.14/site-packages/pydantic_core/_pydantic_core.cpython-314-aarch64-linux-android.so",
+      "soname": "_pydantic_core.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libpython3.14.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/bin/../../usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "venv/lib/python3.14/site-packages/uvloop/loop.cpython-314-aarch64-linux-android.so",
+      "soname": "loop.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so",
+        "libdl.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/bin/../../usr/lib:/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "venv/lib/python3.14/site-packages/yaml/_yaml.cpython-314-aarch64-linux-android.so",
+      "soname": "_yaml.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libyaml-0.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/bin/../../usr/lib:/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "venv/lib/python3.14/site-packages/charset_normalizer/cd.cpython-314-aarch64-linux-android.so",
+      "soname": "cd.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libm.so",
+        "libpython3.14.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "venv/lib/python3.14/site-packages/charset_normalizer/md.cpython-314-aarch64-linux-android.so",
+      "soname": "md.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libm.so",
+        "libpython3.14.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "venv/lib/python3.14/site-packages/anydoc/_anydoc.abi3.so",
+      "soname": "_anydoc.abi3.so",
+      "needed": [
+        "libpython3.14.so",
+        "libdl.so",
+        "libm.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/bin/../../usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "venv/lib/python3.14/site-packages/psutil/_psutil.abi3.so",
+      "soname": "_psutil.abi3.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/bin/../../usr/lib:/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "venv/lib/python3.14/site-packages/jiter/jiter.cpython-314-aarch64-linux-android.so",
+      "soname": "jiter.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libpython3.14.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/bin/../../usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "venv/lib/python3.14/site-packages/markupsafe/_speedups.cpython-314-aarch64-linux-android.so",
+      "soname": "_speedups.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/bin/../../usr/lib:/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "venv/lib/python3.14/site-packages/PIL/_imagingmorph.cpython-314-aarch64-linux-android.so",
+      "soname": "_imagingmorph.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/bin/../../usr/lib:/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "venv/lib/python3.14/site-packages/PIL/_imaging.cpython-314-aarch64-linux-android.so",
+      "soname": "_imaging.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libtiff.so",
+        "libjpeg.so.8",
+        "libopenjp2.so",
+        "libz.so.1",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/bin/../../usr/lib:/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "venv/lib/python3.14/site-packages/PIL/_imagingft.cpython-314-aarch64-linux-android.so",
+      "soname": "_imagingft.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libfreetype.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/bin/../../usr/lib:/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "venv/lib/python3.14/site-packages/PIL/_imagingcms.cpython-314-aarch64-linux-android.so",
+      "soname": "_imagingcms.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "liblcms2.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/bin/../../usr/lib:/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "venv/lib/python3.14/site-packages/PIL/_webp.cpython-314-aarch64-linux-android.so",
+      "soname": "_webp.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libwebp.so",
+        "libwebpmux.so",
+        "libwebpdemux.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/bin/../../usr/lib:/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "venv/lib/python3.14/site-packages/PIL/_imagingtk.cpython-314-aarch64-linux-android.so",
+      "soname": "_imagingtk.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/bin/../../usr/lib:/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "venv/lib/python3.14/site-packages/PIL/_imagingmath.cpython-314-aarch64-linux-android.so",
+      "soname": "_imagingmath.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libm.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/bin/../../usr/lib:/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "venv/lib/python3.14/site-packages/cryptography/hazmat/bindings/_rust.abi3.so",
+      "soname": "_rust.abi3.so",
+      "needed": [
+        "libpython3.14.so",
+        "libssl.so.3",
+        "libcrypto.so.3",
+        "libdl.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/bin/../../usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "venv/lib/python3.14/site-packages/httptools/parser/parser.cpython-314-aarch64-linux-android.so",
+      "soname": "parser.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/bin/../../usr/lib:/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "venv/lib/python3.14/site-packages/httptools/parser/url_parser.cpython-314-aarch64-linux-android.so",
+      "soname": "url_parser.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/bin/../../usr/lib:/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    },
+    {
+      "path": "pm-runtime/lib/python3.14/site-packages/_ruamel_yaml.cpython-314-aarch64-linux-android.so",
+      "soname": "_ruamel_yaml.cpython-314-aarch64-linux-android.so",
+      "needed": [
+        "libandroid-support.so",
+        "libpython3.14.so",
+        "libc.so"
+      ],
+      "runpath": [
+        "/data/data/com.termux/files/usr/bin/../../usr/lib:/data/data/com.termux/files/usr/lib:/data/data/com.termux/files/usr/lib"
+      ],
+      "unresolvedNonSystem": []
+    }
+  ]
+}

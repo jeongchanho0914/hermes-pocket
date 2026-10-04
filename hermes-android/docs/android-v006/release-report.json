@@ -1,0 +1,25 @@
+{
+  "version": "0.06",
+  "apk": "dist/hermes-pocket-v0.06.apk",
+  "sha256": "0abca6c515bb0a7fa82f296ae9b7d8046672ecd050c90e49840c99261792a06b",
+  "bytes": 1528599,
+  "device": "API35 Android15 x86_64 emulator-5554",
+  "scope": "Actual native release APK; separate non-shipping instrumentation; public fixtures only; no physical phone actions",
+  "queuedCancel": "PASS actual Android main-thread queued interruption and runtime stop prevent late callback",
+  "saf": "PASS actual DocumentsUI persisted READ/WRITE grant, denied create has no mutation, approved UTF8 create/read/overwrite byte verification, traversal/absolute/URI/backslash/binary refusals, cold grant/content persistence, revoke then explicit refusal",
+  "accessibility": "PARTIAL PASS bound capability33; allowlisted launch, real fixture snapshot, password tree redaction, element click increments counter, stale snapshot rejected, normal text actual visible. Full coordinate swipe/back/home sequence not completed due background approval notification shade race.",
+  "limitations": [
+    "Stock uiautomator dump suppresses other accessibility services; test harness now uses FLAG_DONT_SUPPRESS_ACCESSIBILITY_SERVICES.",
+    "Background notification approval does not automatically collapse shade; read_screen can race manual collapse and refuses protected SystemUI. This refusal is retained in evidence.",
+    "Read-only provider, duplicate filenames, concurrent overwrite conflict, live provider and live Tavily not tested."
+  ],
+  "evidence": [
+    "queued-cancel.json",
+    "saf-folder-grant.json",
+    "saf-operations.json",
+    "saf-cold-revoke.json",
+    "accessibility-loop.json",
+    "newchat-ime.json"
+  ],
+  "newChatIme": "PASS actual real input tap opens IME; newChat hides IME, clears input and leaves it unfocused"
+}

@@ -1,0 +1,61 @@
+{
+  "ok": true,
+  "result": {
+    "version": "0.11",
+    "checks": {
+      "actual_SSE_public_thought_visible_before_answer": true,
+      "actual_public_card_collapsed_default": true,
+      "actual_live_elapsed_advances": true,
+      "actual_timer_stops_after_completion": true,
+      "native_public_thought_cumulative_single_persisted_row": true,
+      "public_thought_separate_from_answer_messages": true,
+      "actual_nonMiMo_reasoning_not_in_public_store_or_UI": true,
+      "actual_distinct_native_sessions": true,
+      "actual_persisted_public_card_reopens": true
+    },
+    "results": {
+      "first": {
+        "thought": "모델이 공개한 생각\nMiMo 공개 스트림 · 1차 요청\n\nPUBLIC_FIXTURE_THOUGHT_FIRST\n\n펼쳐 보기",
+        "body": "PUBLIC_FIXTURE_THOUGHT_FIRST",
+        "collapsed": true,
+        "answerText": "",
+        "busy": true,
+        "phase": "thinking",
+        "timer": 334.9000000001397
+      },
+      "liveElapsed": 735.2000000001863,
+      "publicSession": "2ea52cac-9e33-49de-b853-eecf4be1cbcb",
+      "publicThoughts": [
+        {
+          "provider": "mimo",
+          "source": "mimo.reasoning_content",
+          "session": "2ea52cac-9e33-49de-b853-eecf4be1cbcb",
+          "runId": "efcd13f4-6a2b-4f00-9b3b-211b0b20ba13",
+          "round": 1,
+          "text": "PUBLIC_FIXTURE_THOUGHT_FIRST PUBLIC_FIXTURE_THOUGHT_SECOND",
+          "truncated": false,
+          "elapsedMs": 1618,
+          "timestamp": 1791080315211,
+          "firstTimestamp": 1791080313902
+        }
+      ],
+      "publicMessages": [
+        {
+          "role": "user",
+          "content": "Public local streaming fixture only",
+          "created": 1791080313580
+        },
+        {
+          "role": "assistant",
+          "content": "PUBLIC_FIXTURE_FINAL_ANSWER",
+          "created": 1791080316510
+        }
+      ],
+      "finalPhase": "completed",
+      "elapsedEnd": 2911,
+      "ordinarySession": "7e312250-8343-4a4a-9093-ee201b377a78",
+      "ordinaryThoughts": [],
+      "ordinaryConversation": "Non MiMo local privacy fixture only\n\n복사\n\nPUBLIC_FIXTURE_FINAL_ANSWER\n\n복사"
+    }
+  }
+}

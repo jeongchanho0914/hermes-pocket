@@ -1,0 +1,46 @@
+{
+  "serial": "emulator-5554",
+  "sdk": 35,
+  "installedApk": {
+    "bytes": 1577828,
+    "sha256": "7354d0a5cb5ff2d4dfaa837b0f8e92d1825cbd83a9495d5154ea7bef7e2e8d9b"
+  },
+  "allAuto": {
+    "passedChecks": 20,
+    "totalChecks": 20,
+    "actualTypedTextObserved": true,
+    "failure": null
+  },
+  "ask": {
+    "passedChecks": 9,
+    "checks": {
+      "actual_accessibility_service_bound": true,
+      "allowlisted_app_launched": true,
+      "screen_read_ok": true,
+      "real_fixture_snapshot_and_gesture_capability": true,
+      "password_tree_redacted": true,
+      "element_click_dispatched": true,
+      "old_snapshot_rejected": true,
+      "actual_click_counter_one": true,
+      "normal_text_dispatched": true,
+      "password_coordinate_tap_rejected": false
+    },
+    "actualTypedTextObserved": true,
+    "failure": "password_coordinate_tap_rejected",
+    "coordinateRefusal": {
+      "error": "키보드·알림·다른 창이 좌표 위에 있습니다. 해당 창을 닫고 화면을 다시 조회하세요."
+    },
+    "approvalEvents": [
+      "clicked_actual_native_approval",
+      "clicked_actual_native_approval",
+      "clicked_actual_native_approval",
+      "clicked_actual_native_approval",
+      "clicked_actual_native_approval",
+      "opened_actual_notification_shade",
+      "clicked_actual_native_approval"
+    ],
+    "limitation": "Actual launch/click/type and notification approval observed. Full ASK gesture/back/home loop incomplete: password-negative coordinate check safely refused overlay instead of expected password-specific wording, including final attempt with 6500ms settling delay after typing. No further retries."
+  },
+  "shizukuEvidence": "emulator-shizuku-functional.json",
+  "sourceChanges": "No production source changes."
+}

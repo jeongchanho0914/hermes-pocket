@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "result": {
+    "version": "0.03",
+    "restored": true,
+    "model": "fixture-model-14",
+    "reasoningEffort": "low",
+    "sessionsPreserved": true
+  }
+}

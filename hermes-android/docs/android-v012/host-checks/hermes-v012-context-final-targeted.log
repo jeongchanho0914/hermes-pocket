@@ -1,0 +1,61 @@
+PASS official MiMo and API metadata budgets exceed old char cap without inventing unknown limits
+PASS pair-aligned checkpoint preserves facts, current user, original history, and full reasoning replay in retained tail
+PASS oversized completed tool batch is summarized in ordered bounded parts with every original byte retained
+PASS incomplete summary does not commit or mutate original
+PASS typed overflow differs from quota authentication and opaque errors; error text stays private
+PASS real HTTP overflow summarizes once resubmits model and retains all local messages without executing a tool
+ContextCompactor: 6 checks; HTTP fixtures only, no live provider claim.
+PASS terminal plugin advertises canonical upstream terminal and process_manage contracts only
+PASS valid SSE conversation and persisted transcript
+PASS fragmented tool name and JSON execute exactly once
+PASS MiMo null name id and argument fragments never append literal null
+PASS non string streamed function name id or arguments reject before execution
+PASS truncated SSE without DONE is rejected before tool execution
+PASS length finish reason rejected
+PASS missing finish reason rejected
+PASS malformed tool arguments never execute
+PASS entire tool batch validates before any side effect
+PASS HTTP auth failure has no retry
+PASS API error in SSE rejected
+PASS incorrect response content type rejected
+PASS pre cancelled run sends no HTTP request
+PASS public HTTP, URL credentials and query are rejected
+PASS denied tool cannot be retried automatically
+PASS context trimming preserves system latest turn and complete tool groups
+PASS edited memory refreshes existing session prompt
+PASS last round requests no tools and does not dispatch ignored API tool choice
+PASS SSE cancellation during reading stops parsing
+PASS local catalog validates presets and preserves saved device plugin groups
+PASS file plugin requires explicit grant-enabled group and precise native names
+PASS selected skill refreshes persisted session prompt
+PASS reasoning effort auto omitted explicit options transmitted once
+PASS disabled plugins omit schemas and unsolicited tools never dispatch
+PASS DeepSeek thinking maps none safely and omits automatic parameters
+PASS Hermes reasoning ladder preserves defaults and maps provider limits
+PASS DeepSeek hidden reasoning survives tools and strips across provider switch
+PASS MiMo fixture rejects missing echoed tool reasoning and native agent supplies it
+PASS MiMo none disables thinking and enabled tiers avoid unsupported effort strength
+PASS MiMo exact hostname detection rejects spoofed hosts and preserves selected tier
+PASS available tool inventory prompt and auto choice follow enabled plugins
+PASS selected real SKILL.md enters system context and clears on preference change
+PASS unknown structured function is distinguished from disabled plugin and may correct name
+PASS provider catalog pins official endpoints and preserves custom migration
+PASS model catalog rejects malformed envelope deduplicates and preserves unknown support
+Production Net/DirectAgent JVM checks: 36 passed. API and Android capabilities are test substitutes.
+PASS canonical create write patch read remove delete use real files and one approval per batch
+PASS legacy saved body and delete remain usable
+PASS denied or invalid later operation leaves all packages untouched without command execution
+PASS native approval revocation cancellation lock owner plugin and approval mode are rechecked
+PASS concurrent resource edit during approval is preserved and refuses stale transaction
+PASS canonical operation types mixed legacy fields ambiguous patch and overlong batches reject before approval
+PASS read linked shell script never executes but separately approved real terminal invocation does
+PASS real streamed provider tool call carries full 100k Unicode SKILL document into approved native adapter
+LocalSkillTools: 8 production operation/approval checks passed; explicit script execution uses HOST /bin/sh, not Android proof.
+PASS argument summaries exclude raw input document content credentials and pixel payloads
+PASS public response summary is bounded single-line and does not expose credential or image patterns
+PASS activity completion distinguishes nonzero exit denied timeout background and unverified dispatch
+PASS concrete search and terminal summaries retain observed metadata while rejecting sensitive queries and output
+PASS screen and skill summaries expose actual identities and counts without contents or unconfirmed success
+PASS intent activity metadata excludes private recipients coordinates URLs and shared bodies while retaining dispatch uncertainty
+PASS real provider call IDs reach execution or rejection hooks and only public content reaches response hook
+ActivitySummary: 7 production privacy/status checks passed; no Android database claim.

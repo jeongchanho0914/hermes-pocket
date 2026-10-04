@@ -1,0 +1,9 @@
+{
+  "version": "0.07",
+  "device": "SM-S928N",
+  "model": "mimo-v2.6-flash",
+  "provider": "Mwmbl",
+  "request": "Use web_search for Android accessibility API. Return two actual titles and URLs in Korean.",
+  "observedResult": "Actual model response includes Google Codelabs Android accessibility development and StackOverflow question35625713; says Korean query returned0 and Englishretry returnedresults.",
+  "note": "Phone UI model response observation, not raw native audit export; screenshot owner translation overlay truncates firstURL."
+}

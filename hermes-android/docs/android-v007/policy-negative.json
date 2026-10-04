@@ -1,0 +1,67 @@
+{
+  "ok": true,
+  "result": {
+    "version": "0.07",
+    "checks": {
+      "native_owner_policy_saved": true,
+      "actual_readonly_settings": true,
+      "actual_write_settings_permission_absent": true,
+      "missing_os_permission_refused": true,
+      "permission_refusal_no_setting_mutation": true,
+      "emulator_not_mislabeled_root": true,
+      "scope_none_launch_refused": true
+    },
+    "results": {
+      "get_phone_settings": {
+        "ok": true,
+        "result": {
+          "auto_rotate": true,
+          "screen_timeout_seconds": 2147483,
+          "brightness_auto": false,
+          "writeSettings": false,
+          "shizuku": {
+            "enabled": false,
+            "installed": false,
+            "binderAlive": false,
+            "permissionGranted": false,
+            "serviceConnected": false,
+            "uid": -1,
+            "available": false,
+            "state": "disabled",
+            "reason": "Shizuku 연동이 꺼져 있습니다.",
+            "transport": "shizuku"
+          }
+        }
+      },
+      "set_phone_setting": {
+        "error": "Android 시스템 설정 변경 권한을 직접 허용하거나 Shizuku를 연결해 주세요. 자동 승인은 실제 Android 권한을 부여하지 않습니다."
+      },
+      "privileged_status": {
+        "ok": true,
+        "result": {
+          "root": {
+            "enabled": false,
+            "root": false,
+            "state": "disabled",
+            "message": "Root 연동이 꺼져 있습니다. Root는 기기의 실제 su 권한이 별도로 필요합니다."
+          },
+          "shizuku": {
+            "enabled": false,
+            "installed": false,
+            "binderAlive": false,
+            "permissionGranted": false,
+            "serviceConnected": false,
+            "uid": -1,
+            "available": false,
+            "state": "disabled",
+            "reason": "Shizuku 연동이 꺼져 있습니다.",
+            "transport": "shizuku"
+          }
+        }
+      },
+      "launch_app": {
+        "error": "전체 앱 제어가 꺼져 있거나 이 앱은 보호 대상입니다. 권한 설정을 확인해 주세요."
+      }
+    }
+  }
+}

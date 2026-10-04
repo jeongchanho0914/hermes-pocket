@@ -1,0 +1,59 @@
+{
+  "target": {
+    "serial": "emulator-5554",
+    "sdk": 35,
+    "adb": ".toolchain/android-test/platform-tools/adb",
+    "installGate": "Root supplies final frozen v0.08 APK hash first"
+  },
+  "fixture": {
+    "component": "dev.hermesfixture.android/.VisualFixtureActivity",
+    "extras": {
+      "challenge": "canvas-only per-run marker",
+      "secure": "boolean enabling actual WindowManager.FLAG_SECURE",
+      "omitPassword": "boolean omitting password node for positive screenshot/editable-mask proof"
+    },
+    "pixelColors": [
+      [
+        231,
+        35,
+        61
+      ],
+      [
+        32,
+        190,
+        105
+      ],
+      [
+        38,
+        99,
+        224
+      ]
+    ],
+    "passwordDescription": "Visual protected password",
+    "inputDescription": "Visual normal field",
+    "clickDescription": "Visual increment"
+  },
+  "capture": [
+    "Confirm installed APK SHA and size match frozen release; launch visual fixture with actual challenge",
+    "Call native capture_screen and decode returned bitmap; verify RGB regions, image dimensions and stated screen/window bounds",
+    "Launch omitPassword=true; independently read editable bounds and verify opaque (24,24,24) pixel mask with4px padding. With visible password present require whole capture refusal (stronger fail-closed policy), not a redacted-password-image claim.",
+    "Capture while owner overlay is visible; confirm pixels exclude own overlay and underlying RGB fixture stays present",
+    "Change foreground package between snapshot/request and capture; require truthful mismatch refusal",
+    "Launch same activity with secure=true; require actual protected-window refusal and no image bytes",
+    "Keep native image out of persisted messages/audit; verify structured image_url inline bitmap reaches API responder",
+    "Local responder must decode genuine raster, validate all three RGB color regions, save SHA/pixel metadata, and produce ACTUAL_NATIVE_VISION_008 only after valid image"
+  ],
+  "overlay": [
+    "Native task started from owner chat shows compact status panel over visual fixture with no default focus or IME",
+    "Drag moves actual overlay bounds; collapse shows chip; expand restores controls; Open resumes actual Hermes app",
+    "Tap input explicitly, submit follow-up and verify same owner conversation receives input; no unrelated automatic task dispatch",
+    "Agent click/coordinate gesture underlying Visual increment changes real counter despite overlay; capture excludes own overlay",
+    "Stop halts actual runtime and removes panel; completion retains idle collapsed chip",
+    "Lock/dismiss, accessibility revoke and floating preference off remove visible overlay and cancel pending interaction as specified"
+  ],
+  "v007Regression": [
+    "ALL/AUTO read/click/type/tap/swipe/back/home again",
+    "ASK notification target-return behavior must be reported truthfully; prior v007 safe overlay refusal is not a full-pass precedent"
+  ],
+  "evidence": "docs/android-v008; no physical instrumentation, no adb server restart, no provisional APK installs"
+}

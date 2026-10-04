@@ -1,0 +1,200 @@
+{
+  "probe": {
+    "result": {
+      "ok": true,
+      "result": {
+        "version": "0.03",
+        "results": {
+          "pluginDisabled": {
+            "bridgeError": "이 도구의 플러그인이 꺼져 있습니다. + 메뉴에서 켜 주세요."
+          },
+          "device": {
+            "model": "unknown Android SDK built for x86_64",
+            "android": "15",
+            "sdk": 35,
+            "battery": 100,
+            "charging": true,
+            "memoryTotalGb": 2.4,
+            "memoryAvailableGb": 1.5,
+            "volume": 53,
+            "brightness": 102,
+            "wifi": true,
+            "root": false,
+            "rootEnabled": false,
+            "systemUid": false,
+            "accessibility": false,
+            "writeSettings": false
+          },
+          "get_device_state": {
+            "ok": true,
+            "result": {
+              "model": "unknown Android SDK built for x86_64",
+              "android": "15",
+              "sdk": 35,
+              "battery": 100,
+              "charging": true,
+              "memoryTotalGb": 2.4,
+              "memoryAvailableGb": 1.5,
+              "volume": 53,
+              "brightness": 102,
+              "wifi": true,
+              "root": false,
+              "rootEnabled": false,
+              "systemUid": false,
+              "accessibility": false,
+              "writeSettings": false
+            }
+          },
+          "list_apps": {
+            "ok": true,
+            "result": {
+              "apps": [
+                {
+                  "package": "com.android.calendar",
+                  "label": "Calendar",
+                  "allowed": false,
+                  "system": true
+                },
+                {
+                  "package": "com.android.camera2",
+                  "label": "Camera",
+                  "allowed": false,
+                  "system": true
+                },
+                {
+                  "package": "com.android.deskclock",
+                  "label": "Clock",
+                  "allowed": false,
+                  "system": true
+                },
+                {
+                  "package": "com.android.contacts",
+                  "label": "Contacts",
+                  "allowed": false,
+                  "system": true
+                },
+                {
+                  "package": "com.android.documentsui",
+                  "label": "Files",
+                  "allowed": false,
+                  "system": true
+                },
+                {
+                  "package": "com.android.gallery3d",
+                  "label": "Gallery",
+                  "allowed": false,
+                  "system": true
+                },
+                {
+                  "package": "com.android.messaging",
+                  "label": "Messaging",
+                  "allowed": false,
+                  "system": true
+                },
+                {
+                  "package": "com.android.dialer",
+                  "label": "Phone",
+                  "allowed": false,
+                  "system": true
+                },
+                {
+                  "package": "com.android.quicksearchbox",
+                  "label": "Search",
+                  "allowed": false,
+                  "system": true
+                },
+                {
+                  "package": "com.android.stk",
+                  "label": "TMoble",
+                  "allowed": false,
+                  "system": true
+                },
+                {
+                  "package": "org.chromium.webview_shell",
+                  "label": "WebView Browser Tester",
+                  "allowed": false,
+                  "system": true
+                }
+              ]
+            }
+          },
+          "launch_app": {
+            "ok": false,
+            "denied": true,
+            "error": "사용자가 승인하지 않았습니다. 같은 작업을 자동 재시도하지 마세요."
+          },
+          "open_settings": {
+            "ok": false,
+            "denied": true,
+            "error": "사용자가 승인하지 않았습니다. 같은 작업을 자동 재시도하지 마세요."
+          },
+          "set_volume": {
+            "ok": false,
+            "denied": true,
+            "error": "사용자가 승인하지 않았습니다. 같은 작업을 자동 재시도하지 마세요."
+          },
+          "set_brightness": {
+            "ok": false,
+            "error": "기기 탭에서 '밝기 변경 권한'을 직접 허용해 주세요."
+          },
+          "root_processes": {
+            "ok": false,
+            "error": "Root 확인 버튼으로 실제 승인을 먼저 확인해 주세요."
+          },
+          "set_wifi": {
+            "ok": false,
+            "error": "Root 확인 버튼으로 실제 승인을 먼저 확인해 주세요."
+          },
+          "force_stop_app": {
+            "ok": false,
+            "error": "기기 탭의 '제어할 앱 선택'에서 먼저 허용해 주세요."
+          },
+          "read_screen": {
+            "ok": false,
+            "denied": true,
+            "error": "사용자가 승인하지 않았습니다. 같은 작업을 자동 재시도하지 마세요."
+          },
+          "click_element": {
+            "bridgeError": "java.lang.SecurityException: 접근성 서비스를 먼저 직접 켜 주세요."
+          },
+          "type_text": {
+            "bridgeError": "java.lang.SecurityException: 접근성 서비스를 먼저 직접 켜 주세요."
+          },
+          "scroll_element": {
+            "bridgeError": "java.lang.SecurityException: 접근성 서비스를 먼저 직접 켜 주세요."
+          }
+        }
+      }
+    }
+  },
+  "approvalUiEvents": [
+    {
+      "decision": "거부",
+      "detail": "      기기 작업 승인     앱 열기: dev.chanho.hermes.tests\n\n이번 작업 한 번에만 적용됩니다.   거부 이번만 허용"
+    },
+    {
+      "decision": "거부",
+      "detail": "      기기 작업 승인     Android 설정 페이지 열기: general\n설정값이나 권한은 자동으로 바꾸지 않습니다.\n\n이번 작업 한 번에만 적용됩니다.   거부 이번만 허용"
+    },
+    {
+      "decision": "거부",
+      "detail": "      기기 작업 승인     미디어 볼륨을 50%로 변경합니다.\n\n이번 작업 한 번에만 적용됩니다.   거부 이번만 허용"
+    },
+    {
+      "decision": "이번만 허용",
+      "detail": "      기기 작업 승인     화면을 수동 밝기 50%로 변경합니다.\n\n이번 작업 한 번에만 적용됩니다.   거부 이번만 허용"
+    },
+    {
+      "decision": "이번만 허용",
+      "detail": "      기기 작업 승인     Root로 실행 중인 프로세스 목록을 읽습니다. 채팅 작업이면 선택한 모델/서버에 결과가 전달됩니다.\n\n이번 작업 한 번에만 적용됩니다.   거부 이번만 허용"
+    },
+    {
+      "decision": "이번만 허용",
+      "detail": "      기기 작업 승인     Root로 Wi-Fi를 켭니다.\n\n이번 작업 한 번에만 적용됩니다.   거부 이번만 허용"
+    },
+    {
+      "decision": "이번만 허용",
+      "detail": "      기기 작업 승인     Root로 앱을 강제 종료합니다: dev.chanho.hermes.tests\n저장하지 않은 작업이 사라질 수 있습니다.\n\n이번 작업 한 번에만 적용됩니다.   거부 이번만 허용"
+    }
+  ]
+}

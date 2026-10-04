@@ -1,0 +1,86 @@
+{
+  "version": "0.03",
+  "sha256": "b079bab979b6a3fa18e19151b6a53c575ad1ec2c25550a1618e13d8c6cc02c5e",
+  "apkBytes": 1491735,
+  "testedSerial": "emulator-5554",
+  "sdk": 35,
+  "installation": "PASS upgrade with existing history retained",
+  "firstLaunch": {
+    "ok": true,
+    "result": {
+      "checks": {
+        "automatic_setup_guide": true,
+        "unconfigured_both_pickers_disabled": true,
+        "no_brand_button": true,
+        "no_current_chat_navigation": true,
+        "setup_cta_model_settings": true
+      },
+      "version": "0.03"
+    }
+  },
+  "independentPickers": {
+    "ok": true,
+    "result": {
+      "checks": {
+        "model_button_opens_model_only": true,
+        "actual_model_list_16": true,
+        "no_manual_or_thought_in_model_picker": true,
+        "model_pick_preserves_high_effort": true,
+        "thought_button_opens_thought_only": true,
+        "thought_choices_all_nine": true,
+        "no_models_in_thought_picker": true,
+        "thought_pick_preserves_model": true
+      },
+      "geometry": {
+        "listHeight": 258,
+        "rowHeight": 52,
+        "width": 412,
+        "bodyWidth": 412
+      },
+      "config": {
+        "model": "fixture-model-14",
+        "reasoningEffort": "low"
+      },
+      "version": "0.03"
+    }
+  },
+  "coldDefaults": {
+    "ok": true,
+    "result": {
+      "version": "0.03",
+      "restored": true,
+      "model": "fixture-model-14",
+      "reasoningEffort": "low",
+      "sessionsPreserved": true
+    }
+  },
+  "testHarness": "Separate same-signed test-only instrumentation; settle delay prevents pending SharedPreferences.apply writes from being lost when instrumentation terminates its process. No production changes.",
+  "scope": "Targeted v0.03 actual WebView UX validation; v0.02 backend evidence remains separately labeled. No physical phone commands by this agent.",
+  "parentPhysicalEvidence": "Root independently reported S24 Ultra Android 16 direct USB installation success for this hash. Root owns physical evidence and documentation.",
+  "deliveryFinding": "Root observed old downloaded v0.01/v0.02 files were 273-byte Gmail security-block HTML documents, not APK files.",
+  "deviceBoundaryVerification": {
+    "version": "0.03",
+    "sdk": 35,
+    "registeredTools": 13,
+    "actualReadSuccess": 2,
+    "explicitRefusalOrMissingPermission": 11,
+    "deviceFlags": {
+      "model": "unknown Android SDK built for x86_64",
+      "android": "15",
+      "sdk": 35,
+      "battery": 100,
+      "charging": true,
+      "memoryTotalGb": 2.4,
+      "memoryAvailableGb": 1.5,
+      "volume": 53,
+      "brightness": 102,
+      "wifi": true,
+      "root": false,
+      "rootEnabled": false,
+      "systemUid": false,
+      "accessibility": false,
+      "writeSettings": false
+    },
+    "notClaimed": "Root execution, WRITE_SETTINGS brightness changes, accessibility automation, or success of all 13 tools"
+  }
+}

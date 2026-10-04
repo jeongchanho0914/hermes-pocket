@@ -1,0 +1,94 @@
+{
+  "screenshotAfterFirstPublicFrameSeconds": 0.8709158897399902,
+  "probe": {
+    "ok": true,
+    "result": {
+      "version": "0.12",
+      "checks": {
+        "actual_elapsed_label_visible": true,
+        "actual_SSE_public_thought_visible_before_answer": true,
+        "actual_public_card_collapsed_default": true,
+        "actual_live_brain_icons_visible": true,
+        "actual_live_public_thought_disclosure_visible_before_answer": true,
+        "actual_live_elapsed_advances": true,
+        "actual_thinking_dots_or_seconds_animate": true,
+        "actual_timer_stops_after_completion": true,
+        "native_public_thought_cumulative_single_persisted_row": true,
+        "public_thought_separate_from_answer_messages": true,
+        "actual_all_models_brain_progress_without_private_thought": true,
+        "actual_nonMiMo_reasoning_not_in_public_store_or_UI": true,
+        "actual_distinct_native_sessions": true,
+        "actual_persisted_public_card_reopens": true
+      },
+      "results": {
+        "first": {
+          "thought": "thinking.. 0s\n⌄",
+          "body": "PUBLIC_FIXTURE_THOUGHT_FIRST",
+          "collapsed": true,
+          "answerText": "",
+          "busy": true,
+          "phase": "thinking",
+          "timer": 316.0999999999767
+        },
+        "visibleElapsed": {
+          "text": "thinking.. 0s",
+          "width": 64.69047546386719,
+          "height": 20.3988094329834,
+          "display": "block",
+          "parentDisplay": "flex"
+        },
+        "captionBefore": "thinking.. 0s",
+        "expanded": {
+          "open": true,
+          "height": 41.595237731933594,
+          "text": "PUBLIC_FIXTURE_THOUGHT_FIRST"
+        },
+        "liveElapsed": 871.1999999999534,
+        "captionAfter": "thinking. 1s",
+        "publicSession": "04ab3647-5f82-478c-9dbb-14ce3b07b57b",
+        "publicThoughts": [
+          {
+            "provider": "mimo",
+            "source": "mimo.reasoning_content",
+            "session": "04ab3647-5f82-478c-9dbb-14ce3b07b57b",
+            "runId": "2b07ebb5-3ec6-4a2a-a464-0038fc30793e",
+            "round": 1,
+            "text": "PUBLIC_FIXTURE_THOUGHT_FIRST PUBLIC_FIXTURE_THOUGHT_SECOND",
+            "truncated": false,
+            "elapsedMs": 1608,
+            "timestamp": 1791091889061,
+            "firstTimestamp": 1791091887765,
+            "timelineOrder": 175
+          }
+        ],
+        "publicMessages": [
+          {
+            "role": "user",
+            "content": "Public local streaming fixture only",
+            "created": 1791091887437,
+            "id": 76,
+            "messageId": 76,
+            "timelineOrder": 174,
+            "runId": "2b07ebb5-3ec6-4a2a-a464-0038fc30793e"
+          },
+          {
+            "role": "assistant",
+            "content": "PUBLIC_FIXTURE_FINAL_ANSWER",
+            "created": 1791091890370,
+            "id": 77,
+            "messageId": 77,
+            "timelineOrder": 176,
+            "runId": "2b07ebb5-3ec6-4a2a-a464-0038fc30793e"
+          }
+        ],
+        "finalPhase": "completed",
+        "elapsedEnd": 2914,
+        "nonMiMoLiveBrain": true,
+        "ordinarySession": "592a0dbb-2ae4-4c58-b273-6475853ca60e",
+        "ordinaryThoughts": [],
+        "ordinaryConversation": "Non MiMo local privacy fixture only\n\n복사\n\nPUBLIC_FIXTURE_FINAL_ANSWER\n\n복사"
+      }
+    }
+  },
+  "artifactSha256": "d2e353af3d6f73acc4c4542f31e9794413c4f4af4cf1372c72f9b7acf20a1d08"
+}

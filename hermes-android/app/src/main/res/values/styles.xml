@@ -1,0 +1,10 @@
+<resources>
+ <style name="AppTheme" parent="android:style/Theme.Material.NoActionBar">
+  <item name="android:fontFamily">sans</item><item name="android:windowLightStatusBar">true</item>
+  <item name="android:statusBarColor">#FFFFFF</item><item name="android:navigationBarColor">#FFFFFF</item>
+  <item name="android:windowActionModeOverlay">true</item><item name="android:colorAccent">#D5D7DA</item>
+  <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+  <item name="android:windowBackground">#FFFFFF</item><item name="android:windowLightNavigationBar">true</item>
+ </style>
+ <string name="accessibility_description">허용된 앱의 화면 요소와 화면 이미지를 읽고 클릭, 입력, 스크롤합니다. 필요한 화면 내용과 이미지는 설정한 모델 API에 전달될 수 있습니다. 저장한 승인 방식을 따르며 다른 앱에서는 작은 창으로 상태와 입력을 제공합니다. 비밀번호 입력란, 시스템 권한 화면 및 Hermes 화면은 제어에서 제외됩니다. 끄면 화면 제어와 작은 창이 중단됩니다.</string>
+</resources>

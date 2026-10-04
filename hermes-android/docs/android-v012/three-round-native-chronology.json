@@ -1,0 +1,418 @@
+{
+  "ok": true,
+  "result": {
+    "version": "0.12",
+    "checks": {
+      "actual_final_answer_only_no_glued_commentary": true,
+      "actual_two_full_public_commentary_rows_persisted": true,
+      "actual_two_native_memory_tool_steps": true,
+      "actual_three_separate_provider_round_thoughts": true,
+      "actual_live_current_round_not_glued": true,
+      "actual_native_positive_unique_timeline_orders": true,
+      "actual_commentary_chronology_before_final_answer": true,
+      "actual_reopened_WebView_chronology_matches_native_DB": true
+    },
+    "results": {
+      "liveSamples": [
+        {
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사"
+        },
+        {
+          "round": 1,
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking. 0s"
+        },
+        {
+          "round": 1,
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking.. 0s\n⌄"
+        },
+        {
+          "round": 1,
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking.. 0s\n⌄"
+        },
+        {
+          "round": 1,
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking.. 0s\n⌄"
+        },
+        {
+          "round": 1,
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking.. 0s\n⌄"
+        },
+        {
+          "round": 1,
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking.. 0s\n⌄"
+        },
+        {
+          "round": 1,
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking.. 0s\n⌄"
+        },
+        {
+          "round": 1,
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking.. 0s\n⌄"
+        },
+        {
+          "round": 1,
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄"
+        },
+        {
+          "round": 1,
+          "live": "PUBLIC_COMMENTARY_ROUND_1",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1"
+        },
+        {
+          "round": 1,
+          "live": "PUBLIC_COMMENTARY_ROUND_1",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1"
+        },
+        {
+          "round": 1,
+          "live": "PUBLIC_COMMENTARY_ROUND_1",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1"
+        },
+        {
+          "round": 1,
+          "live": "PUBLIC_COMMENTARY_ROUND_1",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1"
+        },
+        {
+          "round": 1,
+          "live": "PUBLIC_COMMENTARY_ROUND_1",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 1s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1"
+        },
+        {
+          "round": 1,
+          "live": "PUBLIC_COMMENTARY_ROUND_1",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 1s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1"
+        },
+        {
+          "round": 1,
+          "live": "PUBLIC_COMMENTARY_ROUND_1",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 1s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1"
+        },
+        {
+          "round": 2,
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking. 0s"
+        },
+        {
+          "round": 2,
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking. 0s"
+        },
+        {
+          "round": 2,
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking. 0s"
+        },
+        {
+          "round": 2,
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking. 0s\n⌄"
+        },
+        {
+          "round": 2,
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking. 0s\n⌄"
+        },
+        {
+          "round": 2,
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking. 0s\n⌄"
+        },
+        {
+          "round": 2,
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking.. 0s\n⌄"
+        },
+        {
+          "round": 2,
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking.. 0s\n⌄"
+        },
+        {
+          "round": 2,
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking.. 0s\n⌄"
+        },
+        {
+          "round": 2,
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking.. 0s\n⌄"
+        },
+        {
+          "round": 2,
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking.. 0s\n⌄"
+        },
+        {
+          "round": 2,
+          "live": "PUBLIC_COMMENTARY_ROUND_2",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking.. 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_2"
+        },
+        {
+          "round": 2,
+          "live": "PUBLIC_COMMENTARY_ROUND_2",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking.. 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_2"
+        },
+        {
+          "round": 2,
+          "live": "PUBLIC_COMMENTARY_ROUND_2",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking.. 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_2"
+        },
+        {
+          "round": 2,
+          "live": "PUBLIC_COMMENTARY_ROUND_2",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking... 1s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_2"
+        },
+        {
+          "round": 2,
+          "live": "PUBLIC_COMMENTARY_ROUND_2",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking... 1s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_2"
+        },
+        {
+          "round": 2,
+          "live": "PUBLIC_COMMENTARY_ROUND_2",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking... 1s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_2"
+        },
+        {
+          "round": 2,
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_2"
+        },
+        {
+          "round": 3,
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_2\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking... 0s"
+        },
+        {
+          "round": 3,
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_2\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking... 0s"
+        },
+        {
+          "round": 3,
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_2\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking. 0s\n⌄"
+        },
+        {
+          "round": 3,
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_2\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking. 0s\n⌄"
+        },
+        {
+          "round": 3,
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_2\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking. 0s\n⌄"
+        },
+        {
+          "round": 3,
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_2\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking. 0s\n⌄"
+        },
+        {
+          "round": 3,
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_2\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking. 0s\n⌄"
+        },
+        {
+          "round": 3,
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_2\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking. 0s\n⌄"
+        },
+        {
+          "round": 3,
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_2\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking.. 0s\n⌄"
+        },
+        {
+          "round": 3,
+          "live": "",
+          "dom": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_2\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking.. 0s\n⌄"
+        }
+      ],
+      "session": "30599806-09fa-46d2-9faa-2cb190bd5946",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Public local three-round chronology fixture only",
+          "created": 1791091600664,
+          "id": 73,
+          "messageId": 73,
+          "timelineOrder": 163,
+          "runId": "17d0a6f4-91a1-44b6-af77-d21802047974"
+        },
+        {
+          "role": "assistant",
+          "content": "PUBLIC_FINAL_ANSWER_THREE",
+          "created": 1791091604153,
+          "id": 74,
+          "messageId": 74,
+          "timelineOrder": 171,
+          "runId": "17d0a6f4-91a1-44b6-af77-d21802047974"
+        }
+      ],
+      "activities": [
+        {
+          "runId": "17d0a6f4-91a1-44b6-af77-d21802047974",
+          "session": "30599806-09fa-46d2-9faa-2cb190bd5946",
+          "toolCallId": "response_1",
+          "seq": 1,
+          "firstSeq": 1,
+          "kind": "response",
+          "name": "assistant",
+          "status": "completed",
+          "summary": "PUBLIC_COMMENTARY_ROUND_1",
+          "argsSummary": "",
+          "timestamp": 1791091602003,
+          "firstTimestamp": 1791091602003,
+          "timelineOrder": 165,
+          "text": "PUBLIC_COMMENTARY_ROUND_1",
+          "textTruncated": false
+        },
+        {
+          "runId": "17d0a6f4-91a1-44b6-af77-d21802047974",
+          "session": "30599806-09fa-46d2-9faa-2cb190bd5946",
+          "toolCallId": "public_tool_1",
+          "seq": 3,
+          "firstSeq": 2,
+          "kind": "tool",
+          "name": "memory",
+          "status": "completed",
+          "summary": "도구 응답 수신 완료",
+          "argsSummary": "{\"action\":\"read\"}",
+          "timestamp": 1791091602014,
+          "firstTimestamp": 1791091602011,
+          "timelineOrder": 166
+        },
+        {
+          "runId": "17d0a6f4-91a1-44b6-af77-d21802047974",
+          "session": "30599806-09fa-46d2-9faa-2cb190bd5946",
+          "toolCallId": "response_2",
+          "seq": 4,
+          "firstSeq": 4,
+          "kind": "response",
+          "name": "assistant",
+          "status": "completed",
+          "summary": "PUBLIC_COMMENTARY_ROUND_2",
+          "argsSummary": "",
+          "timestamp": 1791091603323,
+          "firstTimestamp": 1791091603323,
+          "timelineOrder": 168,
+          "text": "PUBLIC_COMMENTARY_ROUND_2",
+          "textTruncated": false
+        },
+        {
+          "runId": "17d0a6f4-91a1-44b6-af77-d21802047974",
+          "session": "30599806-09fa-46d2-9faa-2cb190bd5946",
+          "toolCallId": "public_tool_2",
+          "seq": 6,
+          "firstSeq": 5,
+          "kind": "tool",
+          "name": "memory",
+          "status": "completed",
+          "summary": "도구 응답 수신 완료",
+          "argsSummary": "{\"action\":\"read\"}",
+          "timestamp": 1791091603334,
+          "firstTimestamp": 1791091603330,
+          "timelineOrder": 169
+        }
+      ],
+      "thoughts": [
+        {
+          "provider": "mimo",
+          "source": "mimo.reasoning_content",
+          "session": "30599806-09fa-46d2-9faa-2cb190bd5946",
+          "runId": "17d0a6f4-91a1-44b6-af77-d21802047974",
+          "round": 1,
+          "text": "PUBLIC_PROVIDER_THOUGHT_ROUND_1",
+          "truncated": false,
+          "elapsedMs": 209,
+          "timestamp": 1791091600903,
+          "firstTimestamp": 1791091600903,
+          "timelineOrder": 164
+        },
+        {
+          "provider": "mimo",
+          "source": "mimo.reasoning_content",
+          "session": "30599806-09fa-46d2-9faa-2cb190bd5946",
+          "runId": "17d0a6f4-91a1-44b6-af77-d21802047974",
+          "round": 2,
+          "text": "PUBLIC_PROVIDER_THOUGHT_ROUND_2",
+          "truncated": false,
+          "elapsedMs": 203,
+          "timestamp": 1791091602222,
+          "firstTimestamp": 1791091602222,
+          "timelineOrder": 167
+        },
+        {
+          "provider": "mimo",
+          "source": "mimo.reasoning_content",
+          "session": "30599806-09fa-46d2-9faa-2cb190bd5946",
+          "runId": "17d0a6f4-91a1-44b6-af77-d21802047974",
+          "round": 3,
+          "text": "PUBLIC_PROVIDER_THOUGHT_ROUND_3",
+          "truncated": false,
+          "elapsedMs": 203,
+          "timestamp": 1791091603543,
+          "firstTimestamp": 1791091603543,
+          "timelineOrder": 170
+        }
+      ],
+      "ordered": [
+        {
+          "role": "user",
+          "text": "Public local three-round chronology fixture only",
+          "order": 163
+        },
+        {
+          "text": "PUBLIC_PROVIDER_THOUGHT_ROUND_1",
+          "order": 164
+        },
+        {
+          "kind": "response",
+          "text": "PUBLIC_COMMENTARY_ROUND_1",
+          "order": 165
+        },
+        {
+          "kind": "tool",
+          "text": "도구 응답 수신 완료",
+          "order": 166
+        },
+        {
+          "text": "PUBLIC_PROVIDER_THOUGHT_ROUND_2",
+          "order": 167
+        },
+        {
+          "kind": "response",
+          "text": "PUBLIC_COMMENTARY_ROUND_2",
+          "order": 168
+        },
+        {
+          "kind": "tool",
+          "text": "도구 응답 수신 완료",
+          "order": 169
+        },
+        {
+          "text": "PUBLIC_PROVIDER_THOUGHT_ROUND_3",
+          "order": 170
+        },
+        {
+          "role": "assistant",
+          "text": "PUBLIC_FINAL_ANSWER_THREE",
+          "order": 171
+        }
+      ],
+      "reopenedDOM": "Public local three-round chronology fixture only\n\n복사\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_1\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking... 0s\n⌄\n\nPUBLIC_COMMENTARY_ROUND_2\n\n메모리 관리\n완료\n\n도구 응답 수신 완료\n\n작업 정보\nthinking... 0s\n⌄\n\nPUBLIC_FINAL_ANSWER_THREE\n\n복사"
+    }
+  },
+  "artifactSha256": "d2e353af3d6f73acc4c4542f31e9794413c4f4af4cf1372c72f9b7acf20a1d08"
+}

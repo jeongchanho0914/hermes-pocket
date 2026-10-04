@@ -1,0 +1,46 @@
+[
+  {
+    "url": "https://hermes-assets.nousresearch.com/releases/termux/stable/key.asc",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://hermes-assets.nousresearch.com/releases/termux/stable/dists/hermes-stable/InRelease",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://hermes-assets.nousresearch.com/releases/termux/stable/dists/hermes-stable/Release",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://hermes-assets.nousresearch.com/releases/termux/stable/dists/hermes-stable/Release.gpg",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://hermes-assets.nousresearch.com/releases/termux/canary/key.asc",
+    "status": 200,
+    "bytes": 709,
+    "path": "engine-spike/termux-assets/canary/key.asc",
+    "content_type": "text/plain"
+  },
+  {
+    "url": "https://hermes-assets.nousresearch.com/releases/termux/canary/dists/hermes-canary/InRelease",
+    "status": 200,
+    "bytes": 1083,
+    "path": "engine-spike/termux-assets/canary/dists/hermes-canary/InRelease",
+    "content_type": "text/plain"
+  },
+  {
+    "url": "https://hermes-assets.nousresearch.com/releases/termux/canary/dists/hermes-canary/Release",
+    "status": 200,
+    "bytes": 806,
+    "path": "engine-spike/termux-assets/canary/dists/hermes-canary/Release",
+    "content_type": "text/plain"
+  },
+  {
+    "url": "https://hermes-assets.nousresearch.com/releases/termux/canary/dists/hermes-canary/Release.gpg",
+    "status": 200,
+    "bytes": 228,
+    "path": "engine-spike/termux-assets/canary/dists/hermes-canary/Release.gpg",
+    "content_type": "application/pgp-signature"
+  }
+]

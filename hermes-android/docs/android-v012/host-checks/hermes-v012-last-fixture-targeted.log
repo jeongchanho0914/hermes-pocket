@@ -1,0 +1,7 @@
+test_model_api_credentials_save_and_connection_use_direct_mode (test_ui.UITest.test_model_api_credentials_save_and_connection_use_direct_mode) ... ok
+test_failed_resource_save_preserves_draft_and_disabled_plugin_blocks_editor (test_skill_packages.SkillPackageUITest.test_failed_resource_save_preserves_draft_and_disabled_plugin_blocks_editor) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 7.898s
+
+OK

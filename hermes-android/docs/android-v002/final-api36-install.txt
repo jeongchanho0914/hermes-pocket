@@ -1,0 +1,5 @@
+APK SHA256 bb94a35d534cec262359d34e75374668e9f56cd7c3566313318909addb47a4c0
+Android 16 / API 36 emulator-5556
+Performing Streamed Install
+Success
+Captured from adb install -r before shutting down API 36 emulator; System UI ANR limits functional verification.

@@ -1,0 +1,3 @@
+Performing Push Install
+hermes-android/dist/hermes-pocket-v0.02.apk: 1 file pushed, 0 skipped. 15.3 MB/s (90903 bytes in 0.006s)
+Success

@@ -1,0 +1,37 @@
+{
+  "testedAt": "2026-10-04T08:22:48.287445+00:00",
+  "serial": "emulator-5554",
+  "physicalDeviceTouched": false,
+  "api": "deterministic localhost fixture; not a live provider",
+  "apkSha256": "997528785a5a7947aa0e9691b2e75498265dd82976a4bee9a3662f5fe813a8a3",
+  "install": "Performing Streamed Install\nSuccess",
+  "probeInstall": "Serving...\nPerforming Incremental Install\nSuccess\nInstall command complete in 76 ms",
+  "fixtureInstall": "Serving...\nPerforming Incremental Install\nSuccess\nInstall command complete in 86 ms",
+  "jobs": {
+    "ok": true,
+    "result": {
+      "checks": {
+        "release_version_013": true,
+        "new_native_tools_registered": true
+      },
+      "details": {},
+      "ids": {},
+      "failure": "handleCliCommand is not defined"
+    }
+  },
+  "semantic": {
+    "ok": true,
+    "result": {
+      "checks": {
+        "existing_accessibility_bound": false
+      },
+      "details": {},
+      "failure": "existing_accessibility_bound"
+    }
+  },
+  "modelRequests": [],
+  "maxSimultaneousModelRequests": 0,
+  "cancelledQueuedWorkerContactedAPI": false,
+  "completedAt": "2026-10-04T08:23:05.613297+00:00",
+  "allPassed": false
+}

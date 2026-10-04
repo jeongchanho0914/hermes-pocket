@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "result": {
+    "version": "0.06",
+    "device": {
+      "model": "unknown Android SDK built for x86_64",
+      "android": "15",
+      "sdk": 35,
+      "battery": 100,
+      "charging": true,
+      "memoryTotalGb": 2.4,
+      "memoryAvailableGb": 1.6,
+      "volume": 53,
+      "brightness": 102,
+      "wifi": true,
+      "root": false,
+      "rootEnabled": false,
+      "systemUid": false,
+      "accessibility": false,
+      "gestures": false,
+      "locked": false,
+      "writeSettings": false
+    },
+    "toolCount": 24
+  }
+}

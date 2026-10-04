@@ -1,0 +1,31 @@
+{
+  "installedAt": "2026-10-04T08:28:04.283241+00:00",
+  "serial": "R3CX20QTRPD",
+  "package": "dev.chanho.hermes",
+  "version": "0.13",
+  "versionCode": 13,
+  "apkSha256": "ce76dfbf9835b895e010ca46b02994676e58da03bf58526f26f9574e4ea342ad",
+  "apkBytes": 7099970,
+  "certificateSha256": "6d997f21e5f0c15e3756f5cc2b792262b40ed6d9c6e688f79ab7081a1c6d8e7c",
+  "mode": "adb install -r",
+  "uninstallOrDataClear": false,
+  "privateDataExtracted": false,
+  "emulatorChecks": "native-verification.json",
+  "knownVerificationGap": "Emulator accessibility service was not bound; semantic click dispatch and live S24/default-browser/remote-provider end-to-end behavior are not established by this installation.",
+  "deviceModel": "SM-S928N",
+  "installOutput": "Performing Streamed Install\nSuccess",
+  "installedApkSha256": "ce76dfbf9835b895e010ca46b02994676e58da03bf58526f26f9574e4ea342ad",
+  "installedApkBytes": 7099970,
+  "versionEvidence": [
+    "versionCode=13 minSdk=26 targetSdk=35",
+    "versionName=0.13",
+    "lastUpdateTime=2026-10-04 17:28:12",
+    "firstInstallTime=2026-10-04 06:48:46",
+    "firstInstallTime=2026-10-04 06:48:46"
+  ],
+  "launchOutput": "Starting: Intent { cmp=dev.chanho.hermes/.MainActivity }\nStatus: ok\nLaunchState: WARM\nActivity: dev.chanho.hermes/.MainActivity\nTotalTime: 221\nWaitTime: 221\nComplete",
+  "processIds": "9480",
+  "processAlive": true,
+  "installVerified": true,
+  "completedAt": "2026-10-04T08:28:15.961379+00:00"
+}

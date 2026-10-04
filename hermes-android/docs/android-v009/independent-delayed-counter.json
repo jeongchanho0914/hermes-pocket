@@ -1,0 +1,52 @@
+{
+  "path": "/chat/completions",
+  "stream": true,
+  "messageRoles": [
+    "system",
+    "user",
+    "assistant",
+    "tool",
+    "user",
+    "assistant",
+    "tool"
+  ],
+  "hasBearer": true,
+  "images": [],
+  "visionValidated": false,
+  "nativeToolStates": [
+    {
+      "id": "native_capture_008",
+      "ok": true,
+      "package": "dev.hermesfixture.android",
+      "postCounterTexts": []
+    },
+    {
+      "id": "native_tap_008",
+      "ok": true,
+      "package": null,
+      "postCounterTexts": [
+        "Visual counter: 0"
+      ]
+    }
+  ],
+  "independentDelayedCounterSamples": [
+    {
+      "additionalDelaySeconds": 0,
+      "actualUiAutomationTexts": [
+        "Visual counter: 0"
+      ]
+    },
+    {
+      "additionalDelaySeconds": 0.2,
+      "actualUiAutomationTexts": [
+        "Visual counter: 0"
+      ]
+    },
+    {
+      "additionalDelaySeconds": 0.3,
+      "actualUiAutomationTexts": [
+        "Visual counter: 0"
+      ]
+    }
+  ]
+}

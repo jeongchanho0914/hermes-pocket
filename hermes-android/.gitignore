@@ -1,0 +1,9 @@
+.toolchain/
+.signing/
+state/
+build/
+app/build/
+.gradle/
+local.properties
+*.pyc
+__pycache__/

@@ -1,0 +1,21 @@
+/home/chanho/Desktop/hermes-pocket-source/hermes-android/tests/android_jvm/PhoneContractsHarness.java:5: warning: Unsafe is internal proprietary API and may be removed in a future release
+import sun.misc.Unsafe;
+               ^
+/home/chanho/Desktop/hermes-pocket-source/hermes-android/tests/android_jvm/PhoneContractsHarness.java:14: warning: Unsafe is internal proprietary API and may be removed in a future release
+  Field field=Unsafe.class.getDeclaredField("theUnsafe");field.setAccessible(true);device=(DeviceTools)((Unsafe)field.get(null)).allocateInstance(DeviceTools.class);validate=DeviceTools.class.getDeclaredMethod("validate",String.class,JSONObject.class);validate.setAccessible(true);
+              ^
+/home/chanho/Desktop/hermes-pocket-source/hermes-android/tests/android_jvm/PhoneContractsHarness.java:14: warning: Unsafe is internal proprietary API and may be removed in a future release
+  Field field=Unsafe.class.getDeclaredField("theUnsafe");field.setAccessible(true);device=(DeviceTools)((Unsafe)field.get(null)).allocateInstance(DeviceTools.class);validate=DeviceTools.class.getDeclaredMethod("validate",String.class,JSONObject.class);validate.setAccessible(true);
+                                                                                                         ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+3 warnings
+PASS actual production inventory advertises the new phone tools only through their enabled native plugins
+PASS real browser search validator accepts bounded Unicode query but rejects private router extras and wrong typed options
+PASS production volume validator accepts four ordinary streams and default media but rejects calls aliases and noninteger bounds
+PASS production phone settings enforce rotation orientation and disjoint boolean timeout arguments
+PASS real accessibility schemas require fresh snapshot identity and finite slider value and allow only ordinary phone actions
+PASS actual ordinary intent validation rejects unsafe link schemes credentials and ports
+PASS real map and share validators enforce coordinate bounds query exclusivity text types and resource limits
+PASS real draft and alarm validators allow safe SMS email dial and bounded integers while refusing calls sending MMI and recipient injection
+PhoneContracts: 8 actual production validator/schema checks; no Android dispatch or permission proof.

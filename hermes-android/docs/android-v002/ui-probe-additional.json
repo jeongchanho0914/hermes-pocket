@@ -1,0 +1,26 @@
+{
+  "settings-home": {
+    "ok": true,
+    "result": {
+      "page": "settings",
+      "width": 412,
+      "bodyWidth": 412
+    }
+  },
+  "provider-first": {
+    "ok": true,
+    "result": {
+      "page": "settings",
+      "width": 412,
+      "bodyWidth": 412
+    }
+  },
+  "keyboard-composer": {
+    "ok": true,
+    "result": {
+      "page": "chat",
+      "width": 412,
+      "bodyWidth": 412
+    }
+  }
+}

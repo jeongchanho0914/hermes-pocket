@@ -1,0 +1,37 @@
+{
+  "image": "docs/android-v008/vision-api-images/e334357962d50d8395bc6f9d1fb713b4f1cd9da9ffe4bc725908d50a9abc0a7e.jpeg",
+  "sha256": "e334357962d50d8395bc6f9d1fb713b4f1cd9da9ffe4bc725908d50a9abc0a7e",
+  "size": [
+    576,
+    1280
+  ],
+  "nativeBounds": [
+    0,
+    0,
+    1080,
+    2400
+  ],
+  "editableBounds": [
+    24,
+    511,
+    1056,
+    629
+  ],
+  "sampleImageBounds": [
+    16,
+    276,
+    559,
+    331
+  ],
+  "opaqueEditableMaskDarkRatio": 1.0,
+  "nativeVisionMarkerObserved": true,
+  "afterClickCounterOne": true,
+  "idleOverlayAtVisionCompletion": {
+    "enabled": true,
+    "available": true,
+    "visible": true,
+    "collapsed": true,
+    "session": "767ab63f-5081-4249-815c-6decd0c0100d",
+    "status": "\uc644\ub8cc"
+  }
+}

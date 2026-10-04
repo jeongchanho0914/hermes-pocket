@@ -1,0 +1,138 @@
+{
+  "testedAt": "2026-10-04T08:25:49.865655+00:00",
+  "serial": "emulator-5554",
+  "physicalDeviceTouched": false,
+  "api": "deterministic localhost fixture; not a live provider",
+  "apkSha256": "ce76dfbf9835b895e010ca46b02994676e58da03bf58526f26f9574e4ea342ad",
+  "install": "Performing Streamed Install\nSuccess",
+  "probeInstall": "Serving...\nPerforming Incremental Install\nSuccess\nInstall command complete in 62 ms",
+  "fixtureInstall": "Serving...\nPerforming Incremental Install\nSuccess\nInstall command complete in 67 ms",
+  "jobs": {
+    "ok": true,
+    "result": {
+      "checks": {
+        "release_version_013": true,
+        "new_native_tools_registered": true,
+        "actual_webview_cli_help": true,
+        "third_worker_is_queued": true,
+        "foreground_chat_and_workers_coexist": true,
+        "background_retains_actual_work": true,
+        "first_worker_real_sse_result": true,
+        "second_worker_real_sse_result": true,
+        "queued_worker_cancelled": true,
+        "missing_usage_not_invented": true,
+        "foreground_chat_settled": true
+      },
+      "details": {
+        "background": {
+          "backgrounded": true,
+          "busy": true,
+          "retained": true
+        },
+        "results": {
+          "a": {
+            "id": "job_19b77719c46a4c8ebd06f6d673baa61b",
+            "goal": "PUBLIC_V013_A",
+            "parentSession": "",
+            "channel": "worker:read-only",
+            "status": "completed",
+            "phase": "완료",
+            "createdAt": 1791102358303,
+            "updatedAt": 1791102362314,
+            "result": "PUBLIC_V013_A_DONE",
+            "error": "",
+            "modelRequests": 1,
+            "usageKnown": false,
+            "startedAt": 1791102358304,
+            "promptTokens": 0,
+            "completionTokens": 0,
+            "round": 1,
+            "toolCalls": 0,
+            "finishedAt": 1791102362314
+          },
+          "b": {
+            "id": "job_426ddd4637ea47aeb602968e1015d2bf",
+            "goal": "PUBLIC_V013_B",
+            "parentSession": "",
+            "channel": "worker:read-only",
+            "status": "completed",
+            "phase": "완료",
+            "createdAt": 1791102358314,
+            "updatedAt": 1791102362332,
+            "result": "PUBLIC_V013_B_DONE",
+            "error": "",
+            "modelRequests": 1,
+            "usageKnown": false,
+            "startedAt": 1791102358321,
+            "promptTokens": 0,
+            "completionTokens": 0,
+            "round": 1,
+            "toolCalls": 0,
+            "finishedAt": 1791102362332
+          },
+          "c": {
+            "id": "job_b7046d1cf4dd47a0bd4759ad2b2e32e9",
+            "goal": "PUBLIC_V013_CANCEL",
+            "parentSession": "",
+            "channel": "worker:read-only",
+            "status": "cancelled",
+            "phase": "중단 완료",
+            "createdAt": 1791102358329,
+            "updatedAt": 1791102362315,
+            "result": "",
+            "error": "사용자가 중단했습니다.",
+            "modelRequests": 0,
+            "usageKnown": false,
+            "finishedAt": 1791102362315
+          }
+        }
+      },
+      "ids": {
+        "a": "job_19b77719c46a4c8ebd06f6d673baa61b",
+        "b": "job_426ddd4637ea47aeb602968e1015d2bf",
+        "c": "job_b7046d1cf4dd47a0bd4759ad2b2e32e9"
+      }
+    }
+  },
+  "reopenedJobs": {
+    "ok": true,
+    "result": {
+      "checks": {
+        "a": true,
+        "b": true,
+        "c": true
+      }
+    }
+  },
+  "semantic": {
+    "ok": true,
+    "result": {
+      "checks": {
+        "existing_accessibility_bound": false
+      },
+      "details": {},
+      "failure": "existing_accessibility_bound"
+    }
+  },
+  "modelRequests": [
+    {
+      "marker": "PUBLIC_V013_A",
+      "stream": true,
+      "startedAt": 57973.452075824
+    },
+    {
+      "marker": "PUBLIC_V013_B",
+      "stream": true,
+      "startedAt": 57973.470970863
+    },
+    {
+      "marker": "PUBLIC_V013_MAIN",
+      "stream": true,
+      "startedAt": 57973.569886287
+    }
+  ],
+  "maxSimultaneousModelRequests": 3,
+  "cancelledQueuedWorkerContactedAPI": false,
+  "completedAt": "2026-10-04T08:26:30.231035+00:00",
+  "allPassed": false
+}

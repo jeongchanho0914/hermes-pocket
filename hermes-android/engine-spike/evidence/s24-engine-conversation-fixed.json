@@ -1,0 +1,141 @@
+{
+  "python": "3.14.0 (main, Nov 20 2025, 09:47:34) [Clang 18.0.4 (https://android.googlesource.com/toolchain/llvm-project d8003a456",
+  "machine": "aarch64",
+  "sqlite": "3.50.4",
+  "persisted_runs": 5,
+  "upstream_engine": {
+    "imported": true,
+    "class": "<class 'run_agent.AIAgent'>"
+  },
+  "upstream_components": {
+    "iteration_budget": {
+      "success": true,
+      "result": {
+        "allowed": [
+          true,
+          true,
+          false
+        ],
+        "remaining_after_refund": 1
+      }
+    },
+    "session_store": {
+      "success": true,
+      "result": {
+        "persisted_messages": 5,
+        "source": "unchanged upstream SessionDB"
+      }
+    },
+    "skill_metadata": {
+      "success": true,
+      "result": [
+        {
+          "name": "android-probe",
+          "description": "Local runtime proof"
+        },
+        "# Instructions\n"
+      ]
+    },
+    "memory_store": {
+      "success": true,
+      "result": {
+        "write": {
+          "success": true,
+          "done": true,
+          "target": "memory",
+          "usage": "3% — 69/2,200 chars",
+          "entry_count": 1,
+          "message": "Entry already exists (no duplicate added).",
+          "note": "Write saved. This update is complete — do not repeat it."
+        },
+        "entries": [
+          "Android runtime probe uses only this application's private directory."
+        ]
+      }
+    },
+    "native_core": {
+      "success": true,
+      "result": {
+        "pydantic": "2.13.4",
+        "pydantic_core": "2.46.4",
+        "value": 42
+      }
+    }
+  },
+  "agent_conversation": {
+    "genuine_agent": true,
+    "requests": [
+      {
+        "path": "/v1/chat/completions",
+        "model": "fixture-model",
+        "stream": true,
+        "tool_names": [
+          "memory",
+          "skill_manage",
+          "skill_view",
+          "skills_list"
+        ],
+        "tool_results": []
+      },
+      {
+        "path": "/v1/chat/completions",
+        "model": "fixture-model",
+        "stream": true,
+        "tool_names": [
+          "memory",
+          "skill_manage",
+          "skill_view",
+          "skills_list"
+        ],
+        "tool_results": [
+          {
+            "name": null,
+            "tool_call_id": "call_fixture_0",
+            "content": "{\"success\": true, \"done\": true, \"target\": \"memory\", \"usage\": \"2% — 54/2,200 chars\", \"entry_count\": 1, \"message\": \"Entry added.\", \"note\": \"Write saved. This update is complete — do not repeat it.\"}\n\n[SYSTEM NOTICE — run time budget nearly exhausted] Run time budget nearly exhausted. Stop new discovery/verification work now. Produce the required final deliverable (answer/JSON/summary) from the state you already have, completing only mandatory writes."
+          }
+        ]
+      },
+      {
+        "path": "/v1/chat/completions",
+        "model": "fixture-model",
+        "stream": true,
+        "tool_names": [
+          "memory",
+          "skill_manage",
+          "skill_view",
+          "skills_list"
+        ],
+        "tool_results": [
+          {
+            "name": null,
+            "tool_call_id": "call_fixture_0",
+            "content": "{\"success\": true, \"done\": true, \"target\": \"memory\", \"usage\": \"2% — 54/2,200 chars\", \"entry_count\": 1, \"message\": \"Entry added.\", \"note\": \"Write saved. This update is complete — do not repeat it.\"}\n\n[SYSTEM NOTICE — run time budget nearly exhausted] Run time budget nearly exhausted. Stop new discovery/verification work now. Produce the required final deliverable (answer/JSON/summary) from the state you already have, completing only mandatory writes."
+          },
+          {
+            "name": null,
+            "tool_call_id": "call_fixture_1",
+            "content": "{\"success\": true, \"name\": \"android-fixture\", \"description\": \"On-device real engine proof\", \"tags\": [], \"related_skills\": [], \"content\": \"---\\nname: android-fixture\\ndescription: On-device real engine proof\\n---\\nUse app-private files only.\\n\", \"path\": \"android-fixture/SKILL.md\", \"skill_dir\": \"/data/user/0/dev.chanho.hermes.engineprobe/files/fixture-hermes/skills/android-fixture\", \"org_provenance\": null, \"linked_files\": null, \"usage_hint\": null, \"required_environment_variables\": [], \"required_commands\": [], \"missing_required_environment_variables\": [], \"missing_credential_files\": [], \"missing_required_commands\": [], \"setup_needed\": false, \"setup_skipped\": false, \"readiness_status\": \"available\", \"_source_path\": \"/data/user/0/dev.chanho.hermes.engineprobe/files/fixture-hermes/skills/android-fixture/SKILL.md\"}"
+          }
+        ]
+      }
+    ],
+    "events": [
+      {
+        "tool_complete": "('call_fixture_0', 'memory', {'action': 'add', 'target': 'memory', 'content': 'Android genuine AIAgent persisted this fixture memory.'}, '{\"success\": true, \"done\": true, \"target\": \"memory\", \"usage\": \"2% — 54/2,200 chars\", \"entry_count\": 1, \"message\": \"Entry added.\", \"note\": \"Write saved. This update is complete — do not repeat it.\"}')"
+      },
+      {
+        "tool_complete": "('call_fixture_1', 'skill_view', {'name': 'android-fixture'}, '{\"success\": true, \"name\": \"android-fixture\", \"description\": \"On-device real engine proof\", \"tags\": [], \"related_skills\": [], \"content\": \"---\\\\nname: android-fixture\\\\ndescription: On-device real engine proof\\\\n---\\\\nUse app-private files only.\\\\n\", \"path\": \"android-fixture/SKILL.md\", \"skill_dir\": \"/data/user/0/dev.chanho.hermes.engineprobe/files/fixture-hermes/skills/android-fixture\", \"org_provenance\": null, \"linked_files\": null, \"usage_hint\": null, \"required_environment_variables\": [], \"required_commands\": [], \"missing_required_environment_variables\": [], \"missing_credential_files\": [], \"missing_required_commands\": [], \"setup_needed\": false, \"setup_skipped\": false, \"readiness_status\": \"available\", \"_source_path\": \"/data/user/0/dev.chanho.hermes.engineprobe/files/fixture-hermes/skills/android-fixture/SKILL.md\"}')"
+      }
+    ],
+    "response": {
+      "final_response": "GENUINE_HERMES_ANDROID_TOOL_LOOP_OK",
+      "completed": true,
+      "api_calls": 3,
+      "error": null
+    },
+    "memory_persisted": true,
+    "session_messages": 10,
+    "skill_loaded": true,
+    "success": true
+  }
+}

@@ -1,0 +1,21 @@
+plugins { id 'com.android.application' }
+def releaseVersion = new groovy.json.JsonSlurper().parse(rootProject.file('version.json'))
+def releaseCode = releaseVersion.major * 100 + releaseVersion.minor
+def releaseName = String.format('%d.%02d', releaseVersion.major, releaseVersion.minor)
+if (releaseVersion.major < 0 || releaseVersion.minor < 0 || releaseVersion.minor > 99 || releaseCode < 1 || releaseCode > 2100000000 || !(releaseVersion.channel in ['beta', 'stable'])) {
+    throw new GradleException('Invalid version.json release version')
+}
+// Keep Java metadata and the no-Gradle manifest synchronized before compiling.
+def versionSync = tasks.register('syncReleaseVersion', Exec) {
+    workingDir rootProject.projectDir
+    commandLine 'python3', 'scripts/versioning.py', 'sync'
+}
+android {
+    namespace 'dev.chanho.hermes'
+    compileSdk 35
+    defaultConfig { applicationId 'dev.chanho.hermes'; minSdk 26; targetSdk 35; versionCode releaseCode; versionName releaseName }
+    buildFeatures { buildConfig false }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_1_8; targetCompatibility JavaVersion.VERSION_1_8 }
+    buildTypes { release { minifyEnabled false } }
+}
+tasks.named('preBuild').configure { dependsOn versionSync }

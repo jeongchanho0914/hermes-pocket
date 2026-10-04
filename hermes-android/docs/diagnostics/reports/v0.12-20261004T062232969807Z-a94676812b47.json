@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "targetVersion": "v0.12",
+  "collectedAt": "2026-10-04T06:22:32.969807+00:00",
+  "package": "dev.chanho.hermes",
+  "source": "app-private-diagnostics",
+  "status": "collected",
+  "records": []
+}

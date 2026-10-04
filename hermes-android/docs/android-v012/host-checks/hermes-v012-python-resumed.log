@@ -1,0 +1,141 @@
+test_failed_resource_save_preserves_draft_and_disabled_plugin_blocks_editor (test_skill_packages.SkillPackageUITest.test_failed_resource_save_preserves_draft_and_disabled_plugin_blocks_editor) ... ok
+test_full_yaml_editor_preserves_metadata_in_native_save (test_skill_packages.SkillPackageUITest.test_full_yaml_editor_preserves_metadata_in_native_save) ... ok
+test_import_export_cancel_and_unverified_response_never_claim_saved_package (test_skill_packages.SkillPackageUITest.test_import_export_cancel_and_unverified_response_never_claim_saved_package) ... ERROR
+test_resource_read_write_and_remove_send_canonical_operation_arrays_without_model_key (test_skill_packages.SkillPackageUITest.test_resource_read_write_and_remove_send_canonical_operation_arrays_without_model_key) ... ok
+test_unverified_resource_response_does_not_claim_write_succeeded (test_skill_packages.SkillPackageUITest.test_unverified_resource_response_does_not_claim_write_succeeded) ... ok
+test_disabled_plugin_actual_inventory_and_busy_block_terminal_without_native_execution (test_terminal.TerminalUITest.test_disabled_plugin_actual_inventory_and_busy_block_terminal_without_native_execution) ... ok
+test_native_job_list_and_process_buttons_preserve_backend_and_session_identity (test_terminal.TerminalUITest.test_native_job_list_and_process_buttons_preserve_backend_and_session_identity) ... ok
+test_pending_terminal_and_stop_wait_for_actual_native_response_before_reenabling (test_terminal.TerminalUITest.test_pending_terminal_and_stop_wait_for_actual_native_response_before_reenabling) ... ok
+test_shizuku_failure_is_literal_and_never_retried_under_app_backend (test_terminal.TerminalUITest.test_shizuku_failure_is_literal_and_never_retried_under_app_backend) ... ok
+test_typed_terminal_arguments_preserve_command_and_omit_unsaved_model_key (test_terminal.TerminalUITest.test_typed_terminal_arguments_preserve_command_and_omit_unsaved_model_key) ... ok
+test_busy_reload_places_current_round_stream_between_persisted_first_appearances_and_failure_uses_native_message_ids (test_timeline_order.TimelineOrderUITest.test_busy_reload_places_current_round_stream_between_persisted_first_appearances_and_failure_uses_native_message_ids) ... ok
+test_late_history_snapshot_cannot_revert_live_completed_tool_or_new_public_thought (test_timeline_order.TimelineOrderUITest.test_late_history_snapshot_cannot_revert_live_completed_tool_or_new_public_thought) ... ok
+test_three_actual_rounds_interleave_user_thought_public_text_tool_updates_and_final_without_duplicates (test_timeline_order.TimelineOrderUITest.test_three_actual_rounds_interleave_user_thought_public_text_tool_updates_and_final_without_duplicates) ... ok
+test_unrelated_tool_append_preserves_selected_public_text_open_thought_details_and_reading_scroll (test_timeline_order.TimelineOrderUITest.test_unrelated_tool_append_preserves_selected_public_text_open_thought_details_and_reading_scroll) ... ok
+test_authenticated_e2e_phone_roundtrip (test_transport.Tests.test_authenticated_e2e_phone_roundtrip) ... /usr/lib/python3.14/tempfile.py:484: ResourceWarning: Implicitly cleaning up <HTTPError 401: 'Unauthorized'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+/usr/lib/python3.14/tempfile.py:484: ResourceWarning: Implicitly cleaning up <HTTPError 403: 'Forbidden'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+/usr/lib/python3.14/tempfile.py:484: ResourceWarning: Implicitly cleaning up <HTTPError 409: 'Conflict'>
+  _warnings.warn(self.warn_message, ResourceWarning)
+ok
+test_cancel_wakes_waiting_tool (test_transport.Tests.test_cancel_wakes_waiting_tool) ... ok
+test_event_cursor_monotonic (test_transport.Tests.test_event_cursor_monotonic) ... ok
+test_result_idempotency_and_conflict (test_transport.Tests.test_result_idempotency_and_conflict) ... ok
+test_schema_fails_closed (test_transport.Tests.test_schema_fails_closed) ... ok
+test_session_and_request_isolation (test_transport.Tests.test_session_and_request_isolation) ... ok
+test_tools_are_phone_only (test_transport.Tests.test_tools_are_phone_only) ... ok
+test_unconfigured_engine_refuses_run (test_transport.Tests.test_unconfigured_engine_refuses_run) ... Hermes run ended: InterruptedError
+ok
+test_uuid_rejects_paths (test_transport.Tests.test_uuid_rejects_paths) ... ok
+test_weak_token_rejected (test_transport.Tests.test_weak_token_rejected) ... ok
+test_accepted_pending_draft_reconciles_with_native_history_without_resend (test_ui.UITest.test_accepted_pending_draft_reconciles_with_native_history_without_resend) ... ok
+test_browser_preview_is_honest (test_ui.UITest.test_browser_preview_is_honest) ... ok
+test_composer_draft_restores_after_reload_without_focus_or_api_key_storage (test_ui.UITest.test_composer_draft_restores_after_reload_without_focus_or_api_key_storage) ... ok
+test_composer_remains_visible_in_short_keyboard_sized_viewport (test_ui.UITest.test_composer_remains_visible_in_short_keyboard_sized_viewport) ... ok
+test_failed_stream_preserves_partial_answer_as_incomplete (test_ui.UITest.test_failed_stream_preserves_partial_answer_as_incomplete) ... ok
+test_five_tabs_render_without_overflow (test_ui.UITest.test_five_tabs_render_without_overflow) ... ok
+test_mobile_drawer_keyboard_scrim_and_wide_mobile_preview (test_ui.UITest.test_mobile_drawer_keyboard_scrim_and_wide_mobile_preview) ... ok
+test_model_api_credentials_save_and_connection_use_direct_mode (test_ui.UITest.test_model_api_credentials_save_and_connection_use_direct_mode) ... ERROR
+test_model_text_is_not_html (test_ui.UITest.test_model_text_is_not_html) ... ok
+test_new_chat_clears_conversation_and_disables_blank_send (test_ui.UITest.test_new_chat_clears_conversation_and_disables_blank_send) ... ok
+test_rapid_stream_completion_flushes_final_text_without_delayed_overwrite (test_ui.UITest.test_rapid_stream_completion_flushes_final_text_without_delayed_overwrite) ... ok
+test_rapid_stream_interruption_preserves_latest_pending_delta (test_ui.UITest.test_rapid_stream_interruption_preserves_latest_pending_delta) ... ok
+test_standalone_model_api_setup_has_no_engine_selector (test_ui.UITest.test_standalone_model_api_setup_has_no_engine_selector) ... ok
+test_stream_and_stop_state (test_ui.UITest.test_stream_and_stop_state) ... FAIL
+test_stream_preserves_reading_position_and_jump_returns_to_latest (test_ui.UITest.test_stream_preserves_reading_position_and_jump_returns_to_latest) ... ok
+test_tool_catalog_covers_native_phone_loop (test_ui.UITest.test_tool_catalog_covers_native_phone_loop) ... ok
+test_version (unittest.loader._FailedTest.test_version) ... ERROR
+test_collapsed_document_reads_full_text_only_on_open_and_core_delete_stays_forbidden (test_memory_documents.MemoryDocumentsUITest.test_collapsed_document_reads_full_text_only_on_open_and_core_delete_stays_forbidden) ... ok
+test_save_uncertain_reply_preserves_draft_and_native_confirmed_save_carries_exact_name_content (test_memory_documents.MemoryDocumentsUITest.test_save_uncertain_reply_preserves_draft_and_native_confirmed_save_carries_exact_name_content) ... ok
+test_stream_completion_and_failure_all_designs (test_designs.DesignUITest.test_stream_completion_and_failure_all_designs) ... ok
+test_compact_settings_nested_back_returns_to_tools_or_advanced (test_preferences.PreferencesUITest.test_compact_settings_nested_back_returns_to_tools_or_advanced) ... ok
+test_skill_editor_save_read_and_confirmed_delete_native_requests (test_preferences.PreferencesUITest.test_skill_editor_save_read_and_confirmed_delete_native_requests) ... ok
+
+======================================================================
+ERROR: test_import_export_cancel_and_unverified_response_never_claim_saved_package (test_skill_packages.SkillPackageUITest.test_import_export_cancel_and_unverified_response_never_claim_saved_package)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/chanho/Desktop/hermes-pocket-source/hermes-android/tests/test_skill_packages.py", line 69, in test_import_export_cancel_and_unverified_response_never_claim_saved_package
+    self.bridge();self.open_skill();original=self.page.locator('#skillContent').input_value()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chanho/.local/lib/python3.14/site-packages/playwright/sync_api/_generated.py", line 18242, in fill
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.fill(
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        )
+        ^
+    )
+    ^
+  File "/home/chanho/.local/lib/python3.14/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "/home/chanho/.local/lib/python3.14/site-packages/playwright/_impl/_locator.py", line 219, in fill
+    return await self._frame.fill(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chanho/.local/lib/python3.14/site-packages/playwright/_impl/_frame.py", line 636, in fill
+    await self._fill(**locals_to_params(locals()))
+  File "/home/chanho/.local/lib/python3.14/site-packages/playwright/_impl/_frame.py", line 648, in _fill
+    await self._channel.send("fill", self._timeout, locals_to_params(locals()))
+  File "/home/chanho/.local/lib/python3.14/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/home/chanho/.local/lib/python3.14/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#skillPackageName")
+    - locator resolved to <input maxlength="64" autocomplete="off" spellcheck="false" autocapitalize="off" id="skillPackageName" placeholder="my-skill"/>
+    - fill("incoming")
+  - attempting fill action
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+      - waiting 100ms
+    60 × waiting for element to be visible, enabled and editable
+       - element is not visible
+     - retrying fill action
+       - waiting 500ms
+
+
+======================================================================
+ERROR: test_model_api_credentials_save_and_connection_use_direct_mode (test_ui.UITest.test_model_api_credentials_save_and_connection_use_direct_mode)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/chanho/Desktop/hermes-pocket-source/hermes-android/tests/test_ui.py", line 116, in test_model_api_credentials_save_and_connection_use_direct_mode
+    self.assertEqual(packet['data']['maxRounds'],24)
+                     ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 'maxRounds'
+
+======================================================================
+ERROR: test_version (unittest.loader._FailedTest.test_version)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_version
+Traceback (most recent call last):
+  File "/usr/lib/python3.14/unittest/loader.py", line 137, in loadTestsFromName
+    module = __import__(module_name)
+ModuleNotFoundError: No module named 'test_version'
+
+
+======================================================================
+FAIL: test_stream_and_stop_state (test_ui.UITest.test_stream_and_stop_state)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/chanho/Desktop/hermes-pocket-source/hermes-android/tests/test_ui.py", line 140, in test_stream_and_stop_state
+    self.assertTrue(self.page.locator('#sendMessage').is_visible())
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 46 tests in 94.752s
+
+FAILED (failures=1, errors=3)

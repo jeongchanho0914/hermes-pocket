@@ -1,0 +1,63 @@
+{
+  "simultaneousGuiSize": [
+    1080,
+    2400
+  ],
+  "nativeApiSize": [
+    576,
+    1280
+  ],
+  "ownPanelObservedInWindowDiagnostics": true,
+  "visibleGuiOwnPanelExcludedFromNativeImage": true,
+  "samples": [
+    {
+      "displayXY": [
+        100,
+        460
+      ],
+      "GUI": [
+        255,
+        255,
+        255
+      ],
+      "nativeImage": [
+        214,
+        216,
+        215
+      ]
+    },
+    {
+      "displayXY": [
+        150,
+        470
+      ],
+      "GUI": [
+        255,
+        255,
+        255
+      ],
+      "nativeImage": [
+        214,
+        216,
+        215
+      ]
+    },
+    {
+      "displayXY": [
+        220,
+        470
+      ],
+      "GUI": [
+        255,
+        255,
+        255
+      ],
+      "nativeImage": [
+        214,
+        216,
+        215
+      ]
+    }
+  ],
+  "inspection": "Both actual image artifacts viewed. Full GUI contains Hermes header/input/controls; native window image shows underlying Visual increment button and editable mask without Hermes panel."
+}

@@ -1,0 +1,321 @@
+{
+  "probe": {
+    "ok": true,
+    "result": {
+      "version": "0.11",
+      "checks": {
+        "actual_open_link_Android_dispatch_only": true,
+        "actual_open_map_Android_dispatch_only": true,
+        "actual_share_text_Android_dispatch_only": true,
+        "actual_compose_message_sms_Android_dispatch_only": true,
+        "actual_compose_message_email_Android_dispatch_only": true,
+        "actual_compose_message_dial_Android_dispatch_only": true,
+        "actual_set_alarm_Android_dispatch_only": true,
+        "actual_arbitrary_URL_scheme_refused": true,
+        "actual_none_scope_intent_refused": true,
+        "actual_disabled_device_intent_refused": true,
+        "actual_native_owner_deny_prevents_dispatch": true
+      },
+      "results": {
+        "dispatched": [
+          {
+            "name": "open_link",
+            "args": {
+              "url": "https://example.invalid/PUBLIC_LINK_FIXTURE"
+            },
+            "result": {
+              "ok": true,
+              "result": {
+                "dispatched": true,
+                "verified": false,
+                "verification": "android_activity_dispatch_only",
+                "handlerPackage": "dev.hermesfixture.android",
+                "handlerActivity": "dev.hermesfixture.android.StandardIntentFixtureActivity",
+                "requiresUserCompletion": false,
+                "message": "앱으로 요청을 전달했습니다. 실제 완료 여부는 대상 화면에서 확인해야 합니다."
+              }
+            }
+          },
+          {
+            "name": "open_map",
+            "args": {
+              "query": "PUBLIC_MAP_FIXTURE"
+            },
+            "result": {
+              "ok": true,
+              "result": {
+                "dispatched": true,
+                "verified": false,
+                "verification": "android_activity_dispatch_only",
+                "handlerPackage": "dev.hermesfixture.android",
+                "handlerActivity": "dev.hermesfixture.android.StandardIntentFixtureActivity",
+                "requiresUserCompletion": false,
+                "message": "앱으로 요청을 전달했습니다. 실제 완료 여부는 대상 화면에서 확인해야 합니다."
+              }
+            }
+          },
+          {
+            "name": "share_text",
+            "args": {
+              "text": "PUBLIC_SHARE_FIXTURE",
+              "subject": "PUBLIC_SHARE_SUBJECT"
+            },
+            "result": {
+              "ok": true,
+              "result": {
+                "dispatched": true,
+                "verified": false,
+                "verification": "android_activity_dispatch_only",
+                "handlerPackage": "android",
+                "handlerActivity": "com.android.internal.app.ResolverActivity",
+                "requiresUserCompletion": true,
+                "message": "앱으로 요청을 전달했습니다. 실제 완료 여부는 대상 화면에서 확인해야 합니다."
+              }
+            }
+          },
+          {
+            "name": "compose_message",
+            "args": {
+              "kind": "sms",
+              "recipient": "+15550001111",
+              "text": "PUBLIC_SMS_DRAFT_ONLY"
+            },
+            "result": {
+              "ok": true,
+              "result": {
+                "dispatched": true,
+                "verified": false,
+                "verification": "android_activity_dispatch_only",
+                "handlerPackage": "dev.hermesfixture.android",
+                "handlerActivity": "dev.hermesfixture.android.StandardIntentFixtureActivity",
+                "requiresUserCompletion": true,
+                "message": "앱으로 요청을 전달했습니다. 실제 완료 여부는 대상 화면에서 확인해야 합니다."
+              }
+            }
+          },
+          {
+            "name": "compose_message",
+            "args": {
+              "kind": "email",
+              "recipient": "fixture@example.invalid",
+              "subject": "PUBLIC_EMAIL_SUBJECT",
+              "text": "PUBLIC_EMAIL_DRAFT_ONLY"
+            },
+            "result": {
+              "ok": true,
+              "result": {
+                "dispatched": true,
+                "verified": false,
+                "verification": "android_activity_dispatch_only",
+                "handlerPackage": "dev.hermesfixture.android",
+                "handlerActivity": "dev.hermesfixture.android.StandardIntentFixtureActivity",
+                "requiresUserCompletion": true,
+                "message": "앱으로 요청을 전달했습니다. 실제 완료 여부는 대상 화면에서 확인해야 합니다."
+              }
+            }
+          },
+          {
+            "name": "compose_message",
+            "args": {
+              "kind": "dial",
+              "recipient": "+15550002222"
+            },
+            "result": {
+              "ok": true,
+              "result": {
+                "dispatched": true,
+                "verified": false,
+                "verification": "android_activity_dispatch_only",
+                "handlerPackage": "dev.hermesfixture.android",
+                "handlerActivity": "dev.hermesfixture.android.StandardIntentFixtureActivity",
+                "requiresUserCompletion": true,
+                "message": "앱으로 요청을 전달했습니다. 실제 완료 여부는 대상 화면에서 확인해야 합니다."
+              }
+            }
+          },
+          {
+            "name": "set_alarm",
+            "args": {
+              "hour": 9,
+              "minute": 37,
+              "label": "PUBLIC_ALARM_REQUEST_ONLY"
+            },
+            "result": {
+              "ok": true,
+              "result": {
+                "dispatched": true,
+                "verified": false,
+                "verification": "android_activity_dispatch_only",
+                "handlerPackage": "dev.hermesfixture.android",
+                "handlerActivity": "dev.hermesfixture.android.StandardIntentFixtureActivity",
+                "requiresUserCompletion": true,
+                "message": "앱으로 요청을 전달했습니다. 실제 완료 여부는 대상 화면에서 확인해야 합니다."
+              }
+            }
+          }
+        ],
+        "ownerDenied": {
+          "ok": false,
+          "denied": true,
+          "error": "사용자가 승인하지 않았습니다. 자동 재시도하지 마세요."
+        }
+      }
+    }
+  },
+  "records": [
+    {
+      "action": "android.intent.action.VIEW",
+      "data": "https://example.invalid/PUBLIC_LINK_FIXTURE",
+      "flags": 272629760,
+      "receivedAt": 1791089776594,
+      "fixtureOnly": true,
+      "externalActionPerformed": false,
+      "categories": [
+        "android.intent.category.BROWSABLE"
+      ],
+      "extras": {}
+    },
+    {
+      "action": "android.intent.action.VIEW",
+      "data": "geo:0,0?q=PUBLIC_MAP_FIXTURE",
+      "flags": 272629760,
+      "receivedAt": 1791089779618,
+      "fixtureOnly": true,
+      "externalActionPerformed": false,
+      "categories": [],
+      "extras": {}
+    },
+    {
+      "action": "android.intent.action.SEND",
+      "type": "text/plain",
+      "flags": 453509120,
+      "receivedAt": 1791089783775,
+      "fixtureOnly": true,
+      "externalActionPerformed": false,
+      "categories": [],
+      "extras": {
+        "android.intent.extra.SUBJECT": "PUBLIC_SHARE_SUBJECT",
+        "android.intent.extra.TEXT": "PUBLIC_SHARE_FIXTURE"
+      }
+    },
+    {
+      "action": "android.intent.action.SENDTO",
+      "data": "smsto:%2B15550001111",
+      "flags": 272629760,
+      "receivedAt": 1791089785690,
+      "fixtureOnly": true,
+      "externalActionPerformed": false,
+      "categories": [],
+      "extras": {
+        "sms_body": "PUBLIC_SMS_DRAFT_ONLY"
+      }
+    },
+    {
+      "action": "android.intent.action.SENDTO",
+      "data": "mailto:fixture@example.invalid?subject=PUBLIC_EMAIL_SUBJECT&body=PUBLIC_EMAIL_DRAFT_ONLY",
+      "flags": 272629760,
+      "receivedAt": 1791089788722,
+      "fixtureOnly": true,
+      "externalActionPerformed": false,
+      "categories": [],
+      "extras": {
+        "android.intent.extra.SUBJECT": "PUBLIC_EMAIL_SUBJECT",
+        "android.intent.extra.TEXT": "PUBLIC_EMAIL_DRAFT_ONLY",
+        "android.intent.extra.EMAIL": [
+          "fixture@example.invalid"
+        ]
+      }
+    },
+    {
+      "action": "android.intent.action.DIAL",
+      "data": "tel:%2B15550002222",
+      "flags": 272629760,
+      "receivedAt": 1791089791751,
+      "fixtureOnly": true,
+      "externalActionPerformed": false,
+      "categories": [],
+      "extras": {}
+    },
+    {
+      "action": "android.intent.action.SET_ALARM",
+      "flags": 272629760,
+      "receivedAt": 1791089794779,
+      "fixtureOnly": true,
+      "externalActionPerformed": false,
+      "categories": [],
+      "extras": {
+        "android.intent.extra.alarm.SKIP_UI": false,
+        "android.intent.extra.alarm.MESSAGE": "PUBLIC_ALARM_REQUEST_ONLY",
+        "android.intent.extra.alarm.MINUTES": 37,
+        "android.intent.extra.alarm.HOUR": 9
+      }
+    }
+  ],
+  "events": [
+    {
+      "clicked": "거부"
+    },
+    {
+      "clicked": "거부"
+    },
+    {
+      "clicked": "거부"
+    },
+    {
+      "clicked": "거부"
+    },
+    {
+      "clicked": "거부"
+    },
+    {
+      "receivedCount": 1,
+      "action": "android.intent.action.VIEW"
+    },
+    {
+      "receivedCount": 2,
+      "action": "android.intent.action.VIEW"
+    },
+    {
+      "clicked": "Hermes Test Fixture"
+    },
+    {
+      "receivedCount": 3,
+      "action": "android.intent.action.SEND"
+    },
+    {
+      "receivedCount": 4,
+      "action": "android.intent.action.SENDTO"
+    },
+    {
+      "receivedCount": 5,
+      "action": "android.intent.action.SENDTO"
+    },
+    {
+      "receivedCount": 6,
+      "action": "android.intent.action.DIAL"
+    },
+    {
+      "receivedCount": 7,
+      "action": "android.intent.action.SET_ALARM"
+    },
+    {
+      "clicked": "거부"
+    },
+    {
+      "clicked": "거부"
+    }
+  ],
+  "artifactSha256": "d3e484dff19c480be498b414a50eeb3195220cf2111cd861d91a18a31a7b0d75",
+  "fixtureReceiptChecks": {
+    "seven_actual_fixture_receipts": true,
+    "all_fixture_no_external_action": true,
+    "actual_https_VIEW_BROWSABLE": true,
+    "actual_geo_VIEW": true,
+    "actual_share_SEND_text_plain": true,
+    "actual_sms_SENDTO_smsto_body": true,
+    "actual_email_SENDTO_extras": true,
+    "actual_dial_ACTION_DIAL_not_CALL": true,
+    "actual_alarm_skip_UI_false_and_exact_time": true
+  },
+  "stockDefaultHandlersRestored": true
+}

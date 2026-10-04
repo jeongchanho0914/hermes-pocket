@@ -1,0 +1,116 @@
+{
+  "version": "0.05",
+  "apkSha256": "7cc7e0c63dd2908860f311c05cc2a2261f29cab9ba121fbb14c759ebef876dce",
+  "apkBytes": 1512215,
+  "device": "emulator-5554",
+  "android": 15,
+  "sdk": 35,
+  "installedActualFinalApk": true,
+  "lifecycle": {
+    "ok": true,
+    "result": {
+      "version": "0.05",
+      "bridgePresent": true,
+      "appLoaded": true
+    },
+    "lifecycle": {
+      "stopCancelsNet": true,
+      "manualEntryResetsNet": true,
+      "manualBusySettled": true,
+      "readonlyToolCompletedAudit": true,
+      "rendererActuallyReplaced": true,
+      "oldViewDetached": true,
+      "activityAlive": true,
+      "runtimeIdentityPreserved": true,
+      "recoveredUrl": "https://appassets.androidplatform.net/index.html"
+    }
+  },
+  "newChatIme": {
+    "ok": true,
+    "result": {
+      "version": "0.05",
+      "newChatInputUnfocused": true
+    },
+    "lifecycle": {
+      "actualImeVisibleBefore": true,
+      "actualImeHiddenAfter": true,
+      "focusBefore": "\"messageInput\"",
+      "focusAfter": "\"\"",
+      "inputEmptyAfter": "true"
+    }
+  },
+  "localAgent": {
+    "ok": true,
+    "result": {
+      "checks": {
+        "twenty_registered_tools_with_all_plugins": true,
+        "memory_denial_preserves_original": true,
+        "native_approved_memory_saved": true,
+        "native_sqlite_session_search": true,
+        "native_approved_skill_saved": true,
+        "actual_skill_markdown_read": true,
+        "actual_skill_list": true,
+        "separate_web_key_saved": true,
+        "web_key_cleared_model_key_preserved": true,
+        "web_missing_key_explicit_refusal": true,
+        "actual_fixture_chat_completed_with_local_knowledge": true
+      },
+      "version": "0.05",
+      "memoryMarker": true,
+      "selectedSkill": "emulator-public-knowledge",
+      "model": "fixture-model-14",
+      "reasoningEffort": "low",
+      "availableTools": {
+        "count": 20,
+        "names": [
+          "get_device_state",
+          "list_apps",
+          "launch_app",
+          "open_settings",
+          "set_volume",
+          "set_brightness",
+          "root_processes",
+          "set_wifi",
+          "force_stop_app",
+          "read_screen",
+          "click_element",
+          "type_text",
+          "scroll_element",
+          "web_search",
+          "web_fetch",
+          "memory",
+          "session_search",
+          "skills_list",
+          "skill_view",
+          "skill_manage"
+        ]
+      }
+    }
+  },
+  "coldPersistence": {
+    "ok": true,
+    "result": {
+      "version": "0.05",
+      "memoryPersisted": true,
+      "selectedSkillPersisted": true,
+      "skillFilePersisted": true,
+      "modelPersisted": true,
+      "lowEffortPersisted": true,
+      "chatHistoryPersisted": true
+    }
+  },
+  "actualWireAssertions": {
+    "memoryInActualOutgoingPrompt": true,
+    "selectedSkillInActualOutgoingPrompt": true,
+    "lowEffortOnActualRequest": true,
+    "actualModel": "fixture-model-14",
+    "actualToolSchemaCount": 20
+  },
+  "intentionalRendererCrash": "chrome://crash caused actual WebView renderer death; recovery verified. Renderer crash log is expected evidence, not suppressed.",
+  "limitations": [
+    "Model request uses an explicitly labeled local HTTP fixture, not a paid live model provider.",
+    "Tavily live search/extraction was not tested without a real search API key. Actual missing-key refusal was verified.",
+    "20 registered schemas does not imply all permission-dependent device tools are ready. v0.03 actual 13-tool denial baseline remains separately labeled.",
+    "No physical phone command was issued by this child agent."
+  ]
+}

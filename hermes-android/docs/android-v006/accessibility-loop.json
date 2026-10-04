@@ -1,0 +1,71 @@
+{
+  "probe": {
+    "ok": true,
+    "result": {
+      "checks": {
+        "actual_accessibility_service_bound": true,
+        "allowlisted_app_launched": true,
+        "screen_read_ok": false,
+        "real_fixture_snapshot_and_gesture_capability": true,
+        "password_tree_redacted": true,
+        "element_click_dispatched": true,
+        "old_snapshot_rejected": true,
+        "actual_click_counter_one": true,
+        "normal_text_dispatched": true
+      },
+      "results": {
+        "launch_app": {
+          "ok": true,
+          "result": {
+            "launched": "dev.hermesfixture.android",
+            "verified": false
+          }
+        },
+        "read_screen": {
+          "ok": false,
+          "error": "현재 앱은 화면 제어 허용 목록에 없습니다. 시스템·권한·Hermes 화면은 제어할 수 없습니다."
+        },
+        "click_element": {
+          "error": "화면 정보가 만료되었습니다. 다시 조회하세요."
+        },
+        "type_text": {
+          "ok": true,
+          "result": {
+            "dispatched": true,
+            "verified": false,
+            "message": "동작을 전달했습니다. 화면을 다시 조회해 결과를 확인하세요."
+          }
+        }
+      },
+      "failure": "screen_read_ok",
+      "device": {
+        "model": "unknown Android SDK built for x86_64",
+        "android": "15",
+        "sdk": 35,
+        "battery": 100,
+        "charging": true,
+        "memoryTotalGb": 2.4,
+        "memoryAvailableGb": 1.5,
+        "volume": 53,
+        "brightness": 102,
+        "wifi": true,
+        "root": false,
+        "rootEnabled": false,
+        "systemUid": false,
+        "accessibility": true,
+        "gestures": true,
+        "locked": false,
+        "writeSettings": false
+      }
+    }
+  },
+  "actualTypedTextObserved": true,
+  "approvalEvents": [
+    "approved_actual_native_gate",
+    "approved_actual_native_gate",
+    "approved_actual_native_gate",
+    "approved_actual_native_gate",
+    "approved_actual_native_gate",
+    "approved_actual_native_gate"
+  ]
+}

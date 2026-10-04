@@ -1,0 +1,58 @@
+{
+  "ok": true,
+  "result": {
+    "version": "0.10",
+    "activities": [
+      {
+        "runId": "113b9559-274a-424f-ad49-1a737f0ebe4c",
+        "session": "a5b30d2f-99e7-44c7-b8c1-c065d607cd8c",
+        "toolCallId": "native_capture_008",
+        "seq": 3,
+        "firstSeq": 1,
+        "kind": "tool",
+        "name": "capture_screen",
+        "status": "completed",
+        "summary": "도구 응답 수신 완료\n앱: dev.hermesfixture.android · 화면 요소 4개 · 576×1280",
+        "argsSummary": "{}",
+        "timestamp": 1791078823485,
+        "firstTimestamp": 1791078823012
+      },
+      {
+        "runId": "113b9559-274a-424f-ad49-1a737f0ebe4c",
+        "session": "a5b30d2f-99e7-44c7-b8c1-c065d607cd8c",
+        "toolCallId": "native_tap_008",
+        "seq": 6,
+        "firstSeq": 4,
+        "kind": "tool",
+        "name": "tap_screen",
+        "status": "completed",
+        "summary": "실행 요청됨 · 실제 성공 확인 필요\n앱: dev.hermesfixture.android · 화면 요소 4개",
+        "argsSummary": "{}",
+        "timestamp": 1791078824359,
+        "firstTimestamp": 1791078823814
+      }
+    ],
+    "actualCards": [
+      {
+        "status": "completed",
+        "text": "현재 앱 화면 이미지 읽기\n완료\n\n도구 응답 수신 완료\n앱: dev.hermesfixture.android · 화면 요소 4개 · 576×1280\n\n작업 정보"
+      },
+      {
+        "status": "completed",
+        "text": "화면 좌표 누르기\n완료\n\n실행 요청됨 · 실제 성공 확인 필요\n앱: dev.hermesfixture.android · 화면 요소 4개\n\n작업 정보"
+      }
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "Capture actual native visual fixture pixels, then tap the Visual increment button using the returned snapshot and verify counter 1.",
+        "created": 1791078822989
+      },
+      {
+        "role": "assistant",
+        "content": "ACTUAL_NATIVE_TAP_008_COUNTER_ONE",
+        "created": 1791078825097
+      }
+    ]
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "schema": 1,
+  "targetVersion": "v0.13",
+  "collectedAt": "2026-10-04T08:25:45.423113+00:00",
+  "package": "dev.chanho.hermes",
+  "source": "app-private-diagnostics",
+  "status": "collected",
+  "records": [
+    {
+      "schema": 1,
+      "id": "ed49bffc3a9dd53254e1d354dc499a1c8e7dd5d3c36f2c85c2960ab7a3a79439",
+      "versionCode": 12,
+      "versionName": "0.12",
+      "phase": "tool",
+      "type": "caught",
+      "firstSeen": 1791095107476,
+      "lastSeen": 1791095107476,
+      "count": 1,
+      "exceptions": [
+        {
+          "class": "java.lang.IllegalStateException",
+          "frames": [
+            {
+              "class": "dev.chanho.hermes.WebTools",
+              "method": "execute",
+              "source": "WebTools.java",
+              "line": 40
+            },
+            {
+              "class": "dev.chanho.hermes.AgentRuntime",
+              "method": "dispatchTool",
+              "source": "AgentRuntime.java",
+              "line": 255
+            },
+            {
+              "class": "dev.chanho.hermes.AgentRuntime",
+              "method": "executeTool",
+              "source": "AgentRuntime.java",
+              "line": 240
+            },
+            {
+              "class": "dev.chanho.hermes.DirectAgent",
+              "method": "run",
+              "source": "DirectAgent.java",
+              "line": 364
+            },
+            {
+              "class": "dev.chanho.hermes.AgentRuntime",
+              "method": "lambda$start$3$dev-chanho-hermes-AgentRuntime",
+              "source": "AgentRuntime.java",
+              "line": 126
+            },
+            {
+              "class": "dev.chanho.hermes.AgentRuntime$$ExternalSyntheticLambda1",
+              "method": "run",
+              "source": "D8$$SyntheticClass",
+              "line": 0
+            },
+            {
+              "class": "java.util.concurrent.Executors$RunnableAdapter",
+              "method": "call",
+              "source": "Executors.java",
+              "line": 520
+            },
+            {
+              "class": "java.util.concurrent.FutureTask",
+              "method": "run",
+              "source": "FutureTask.java",
+              "line": 328
+            },
+            {
+              "class": "java.util.concurrent.ThreadPoolExecutor",
+              "method": "runWorker",
+              "source": "ThreadPoolExecutor.java",
+              "line": 1100
+            },
+            {
+              "class": "java.util.concurrent.ThreadPoolExecutor$Worker",
+              "method": "run",
+              "source": "ThreadPoolExecutor.java",
+              "line": 624
+            },
+            {
+              "class": "java.lang.Thread",
+              "method": "run",
+              "source": "Thread.java",
+              "line": 1571
+            }
+          ]
+        }
+      ],
+      "fingerprint": "16ac38a279f0e218f10c4e7a359636a043ba2137b29603cb80c7428c868cd249",
+      "severity": "error"
+    },
+    {
+      "schema": 1,
+      "id": "ce107326c19c0e83acda8574e4947b620d4a1942a7c05a8819d84183d3bd4d20",
+      "versionCode": 12,
+      "versionName": "0.12",
+      "phase": "tool",
+      "type": "caught",
+      "firstSeen": 1791097116257,
+      "lastSeen": 1791097179072,
+      "count": 4,
+      "exceptions": [
+        {
+          "class": "java.lang.IllegalStateException",
+          "frames": [
+            {
+              "class": "dev.chanho.hermes.PhoneAccessibilityService",
+              "method": "checkFresh",
+              "source": "PhoneAccessibilityService.java",
+              "line": 263
+            },
+            {
+              "class": "dev.chanho.hermes.PhoneAccessibilityService",
+              "method": "actionDescription",
+              "source": "PhoneAccessibilityService.java",
+              "line": 251
+            },
+            {
+              "class": "dev.chanho.hermes.DeviceTools",
+              "method": "lambda$execute$2$dev-chanho-hermes-DeviceTools",
+              "source": "DeviceTools.java",
+              "line": 87
+            },
+            {
+              "class": "dev.chanho.hermes.DeviceTools$$ExternalSyntheticLambda11",
+              "method": "call",
+              "source": "D8$$SyntheticClass",
+              "line": 0
+            },
+            {
+              "class": "dev.chanho.hermes.DeviceTools",
+              "method": "lambda$onMain$15$dev-chanho-hermes-DeviceTools",
+              "source": "DeviceTools.java",
+              "line": 333
+            },
+            {
+              "class": "dev.chanho.hermes.DeviceTools$$ExternalSyntheticLambda6",
+              "method": "call",
+              "source": "D8$$SyntheticClass",
+              "line": 0
+            },
+            {
+              "class": "dev.chanho.hermes.MainThreadCall",
+              "method": "lambda$call$0",
+              "source": "MainThreadCall.java",
+              "line": 12
+            },
+            {
+              "class": "dev.chanho.hermes.MainThreadCall$$ExternalSyntheticLambda0",
+              "method": "call",
+              "source": "D8$$SyntheticClass",
+              "line": 0
+            },
+            {
+              "class": "java.util.concurrent.FutureTask",
+              "method": "run",
+              "source": "FutureTask.java",
+              "line": 328
+            },
+            {
+              "class": "android.os.Handler",
+              "method": "handleCallback",
+              "source": "Handler.java",
+              "line": 1070
+            },
+            {
+              "class": "android.os.Handler",
+              "method": "dispatchMessage",
+              "source": "Handler.java",
+              "line": 125
+            },
+            {
+              "class": "android.os.Looper",
+              "method": "dispatchMessage",
+              "source": "Looper.java",
+              "line": 358
+            }
+          ]
+        }
+      ],
+      "fingerprint": "b9eb9bc3c803f4d9ca4dcaa22219cb367c460be9036fa1212048eecb4ae6850f",
+      "severity": "error"
+    }
+  ]
+}

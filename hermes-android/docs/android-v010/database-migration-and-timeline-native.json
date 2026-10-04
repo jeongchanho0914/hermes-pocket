@@ -1,0 +1,71 @@
+{
+  "version": 2,
+  "ids": {
+    "session": "2b49e31a-cb80-4a66-a3e5-1b3cc918e5da",
+    "otherSession": "3641227f-29cb-4acd-a84d-4abfa8763d57",
+    "runId": "test_run_18dc14c5-77ae-4eb4-8ce7-1d7de135de0e"
+  },
+  "activities": [
+    {
+      "runId": "test_run_18dc14c5-77ae-4eb4-8ce7-1d7de135de0e",
+      "session": "2b49e31a-cb80-4a66-a3e5-1b3cc918e5da",
+      "toolCallId": "call_public_a",
+      "seq": 3,
+      "firstSeq": 1,
+      "kind": "tool",
+      "name": "terminal",
+      "status": "completed",
+      "summary": "Public native step completed",
+      "argsSummary": "Android app UID; public marker command",
+      "timestamp": 2000,
+      "firstTimestamp": 1000
+    },
+    {
+      "runId": "test_run_18dc14c5-77ae-4eb4-8ce7-1d7de135de0e",
+      "session": "2b49e31a-cb80-4a66-a3e5-1b3cc918e5da",
+      "toolCallId": "call_public_pending",
+      "seq": 4,
+      "firstSeq": 4,
+      "kind": "tool",
+      "name": "terminal",
+      "status": "started",
+      "summary": "Public pending step",
+      "argsSummary": "Android app UID; public marker command",
+      "timestamp": 2500,
+      "firstTimestamp": 2500
+    }
+  ],
+  "otherActivities": [
+    {
+      "runId": "test_run_18dc14c5-77ae-4eb4-8ce7-1d7de135de0e_isolated",
+      "session": "3641227f-29cb-4acd-a84d-4abfa8763d57",
+      "toolCallId": "call_public_other",
+      "seq": 5,
+      "firstSeq": 5,
+      "kind": "tool",
+      "name": "terminal",
+      "status": "completed",
+      "summary": "Public pending step",
+      "argsSummary": "Android app UID; public marker command",
+      "timestamp": 3000,
+      "firstTimestamp": 3000
+    }
+  ],
+  "sessionsCount": 23,
+  "messagesCount": 56,
+  "transcriptsCount": 21,
+  "auditCount": 235,
+  "activitiesCount": 3,
+  "legacyMessagePreserved": true,
+  "legacyTranscriptPreserved": true,
+  "activityColumns": [
+    "id",
+    "sid",
+    "run_id",
+    "call_id",
+    "kind",
+    "body",
+    "created"
+  ],
+  "rawFieldsExcluded": true
+}

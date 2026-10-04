@@ -1,0 +1,179 @@
+{
+  "checkedAt": "2026-10-03T23:10:59.372416+00:00",
+  "authorizationSent": false,
+  "officialSources": [
+    "https://github.com/mwmbl/mwmbl/blob/main/mwmbl/api.py",
+    "https://github.com/searxng/searxng/blob/master/searx/engines/mwmbl.py"
+  ],
+  "requests": [
+    {
+      "url": "https://api.mwmbl.org/api/v1/search/?s=Android%20accessibility%20API",
+      "http": 200,
+      "error": null,
+      "count": 74,
+      "firstHttps": {
+        "url": "https://github.com/dandclark/html-aam",
+        "title": [
+          {
+            "value": "GitHub - dandclark/html-aam: HTML ",
+            "is_bold": false
+          },
+          {
+            "value": "Accessibility",
+            "is_bold": true
+          },
+          {
+            "value": " ",
+            "is_bold": false
+          },
+          {
+            "value": "API",
+            "is_bold": true
+          },
+          {
+            "value": " Mappings",
+            "is_bold": false
+          }
+        ],
+        "extract": [
+          {
+            "value": " Saved searches Use saved searches to filter your results more quickly You signed in with another tab or window. Reload to refresh your session.You signed…",
+            "is_bold": false
+          }
+        ],
+        "source": "mwmbl"
+      }
+    },
+    {
+      "url": "https://api.mwmbl.org/api/v2/search/?s=Android%20accessibility%20API",
+      "http": null,
+      "error": "HTTP Error 422: Unprocessable Entity",
+      "count": null,
+      "firstHttps": null
+    },
+    {
+      "url": "https://api.mwmbl.org/api/v1/search/?s=Android",
+      "http": 200,
+      "error": null,
+      "count": 144,
+      "firstHttps": {
+        "url": "https://source.android.com",
+        "title": [
+          {
+            "value": "Android",
+            "is_bold": true
+          },
+          {
+            "value": " Open Source Project",
+            "is_bold": false
+          }
+        ],
+        "extract": [
+          {
+            "value": "About the ",
+            "is_bold": false
+          },
+          {
+            "value": "Android",
+            "is_bold": true
+          },
+          {
+            "value": " Open Source Project ",
+            "is_bold": false
+          },
+          {
+            "value": "Android",
+            "is_bold": true
+          },
+          {
+            "value": " is an open source operating system for mobile devices and a\ncorresponding open source project led by Google.…",
+            "is_bold": false
+          }
+        ],
+        "source": "user"
+      }
+    }
+  ],
+  "searxngProbes": [
+    {
+      "endpoint": "https://priv.au/",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "endpoint": "https://baresearch.org/",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "endpoint": "https://etsi.me/",
+      "error": "HTTP Error 429: TOO MANY REQUESTS"
+    },
+    {
+      "endpoint": "https://search.inetol.net/",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "endpoint": "https://searx.tiekoetter.com/",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "endpoint": "https://search.sapti.me/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)>"
+    },
+    {
+      "endpoint": "https://opnxng.com/",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "endpoint": "https://paulgo.io/",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "endpoint": "https://search.einfachzocken.eu/",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "endpoint": "https://searx.namejeff.xyz/",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "endpoint": "https://searxng.site/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "endpoint": "https://search.bladerunn.in/",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "endpoint": "https://search.mdosch.de/searxng/",
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "endpoint": "https://searx.perennialte.ch/",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "endpoint": "https://search.catboy.house/",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "endpoint": "https://searxng.canine.tools/",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "endpoint": "https://searxng.cups.moe/",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "endpoint": "https://searxng.shreven.org/",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "endpoint": "https://searx.ro/",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "endpoint": "https://searx.ononoki.org/",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+test_browser_preview_is_honest (test_ui.UITest.test_browser_preview_is_honest) ... ok
+test_composer_remains_visible_in_short_keyboard_sized_viewport (test_ui.UITest.test_composer_remains_visible_in_short_keyboard_sized_viewport) ... ok
+test_failed_stream_preserves_partial_answer_as_incomplete (test_ui.UITest.test_failed_stream_preserves_partial_answer_as_incomplete) ... ok
+test_five_tabs_render_without_overflow (test_ui.UITest.test_five_tabs_render_without_overflow) ... ok
+test_mobile_drawer_keyboard_scrim_and_wide_mobile_preview (test_ui.UITest.test_mobile_drawer_keyboard_scrim_and_wide_mobile_preview) ... ok
+test_model_api_credentials_save_and_connection_use_direct_mode (test_ui.UITest.test_model_api_credentials_save_and_connection_use_direct_mode) ... FAIL
+test_model_text_is_not_html (test_ui.UITest.test_model_text_is_not_html) ... ok
+test_new_chat_clears_conversation_and_disables_blank_send (test_ui.UITest.test_new_chat_clears_conversation_and_disables_blank_send) ... ok
+test_standalone_model_api_setup_has_no_engine_selector (test_ui.UITest.test_standalone_model_api_setup_has_no_engine_selector) ... ok
+test_stream_and_stop_state (test_ui.UITest.test_stream_and_stop_state) ... ok
+test_stream_preserves_reading_position_and_jump_returns_to_latest (test_ui.UITest.test_stream_preserves_reading_position_and_jump_returns_to_latest) ... ok
+test_tool_catalog_has_thirteen (test_ui.UITest.test_tool_catalog_has_thirteen) ... ok
+test_all_manual_tools_send_native_arguments (test_designs.DesignUITest.test_all_manual_tools_send_native_arguments) ... ok
+test_composer_tool_and_model_shortcuts_reach_controls (test_designs.DesignUITest.test_composer_tool_and_model_shortcuts_reach_controls) ... ok
+test_design_deep_links_select_requested_choice (test_designs.DesignUITest.test_design_deep_links_select_requested_choice) ... ok
+test_design_shortcut_opens_appearance (test_designs.DesignUITest.test_design_shortcut_opens_appearance) ... ok
+test_design_switch_preserves_unsaved_data (test_designs.DesignUITest.test_design_switch_preserves_unsaved_data) ... ok
+test_design_switch_sends_matching_native_system_bar_appearance (test_designs.DesignUITest.test_design_switch_sends_matching_native_system_bar_appearance) ... ok
+test_every_design_all_tabs_fit_mobile_and_wide (test_designs.DesignUITest.test_every_design_all_tabs_fit_mobile_and_wide) ... ok
+test_legacy_design_links_migrate_to_two_current_themes (test_designs.DesignUITest.test_legacy_design_links_migrate_to_two_current_themes) ... ok
+test_manual_tool_cancellation_restores_controls (test_designs.DesignUITest.test_manual_tool_cancellation_restores_controls) ... ok
+test_screen_result_buttons_select_target_and_invalidate_after_action (test_designs.DesignUITest.test_screen_result_buttons_select_target_and_invalidate_after_action) ... ok
+test_sidebar_session_search_open_and_confirmed_delete (test_designs.DesignUITest.test_sidebar_session_search_open_and_confirmed_delete) ... ok
+test_stream_completion_and_failure_all_designs (test_designs.DesignUITest.test_stream_completion_and_failure_all_designs) ... ERROR
+test_busy_blocks_preference_and_model_controls (test_preferences.PreferencesUITest.test_busy_blocks_preference_and_model_controls) ... ok
+test_catalog_five_rows_scroll_later_model_and_reasoning_select (test_preferences.PreferencesUITest.test_catalog_five_rows_scroll_later_model_and_reasoning_select) ... ok
+test_default_model_and_hermes_reasoning_ladder_persist_new_chat_and_boot (test_preferences.PreferencesUITest.test_default_model_and_hermes_reasoning_ladder_persist_new_chat_and_boot) ... ok
+test_failed_model_discovery_does_not_fake_models_or_prevent_manual_id (test_preferences.PreferencesUITest.test_failed_model_discovery_does_not_fake_models_or_prevent_manual_id) ... ok
+test_model_search_literal_name_and_manual_fallback (test_preferences.PreferencesUITest.test_model_search_literal_name_and_manual_fallback) ... ok
+test_native_provider_catalog_drives_names_and_builtin_endpoint (test_preferences.PreferencesUITest.test_native_provider_catalog_drives_names_and_builtin_endpoint) ... FAIL
+test_popup_focus_escape_native_back_and_background_inert (test_preferences.PreferencesUITest.test_popup_focus_escape_native_back_and_background_inert) ... ok
+test_provider_first_catalog_switch_resets_draft_secret_and_selects_model_after_save (test_preferences.PreferencesUITest.test_provider_first_catalog_switch_resets_draft_secret_and_selects_model_after_save) ... ok
+test_settings_home_subpanels_back_and_advanced_partial_save (test_preferences.PreferencesUITest.test_settings_home_subpanels_back_and_advanced_partial_save) ... ok
+test_short_drawer_last_button_is_reachable_and_does_not_clip (test_preferences.PreferencesUITest.test_short_drawer_last_button_is_reachable_and_does_not_clip) ... ok
+test_skill_plugin_partial_save_preserves_unsaved_api_secret (test_preferences.PreferencesUITest.test_skill_plugin_partial_save_preserves_unsaved_api_secret) ... ok
+
+======================================================================
+ERROR: test_stream_completion_and_failure_all_designs (test_designs.DesignUITest.test_stream_completion_and_failure_all_designs)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/chanho/Desktop/hermes-pocket-source/hermes-android/tests/test_designs.py", line 146, in test_stream_completion_and_failure_all_designs
+    self.navigate('chat')
+  File "/home/chanho/Desktop/hermes-pocket-source/hermes-android/tests/test_designs.py", line 80, in navigate
+    self.page.locator(f'[data-page="{tab}"]').click()
+  File "/tmp/hermes-ui-tests/lib/python3.11/site-packages/playwright/sync_api/_generated.py", line 18032, in click
+    self._sync(
+  File "/tmp/hermes-ui-tests/lib/python3.11/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/tmp/hermes-ui-tests/lib/python3.11/site-packages/playwright/_impl/_locator.py", line 165, in click
+    return await self._frame._click(self._selector, strict=True, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/hermes-ui-tests/lib/python3.11/site-packages/playwright/_impl/_frame.py", line 594, in _click
+    await self._channel.send("click", self._timeout, locals_to_params(locals()))
+  File "/tmp/hermes-ui-tests/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/hermes-ui-tests/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Locator.click: Error: strict mode violation: locator("[data-page=\"chat\"]") resolved to 2 elements:
+    1) <body class="active" data-page="chat" data-design="black" data-sidebar="open">…</body> aka locator("body")
+    2) <button class="active" data-page="chat">…</button> aka get_by_role("button", name="현재 대화")
+
+Call log:
+  - waiting for locator("[data-page=\"chat\"]")
+
+
+======================================================================
+FAIL: test_model_api_credentials_save_and_connection_use_direct_mode (test_ui.UITest.test_model_api_credentials_save_and_connection_use_direct_mode)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/chanho/Desktop/hermes-pocket-source/hermes-android/tests/test_ui.py", line 94, in test_model_api_credentials_save_and_connection_use_direct_mode
+    self.assertIn('암호화',self.page.locator('#tokenStatus').inner_text())
+AssertionError: '암호화' not found in ''
+
+======================================================================
+FAIL: test_native_provider_catalog_drives_names_and_builtin_endpoint (test_preferences.PreferencesUITest.test_native_provider_catalog_drives_names_and_builtin_endpoint)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/chanho/Desktop/hermes-pocket-source/hermes-android/tests/test_preferences.py", line 157, in test_native_provider_catalog_drives_names_and_builtin_endpoint
+    self.assertTrue(self.page.locator('#endpointDetails').is_visible())
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 35 tests in 77.547s
+
+FAILED (failures=2, errors=1)

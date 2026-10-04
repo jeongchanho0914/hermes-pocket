@@ -1,0 +1,7 @@
+{
+  "memoryInActualOutgoingPrompt": true,
+  "selectedSkillInActualOutgoingPrompt": true,
+  "lowEffortOnActualRequest": true,
+  "actualModel": "fixture-model-14",
+  "actualToolSchemaCount": 20
+}

@@ -1,0 +1,17 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=Hermes Pocket Development, OU=Unpublished Development Build
+Signer #1 certificate SHA-256 digest: 6d997f21e5f0c15e3756f5cc2b792262b40ed6d9c6e688f79ab7081a1c6d8e7c
+Signer #1 certificate SHA-1 digest: b8ffb55ee567eb2ed7ca3993c6da73d5fb98a19e
+Signer #1 certificate MD5 digest: bc72e9d68e329fd22259f57b3b446308
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 3072
+Signer #1 public key SHA-256 digest: 7f55fea87c5b87cb8ce684373e7ff0ae61f5b4f6b5be4807e5037b43c029fde5
+Signer #1 public key SHA-1 digest: f7e8161b1157715d628a8731a181cd3de2599e15
+Signer #1 public key MD5 digest: ead87b8853a7b33081bd2e8dc90c017e

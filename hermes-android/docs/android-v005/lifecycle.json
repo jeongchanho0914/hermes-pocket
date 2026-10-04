@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "result": {
+    "version": "0.05",
+    "bridgePresent": true,
+    "appLoaded": true
+  },
+  "lifecycle": {
+    "stopCancelsNet": true,
+    "manualEntryResetsNet": true,
+    "manualBusySettled": true,
+    "readonlyToolCompletedAudit": true,
+    "rendererActuallyReplaced": true,
+    "oldViewDetached": true,
+    "activityAlive": true,
+    "runtimeIdentityPreserved": true,
+    "recoveredUrl": "https://appassets.androidplatform.net/index.html"
+  }
+}

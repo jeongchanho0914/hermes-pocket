@@ -1,0 +1,7 @@
+test_browser_preview_is_honest (test_ui.UITest.test_browser_preview_is_honest) ... ok
+test_composer_remains_visible_in_short_keyboard_sized_viewport (test_ui.UITest.test_composer_remains_visible_in_short_keyboard_sized_viewport) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 4.385s
+
+OK

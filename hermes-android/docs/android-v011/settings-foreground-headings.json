@@ -1,0 +1,111 @@
+{
+  "probe": {
+    "general": {
+      "package": "com.android.settings",
+      "windowId": 109,
+      "windowTitle": "Settings",
+      "windowBounds": "[0,128][1080,2274]",
+      "titleCandidates": [
+        {
+          "id": "com.android.settings:id/homepage_title",
+          "class": "android.widget.TextView",
+          "heading": false,
+          "bounds": "[63,401][408,528]",
+          "text": "Settings",
+          "description": "[omitted]"
+        }
+      ]
+    },
+    "wifi": {
+      "error": "no_active_root"
+    },
+    "bluetooth": {
+      "package": "com.android.settings",
+      "windowId": 112,
+      "windowTitle": "Connected devices",
+      "windowBounds": "[0,0][1080,2400]",
+      "titleCandidates": [
+        {
+          "id": "com.android.settings:id/collapsing_toolbar",
+          "class": "android.widget.FrameLayout",
+          "heading": false,
+          "bounds": "[0,63][1080,533]",
+          "text": "[omitted]",
+          "description": "Connected devices"
+        },
+        {
+          "id": "",
+          "class": "android.widget.LinearLayout",
+          "heading": true,
+          "bounds": "[0,730][1080,823]",
+          "text": "[omitted]",
+          "description": "[omitted]"
+        }
+      ]
+    },
+    "display": {
+      "package": "com.android.settings",
+      "windowId": 113,
+      "windowTitle": "Display",
+      "windowBounds": "[0,0][1080,2400]",
+      "titleCandidates": [
+        {
+          "id": "com.android.settings:id/collapsing_toolbar",
+          "class": "android.widget.FrameLayout",
+          "heading": false,
+          "bounds": "[0,63][1080,533]",
+          "text": "[omitted]",
+          "description": "Display"
+        },
+        {
+          "id": "",
+          "class": "android.widget.LinearLayout",
+          "heading": true,
+          "bounds": "[0,575][1080,668]",
+          "text": "[omitted]",
+          "description": "[omitted]"
+        },
+        {
+          "id": "",
+          "class": "android.widget.LinearLayout",
+          "heading": true,
+          "bounds": "[0,916][1080,1009]",
+          "text": "[omitted]",
+          "description": "[omitted]"
+        },
+        {
+          "id": "",
+          "class": "android.widget.LinearLayout",
+          "heading": true,
+          "bounds": "[0,1463][1080,1556]",
+          "text": "[omitted]",
+          "description": "[omitted]"
+        },
+        {
+          "id": "",
+          "class": "android.widget.LinearLayout",
+          "heading": true,
+          "bounds": "[0,1959][1080,2052]",
+          "text": "[omitted]",
+          "description": "[omitted]"
+        }
+      ]
+    },
+    "sound": {
+      "package": "com.android.settings",
+      "windowId": 114,
+      "windowTitle": "Sound & vibration",
+      "windowBounds": "[0,0][1080,2400]",
+      "titleCandidates": [
+        {
+          "id": "com.android.settings:id/collapsing_toolbar",
+          "class": "android.widget.FrameLayout",
+          "heading": false,
+          "bounds": "[0,63][1080,533]",
+          "text": "[omitted]",
+          "description": "Sound & vibration"
+        }
+      ]
+    }
+  }
+}

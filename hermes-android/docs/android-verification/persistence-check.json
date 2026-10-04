@@ -1,0 +1,17 @@
+{
+  "mode": "direct",
+  "endpoint": "http://127.0.0.1:8877/v1",
+  "model": "android-fixture",
+  "credential_encrypted": true,
+  "session_count": 1,
+  "messages": [
+    [
+      "user",
+      "Hello"
+    ],
+    [
+      "assistant",
+      "Hello from the Android API fixture. This response passed through the installed APK native agent."
+    ]
+  ]
+}

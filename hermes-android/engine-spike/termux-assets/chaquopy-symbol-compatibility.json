@@ -1,0 +1,27 @@
+{
+  "chaquopyLibpython": "engine-spike/android/app/build/python/jniLibs/debug/arm64-v8a/libpython3.14.so",
+  "exports": 1826,
+  "extensions": [
+    {
+      "path": "venv/lib/python3.14/site-packages/pydantic_core/_pydantic_core.cpython-314-aarch64-linux-android.so",
+      "undefinedCPythonSymbolCount": 162,
+      "missingFromChaquopyLibpython": []
+    },
+    {
+      "path": "venv/lib/python3.14/site-packages/psutil/_psutil.abi3.so",
+      "undefinedCPythonSymbolCount": 44,
+      "missingFromChaquopyLibpython": []
+    },
+    {
+      "path": "venv/lib/python3.14/site-packages/jiter/jiter.cpython-314-aarch64-linux-android.so",
+      "undefinedCPythonSymbolCount": 96,
+      "missingFromChaquopyLibpython": []
+    },
+    {
+      "path": "venv/lib/python3.14/site-packages/cryptography/hazmat/bindings/_rust.abi3.so",
+      "undefinedCPythonSymbolCount": 151,
+      "missingFromChaquopyLibpython": []
+    }
+  ],
+  "scope": "static symbol comparison only, no Android import executed"
+}

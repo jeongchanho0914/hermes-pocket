@@ -1,0 +1,65 @@
+plugins { id 'com.android.application'; id 'com.chaquo.python' }
+
+def pocketRoot = rootProject.file('../..').canonicalFile
+def pocketMain = new File(pocketRoot, 'app/src/main')
+def version = new groovy.json.JsonSlurper().parse(new File(pocketRoot, 'version.json'))
+def generatedManifest = layout.buildDirectory.file('generated/engine/AndroidManifest.xml')
+def productionPackage = providers.gradleProperty('engineProductionPackage').orNull == 'true'
+
+def prepareManifest = tasks.register('prepareEngineManifest') {
+    inputs.file(new File(pocketMain, 'AndroidManifest.xml'))
+    outputs.file(generatedManifest)
+    doLast {
+        def original = new File(pocketMain, 'AndroidManifest.xml').getText('UTF-8')
+        // AGP owns namespace/version. Preserve every production permission and component.
+        original = original.replaceFirst(/\s+package="[^"]*"/, '')
+        original = original.replaceFirst(/\s+android:debuggable="[^"]*"/, '')
+        original = original.replaceFirst(/<application\s+/, '<application android:extractNativeLibs="true" ')
+        def output = generatedManifest.get().asFile
+        output.parentFile.mkdirs()
+        output.setText(original, 'UTF-8')
+    }
+}
+
+android {
+    namespace 'dev.chanho.hermes'
+    compileSdk 35
+    buildToolsVersion '35.0.0'
+    defaultConfig {
+        applicationId productionPackage ? 'dev.chanho.hermes' : 'dev.chanho.hermes.enginecandidate'
+        minSdk 26
+        targetSdk 35
+        versionCode version.major * 100 + version.minor
+        versionName String.format('%d.%02d', version.major, version.minor)
+        ndk { abiFilters 'arm64-v8a' }
+    }
+    buildFeatures { buildConfig false }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+    sourceSets {
+        main {
+            manifest.srcFile generatedManifest
+            java.srcDirs = [new File(pocketMain, 'java')]
+            res.srcDirs = [new File(pocketMain, 'res')]
+            assets.srcDirs = [new File(pocketMain, 'assets')]
+            jniLibs.srcDirs = [rootProject.file('../android/app/src/engine/jniLibs')]
+        }
+    }
+    packaging { jniLibs { useLegacyPackaging true } }
+    buildTypes { release { minifyEnabled false; debuggable false } }
+}
+
+chaquopy {
+    defaultConfig {
+        version = '3.14'
+        buildPython '/usr/bin/python3.14'
+        extractPackages 'tools'
+    }
+    sourceSets {
+        main {
+            srcDir '../../dependencies/vendor-minimal'
+            srcDir '../../dependencies/vendor-engine'
+            srcDir '../../../app/src/main/python'
+        }
+    }
+}
+tasks.named('preBuild').configure { dependsOn prepareManifest }

@@ -1,0 +1,698 @@
+<!DOCTYPE html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#101314"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-YcRrJWeCe7pq2R4LSaPAGs3VH941Wo+LK5R1PNgNxgs='; style-src 'sha256-XHppJS4+sdlKvnWMnP8seO4gh1jAfR58f+qUlJkUQKA='; img-src data:; connect-src 'none'; font-src 'none'; base-uri 'none'; form-action 'none'"><title>Hermes Pocket</title><style>:root{color-scheme:light;--bg:#fff;--surface:#fff;--sidebar:#f7f7f8;--soft:#f4f4f4;--hover:#ececee;--line:#e6e6e8;--text:#202123;--muted:#73757a;--accent:#202123;--accent-text:#fff;--bubble:#f3f3f3;--radius:16px;--composer-radius:26px;--font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR",Arial,sans-serif;--greeting-font:var(--font)}
+*{box-sizing:border-box}html,body{margin:0;height:100%;overscroll-behavior:none}body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:14px;line-height:1.6;-webkit-font-smoothing:antialiased}button,input,textarea,select{font:inherit;color:inherit}button{cursor:pointer;border:0;background:none;touch-action:manipulation;min-height:44px}button:disabled{cursor:default;opacity:.45}button:hover:not(:disabled){background:var(--hover)}button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:3px}input,textarea,select{width:100%;min-width:0;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;outline:none}input:not([type=checkbox]):not([type=range]),select{min-height:48px}textarea{resize:vertical}input[type=checkbox]{width:18px;height:18px;accent-color:var(--accent);padding:0;flex-shrink:0}input[type=range]{padding:0;border:0;min-height:44px;accent-color:var(--accent)}h1,h2,h3,p{margin:0}h1{font-size:28px;line-height:1.3;letter-spacing:-.8px;font-weight:600}h2{font-size:19px;line-height:1.4}h3{font-size:15px;font-weight:600}small{font-size:12px}code,pre{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}a{color:inherit}.hidden{display:none!important}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+#app{height:100%;height:100dvh;min-height:0;display:flex;flex-direction:column;position:relative;overflow:hidden;max-width:460px;margin:0 auto;background:var(--bg)}.topbar{flex-shrink:0;display:flex;align-items:center;gap:6px;height:68px;padding:10px 20px;background:var(--bg);z-index:4}.icon-button{width:44px;height:44px;flex:0 0 44px;display:inline-flex;justify-content:center;align-items:center;border-radius:10px;font-size:26px;line-height:1}.icon-button svg{width:23px;height:23px}.header-title{display:flex;align-items:center;gap:9px;text-align:left;padding:4px 10px;border-radius:9px;min-width:0}.header-title strong{font-size:18px;font-weight:600;white-space:nowrap}.header-title>span{font-size:12px;color:var(--muted);max-width:220px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap}.topbar>#headerNewChat{margin-left:auto}.sidebar{position:absolute;inset:0 auto 0 0;width:280px;max-width:86vw;z-index:30;background:var(--sidebar);display:flex;flex-direction:column;padding:14px 12px 18px;transform:translateX(-100%);transition:transform .2s ease;border-right:1px solid var(--line);overflow:hidden}.sidebar-header{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:0 8px;margin-bottom:12px}.sidebar-header strong{font-size:16px;letter-spacing:-.3px}.sidebar-new-chat{display:flex;align-items:center;gap:10px;text-align:left;padding:10px 12px;border-radius:10px;font-weight:500}.sidebar-new-chat>span{font-size:23px;line-height:1}.sidebar input{background:transparent;margin-top:8px;border-color:var(--line);font-size:13px;padding:10px 12px;min-height:44px!important}.sidebar-section-label{font-size:11px;color:var(--muted);padding:23px 12px 7px}.sidebar-sessions{overflow-y:auto;flex:1;min-height:70px;padding-bottom:10px}.sidebar-session{display:flex;align-items:center;border-radius:9px;min-width:0}.sidebar-session.selected{background:var(--hover)}.sidebar-session-open{flex:1;min-width:0;text-align:left;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;padding:10px 12px;font-size:13px;border-radius:9px}.sidebar-session-delete{width:44px;flex-shrink:0;border-radius:9px;font-size:18px;color:var(--muted)}.sidebar-empty{color:var(--muted);font-size:12px;padding:10px 12px}.drawer-nav{border-top:1px solid var(--line);padding-top:9px;display:grid;gap:2px;flex-shrink:0}.drawer-nav button{display:flex;align-items:center;gap:11px;text-align:left;padding:10px 12px;border-radius:9px;font-size:13px}.drawer-nav button.active{background:var(--hover);font-weight:600}.nav-icon{width:16px;height:16px;border:1.5px solid currentColor;border-radius:4px;display:inline-block;opacity:.65;flex-shrink:0}.drawer-nav button[data-page=chat] .nav-icon{border-radius:6px 6px 6px 1px}.drawer-nav button[data-page=device] .nav-icon{width:12px;height:18px;margin-left:2px;margin-right:2px}.drawer-nav button[data-page=history] .nav-icon{border-radius:50%}.drawer-nav button[data-page=memory] .nav-icon{border-radius:4px 8px 4px 8px}.drawer-nav button[data-page=settings] .nav-icon{border-radius:50%;border-style:dotted;border-width:3px}.sidebar-footer{display:flex;align-items:center;justify-content:space-between;gap:6px;border-top:1px solid var(--line);margin-top:10px;padding-top:10px}.connection-pill{display:flex;align-items:center;gap:7px;color:var(--muted);font-size:11px;padding:6px 9px;border-radius:8px;min-width:0}.connection-pill span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.connection-pill i{width:6px;height:6px;flex-shrink:0;border-radius:50%;background:#b0b0b0}.connection-pill.connected i{background:#548369}.design-shortcut{font-size:11px;color:var(--muted);border-radius:8px;padding:5px 8px}.sidebar-scrim{display:none;position:absolute;inset:0;z-index:29;background:#0006!important;width:100%;height:100%;border-radius:0}body[data-sidebar=open] .sidebar{transform:translateX(0)}body[data-sidebar=open] .sidebar-scrim{display:block}
+#main{flex:1;min-height:0;overflow-y:auto;overflow-x:hidden;scroll-behavior:smooth;padding:0 24px;scrollbar-width:thin;scrollbar-color:var(--line) transparent}.page{display:none;max-width:720px;margin:0 auto;padding:30px 0 48px}.page.active{display:block}#page-chat{max-width:760px;padding:0;height:auto;min-height:100%}.empty-chat{min-height:100%;display:flex;align-items:center;justify-content:center;padding:40px 0 70px}.chat-greeting{width:100%;text-align:center;max-width:640px}.greeting-mark{font-size:34px;line-height:1;margin-bottom:20px;color:var(--accent);display:none}.chat-greeting h1{font-family:var(--greeting-font);font-size:30px;font-weight:500;letter-spacing:-1px;line-height:1.4}.chat-greeting>p{font-size:14px;color:var(--muted);margin-top:13px}.suggestion-chips{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px;margin-top:29px}.suggestion-chips button{border:1px solid var(--line);border-radius:22px;font-size:12px;padding:10px 15px;color:var(--muted);background:var(--surface)}.connection-note{font-size:12px;color:var(--muted);margin-top:25px}.connection-note button{min-height:44px;padding:0 2px;text-decoration:underline;text-underline-offset:3px;color:var(--text)}.conversation{padding:16px 0 40px}.message{margin:0 0 30px;max-width:100%;position:relative}.message-label{font-size:11px;color:var(--muted);margin-bottom:10px;font-weight:500}.message-content{font-size:15px;line-height:1.85;white-space:pre-wrap;overflow-wrap:anywhere;min-height:24px}.message.user{display:flex;flex-direction:column;align-items:flex-end;margin-top:14px}.message.user .message-label{display:none}.message.user .message-content{background:var(--bubble);border-radius:22px;padding:12px 18px;max-width:85%;font-size:14px;line-height:1.7}.message.user .message-actions{opacity:0}.message.user:hover .message-actions,.message.user:focus-within .message-actions{opacity:1}.message.assistant .message-label{display:none}.message.system{border-left:2px solid var(--line);padding-left:16px;color:var(--muted)}.message-content pre{background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:18px;margin:18px 0;white-space:pre;overflow:auto;max-width:100%;font-size:12px;line-height:1.7}.message-actions{margin-top:5px;display:flex;gap:4px;min-height:34px}.copy-message{font-size:11px;color:var(--muted);border-radius:8px;padding:0 10px;min-height:44px}.streaming .message-content:empty:after{content:'●';animation:breathing 1.2s ease-in-out infinite;color:var(--muted)}.clipboard-helper{position:fixed;top:-10000px;left:0;width:1px;height:1px}
+.composer-wrap{flex-shrink:0;width:100%;padding:8px 24px max(13px,env(safe-area-inset-bottom));background:var(--bg);z-index:5}.composer{max-width:760px;margin:auto;border:1px solid var(--line);background:var(--soft);border-radius:var(--composer-radius);padding:16px 15px 10px}.composer:focus-within{border-color:color-mix(in srgb,var(--text) 24%,var(--line))}.composer textarea{display:block;background:transparent;border:0;border-radius:0;padding:0 3px;width:100%;height:28px;min-height:28px;max-height:160px;resize:none;line-height:1.6;font-size:15px;outline:none!important;box-shadow:none}.composer textarea::placeholder{color:var(--muted)}.composer-toolbar{display:flex;align-items:center;gap:5px;margin-top:11px}.composer-plus{width:44px;height:44px;font-size:26px;line-height:1;border-radius:50%;flex-shrink:0}.composer-model{display:flex;align-items:center;gap:7px;min-width:0;padding:8px 9px;border-radius:18px;font-size:11px;color:var(--muted)}.composer-model #composerMode{max-width:240px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.send{margin-left:auto;background:var(--accent);color:var(--accent-text);border-radius:50%;width:42px;min-height:44px;height:44px;flex-shrink:0;font-size:24px;line-height:1;display:grid;place-items:center}.send:hover:not(:disabled){background:var(--accent);filter:brightness(1.2)}.send:disabled{opacity:1;background:var(--line);color:var(--muted)}.composer-caption{display:flex;justify-content:center;gap:10px;text-align:center;font-size:10px;line-height:1.5;color:var(--muted);max-width:760px;margin:9px auto 0}.run-status{max-width:760px;margin:0 auto 9px;display:flex;align-items:center;gap:8px;font-size:12px;color:var(--muted)}.run-status button{margin-left:auto;border-radius:8px;padding:3px 10px;min-height:44px}.pulse{width:6px;height:6px;background:var(--text);border-radius:50%;animation:breathing 1.3s ease-in-out infinite}.scroll-to-latest{position:absolute;bottom:177px;left:50%;transform:translateX(-50%);border:1px solid var(--line);border-radius:50%;background:var(--surface);width:44px;min-height:44px;z-index:6;box-shadow:0 2px 10px #0000000c;font-size:22px}
+.page-heading{margin-bottom:28px}.eyebrow{display:none}.heading-copy{font-size:13px;color:var(--muted);margin-top:9px}.section-line{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:28px 0 12px}.section-line>span{font-size:10px;color:var(--muted);text-align:right}.list-card,.control-card,.root-card,.info-card,.tool-workspace{border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);overflow:hidden}.device-banner{display:flex;align-items:center;gap:15px;padding:20px;border:1px solid var(--line);border-radius:var(--radius)}.device-banner>div:nth-child(2){flex:1;min-width:0}.device-banner h2{font-size:16px;overflow-wrap:anywhere}.device-banner p{color:var(--muted);font-size:12px;margin-top:4px}.phone-outline{width:27px;height:43px;border:1.5px solid var(--muted);border-radius:6px;position:relative;flex-shrink:0}.phone-outline i{width:9px;height:2px;background:var(--muted);position:absolute;bottom:4px;left:7px}.stats{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}.stats article{border:1px solid var(--line);border-radius:var(--radius);padding:18px;min-width:0}.stats article>span,.stats small{color:var(--muted);font-size:11px;display:block}.stats strong{font-size:26px;font-weight:500;margin:8px 0;display:block;line-height:1.3}.meter{height:3px;background:var(--line);border-radius:3px;margin-bottom:10px;overflow:hidden}.meter i{display:block;height:100%;background:var(--accent);border-radius:3px;max-width:100%}.setting-row{display:flex;align-items:center;width:100%;gap:13px;padding:13px 17px;text-align:left;border-bottom:1px solid var(--line)}.setting-row:last-child{border-bottom:0}.row-icon{width:30px;flex-shrink:0;text-align:center;font-size:21px;color:var(--muted)}.row-text{display:flex;flex-direction:column;flex:1;min-width:0}.row-text strong{font-size:13px;font-weight:500}.row-text small{font-size:11px;color:var(--muted);margin-top:2px}.badge{background:var(--soft);border-radius:7px;font-size:10px;padding:4px 7px;white-space:nowrap;color:var(--muted)}.badge.on{color:#52765d}.chevron{font-size:21px;color:var(--muted)}.control-card,.root-card,.info-card,.tool-workspace{padding:20px}.range-label{display:flex;align-items:center;justify-content:space-between;font-size:13px}.range-label strong{font-weight:500}.spacer{margin-top:24px}.primary,.secondary{padding:10px 17px;border-radius:10px;font-size:13px;min-height:46px;font-weight:500}.primary{background:var(--accent);color:var(--accent-text)}.primary:hover:not(:disabled){background:var(--accent);filter:brightness(1.15)}.secondary{border:1px solid var(--line);background:var(--surface)}.full{display:block;width:100%;margin-top:10px}.button-pair{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}.root-card{margin-top:24px}.root-card .section-line{margin:0 0 12px}.root-symbol{font-family:ui-monospace,monospace;font-size:18px}.root-card p,.info-card p{color:var(--muted);font-size:12px;line-height:1.8;margin-top:8px}.text-button{padding:6px 0;font-size:12px;text-decoration:underline;text-underline-offset:4px}.micro{font-size:10px!important;color:var(--muted);line-height:1.7}.tool-workspace{margin-top:24px}.tool-workspace>.section-line{margin-top:0}.field-label{display:block;margin:20px 0 8px;font-size:12px;font-weight:500}.field-help{display:block;color:var(--muted);font-size:11px;line-height:1.8;margin:7px 0 10px;overflow-wrap:anywhere}.tool-field{margin-top:15px}.tool-field label{display:block;font-size:12px;margin:0 0 8px}.tool-field small{color:var(--muted);display:block;font-size:11px;margin-top:5px}.tool-field input[type=checkbox]{width:18px}.tool-field-checkbox{display:flex;align-items:center;gap:9px}.segmented{display:flex;background:var(--soft);padding:4px;border-radius:11px;margin-bottom:16px}.segmented button{flex:1;border-radius:8px;font-size:13px;color:var(--muted)}.segmented .selected{background:var(--surface);color:var(--text);box-shadow:0 1px 3px #00000008}.search-input{margin-bottom:15px}.history-list{display:grid;gap:9px}.history-item{display:flex;align-items:center;border:1px solid var(--line);border-radius:12px;overflow:hidden}.history-open{flex:1;min-width:0;text-align:left;padding:15px 17px}.history-open h3{font-size:13px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.history-open p{color:var(--muted);font-size:11px;margin-top:4px}.delete-session{width:44px;flex-shrink:0;font-size:20px;margin-right:5px;border-radius:9px;color:var(--muted)}.audit-label{display:block;font-size:11px;color:var(--muted);overflow-wrap:anywhere;line-height:1.7;margin-top:7px}.audit-status{font-size:10px;margin:0 13px 0 0;white-space:nowrap;color:var(--muted)}.audit-status.failed,.audit-status.denied{color:#ae6657}.empty-state{padding:50px 20px;text-align:center;color:var(--muted)}.empty-state strong{color:var(--text);font-size:14px;font-weight:500}.empty-state p{font-size:12px;margin-top:9px}.memory-intro{display:flex;align-items:flex-start;gap:12px;padding:20px}.memory-intro h3{font-size:13px}.memory-intro p{color:var(--muted);font-size:12px;margin-top:8px}.memory-editor{min-height:240px;line-height:1.9;font-size:13px}.editor-footer{display:flex;align-items:center;justify-content:space-between;margin-top:12px;gap:12px}.editor-footer small{color:var(--muted)}.tool-list{border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}.tool-item{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:14px 17px;border-bottom:1px solid var(--line)}.tool-item:last-child{border:0}.tool-item>div{min-width:0}.tool-item strong{font-size:12px;font-weight:500;display:block}.tool-item code{font-size:10px;display:block;color:var(--muted);overflow-wrap:anywhere;margin-top:3px}.tool-item>span{font-size:10px;white-space:nowrap;color:var(--muted)}.info-card{margin-top:23px}.info-card h3{font-size:13px}.info-card code{font-size:11px;background:var(--soft);padding:2px 4px;border-radius:4px}.design-picker{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin:14px 0}.design-option{display:flex;align-items:center;gap:11px;border:1px solid var(--line);border-radius:12px;padding:12px;text-align:left;min-width:0;min-height:78px}.design-option[aria-pressed=true]{border-color:var(--accent);background:var(--soft)}.design-option>*{min-width:0}.design-option strong{display:block;font-size:12px;font-weight:500}.design-option small{display:block;font-size:10px;color:var(--muted);margin-top:2px}.design-number{font-size:10px;color:var(--muted)}.design-swatch{display:flex;gap:2px;flex-shrink:0;width:33px;height:32px;border-radius:7px;overflow:hidden;border:1px solid #8883}.design-swatch i{flex:1}.mode-picker{display:grid;grid-template-columns:1fr 1fr;gap:10px}.mode{border:1px solid var(--line);border-radius:12px;text-align:left;padding:16px;position:relative;min-width:0}.mode.selected{border-color:var(--accent);background:var(--soft)}.mode-icon{font-size:18px;display:block;margin-bottom:10px}.mode strong{display:block;font-size:13px;font-weight:500}.mode small{font-size:10px;display:block;line-height:1.6;color:var(--muted);margin-top:5px}.mode i{position:absolute;right:15px;top:19px;width:10px;height:10px;border:1px solid var(--line);border-radius:50%}.mode.selected i{background:var(--accent);border-color:var(--accent)}.info-strip{font-size:11px;color:var(--muted);padding:14px 1px;line-height:1.8}.token-row{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;font-size:10px;margin-top:10px;color:var(--muted)}.token-row small{font-size:10px}.token-row label{display:flex;align-items:center;gap:5px;min-height:44px;margin-top:-10px}.check-row{display:flex;align-items:flex-start;gap:10px;margin-top:22px;font-size:12px;padding:8px 0}.check-row input{margin-top:3px}.check-row small{display:block;color:var(--muted);font-size:10px;margin-top:4px}.connection-result{margin-top:18px;padding:14px 16px;border:1px solid var(--line);border-radius:10px;color:var(--muted);font-size:12px;overflow-wrap:anywhere}.connection-result.error{color:#ae6657}.about{display:flex;align-items:center;gap:12px;margin:30px 0 14px}.about img{width:32px;height:32px}.about strong{font-size:13px;display:block;font-weight:500}.about span{font-size:11px;display:block;color:var(--muted)}.legal{font-size:10px;line-height:1.8;color:var(--muted)}
+.toast{position:absolute;left:50%;bottom:165px;transform:translateX(-50%);z-index:60;background:var(--text);color:var(--bg);padding:12px 18px;border-radius:12px;max-width:min(90%,560px);font-size:12px;box-shadow:0 8px 30px #0002;overflow-wrap:anywhere}.modal{position:absolute;inset:0;z-index:50;display:flex;align-items:center;justify-content:center;padding:24px}.modal-scrim{position:absolute;inset:0;background:#0007}.modal-sheet{position:relative;z-index:1;background:var(--surface);width:100%;max-width:620px;max-height:85%;border-radius:20px;padding:22px;overflow:auto;border:1px solid var(--line);box-shadow:0 18px 60px #0002}.modal-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:16px}.modal-head h2{font-size:17px}.modal-sheet pre{background:var(--soft);border-radius:12px;padding:14px;white-space:pre-wrap;overflow-wrap:anywhere;max-width:100%;font-size:11px;line-height:1.8}.screen-targets{display:grid;gap:8px;margin-bottom:16px}.screen-targets h3{font-size:13px}.screen-target{display:block;text-align:left;border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:12px;overflow-wrap:anywhere}.screen-target.selected{border-color:var(--accent)}.screen-target small{display:block;color:var(--muted);font-size:10px}
+body[data-design=midnight]{color-scheme:dark;--bg:#212121;--surface:#262626;--sidebar:#171717;--soft:#2f2f2f;--hover:#353535;--line:#3c3c3c;--text:#ececec;--muted:#a1a1a1;--accent:#ececec;--accent-text:#212121;--bubble:#303030}body[data-design=paper]{--bg:#faf9f5;--surface:#fffefb;--sidebar:#f0eee7;--soft:#f1efe9;--hover:#e8e5dc;--line:#e2ded4;--text:#302f2b;--muted:#858178;--accent:#c16c4f;--bubble:#efede5;--greeting-font:Georgia,"Times New Roman",serif;--composer-radius:18px}body[data-design=paper] .greeting-mark{display:block}body[data-design=paper] .chat-greeting h1{font-size:34px;font-weight:400}body[data-design=mint]{--bg:#fcfefd;--surface:#fff;--sidebar:#f0f5f2;--soft:#f2f7f4;--hover:#e6eee9;--line:#dde7e0;--text:#243c32;--muted:#74857b;--accent:#315c47;--bubble:#eaf2ed;--composer-radius:22px}body[data-design=mono]{--bg:#fff;--surface:#fff;--sidebar:#f4f4f4;--soft:#f7f7f7;--hover:#e9e9e9;--line:#d9d9d9;--text:#161616;--muted:#777;--accent:#111;--radius:6px;--composer-radius:12px}body[data-design=mono] .chat-greeting h1{font-weight:650;letter-spacing:-1.4px}body[data-design=mono] .message.user .message-content{border-radius:12px}body[data-design=terminal]{color-scheme:dark;--bg:#171a1c;--surface:#1c2023;--sidebar:#111416;--soft:#22282c;--hover:#2c3439;--line:#343c42;--text:#e2e8ec;--muted:#89959d;--accent:#bac8d0;--accent-text:#171a1c;--bubble:#252d32;--radius:10px;--composer-radius:15px}body[data-design=terminal] .header-title strong{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:17px}body[data-design=terminal] .message-content{font-size:14px}body[data-design=studio]{--bg:#fdfbf8;--surface:#fffdfa;--sidebar:#f4efe8;--soft:#f4eee7;--hover:#ebe3d9;--line:#e7dfd5;--text:#332e28;--muted:#8c8275;--accent:#b75b36;--bubble:#f3e9df;--composer-radius:22px}body[data-design=studio] .chat-greeting h1{font-weight:600}body[data-design=ocean]{--bg:#fcfdff;--surface:#fff;--sidebar:#f1f4f8;--soft:#f1f4f9;--hover:#e5ebf3;--line:#dee5ef;--text:#26364b;--muted:#78879b;--accent:#385574;--bubble:#edf1f7;--composer-radius:24px}body[data-design=clay]{--bg:#f8f6f2;--surface:#fcfaf7;--sidebar:#ede9e2;--soft:#efebe5;--hover:#e5dfd6;--line:#ded7ce;--text:#3f3932;--muted:#8c8175;--accent:#746152;--bubble:#ece5dc;--greeting-font:Georgia,"Times New Roman",serif;--composer-radius:18px}body[data-design=clay] .chat-greeting h1{font-size:34px;font-weight:400}body[data-design=orbit]{--bg:#fdfcff;--surface:#fff;--sidebar:#f2f0f7;--soft:#f3f0f8;--hover:#eae5f1;--line:#e6e0ee;--text:#373042;--muted:#8a8099;--accent:#705a87;--bubble:#eee8f5;--composer-radius:28px}body[data-design=orbit] .greeting-mark{display:block;font-size:27px}body[data-design=orbit] .chat-greeting h1{font-weight:500}
+@keyframes breathing{0%,100%{opacity:.3}50%{opacity:1}}@media(max-width:480px){.topbar{height:60px;padding:8px 10px;gap:1px}.header-title{gap:5px;padding:4px 7px}.header-title strong{font-size:17px}.header-title>span{max-width:105px;font-size:10px}#main{padding:0 18px}.page{padding-top:24px}.page-heading h1{font-size:26px}.chat-greeting h1{font-size:25px;letter-spacing:-.6px}.chat-greeting>p{font-size:12px}.empty-chat{padding:30px 0 48px}.suggestion-chips{gap:7px;margin-top:24px}.suggestion-chips button{font-size:11px;padding:8px 11px}.composer-wrap{padding:8px 12px max(12px,env(safe-area-inset-bottom))}.composer{padding:14px 12px 8px}.composer textarea{font-size:14px}.composer-model{font-size:10px}.composer-model #composerMode{max-width:160px}.composer-caption{font-size:9px}.message-content{font-size:14px}.message.user .message-content{max-width:90%;font-size:13px;padding:11px 15px}.conversation{padding-top:8px}.stats article{padding:15px}.stats strong{font-size:24px}.setting-row{gap:8px;padding:13px 12px}.row-icon{width:25px}.row-text strong{font-size:12px}.row-text small{font-size:10px}.badge{font-size:9px;padding:3px 5px}.control-card,.root-card,.info-card,.tool-workspace{padding:17px}.design-option{gap:8px;padding:10px;min-height:80px}.design-option small{font-size:9px;line-height:1.5}.design-swatch{width:23px;height:30px}.mode{padding:13px}.mode strong{font-size:12px}.mode small{font-size:9px}.mode i{right:12px;top:18px}.section-line>span{font-size:9px}.modal{padding:15px}.modal-sheet{padding:18px;border-radius:16px}.toast{bottom:164px}.token-row{flex-direction:column;gap:12px}.token-row label{margin-top:0}.memory-intro{padding:16px}.scroll-to-latest{bottom:163px}body[data-design=paper] .chat-greeting h1,body[data-design=clay] .chat-greeting h1{font-size:29px}}@media(max-width:350px){#main{padding:0 14px}.header-title>span{display:none}.composer-model #composerMode{max-width:125px}.suggestion-chips{gap:6px}.suggestion-chips button{padding:8px 9px;font-size:10px}.design-option{gap:6px;padding:9px}.design-swatch{width:16px}.design-option strong{font-size:11px}.design-option small{font-size:9px}.row-text small{max-width:140px}.badge{white-space:normal;max-width:56px;text-align:center}.mode-picker{gap:8px}.mode strong{font-size:11px}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+/* Preview swatches stay legible while the app theme changes. */
+.design-option-copy{flex:1}.design-check{opacity:0;color:var(--accent);font-size:12px;flex-shrink:0}.design-option[aria-pressed=true] .design-check{opacity:1}.design-swatch .swatch-dot{display:block;flex:1;background:#f8f8f8}.design-swatch .swatch-dot:nth-child(2){background:#e6e6e6}.design-swatch .swatch-dot:nth-child(3){background:#303030}[data-design-choice=midnight] .swatch-dot{background:#222}[data-design-choice=midnight] .swatch-dot:nth-child(2){background:#444}[data-design-choice=midnight] .swatch-dot:nth-child(3){background:#eee}[data-design-choice=paper] .swatch-dot{background:#faf9f5}[data-design-choice=paper] .swatch-dot:nth-child(2){background:#e9e3d7}[data-design-choice=paper] .swatch-dot:nth-child(3){background:#c16c4f}[data-design-choice=mint] .swatch-dot{background:#fcfefd}[data-design-choice=mint] .swatch-dot:nth-child(2){background:#e6eee9}[data-design-choice=mint] .swatch-dot:nth-child(3){background:#315c47}[data-design-choice=mono] .swatch-dot{background:#fff}[data-design-choice=mono] .swatch-dot:nth-child(2){background:#ddd}[data-design-choice=mono] .swatch-dot:nth-child(3){background:#111}[data-design-choice=terminal] .swatch-dot{background:#171a1c}[data-design-choice=terminal] .swatch-dot:nth-child(2){background:#343c42}[data-design-choice=terminal] .swatch-dot:nth-child(3){background:#bac8d0}[data-design-choice=studio] .swatch-dot{background:#fdfbf8}[data-design-choice=studio] .swatch-dot:nth-child(2){background:#f4eee7}[data-design-choice=studio] .swatch-dot:nth-child(3){background:#b75b36}[data-design-choice=ocean] .swatch-dot{background:#fcfdff}[data-design-choice=ocean] .swatch-dot:nth-child(2){background:#dee5ef}[data-design-choice=ocean] .swatch-dot:nth-child(3){background:#385574}[data-design-choice=clay] .swatch-dot{background:#f8f6f2}[data-design-choice=clay] .swatch-dot:nth-child(2){background:#ded7ce}[data-design-choice=clay] .swatch-dot:nth-child(3){background:#746152}[data-design-choice=orbit] .swatch-dot{background:#fdfcff}[data-design-choice=orbit] .swatch-dot:nth-child(2){background:#e6e0ee}[data-design-choice=orbit] .swatch-dot:nth-child(3){background:#705a87}
+body[data-design=paper] .message.assistant .message-content,body[data-design=clay] .message.assistant .message-content{font-family:Georgia,"Times New Roman","Noto Serif KR",serif;font-size:16px;line-height:1.85}.muted{color:var(--muted);font-size:11px;line-height:1.8;overflow-wrap:anywhere}.button-row{display:flex;flex-wrap:wrap;gap:5px;justify-content:flex-end}.secondary.small{font-size:11px;padding:6px 10px}.screen-targets .tool-item{border:1px solid var(--line);border-radius:10px;flex-wrap:wrap}.screen-targets .tool-item>div:first-child{flex:1;min-width:130px}.screen-targets .button-row{flex:0 1 auto}
+@media(max-width:350px){.design-option-copy small{max-width:87px}.design-check{font-size:9px}.design-option{gap:5px}.design-swatch{width:12px;flex-shrink:0}} 
+.message-content>p{margin:0 0 15px}.message-content>p:last-child{margin-bottom:0}.message-content h1,.message-content h2,.message-content h3,.message-content h4{margin:25px 0 12px;font-family:var(--font);letter-spacing:-.3px;line-height:1.5;font-weight:600}.message-content h1{font-size:23px}.message-content h2{font-size:20px}.message-content h3{font-size:17px}.message-content h4{font-size:15px}.message-content ul,.message-content ol{padding-left:25px;margin:12px 0 20px}.message-content li{padding-left:3px;margin:6px 0}.message-content li p{margin-bottom:7px}.message-content blockquote{border-left:3px solid var(--line);margin:18px 0;padding:3px 0 3px 17px;color:var(--muted)}.message-content hr{border:0;border-top:1px solid var(--line);margin:25px 0}.message-content p code,.message-content li code,.message-content td code{font-size:.85em;background:var(--soft);padding:2px 5px;border-radius:5px;overflow-wrap:anywhere}.message-content a{text-decoration:underline;text-underline-offset:3px}.code-block{margin:18px 0;background:var(--soft);border:1px solid var(--line);border-radius:12px;overflow:hidden;max-width:100%}.code-head{display:flex;align-items:center;justify-content:space-between;padding:0 13px;background:var(--hover);font-family:var(--font);font-size:10px;color:var(--muted);min-height:44px}.code-head button{font-size:10px;min-height:44px;padding:7px;border-radius:6px;color:var(--muted)}.message-content .code-block pre{margin:0;padding:15px;border:0;border-radius:0;background:transparent;white-space:pre;font-size:12px}.markdown-table{overflow:auto;width:100%;margin:20px 0;border:1px solid var(--line);border-radius:10px;font-family:var(--font)}.markdown-table table{width:100%;border-collapse:collapse;font-size:12px;line-height:1.7;white-space:normal}.markdown-table th,.markdown-table td{padding:11px 13px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line);min-width:100px}.markdown-table th{background:var(--soft);font-weight:600}.markdown-table tr:last-child td{border-bottom:0}
+.message.assistant .message-content{white-space:normal}.message-content .code-block code{white-space:pre}.field{margin-top:18px}.field>label{display:block;font-size:12px;font-weight:500;margin-bottom:8px}#toolFields>.secondary{margin-top:12px}.design-option strong{line-height:1.5}
+
+.agent-options{margin:18px 0;color:var(--muted)}.agent-options summary{cursor:pointer;min-height:44px;display:flex;align-items:center;font-size:13px}.agent-options[open]{padding-bottom:12px}
+
+
+/* Phone-first composition: quiet chrome, readable conversation, one clear action. */
+:root{--bg:#fff;--sidebar:#f9f9f9;--soft:#f4f4f4;--line:#e8e8e8;--text:#242424;--muted:#747474;--radius:14px;--composer-radius:28px}
+#app{width:100%;max-width:460px;height:100%;height:100dvh;min-height:0;padding:0}
+.topbar{height:56px;padding:6px 10px;gap:0;background:var(--bg)}
+.icon-button{border-radius:50%;width:44px;height:44px;flex-basis:44px;font-size:24px}
+.icon-button svg{width:22px;height:22px}
+.header-title{gap:7px;padding:4px 8px;min-height:44px;border-radius:12px}
+.header-title strong{font-size:17px;letter-spacing:-.45px;font-weight:600}
+.header-title>span{font-size:12px;max-width:115px;font-weight:400;opacity:.9}
+#main{padding:0 20px;scroll-padding-bottom:24px}
+.page{padding:24px 0 36px}
+.page-heading{margin-bottom:24px}
+.page-heading h1{font-size:26px;font-weight:600;letter-spacing:-.8px}
+.heading-copy{font-size:13px;line-height:1.7;margin-top:7px}
+#page-chat{height:100%;min-height:100%;padding:0}
+.empty-chat{height:100%;min-height:100%;padding:0 0 24px;align-items:center}
+.chat-greeting{max-width:340px}
+.chat-greeting h1{font-size:24px;font-weight:600;letter-spacing:-.9px;line-height:1.45;white-space:normal;word-break:keep-all}
+.chat-greeting>p,.connection-note{display:none}
+.suggestion-chips{gap:7px;margin-top:23px;flex-wrap:wrap}
+.suggestion-chips button{font-size:12px;line-height:1.4;min-height:44px;padding:10px 12px;border-color:var(--line);border-radius:24px;background:transparent;color:var(--muted);font-weight:400}
+.greeting-mark{margin-bottom:18px;font-size:33px}
+.conversation{min-height:100%;padding:16px 0 24px}
+.message{margin-bottom:28px}
+.message-content{font-size:15px;line-height:1.8;letter-spacing:-.12px}
+.message.user{margin-top:8px;margin-bottom:26px}
+.message.user .message-content{max-width:88%;font-size:15px;line-height:1.65;padding:11px 16px;border-radius:24px;background:var(--bubble)}
+.message-actions{gap:2px;margin-top:8px;min-height:44px}
+.copy-message{color:var(--muted);padding:0 8px;min-width:44px;font-size:12px;border-radius:10px}
+.message-content h1{font-size:22px}.message-content h2{font-size:20px}.message-content h3{font-size:17px}
+.message-content>p{margin-bottom:16px}
+.message-content ul,.message-content ol{padding-left:23px;margin:12px 0 18px}
+.message-content pre,.message-content .code-block pre{font-size:12px;line-height:1.75;padding:15px}
+.code-head,.code-head button{font-size:11px}
+.markdown-table table{font-size:12px}
+.composer-wrap{padding:8px 10px max(10px,env(safe-area-inset-bottom));background:var(--bg)}
+.composer{padding:13px 12px 7px;border-radius:var(--composer-radius);border:1px solid var(--line);background:var(--soft);box-shadow:none}
+.composer:focus-within{border-color:color-mix(in srgb,var(--text) 15%,var(--line));box-shadow:none}
+.composer textarea{font-size:15px;padding:1px 5px;height:27px;min-height:27px;max-height:144px;line-height:1.65}
+.composer-toolbar{gap:3px;margin-top:6px}
+.composer-plus{width:44px;height:44px;font-size:26px;font-weight:300;border-radius:50%}
+.composer-plus svg,.send svg{width:22px;height:22px}
+.composer-model{padding:7px 8px;border-radius:20px;font-size:12px;min-height:44px;gap:5px}
+.composer-model #composerMode{max-width:165px}
+.send{width:44px;height:44px;min-height:44px;font-size:23px}
+.send:disabled{background:color-mix(in srgb,var(--text) 10%,var(--soft));color:var(--muted)}
+.composer-caption{font-size:10px;margin-top:7px;gap:8px;line-height:1.5}
+.composer-caption #previewNotice{font-size:10px}
+.run-status{margin-bottom:7px;font-size:12px;padding-left:7px}
+.scroll-to-latest{bottom:148px;left:50%;width:44px;height:44px;font-size:21px;box-shadow:0 2px 8px #00000009}
+.toast{bottom:148px;font-size:12px;max-width:90%;border-radius:14px}
+
+/* Conversation drawer uses the same compact rows as a native chat application. */
+.sidebar{width:296px;max-width:86%;padding:12px 12px max(16px,env(safe-area-inset-bottom));border:0;background:var(--sidebar);box-shadow:8px 0 40px #00000008;transition:transform .22s cubic-bezier(.2,.75,.2,1)}
+.sidebar-header{padding:0 4px;margin-bottom:8px}
+.sidebar-header strong{font-size:16px;font-weight:600;letter-spacing:-.4px}
+.sidebar-new-chat{font-size:14px;font-weight:500;gap:11px;min-height:48px;padding:10px 12px}
+.sidebar input{background:color-mix(in srgb,var(--text) 4%,var(--sidebar));border:0;border-radius:12px;margin-top:8px;min-height:44px!important;font-size:13px;padding:10px 12px}
+.sidebar-section-label{font-size:12px;font-weight:500;padding:22px 12px 8px}
+.sidebar-session-open{font-size:14px;min-height:46px;padding:10px 12px}
+.sidebar-session-delete{font-size:18px}
+.sidebar-empty{font-size:12px;line-height:1.7}
+.drawer-nav{gap:2px;padding-top:8px;border-color:color-mix(in srgb,var(--line) 60%,transparent)}
+.drawer-nav button{font-size:13px;min-height:46px;gap:12px;border-radius:10px}
+.drawer-nav button.active{font-weight:500}
+.nav-icon{opacity:.75}
+.sidebar-footer{margin-top:8px;border-color:color-mix(in srgb,var(--line) 60%,transparent)}
+.connection-pill,.design-shortcut{font-size:12px;min-height:44px}
+.sidebar-scrim{background:#0005!important;backdrop-filter:none}
+body[data-sidebar=open] .sidebar{transform:translateX(0)}
+body[data-sidebar=open] .sidebar-scrim{display:block}
+
+/* Settings are grouped lists and forms, with restrained supporting text. */
+.section-line{margin:26px 0 12px;gap:12px}
+.section-line h3{font-size:14px;font-weight:600}
+.section-line>span{font-size:11px;line-height:1.5}
+.field-label,.field>label{font-size:13px;font-weight:500;margin-top:20px}
+.field-help{font-size:12px;line-height:1.7;margin-top:7px}
+input:not([type=checkbox]):not([type=range]),select{min-height:48px;border-radius:12px;font-size:14px;padding:12px 14px;background:var(--surface)}
+input::placeholder,textarea::placeholder{color:var(--muted);opacity:.85}
+.primary,.secondary{font-size:13px;min-height:46px;border-radius:12px;padding:11px 14px;font-weight:500}
+.button-pair{gap:10px}
+.info-strip{font-size:12px;line-height:1.7;padding:0 0 3px}
+#modeInfo{margin-bottom:4px}
+.token-row{display:flex;flex-direction:column;gap:8px;margin-top:10px;font-size:12px}
+.token-row small,.token-row label{font-size:12px}
+.token-row label{margin-top:0;min-height:44px}
+.check-row{font-size:13px;line-height:1.6;margin-top:16px}
+.check-row small{font-size:12px;line-height:1.65;margin-top:4px}
+.agent-options{margin:14px 0 4px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.agent-options summary{font-size:13px;min-height:48px;padding:2px 0;list-style:revert;display:list-item;align-content:center}
+.agent-options[open]{padding-bottom:16px}
+.design-picker{gap:8px;margin-top:14px}
+.design-option{min-height:74px;gap:8px;padding:10px;border-radius:12px;background:transparent}
+.design-option[aria-pressed=true]{border-color:color-mix(in srgb,var(--accent) 50%,var(--line));background:var(--soft)}
+.design-option strong{font-size:13px;line-height:1.5}
+.design-option small{font-size:11px;line-height:1.45;margin-top:3px}
+.design-number{display:none}
+.design-swatch{width:26px;height:32px;border-radius:7px}
+.design-check{font-size:12px}
+.appearance-section>.field-help{font-size:12px}
+.info-card{padding:17px 0;border:0;border-top:1px solid var(--line);border-radius:0;background:transparent;margin-top:24px}
+.info-card h3{font-size:13px}
+.info-card p,.root-card p{font-size:12px;line-height:1.8}
+.about{margin-top:25px;gap:10px}
+.about img{width:28px;height:28px}
+.about span,.legal{font-size:11px;line-height:1.8}
+.device-banner{padding:16px;border-radius:14px;background:var(--soft);border:0;gap:13px}
+.device-banner h2{font-size:16px}.device-banner p{font-size:12px}
+.stats{gap:10px;margin-top:10px}.stats article{padding:15px;background:var(--soft);border:0;border-radius:14px}
+.stats article>span,.stats small{font-size:12px;line-height:1.6}.stats strong{font-size:25px;font-weight:500;letter-spacing:-.7px}
+.setting-row{gap:10px;padding:12px;min-height:70px}
+.row-icon{width:24px;font-size:20px}
+.row-text strong{font-size:13px}.row-text small{font-size:12px;line-height:1.6;margin-top:3px}
+.badge{font-size:11px;max-width:66px;white-space:normal;text-align:center;line-height:1.5;padding:4px 6px;border-radius:7px}
+.control-card,.root-card,.tool-workspace{padding:16px;border-radius:14px}
+.root-card .section-line h3{font-size:13px;letter-spacing:0}
+.micro{font-size:11px!important;line-height:1.7}
+.range-label{font-size:13px}
+.memory-intro{padding:16px;gap:10px;border-radius:14px;background:var(--soft);border:0}
+.memory-intro h3{font-size:13px}.memory-intro p{font-size:12px;line-height:1.8}
+.memory-editor{font-size:14px;line-height:1.8;border-radius:12px;min-height:230px}
+.editor-footer small{font-size:12px}
+.tool-item{padding:13px 12px;gap:8px}.tool-item strong{font-size:13px}.tool-item code{font-size:11px;line-height:1.65}
+.tool-item>span{font-size:11px;white-space:normal;max-width:75px;text-align:right;line-height:1.5}
+.tool-field label{font-size:13px}.tool-field small{font-size:12px;line-height:1.65}
+.history-list{gap:0}.history-item{border:0;border-bottom:1px solid var(--line);border-radius:0}
+.history-open{padding:16px 4px}.history-open h3{font-size:14px;font-weight:500}.history-open p{font-size:12px;margin-top:5px}
+.audit-label{font-size:12px}.audit-status{font-size:11px;margin-right:4px}
+.empty-state{padding:46px 12px}.empty-state strong{font-size:14px}.empty-state p{font-size:12px;line-height:1.8}
+.modal{padding:16px}.modal-sheet{padding:18px;border-radius:20px;max-height:85%}.modal-head h2{font-size:17px}
+.modal-sheet pre{font-size:12px;line-height:1.8;padding:14px}.screen-target{font-size:13px}
+.muted{font-size:12px;line-height:1.7}
+
+/* Claude's restrained paper-and-ink treatment, with no imported brand assets. */
+body[data-design=paper]{--bg:#faf9f5;--surface:#fffefa;--sidebar:#f3f1eb;--soft:#f0eee8;--line:#e4e1d9;--text:#30302e;--muted:#77766f;--accent:#c26949;--accent-text:#fff;--bubble:#efede7;--composer-radius:22px}
+body[data-design=paper] .chat-greeting h1,body[data-design=clay] .chat-greeting h1{font-size:28px;font-weight:400;letter-spacing:-.7px;line-height:1.4}
+body[data-design=paper] .greeting-mark{font-size:37px;display:block;color:var(--accent);margin-bottom:20px}
+body[data-design=paper] .composer{background:var(--surface);box-shadow:0 2px 8px #302e2706;border-color:#dfdcd3}
+body[data-design=paper] .suggestion-chips button{border-radius:12px;background:var(--surface);color:var(--text);font-size:12px}
+body[data-design=paper] .message.assistant .message-content,body[data-design=clay] .message.assistant .message-content{font-size:16px;line-height:1.85;letter-spacing:0}
+body[data-design=midnight]{--bg:#212121;--surface:#262626;--sidebar:#171717;--soft:#303030;--line:#3b3b3b;--text:#ececec;--muted:#aaa;--accent:#f2f2f2;--accent-text:#212121;--bubble:#303030}
+body[data-design=midnight] .composer{border-color:transparent}
+body[data-design=mono] .chat-greeting h1{font-weight:600;letter-spacing:-.9px}
+body[data-design=terminal] .message-content{font-size:15px}
+@media(max-width:350px){#main{padding:0 16px}.chat-greeting h1{font-size:22px}.suggestion-chips{gap:6px;margin-top:20px}.suggestion-chips button{font-size:11px;padding:10px 9px}.header-title>span{display:none}.composer-model #composerMode{max-width:125px}.design-option{gap:7px;padding:10px 8px}.design-swatch{display:none}.design-option small{font-size:11px;max-width:none}.design-option strong{font-size:13px}.button-pair{gap:8px}.primary,.secondary{padding:11px 10px}.badge{font-size:11px}.composer-caption{font-size:10px}.composer-caption #previewNotice{display:none}body[data-design=paper] .chat-greeting h1,body[data-design=clay] .chat-greeting h1{font-size:25px}}
+@media(max-height:500px){.empty-chat{padding-bottom:0}.suggestion-chips{margin-top:14px}.greeting-mark{margin-bottom:10px}.chat-greeting h1{font-size:22px}.composer-wrap{padding-top:4px}.composer-caption{margin-top:5px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+/* Model choice lives in the composer; the header is deliberately one title. */
+.header-title>span{display:none}
+/* Supporting text remains readable on each quiet tinted background. */
+body[data-design=paper]{--muted:#706f67}
+body[data-design=mint]{--muted:#627469}
+body[data-design=mono]{--muted:#707070}
+body[data-design=studio]{--muted:#73695e}
+body[data-design=ocean]{--muted:#617188}
+body[data-design=clay]{--muted:#74695e}
+body[data-design=orbit]{--muted:#726480}
+</style></head>
+<body data-design="linen" data-preview-design="linen"><div id="app">
+<button id="sidebarScrim" class="sidebar-scrim" aria-label="메뉴 닫기" tabindex="-1"></button>
+<aside id="sidebar" class="sidebar" aria-label="대화와 메뉴"><div class="sidebar-header"><strong>Hermes Pocket</strong><button id="closeSidebar" class="icon-button" aria-label="메뉴 닫기">×</button></div>
+<button id="newChat" class="sidebar-new-chat"><span aria-hidden="true">＋</span>새 대화</button>
+<label class="sr-only" for="sidebarSearch">대화 검색</label><input id="sidebarSearch" type="search" placeholder="대화 검색" autocomplete="off">
+<div class="sidebar-section-label">최근 대화</div><div id="sidebarSessions" class="sidebar-sessions"></div>
+<nav class="drawer-nav" aria-label="메뉴"><button data-page="chat" class="active"><span class="nav-icon"></span><span>현재 대화</span></button><button data-page="device"><span class="nav-icon"></span><span>기기 도구</span></button><button data-page="history"><span class="nav-icon"></span><span>대화 · 실행 기록</span></button><button data-page="memory"><span class="nav-icon"></span><span>메모리</span></button><button data-page="settings"><span class="nav-icon"></span><span>설정</span></button></nav>
+<div class="sidebar-footer"><button id="connectionPill" class="connection-pill"><i></i><span>연결 전</span></button><button id="designShortcut" class="design-shortcut" aria-label="화면 스타일 선택">Linen</button></div></aside>
+<header class="topbar"><button id="menuToggle" class="icon-button" aria-label="메뉴 열기" aria-controls="sidebar" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h12M4 17h16"/></svg></button><button id="brand" class="header-title" aria-label="현재 대화"><strong id="headerTitle">Hermes</strong><span id="activeModel">모델 연결</span></button><button id="headerNewChat" class="icon-button" aria-label="새 대화"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4H5a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h13a2 2 0 0 0 2-2v-9M16 3l5 5M10 14l1-4 7-7 3 3-7 7-4 1z"/></svg></button></header>
+<main id="main">
+<section id="page-chat" class="page active">
+<div id="emptyChat" class="empty-chat"><div class="chat-greeting"><div class="greeting-mark" aria-hidden="true">✳</div><h1 id="homeTitle">무엇을 도와드릴까요?</h1><p id="homeIntro">메시지를 입력해 대화를 시작하세요.</p><div class="suggestion-chips"><button data-prompt="현재 휴대폰의 배터리와 메모리 상태를 알려줘.">기기 상태 확인</button><button data-prompt="오늘 해야 할 일을 정리하는 걸 도와줘.">할 일 정리</button><button data-prompt="지금 떠오른 아이디어를 함께 구체화해 줘.">아이디어 발전</button></div><div class="connection-note" id="offlineNote"><p>시작하려면 <button id="inlineSetup">모델을 연결하세요</button>.</p></div></div></div>
+<div id="conversation" class="conversation hidden" aria-live="polite"></div>
+</section>
+<section id="page-device" class="page"><div class="page-heading"><div class="eyebrow">DEVICE CONTROL</div><h1>기기 제어</h1><p class="heading-copy">상태를 확인하고 필요한 작업을 실행하세요.</p></div><div class="device-banner"><div class="phone-outline"><i></i></div><div><h2 id="deviceName">기기 확인 중</h2><p id="deviceOs">실제 기기 정보만 표시합니다</p></div><button class="icon-button" id="refreshDevice" aria-label="기기 새로고침">↻</button></div>
+<div class="stats"><article><span>배터리</span><strong id="battery">—</strong><div class="meter"><i id="batteryBar"></i></div><small id="charging">확인 전</small></article><article><span>사용 가능한 메모리</span><strong id="memoryAvailable">—</strong><div class="meter neutral"><i id="memoryBar"></i></div><small id="memoryTotal">확인 전</small></article></div>
+<div class="section-line"><h3>권한과 연결</h3><span>자동 획득하지 않음</span></div><div class="list-card"><button class="setting-row" data-permission="accessibility"><span class="row-icon">◈</span><span class="row-text"><strong>화면 제어</strong><small>접근성 · 허용한 앱만</small></span><span id="accessBadge" class="badge">연결 전</span><span class="chevron">›</span></button><button class="setting-row" data-permission="brightness"><span class="row-icon">☼</span><span class="row-text"><strong>밝기 변경</strong><small>Android 설정에서 직접 허용</small></span><span id="writeBadge" class="badge">권한 필요</span><span class="chevron">›</span></button><button class="setting-row" data-permission="notifications"><span class="row-icon">♧</span><span class="row-text"><strong>승인 알림</strong><small>다른 앱 화면에서 작업 승인</small></span><span class="chevron">›</span></button><button class="setting-row" id="allowedApps"><span class="row-icon">▦</span><span class="row-text"><strong>제어할 앱 선택</strong><small id="allowCount">아직 허용한 앱이 없습니다</small></span><span class="chevron">›</span></button></div>
+<div class="section-line"><h3>빠른 조절</h3><span>한 번씩 승인</span></div><div class="control-card"><div class="range-label"><span>미디어 볼륨</span><strong id="volumeValue">30%</strong></div><input id="volumeRange" type="range" min="0" max="100" value="30" aria-label="미디어 볼륨"><button class="secondary full" id="applyVolume">볼륨 적용</button><div class="range-label spacer"><span>화면 밝기</span><strong id="brightnessValue">50%</strong></div><input id="brightnessRange" type="range" min="1" max="100" value="50" aria-label="화면 밝기"><button class="secondary full" id="applyBrightness">밝기 적용</button></div>
+<div class="root-card"><div class="section-line"><h3><span class="root-symbol">#</span> Root 연동</h3><span id="rootBadge" class="badge">미확인</span></div><p>이미 Root 권한을 가진 본인 테스트 기기에서만.<br>제한된 명령만, 실행마다 승인합니다.</p><div class="button-pair"><button class="secondary" id="rootToggle">연동 켜기</button><button class="secondary" id="rootProbe">Root 확인</button></div><button class="text-button" id="rootProcesses">프로세스 목록 읽기 ↗</button><p class="micro" id="systemUid">System UID는 부여되지 않았습니다.</p></div>
+<section class="tool-workspace" aria-labelledby="toolsTitle"><div class="section-line"><h3 id="toolsTitle">모든 기기 도구</h3><span>13개 도구</span></div><p class="field-help">기기 작업은 Android의 승인 화면을 거칩니다. 화면 도구는 대상 앱을 열어 둔 뒤 알림에서 승인하세요.</p><label class="field-label" for="toolSelect">실행할 도구</label><select id="toolSelect"></select><form id="toolForm"><div id="toolFields"></div><p id="toolHelp" class="field-help"></p><button id="executeTool" class="primary full" type="submit">도구 실행</button><button id="stopManualTool" class="secondary full hidden" type="button">실행 중단</button></form></section></section>
+<section id="page-history" class="page"><div class="page-heading"><div class="eyebrow">YOUR WORKSPACE</div><h1>기록</h1><p class="heading-copy">대화와 기기 작업을 한곳에서 확인하세요.</p></div><div class="segmented"><button class="selected" data-history-tab="sessions">대화</button><button data-history-tab="audit">실행 기록</button></div><input id="historySearch" class="search-input" placeholder="대화 제목 검색" aria-label="대화 검색"><div id="sessionList" class="history-list"></div><div id="auditList" class="history-list hidden"></div></section>
+<section id="page-memory" class="page"><div class="page-heading"><div class="eyebrow">CONTEXT & CAPABILITIES</div><h1>메모리</h1><p class="heading-copy">대화에 기억할 내용을 관리하세요.</p></div><div class="list-card memory-intro"><span class="row-icon">✧</span><div><h3>내가 직접 관리하는 메모리</h3><p>다음 메시지부터 맥락으로 전달합니다.<br>권한이나 실행 승인으로 사용하지 않습니다.</p></div></div><label class="field-label" for="memoryEditor">나의 프로젝트 · 선호 · 작업 규칙</label><textarea id="memoryEditor" class="memory-editor" maxlength="4000" placeholder="예: 한국어로 대화해 줘. 임베디드 프로젝트를 만들고 있어. 중요한 변경 전에는 이유를 설명해 줘."></textarea><div class="editor-footer"><small id="memoryCount">0 / 4,000</small><button class="primary" id="saveMemory">메모리 저장</button></div><div class="section-line"><h3>사용 가능한 Android 도구</h3><span>13개 도구</span></div><div id="toolList" class="tool-list"></div><div class="info-card"><h3>휴대폰에서 실행하는 도구</h3><p>위 도구는 이 휴대폰에서 실행합니다. 기기 작업에는 사용자의 승인과 필요한 Android 권한이 적용됩니다.</p></div></section>
+<section id="page-settings" class="page"><div class="page-heading"><div class="eyebrow">MAKE IT YOURS</div><h1>설정</h1><p class="heading-copy">모델 연결과 화면 스타일을 관리하세요.</p></div><div class="section-line"><h3>모델 API 연결</h3><span>API</span></div><div id="modeInfo" class="info-strip">API를 연결하면 이 휴대폰에서 대화와 기기 작업을 처리합니다.</div><form id="settingsForm"><label class="field-label" for="endpoint">API 기본 주소</label><input id="endpoint" required type="url" placeholder="https://your-provider.example/v1" autocomplete="off" spellcheck="false"><small class="field-help" id="endpointHelp"></small><label class="field-label" for="token">API 키</label><input id="token" type="password" placeholder="기기에 암호화해 저장합니다" autocomplete="off" spellcheck="false"><div class="token-row"><small id="tokenStatus">저장된 인증 정보 없음</small><label><input id="clearToken" type="checkbox">저장된 키 지우기</label></div><div id="modelField"><label class="field-label" for="model">모델 ID</label><input id="model" required placeholder="제공자가 안내한 정확한 모델 ID" autocomplete="off" spellcheck="false"></div><details class="agent-options"><summary>에이전트 실행 설정</summary><label class="field-label" for="maxRounds">최대 모델 요청 횟수</label><input id="maxRounds" type="number" min="2" max="64" value="24" required><label class="field-label" for="contextChars">전송할 대화 문맥 크기 (글자)</label><input id="contextChars" type="number" min="16000" max="240000" step="1000" value="60000" required><small class="field-help">문맥 한도에 맞춰 오래된 대화 묶음을 전송에서 제외합니다. 휴대폰에 저장된 전체 기록은 유지됩니다.</small></details><label class="check-row"><input id="allowLan" type="checkbox"><span>사설 LAN의 HTTP 연결 허용<small>신뢰하는 개발망에서만. 통신이 암호화되지 않습니다.</small></span></label><div class="button-pair"><button type="submit" class="primary">설정 저장</button><button type="button" class="secondary" id="testConnection">연결 테스트</button></div></form><div id="connectionResult" class="connection-result hidden"></div><section class="appearance-section" aria-labelledby="appearanceTitle"><div class="section-line"><h3 id="appearanceTitle">화면 디자인</h3><span id="currentDesignName">01 / Linen</span></div><p class="field-help">대화에 집중하는 10가지 화면 스타일. 대화와 설정은 유지됩니다.</p><div id="designPicker" class="design-picker"></div></section><div class="info-card"><h3>시작 전 알아두세요</h3><p>도구 호출과 스트리밍을 지원하는 OpenAI 호환 모델 API가 필요합니다. 별도 PC나 중계 서버 없이 사용하며, API 사용량에 따른 비용이 발생할 수 있습니다.</p><p>이 APK가 Root나 제조사 서명을 자동으로 얻지는 않습니다. 화면 내용과 대화는 요청한 작업 과정에서 연결한 모델 API로 전송될 수 있습니다.</p></div><div class="about"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMjAiIGZpbGw9IiNmNGI4NjAiLz48cGF0aCBkPSJNMTcgMTdoN3YxM2gxNlYxN2g3djMwaC03VjM2SDI0djExaC03eiIgZmlsbD0iIzE3MWIxYiIvPjxwYXRoIGQ9Ik0yOSAxMWg2djRoLTZ6TTI5IDQ5aDZ2NGgtNnoiIGZpbGw9IiMxNzFiMWIiLz48L3N2Zz4K" alt=""><div><strong>Hermes Pocket</strong><span id="appVersion">버전 확인 중</span></div></div><p class="legal">Hermes Pocket · 비공식 개인 프로젝트 · MIT. 원본 Hermes Agent에 대한 참고와 출처는 프로젝트 문서에 안내합니다.</p></section>
+</main>
+<button id="scrollToLatest" class="scroll-to-latest hidden" aria-label="최신 메시지로 이동">↓</button>
+<div id="composerWrap" class="composer-wrap"><div id="runStatus" class="run-status hidden"><span class="pulse"></span><span id="runStatusText">연결 중</span><button id="stopRun">중단</button></div>
+<div class="composer"><textarea id="messageInput" rows="1" maxlength="12000" placeholder="메시지 보내기" aria-label="메시지 입력"></textarea><div class="composer-toolbar"><button id="composerTools" class="composer-plus" aria-label="기기 도구 열기"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button><button id="composerConnection" class="composer-model" aria-label="모델 연결 설정"><span id="composerMode">모델 연결</span><span aria-hidden="true">⌄</span></button><button id="sendMessage" class="send" aria-label="전송"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5m-6 6 6-6 6 6"/></svg></button></div></div>
+<div class="composer-caption"><span>기기 작업은 승인 후 실행됩니다.</span><span id="previewNotice" class="hidden">브라우저 미리보기</span></div></div>
+<div id="toast" role="status" class="toast hidden"></div>
+<div id="resultModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="resultTitle"><div class="modal-scrim"></div><section class="modal-sheet"><div class="modal-head"><h2 id="resultTitle">실행 결과</h2><button id="closeResult" class="icon-button" aria-label="닫기">×</button></div><div id="screenTargets" class="screen-targets hidden"></div><pre id="resultBody" tabindex="0"></pre><p class="micro">실제 도구 응답입니다. verified가 false이면 실행 전달만 확인한 상태입니다.</p></section></div>
+</div><script>'use strict';
+const $ = id => document.getElementById(id);
+const state={page:'chat',sid:'',messages:[],sessions:[],audit:[],config:{mode:'direct',endpoint:'',allowedApps:[]},device:{},busy:false,live:'',historyTab:'sessions',connected:false};
+const pending=new Map();let serial=0,toastTimer;let followLatest=true,sidebarFocus;
+const icons={chat:'<circle cx="12" cy="11" r="8"/><path d="M7 18l-3 3v-7"/><path d="M8 11h8"/>',device:'<rect x="6" y="2" width="12" height="20" rx="3"/><path d="M10 18h4"/>',history:'<path d="M3 11a9 9 0 119 10"/><path d="M3 4v7h7M12 7v6l4 2"/>',memory:'<path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6z"/>',settings:'<path d="M4 6h16M4 12h16M4 18h16"/><circle cx="8" cy="6" r="2"/><circle cx="16" cy="12" r="2"/><circle cx="9" cy="18" r="2"/>'};
+function svg(name){return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+icons[name]+'</svg>';}
+for(const b of document.querySelectorAll('[data-page]'))b.querySelector('.nav-icon').innerHTML=svg(b.dataset.page);
+
+function native(method,data={}){
+    return new Promise((resolve,reject)=>{
+        if(!window.NativeBridge){reject(new Error('브라우저 미리보기입니다. 실제 기기 기능은 Android APK에서 사용할 수 있습니다.'));return;}
+        const id='r'+(++serial)+'_'+Date.now();const timer=setTimeout(()=>{pending.delete(id);reject(new Error('앱 요청 시간이 초과되었습니다. 진행 중인 작업을 확인하세요.'));},190000);
+        pending.set(id,{resolve,reject,timer});window.NativeBridge.postMessage(JSON.stringify({id,method,data}));
+    });
+}
+window.PocketNative = message=>{
+    if(message.id){const p=pending.get(message.id);if(p){clearTimeout(p.timer);pending.delete(message.id);message.ok?p.resolve(message.data):p.reject(new Error(message.data?.message||'요청이 실패했습니다.'));}return;}
+    const d=message.data||{};
+    switch(message.event){
+        case 'started':state.sid=d.session;state.messages.push({role:'user',content:d.text,created:Date.now()});state.live='';state.busy=true;followLatest=true;renderConversation();setBusy(true);scrollBottom(true);break;
+        case 'delta':state.live+=d.text||'';renderStreaming();scrollBottom();break;
+        case 'status':$('runStatusText').textContent=d.message||'실행 중';break;
+        case 'tool':$('runStatusText').textContent=(toolNames[d.name]||d.name)+' · '+d.status;break;
+        case 'notice':toast(d.message,7500);$('runStatusText').textContent=d.message;break;
+        case 'complete':state.messages.push({role:'assistant',content:d.text||'',created:Date.now()});state.live='';state.busy=false;setBusy(false);renderConversation();scrollBottom();break;
+        case 'failure':if(state.live)state.messages.push({role:'assistant',content:'[미완료 응답 · 실행 완료를 의미하지 않습니다]\n'+state.live,created:Date.now()});state.messages.push({role:'error',content:d.message,created:Date.now()});state.live='';state.busy=false;setBusy(false);renderConversation();scrollBottom();break;
+        case 'settled':state.sessions=d.sessions||state.sessions;state.audit=d.audit||state.audit;updateDevice(d.device||{});renderHistory();break;
+        case 'device':updateDevice(d);break;
+    }
+};
+const toolNames={get_device_state:'기기 상태 조회',list_apps:'앱 목록 조회',launch_app:'허용한 앱 실행',open_settings:'설정 페이지 열기',set_volume:'미디어 볼륨 변경',set_brightness:'화면 밝기 변경',root_processes:'Root 프로세스 조회',set_wifi:'Root Wi-Fi 변경',force_stop_app:'Root 일반 앱 종료',read_screen:'허용한 앱 화면 읽기',click_element:'화면 요소 클릭',type_text:'입력란에 텍스트 입력',scroll_element:'화면 요소 스크롤'};
+function toast(text,ms=4500){clearTimeout(toastTimer);$('toast').textContent=text;$('toast').classList.remove('hidden');toastTimer=setTimeout(()=>$('toast').classList.add('hidden'),ms);}
+function setSidebar(open){
+    if(open)sidebarFocus=document.activeElement;
+    document.body.dataset.sidebar=open?'open':'closed';$('menuToggle').setAttribute('aria-expanded',String(open));
+    const desktop=false;
+    $('sidebar').inert=!desktop&&!open;
+    if(open&&!desktop)$('closeSidebar').focus();
+    if(!open&&sidebarFocus&&sidebarFocus.isConnected&&!desktop)sidebarFocus.focus();
+}
+function showPage(page){
+    if(!['chat','device','history','memory','settings'].includes(page))return;
+    state.page=page;setSidebar(false);
+    for(const e of document.querySelectorAll('.page'))e.classList.toggle('active',e.id==='page-'+page);
+    for(const b of document.querySelectorAll('[data-page]'))b.classList.toggle('active',b.dataset.page===page);
+    $('headerTitle').textContent={chat:'Hermes',device:'기기 도구',history:'기록',memory:'메모리',settings:'설정'}[page];
+    $('activeModel').classList.toggle('hidden',page!=='chat');$('composerWrap').classList.toggle('hidden',page!=='chat');
+    $('scrollToLatest').classList.add('hidden');$('main').scrollTop=0;
+    if(page==='chat')scrollBottom(true);if(page==='history')refreshHistory();if(page==='device')native('device').then(updateDevice).catch(()=>{});
+}
+window.PocketBack=()=>{if(!$('resultModal').classList.contains('hidden'))closeResult();else if(document.body.dataset.sidebar==='open')setSidebar(false);else if(state.page!=='chat')showPage('chat');else native('quit').catch(()=>{});};
+for(const b of document.querySelectorAll('[data-page]'))b.addEventListener('click',()=>showPage(b.dataset.page));
+$('menuToggle').addEventListener('click',()=>{setSidebar(document.body.dataset.sidebar!=='open');if(window.NativeBridge)refreshHistory();});
+$('closeSidebar').addEventListener('click',()=>setSidebar(false));$('sidebarScrim').addEventListener('click',()=>setSidebar(false));
+document.addEventListener('keydown',e=>{
+    if(e.key==='Escape'){if(!$('resultModal').classList.contains('hidden'))closeResult();else setSidebar(false);}
+    if(e.key!=='Tab'||document.body.dataset.sidebar!=='open'||!$('resultModal').classList.contains('hidden'))return;
+    const targets=[...$('sidebar').querySelectorAll('button:not(:disabled),input')].filter(e=>e.getClientRects().length);const first=targets[0],last=targets[targets.length-1];
+    if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}
+});
+setSidebar(false);
+$('brand').addEventListener('click',()=>showPage('chat'));
+for(const id of ['connectionPill','inlineSetup','composerConnection'])$(id).addEventListener('click',()=>{showPage('settings');$('settingsForm').scrollIntoView({block:'start'});});
+$('composerTools').addEventListener('click',()=>{showPage('device');document.querySelector('.tool-workspace').scrollIntoView({block:'start'});});
+function updateSend(){ $('sendMessage').disabled=state.busy||!$('messageInput').value.trim(); }
+function setBusy(value){state.busy=value;$('runStatus').classList.toggle('hidden',!value);$('newChat').disabled=value;$('headerNewChat').disabled=value;$('messageInput').disabled=value;updateSend();if(!value)$('runStatusText').textContent='연결 중';}
+function time(value){return new Date(value||Date.now()).toLocaleTimeString('ko-KR',{hour:'2-digit',minute:'2-digit'});}
+function date(value){return new Date(value).toLocaleString('ko-KR',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'});}
+function node(tag,className,text){const e=document.createElement(tag);if(className)e.className=className;if(text!==undefined)e.textContent=text;return e;}
+function renderText(target,text){renderChatMarkdown(target,text);}
+function messageNode(m,streaming=false){
+    const article=node('article','message '+m.role+(streaming?' streaming':''));if(streaming)article.id='streamingMessage';
+    const label=node('div','message-label');label.append(node('span','',m.role==='user'?'나':m.role==='assistant'?'Hermes':'실행 안내'));
+    const content=node('div','message-content');renderText(content,m.content);article.append(label,content);
+    if(!streaming&&m.content){const actions=node('div','message-actions');const copy=node('button','copy-message','복사');copy.type='button';copy.setAttribute('aria-label','메시지 복사');copy.addEventListener('click',()=>copyMessage(m.content));actions.append(copy);article.append(actions);}
+    return article;
+}
+async function copyMessage(text){
+    try{if(navigator.clipboard&&window.isSecureContext)await navigator.clipboard.writeText(text);else{
+        const input=node('textarea','clipboard-helper');input.value=text;input.setAttribute('readonly','');document.body.append(input);input.select();const ok=document.execCommand('copy');input.remove();if(!ok)throw new Error('copy unavailable');
+    }toast('메시지를 복사했습니다.');}catch(_){toast('복사하지 못했습니다. 메시지 텍스트를 길게 눌러 선택하세요.');}
+}
+function renderConversation(){
+    const scroll=$('main').scrollTop,has=state.messages.length>0||state.busy;
+    $('emptyChat').classList.toggle('hidden',has);$('conversation').classList.toggle('hidden',!has);
+    $('conversation').replaceChildren(...state.messages.map(m=>messageNode(m)));if(state.busy)renderStreaming();if(!followLatest)$('main').scrollTop=scroll;
+}
+function renderStreaming(){let e=$('streamingMessage');if(!e){e=messageNode({role:'assistant',content:''},true);$('conversation').append(e);}$('emptyChat').classList.add('hidden');$('conversation').classList.remove('hidden');renderText(e.querySelector('.message-content'),state.live||'');}
+function scrollBottom(force=false){
+    if(force)followLatest=true;if(state.page!=='chat')return;
+    if(followLatest)requestAnimationFrame(()=>{$('main').scrollTop=$('main').scrollHeight;$('scrollToLatest').classList.add('hidden');});
+    else $('scrollToLatest').classList.remove('hidden');
+}
+$('main').addEventListener('scroll',()=>{if(state.page!=='chat')return;const e=$('main');followLatest=e.scrollHeight-e.scrollTop-e.clientHeight<100;$('scrollToLatest').classList.toggle('hidden',followLatest||!state.messages.length);},{passive:true});
+$('scrollToLatest').addEventListener('click',()=>scrollBottom(true));
+async function send(){const text=$('messageInput').value.trim();if(!text||state.busy)return;setBusy(true);$('messageInput').value='';$('messageInput').style.height='28px';try{await native('startChat',{text,session:state.sid});}catch(e){$('messageInput').value=text;setBusy(false);toast(e.message);}}
+$('sendMessage').addEventListener('click',send);
+$('messageInput').addEventListener('input',()=>{const t=$('messageInput');t.style.height='28px';t.style.height=Math.min(t.scrollHeight,160)+'px';updateSend();});
+$('messageInput').addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.isComposing&&!e.shiftKey&&(e.ctrlKey||e.metaKey||window.matchMedia('(pointer:fine)').matches)){e.preventDefault();send();}});
+$('stopRun').addEventListener('click',()=>native('stop').catch(e=>toast(e.message)));
+function startNewChat(){if(state.busy)return;state.sid='';state.messages=[];state.live='';followLatest=true;showPage('chat');renderConversation();renderSidebarSessions();$('messageInput').value='';$('messageInput').style.height='28px';updateSend();$('messageInput').focus();}
+$('newChat').addEventListener('click',startNewChat);$('headerNewChat').addEventListener('click',startNewChat);
+for(const button of document.querySelectorAll('[data-prompt]'))button.addEventListener('click',()=>{if(state.busy)return;$('messageInput').value=button.dataset.prompt;$('messageInput').dispatchEvent(new Event('input'));$('messageInput').focus();});
+function updateDevice(d){
+    state.device={...state.device,...d};const v=state.device;$('deviceName').textContent=v.model||'기기 확인 전';$('deviceOs').textContent=v.android?'Android '+v.android+' · API '+v.sdk:'APK에서 실제 정보를 조회합니다';
+    $('battery').textContent=v.battery>=0?v.battery+'%':'—';$('batteryBar').style.width=Math.max(0,Math.min(100,v.battery||0))+'%';$('charging').textContent=v.battery>=0?(v.charging?'충전 중':'배터리 사용 중'):'확인 전';
+    $('memoryAvailable').textContent=v.memoryAvailableGb!=null?v.memoryAvailableGb+' GB':'—';$('memoryTotal').textContent=v.memoryTotalGb?'전체 '+v.memoryTotalGb+' GB':'확인 전';$('memoryBar').style.width=(v.memoryTotalGb?Math.max(0,Math.min(100,v.memoryAvailableGb/v.memoryTotalGb*100)):0)+'%';
+    badge('accessBadge',v.accessibility,'연결됨','연결 전');badge('writeBadge',v.writeSettings,'허용됨','권한 필요');badge('rootBadge',v.root,'UID 0 확인','미확인');$('rootToggle').textContent=v.rootEnabled?'연동 끄기':'연동 켜기';$('systemUid').textContent=v.systemUid?'이 프로세스의 System UID가 확인되었습니다.':'System UID는 부여되지 않았습니다.';
+    if(v.volume!=null){$('volumeRange').value=v.volume;$('volumeValue').textContent=v.volume+'%';}if(v.brightness!=null){const p=Math.max(1,Math.round(v.brightness/255*100));$('brightnessRange').value=p;$('brightnessValue').textContent=p+'%';}
+}
+function badge(id,on,yes,no){$(id).textContent=on?yes:no;$(id).classList.toggle('on',!!on);}
+function result(title,value){resultFocus=document.activeElement;if(typeof clearScreenTargets==='function')clearScreenTargets();$('resultTitle').textContent=title;$('resultBody').textContent=JSON.stringify(value,null,2);$('resultModal').classList.remove('hidden');$('closeResult').focus();}
+function closeResult(){$('resultModal').classList.add('hidden');if(resultFocus&&resultFocus.isConnected)resultFocus.focus();}
+$('closeResult').addEventListener('click',closeResult);document.querySelector('.modal-scrim').addEventListener('click',closeResult);
+async function runTool(name,args={}){if(state.busy){toast('진행 중인 작업이 끝난 뒤 실행하세요.');return;}setBusy(true);try{const response=await native('runTool',{name,arguments:args});result(toolNames[name]||name,response);if(typeof captureToolResult==='function')captureToolResult(name,response);await refreshHistory();return response;}catch(e){toast(e.message,6500);}finally{setBusy(false);}}
+
+$('refreshDevice').addEventListener('click',()=>native('device').then(d=>{updateDevice(d);toast('기기 상태를 새로 읽었습니다.');}).catch(e=>toast(e.message)));
+for(const e of document.querySelectorAll('[data-permission]'))e.addEventListener('click',()=>native('permission',{kind:e.dataset.permission}).catch(err=>toast(err.message)));
+$('allowedApps').addEventListener('click',()=>native('allowedApps').then(a=>{state.config.allowedApps=a;renderAllowed();}).catch(e=>toast(e.message)));
+function renderAllowed(){const n=(state.config.allowedApps||[]).length;$('allowCount').textContent=n?n+'개 앱만 제어 허용':'아직 허용한 앱이 없습니다';}
+for(const [range,label] of [['volumeRange','volumeValue'],['brightnessRange','brightnessValue']])$(range).addEventListener('input',()=>$(label).textContent=$(range).value+'%');
+$('applyVolume').addEventListener('click',()=>runTool('set_volume',{percent:Number($('volumeRange').value)}));$('applyBrightness').addEventListener('click',()=>runTool('set_brightness',{percent:Number($('brightnessRange').value)}));
+$('rootToggle').addEventListener('click',()=>native('rootToggle',{enabled:!state.device.rootEnabled}).then(updateDevice).catch(e=>toast(e.message)));
+$('rootProbe').addEventListener('click',async()=>{try{const r=await native('probeRoot');result('Root 상태 확인',r);}catch(e){toast(e.message,7500);}});
+$('rootProcesses').addEventListener('click',()=>runTool('root_processes'));
+async function refreshHistory(){try{[state.sessions,state.audit]=await Promise.all([native('sessions'),native('audit')]);renderHistory();}catch(e){if(state.page==='history')toast(e.message);}}
+for(const b of document.querySelectorAll('[data-history-tab]'))b.addEventListener('click',()=>{state.historyTab=b.dataset.historyTab;renderHistory();});$('historySearch').addEventListener('input',renderHistory);
+function empty(title,text){const e=node('div','empty-state');e.append(node('strong','',title),node('p','',text));return e;}
+async function openSession(session){
+    if(state.busy){toast('진행 중인 대화가 있습니다.');return;}
+    try{const messages=await native('messages',{session:session.id});state.sid=session.id;state.messages=messages;state.live='';followLatest=true;showPage('chat');renderConversation();renderSidebarSessions();scrollBottom(true);}catch(e){toast(e.message);}
+}
+function renderSidebarSessions(){
+    const search=$('sidebarSearch').value.trim().toLocaleLowerCase();
+    const list=state.sessions.filter(s=>String(s.title).toLocaleLowerCase().includes(search));
+    $('sidebarSessions').replaceChildren(...list.map(session=>{
+        const row=node('div','sidebar-session'+(session.id===state.sid?' selected':''));
+        const open=node('button','sidebar-session-open',session.title);open.type='button';open.title=session.title;open.addEventListener('click',()=>openSession(session));
+        const remove=node('button','sidebar-session-delete','×');remove.type='button';remove.setAttribute('aria-label',session.title+' 대화 삭제');
+        remove.addEventListener('click',async()=>{if(state.busy){toast('작업이 끝난 뒤 대화를 삭제하세요.');return;}try{const response=await native('deleteSession',{session:session.id});if(!response.deleted)return;state.sessions=response.sessions||[];if(state.sid===session.id){state.sid='';state.messages=[];state.live='';renderConversation();}renderHistory();}catch(e){toast(e.message);}});
+        row.append(open,remove);return row;
+    }));
+    if(!list.length)$('sidebarSessions').append(node('p','sidebar-empty',search?'검색 결과가 없습니다.':'아직 대화가 없습니다.'));
+}
+$('sidebarSearch').addEventListener('input',renderSidebarSessions);
+function renderHistory(){
+    renderSidebarSessions();
+    for(const b of document.querySelectorAll('[data-history-tab]'))b.classList.toggle('selected',state.historyTab===b.dataset.historyTab);
+    $('sessionList').classList.toggle('hidden',state.historyTab!=='sessions');$('auditList').classList.toggle('hidden',state.historyTab!=='audit');$('historySearch').classList.toggle('hidden',state.historyTab!=='sessions');
+    const list=state.sessions.filter(s=>s.title.toLowerCase().includes($('historySearch').value.toLowerCase()));
+    $('sessionList').replaceChildren(...list.map(s=>{const row=node('article','history-item'),open=node('button','history-open');open.append(node('h3','',s.title),node('p','',date(s.created)+' · '+s.count+'개 메시지'));open.addEventListener('click',async()=>{if(state.busy){toast('진행 중인 대화가 있습니다.');return;}try{state.sid=s.id;state.messages=await native('messages',{session:s.id});state.live='';showPage('chat');renderConversation();scrollBottom();}catch(e){toast(e.message);}});const del=node('button','delete-session','×');del.setAttribute('aria-label','대화 삭제');del.addEventListener('click',()=>native('deleteSession',{session:s.id}).then(r=>{if(r.deleted){state.sessions=r.sessions;if(state.sid===s.id){state.sid='';state.messages=[];renderConversation();}renderHistory();}}).catch(e=>toast(e.message)));row.append(open,del);return row;}));
+    if(!list.length)$('sessionList').append(empty('아직 기록이 없어요.','첫 대화를 시작하면 이 기기에 보관됩니다.'));
+    $('auditList').replaceChildren(...state.audit.map(a=>{const row=node('article','history-item');const body=node('div','history-open');body.append(node('h3','',toolNames[a.tool]||a.tool),node('p','',date(a.created)),node('span','audit-label',a.detail));const label={completed:'반환 완료',failed:'실패',denied:'거부',unconfirmed:'미확인'}[a.status]||a.status;row.append(body,node('span','audit-status '+a.status,label));return row;}));
+    if(!state.audit.length)$('auditList').append(empty('실행된 도구가 없습니다.','실행·거부·실패를 구분해서 남깁니다.'));
+}
+$('memoryEditor').addEventListener('input',()=> $('memoryCount').textContent=$('memoryEditor').value.length.toLocaleString()+' / 4,000');
+$('saveMemory').addEventListener('click',()=>native('saveMemory',{text:$('memoryEditor').value}).then(()=>toast('저장했습니다. 다음 메시지부터 맥락으로 사용됩니다.')).catch(e=>toast(e.message)));
+for(const [key,label] of Object.entries(toolNames)){const e=node('div','tool-item'),body=node('div');body.append(node('strong','',label),node('code','',key));e.append(body,node('span','',key==='get_device_state'||key==='list_apps'?'조회':'승인 필요'));$('toolList').append(e);}
+function selectMode(){
+    state.config.mode='direct';$('modeInfo').textContent='API를 연결하면 이 휴대폰에서 대화와 기기 작업을 처리합니다.';
+    $('endpointHelp').textContent='OpenAI 호환 API의 기본 주소입니다. 예: https://your-provider.example/v1';
+    $('modelField').classList.remove('hidden');$('composerMode').textContent=state.config.model||'모델 연결';$('activeModel').textContent=state.config.model||'모델 연결';
+}
+function hydrateConfig(cfg){state.config={...state.config,...cfg};$('endpoint').value=cfg.endpoint||'';$('model').value=cfg.model||'';$('maxRounds').value=cfg.maxRounds||24;$('contextChars').value=cfg.contextChars||60000;$('token').value='';$('clearToken').checked=false;$('allowLan').checked=!!cfg.allowLan;$('tokenStatus').textContent=cfg.hasToken?'암호화된 인증 정보가 저장됨':'저장된 인증 정보 없음';$('memoryEditor').value=cfg.memory||'';$('memoryCount').textContent=$('memoryEditor').value.length.toLocaleString()+' / 4,000';selectMode();renderAllowed();}
+function setConnected(ok,text){state.connected=ok;$('connectionPill').classList.toggle('connected',ok);$('connectionPill').querySelector('span').textContent=text||(ok?'연결 확인':'연결 전');$('offlineNote').classList.toggle('hidden',ok);}
+$('settingsForm').addEventListener('submit',async e=>{e.preventDefault();try{const cfg=await native('saveSettings',{mode:'direct',endpoint:$('endpoint').value.trim(),model:$('model').value.trim(),token:$('token').value,clearToken:$('clearToken').checked,allowLan:$('allowLan').checked,maxRounds:Number($('maxRounds').value),contextChars:Number($('contextChars').value)});hydrateConfig(cfg);setConnected(false);toast('저장했습니다. 연결 테스트로 API 상태를 확인하세요.');}catch(err){toast(err.message,6500);}});
+$('testConnection').addEventListener('click',async()=>{const b=$('testConnection');b.disabled=true;b.textContent='확인 중';$('connectionResult').classList.remove('hidden','error');$('connectionResult').textContent='저장된 API 설정으로 연결을 확인합니다.';try{await native('testConnection');setConnected(true,'API 연결 확인');$('connectionResult').textContent='API 연결·인증과 선택한 모델의 응답을 확인했습니다. 기기 도구 호출은 실제 작업에서 확인합니다.';}catch(e){setConnected(false);$('connectionResult').classList.add('error');$('connectionResult').textContent=e.message;}finally{b.disabled=false;b.textContent='연결 테스트';}});
+async function boot(){
+    try{const s=await native('boot');hydrateConfig(s.config);$('appVersion').textContent='v'+s.version+' · '+(s.releaseChannel||'beta');state.sessions=s.sessions||[];state.audit=s.audit||[];updateDevice(s.device||{});state.busy=s.busy;state.live=s.live||'';state.sid=s.session||'';if(state.sid)state.messages=await native('messages',{session:state.sid});setBusy(!!s.busy);$('runStatusText').textContent=s.status||'실행 중';renderConversation();renderHistory();}
+    catch(e){selectMode();renderHistory();if(!window.NativeBridge){$('appVersion').textContent='브라우저 디자인 미리보기';$('connectionPill').querySelector('span').textContent='브라우저 미리보기';$('previewNotice').classList.remove('hidden');$('offlineNote').querySelector('p').textContent='미리보기 · 실제 모델 연결은 APK에서 사용할 수 있습니다.';}else toast(e.message);}
+}
+boot();updateSend();
+
+// Appearance stays independent of credentials, conversations and native permissions.
+const designs = [
+ {id:'linen',name:'Linen',description:'화이트 · 기본 채팅'},
+ {id:'midnight',name:'Midnight',description:'다크 · 집중 채팅'},
+ {id:'paper',name:'Paper',description:'크림 · 차분한 읽기'},
+ {id:'mint',name:'Mint',description:'세이지 · 둥근 입력창'},
+ {id:'mono',name:'Mono',description:'모노톤 · 간결한 구분'},
+ {id:'terminal',name:'Terminal',description:'차콜 · 컴팩트 채팅'},
+ {id:'studio',name:'Studio',description:'웜 화이트 · 선명한 글자'},
+ {id:'ocean',name:'Ocean',description:'블루 그레이 · 정돈된 대화'},
+ {id:'clay',name:'Clay',description:'웜 그레이 · 편안한 대화'},
+ {id:'orbit',name:'Orbit',description:'라이트 그레이 · 넓은 여백'}
+];
+function applyDesign(id,persist=true){
+ const index=designs.findIndex(d=>d.id===id);if(index<0)return;const d=designs[index];
+ document.body.dataset.design=id;
+ const label=String(index+1).padStart(2,'0')+' / '+d.name;
+ $('designShortcut').textContent=label;$('currentDesignName').textContent=label;
+ $('homeTitle').textContent='무엇을 도와드릴까요?';$('homeIntro').textContent='메시지를 입력해 대화를 시작하세요.';
+ for(const b of document.querySelectorAll('[data-design-choice]'))b.setAttribute('aria-pressed',String(b.dataset.designChoice===id));
+ const meta=document.querySelector('meta[name="theme-color"]');
+ requestAnimationFrame(()=>{if(meta)meta.content=getComputedStyle(document.body).getPropertyValue('--bg').trim();if(window.NativeBridge){const rgb=getComputedStyle(document.body).backgroundColor.match(/\d+/g);if(rgb&&rgb.length>=3){const values=rgb.slice(0,3).map(Number),background='#'+values.map(v=>v.toString(16).padStart(2,'0')).join('');native('appearance',{background,light:values[0]*.299+values[1]*.587+values[2]*.114>150}).catch(()=>{});}}});
+ if(persist)try{localStorage.setItem('pocket-design',id);}catch(_){}
+}
+for(const [i,d] of designs.entries()){
+ const b=node('button','design-option');b.type='button';b.dataset.designChoice=d.id;
+ const swatch=node('span','design-swatch');swatch.setAttribute('aria-hidden','true');
+ for(let j=0;j<3;j++)swatch.append(node('span','swatch-dot'));
+ const copy=node('span','design-option-copy');copy.append(node('strong','',String(i+1).padStart(2,'0')+' '+d.name),node('small','',d.description));
+ const check=node('span','design-check','✓');check.setAttribute('aria-hidden','true');
+ b.append(swatch,copy,check);b.addEventListener('click',()=>applyDesign(d.id));$('designPicker').append(b);
+}
+let initialDesign=document.body.dataset.design||'linen';
+try{initialDesign=new URLSearchParams(location.search).get('design')||document.body.dataset.previewDesign||localStorage.getItem('pocket-design')||initialDesign;}catch(_){}
+applyDesign(designs.some(d=>d.id===initialDesign)?initialDesign:'linen',false);
+$('designShortcut').addEventListener('click',()=>{showPage('settings');document.querySelector('.appearance-section').scrollIntoView({block:'start'});});
+
+
+// Keep the result dialog usable with keyboard navigation as well as touch.
+let resultFocus;
+$('resultModal').addEventListener('keydown',e=>{
+ if(e.key==='Escape'){e.preventDefault();closeResult();return;}
+ if(e.key!=='Tab')return;
+ const elements=[...$('resultModal').querySelectorAll('button:not(:disabled),[tabindex="0"]')].filter(e=>e.getClientRects().length);
+ if(!elements.length)return;const first=elements[0],last=elements[elements.length-1];
+ if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}
+ else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}
+});
+
+// Manual controls use the same native tools and approval flow as model requests.
+const manualToolState = {running:false,apps:[],snapshot:null,expiresAt:0,timer:null,loadingApps:false};
+const manualToolSchema = {
+    get_device_state:{help:'모델·배터리·메모리·권한 상태를 읽습니다.',fields:[]},
+    list_apps:{help:'실행 가능한 앱과 제어 허용 상태를 읽습니다.',fields:[]},
+    launch_app:{help:'제어를 허용한 앱을 실행합니다. 실행 전에 Android 승인창이 표시됩니다.',fields:['package']},
+    open_settings:{help:'선택한 Android 설정 화면을 엽니다. 설정이나 권한은 직접 변경하지 않습니다.',fields:['page']},
+    set_volume:{help:'미디어 볼륨을 0~100%로 변경합니다.',fields:['volume']},
+    set_brightness:{help:'화면 밝기를 1~100%로 변경합니다. 시스템 설정 쓰기 권한이 필요합니다.',fields:['brightness']},
+    root_processes:{help:'이미 허용한 Root로 프로세스를 조회합니다. 먼저 Root 연동과 상태를 확인하세요.',fields:[]},
+    set_wifi:{help:'Root로 Wi-Fi를 변경합니다. Wi-Fi를 끄면 모델·서버 연결이 끊길 수 있습니다.',fields:['enabled']},
+    force_stop_app:{help:'Root로 허용한 일반 앱을 강제 종료합니다. 시스템 앱은 제외됩니다.',fields:['package']},
+    read_screen:{help:'현재 허용한 앱의 화면 요소를 읽습니다. 읽은 결과에서 대상을 선택할 수 있으며 45초 후 만료됩니다.',fields:[]},
+    click_element:{help:'새로 읽은 화면의 클릭 가능한 요소를 클릭합니다. 화면이 바뀌면 다시 읽으세요.',fields:['snapshot','element']},
+    type_text:{help:'새로 읽은 화면의 입력란에 최대 2,000자를 입력합니다. 입력 내용을 자동 제출하지 않습니다.',fields:['snapshot','element','text']},
+    scroll_element:{help:'새로 읽은 화면의 스크롤 가능한 요소를 위 또는 아래로 스크롤합니다.',fields:['snapshot','element','direction']}
+};
+function clearScreenTargets(){ $('screenTargets').replaceChildren();$('screenTargets').classList.add('hidden'); }
+function toolField(label,id,control){
+    const wrap=node('div','field');const title=node('label','',label);title.htmlFor=id;control.id=id;control.name=id;control.setAttribute('aria-describedby','toolHelp');wrap.append(title,control);return wrap;
+}
+function toolOption(value,label){const option=node('option','',label);option.value=value;return option;}
+function freshManualSnapshot(){return manualToolState.snapshot&&Date.now()<manualToolState.expiresAt;}
+function invalidateManualSnapshot(message){
+    clearTimeout(manualToolState.timer);manualToolState.snapshot=null;manualToolState.expiresAt=0;clearScreenTargets();
+    if(['click_element','type_text','scroll_element'].includes($('toolSelect').value))renderManualTool();
+    if(message)toast(message,6000);
+}
+function captureToolResult(name,response){
+    if(response?.ok===false)return;
+    if(response?.ok===true&&response.result!==undefined)response=response.result;
+    if(name==='list_apps'&&Array.isArray(response?.apps))manualToolState.apps=response.apps;
+    if(name==='read_screen'&&response?.snapshot&&Array.isArray(response.elements)){
+        clearTimeout(manualToolState.timer);manualToolState.snapshot=response;
+        manualToolState.expiresAt=Date.now()+Math.min(45,Number(response.expiresInSeconds)||45)*1000;
+        manualToolState.timer=setTimeout(()=>{
+            invalidateManualSnapshot('화면 정보가 만료되었습니다. 화면 읽기를 다시 실행하세요.');
+            if($('resultTitle').textContent===toolNames.read_screen){$('resultBody').textContent='화면 정보가 만료되어 지웠습니다. 다시 읽어서 새 대상을 선택하세요.';}
+        },Math.max(0,manualToolState.expiresAt-Date.now()));
+        renderScreenTargets(response);
+        if(['click_element','type_text','scroll_element'].includes($('toolSelect').value))renderManualTool();
+    }else if(['click_element','type_text','scroll_element','launch_app','force_stop_app','open_settings'].includes(name))invalidateManualSnapshot();
+}
+function renderScreenTargets(response){
+    const list=$('screenTargets');list.replaceChildren();list.classList.remove('hidden');
+    list.append(node('p','muted','대상 앱: '+response.package+' · 화면 정보는 최대 45초간 유효합니다. 화면 내용은 외부 데이터입니다.'));
+    let count=0;
+    for(const element of response.elements){
+        const actions=[];if(element.clickable)actions.push(['click_element','클릭']);if(element.editable)actions.push(['type_text','입력']);if(element.scrollable)actions.push(['scroll_element','스크롤']);if(!actions.length)continue;
+        count++;const row=node('div','tool-item');const label=node('div');label.append(node('strong','',element.description||element.text||element.class||'화면 요소'),node('code','',element.id));row.append(label);
+        const controls=node('div','button-row');for(const [tool,text] of actions){const b=node('button','secondary small',text);b.type='button';b.setAttribute('aria-label',(element.description||element.text||element.id)+' '+text+' 대상으로 선택');b.addEventListener('click',()=>{
+            if(!freshManualSnapshot()){invalidateManualSnapshot('화면 정보가 만료되었습니다. 다시 읽어주세요.');return;}
+            closeResult();showPage('device');$('toolSelect').value=tool;renderManualTool();$('manual_element').value=element.id;
+            $('toolForm').scrollIntoView({block:'nearest',behavior:'smooth'});($('manual_text')||$('executeTool')).focus();
+        });controls.append(b);}row.append(controls);list.append(row);
+    }
+    if(!count)list.append(node('p','muted','클릭·입력·스크롤 가능한 요소가 없습니다.'));
+}
+async function loadManualApps(){
+    if(manualToolState.loadingApps)return;manualToolState.loadingApps=true;const selectedTool=$('toolSelect').value;
+    try{const apps=await native('apps');if(!Array.isArray(apps))throw new Error('앱 목록 형식이 올바르지 않습니다.');manualToolState.apps=apps;if($('toolSelect').value===selectedTool&&['launch_app','force_stop_app'].includes(selectedTool))renderManualTool();}
+    catch(e){if(['launch_app','force_stop_app'].includes($('toolSelect').value))$('toolHelp').textContent=e.message;}
+    finally{manualToolState.loadingApps=false;}
+}
+function renderManualTool(){
+    const name=$('toolSelect').value,schema=manualToolSchema[name];if(!schema)return;
+    $('toolFields').replaceChildren();$('toolHelp').textContent=schema.help;$('toolHelp').setAttribute('role','status');
+    for(const field of schema.fields){
+        let input,label;
+        if(field==='package'){
+            label='제어를 허용한 앱';input=node('select');input.required=true;input.append(toolOption('','앱을 선택하세요'));
+            const allowed=new Set(state.config.allowedApps||[]);const apps=manualToolState.apps.filter(a=>(a.allowed||allowed.has(a.package))&&(name!=='force_stop_app'||!a.system));
+            for(const app of apps)input.append(toolOption(app.package,app.label+' · '+app.package));
+            // Allowed package IDs remain usable before app labels have loaded.
+            for(const pkg of allowed)if(name==='launch_app'&&!apps.some(a=>a.package===pkg))input.append(toolOption(pkg,pkg));
+            $('toolFields').append(toolField(label,'manual_package',input));
+            const refresh=node('button','secondary small','앱 목록 새로 읽기');refresh.type='button';refresh.addEventListener('click',loadManualApps);$('toolFields').append(refresh);
+            if(!apps.length&&!allowed.size)$('toolFields').append(node('p','muted','먼저 위의 제어할 앱 선택에서 앱을 허용하세요.'));
+            if(name==='force_stop_app'&&!apps.length)$('toolFields').append(node('p','muted','앱 목록을 읽어 허용한 일반 앱을 확인하세요.'));
+            continue;
+        }
+        if(field==='page'){label='설정 화면';input=node('select');for(const [value,text] of [['general','일반'],['wifi','Wi-Fi'],['bluetooth','블루투스'],['display','디스플레이'],['battery','배터리']])input.append(toolOption(value,text));}
+        if(field==='volume'||field==='brightness'){
+            label=field==='volume'?'미디어 볼륨 (%)':'화면 밝기 (%)';input=node('input');input.type='number';input.min=field==='volume'?'0':'1';input.max='100';input.step='1';input.required=true;
+            input.value=field==='volume'?Math.round(state.device.volume??50):Math.max(1,Math.round((state.device.brightness??128)/255*100));
+        }
+        if(field==='enabled'){label='Wi-Fi 변경';input=node('select');input.append(toolOption('true','켜기'),toolOption('false','끄기'));}
+        if(field==='snapshot'){label='화면 정보';input=node('input');input.type='text';input.readOnly=true;input.required=true;input.value=freshManualSnapshot()?manualToolState.snapshot.snapshot:'';input.placeholder='먼저 화면 읽기를 실행하세요';}
+        if(field==='element'){
+            label='화면 요소';input=node('select');input.required=true;input.append(toolOption('','요소를 선택하세요'));
+            if(freshManualSnapshot())for(const el of manualToolState.snapshot.elements){const ok=name==='click_element'?el.clickable:name==='type_text'?el.editable:el.scrollable;if(ok)input.append(toolOption(el.id,el.id+' · '+(el.description||el.text||el.class||'화면 요소')));}
+        }
+        if(field==='text'){label='입력할 텍스트';input=node('textarea');input.maxLength=2000;input.rows=4;input.placeholder='최대 2,000자 · 비밀번호 입력란은 지원하지 않습니다';}
+        if(field==='direction'){label='스크롤 방향';input=node('select');input.append(toolOption('down','아래로'),toolOption('up','위로'));}
+        if(input)$('toolFields').append(toolField(label,'manual_'+field,input));
+    }
+    if(schema.fields.includes('snapshot')){
+        const reread=node('button','secondary small','화면 새로 읽기');reread.type='button';reread.addEventListener('click',()=>executeManualTool('read_screen',{}));$('toolFields').append(reread);
+        if(!freshManualSnapshot())$('toolHelp').textContent+=' 먼저 화면 새로 읽기를 실행한 뒤 결과에서 대상을 선택하세요.';
+    }
+    $('executeTool').disabled=manualToolState.running||state.busy;
+}
+function manualToolArguments(name){
+    const schema=manualToolSchema[name],args={};
+    for(const field of schema.fields){const e=$('manual_'+field);if(!e)throw new Error('도구 입력란을 확인하세요.');
+        if(field==='volume'||field==='brightness'){const n=Number(e.value);if(e.value===''||!Number.isInteger(n)||n<Number(e.min)||n>100)throw new Error('백분율을 '+e.min+'~100 사이의 정수로 입력하세요.');args.percent=n;}
+        else if(field==='enabled')args.enabled=e.value==='true';
+        else args[field]=e.value;
+    }
+    if(schema.fields.includes('package')&&!args.package)throw new Error('제어를 허용한 앱을 선택하세요.');
+    if(schema.fields.includes('snapshot')){if(!freshManualSnapshot())throw new Error('화면 정보가 만료되었거나 없습니다. 먼저 화면을 다시 읽으세요.');if(!args.element)throw new Error('동작할 화면 요소를 선택하세요.');}
+    if(name==='type_text'&&args.text.length>2000)throw new Error('입력 텍스트는 최대 2,000자입니다.');return args;
+}
+async function executeManualTool(name,args){
+    if(manualToolState.running||state.busy){toast('진행 중인 작업이 끝난 뒤 실행하세요.');return;}
+    manualToolState.running=true;$('toolSelect').disabled=true;$('toolForm').setAttribute('aria-busy','true');$('toolForm').querySelectorAll('button,input,select,textarea').forEach(e=>e.disabled=true);$('executeTool').textContent='승인·실행 대기 중';$('stopManualTool').classList.remove('hidden');$('stopManualTool').disabled=false;
+    try{await runTool(name,args);}
+    finally{manualToolState.running=false;$('toolSelect').disabled=false;$('toolForm').setAttribute('aria-busy','false');$('toolForm').querySelectorAll('button,input,select,textarea').forEach(e=>e.disabled=false);$('executeTool').textContent='도구 실행';$('executeTool').disabled=state.busy;$('stopManualTool').classList.add('hidden');}
+}
+$('toolSelect').replaceChildren(...Object.keys(manualToolSchema).map(name=>toolOption(name,toolNames[name])));
+$('toolSelect').addEventListener('change',()=>{renderManualTool();if(['launch_app','force_stop_app'].includes($('toolSelect').value))loadManualApps();});
+$('toolForm').addEventListener('submit',e=>{e.preventDefault();try{executeManualTool($('toolSelect').value,manualToolArguments($('toolSelect').value));}catch(error){$('toolHelp').textContent=error.message;toast(error.message);}});
+$('allowedApps').addEventListener('click',()=>{manualToolState.apps=[];});
+renderManualTool();
+
+$('stopManualTool').addEventListener('click',()=>{if(!manualToolState.running)return;native('stop').then(()=>toast('작업 중단을 요청했습니다. 완료될 때까지 기다려주세요.')).catch(error=>toast(error.message));});
+
+// Small, dependency-free Markdown renderer. Model text is always inserted as text.
+function renderChatMarkdown(target, text) {
+  const source = String(text == null ? '' : text).slice(0, 150000).replace(/\r\n?/g, '\n');
+  const fragment = document.createDocumentFragment();
+  const make = (tag, className) => {
+    const element = document.createElement(tag);
+    if (className) element.className = className;
+    return element;
+  };
+  const inline = (parent, value, depth = 0) => {
+    if (depth >= 4) { parent.append(document.createTextNode(value)); return; }
+    let plain = '';
+    const flush = () => { if (plain) { parent.append(document.createTextNode(plain)); plain = ''; } };
+    for (let i = 0; i < value.length;) {
+      const character = value[i];
+      if (character === '\\' && i + 1 < value.length && /[\\`*_\[\]()]/.test(value[i + 1])) {
+        plain += value[i + 1]; i += 2; continue;
+      }
+      if (character === '\n') { flush(); parent.append(make('br')); i++; continue; }
+      if (character === '`' || character === '*' || character === '_') {
+        const marker = character === '`' ? (value.slice(i, i + 12).match(/^`{1,12}/) || ['`'])[0]
+          : value.slice(i, i + 2) === character.repeat(2) ? character.repeat(2) : character;
+        // Bound delimiter search to keep malformed streamed Markdown inexpensive.
+        const window = value.slice(i + marker.length, i + marker.length + 4096);
+        const close = window.indexOf(marker);
+        const wordUnderscore = character === '_' && i > 0 && /\w/.test(value[i - 1]);
+        if (close > 0 && !wordUnderscore) {
+          flush();
+          const element = make(character === '`' ? 'code' : marker.length === 2 ? 'strong' : 'em');
+          const content = window.slice(0, close);
+          if (character === '`') element.textContent = content;
+          else inline(element, content, depth + 1);
+          parent.append(element); i += marker.length * 2 + close; continue;
+        }
+      }
+      if (character === '[') {
+        const candidate = value.slice(i, i + 4096);
+        const match = candidate.match(/^\[([^\]\n]+)\]\(([^\s)]+)\)/);
+        if (match) {
+          let url = null;
+          try {
+            const parsed = new URL(match[2]);
+            if (['https:', 'http:'].includes(parsed.protocol) && !parsed.username && !parsed.password) url = parsed.href;
+          } catch (_) { /* Invalid links remain literal text. */ }
+          if (url) {
+            flush(); const link = make('a'); link.href = url;
+            link.target = '_blank'; link.rel = 'noopener noreferrer';
+            inline(link, match[1], depth + 1); parent.append(link); i += match[0].length; continue;
+          }
+        }
+      }
+      plain += character; i++;
+    }
+    flush();
+  };
+  const tableCells = line => {
+    let value = line.trim();
+    if (value.startsWith('|')) value = value.slice(1);
+    if (value.endsWith('|') && !value.endsWith('\\|')) value = value.slice(0, -1);
+    const cells = []; let cell = '';
+    for (let i = 0; i < value.length; i++) {
+      if (value[i] === '\\' && value[i + 1] === '|') { cell += '|'; i++; }
+      else if (value[i] === '|') { cells.push(cell.trim()); cell = ''; }
+      else cell += value[i];
+    }
+    cells.push(cell.trim()); return cells;
+  };
+  const isDivider = line => line.includes('|') && tableCells(line).every(cell => /^:?-{3,}:?$/.test(cell));
+  const fence = line => line.match(/^\s{0,3}(`{3,}|~{3,})([^`]*)$/);
+  const listItem = line => line.match(/^\s{0,3}([-+*]|\d{1,9}[.)])\s+(.+)$/);
+  const heading = line => line.match(/^\s{0,3}(#{1,6})\s+(.+)$/);
+  const rule = line => /^\s{0,3}([-*_])(?:\s*\1){2,}\s*$/.test(line);
+  const blocks = (parent, lines, depth = 0) => {
+    for (let i = 0; i < lines.length;) {
+      const line = lines[i];
+      if (!line.trim()) { i++; continue; }
+      const startFence = fence(line);
+      if (startFence) {
+        const content = []; const marker = startFence[1][0]; const minimum = startFence[1].length;
+        i++;
+        while (i < lines.length) {
+          const closing = lines[i].trim();
+          if (closing.length >= minimum && closing.split(marker).join('') === '') { i++; break; }
+          content.push(lines[i++]);
+        }
+        const raw = content.join('\n');
+        const block = make('div', 'code-block'); const head = make('div', 'code-head');
+        const label = make('span'); label.textContent = startFence[2].trim().slice(0, 80) || '코드';
+        const copy = make('button'); copy.type = 'button'; copy.textContent = '복사';
+        copy.setAttribute('aria-label', '코드 복사');
+        copy.addEventListener('click', () => copyMessage(raw));
+        head.append(label, copy); const pre = make('pre'); const code = make('code');
+        code.textContent = raw; pre.append(code); block.append(head, pre); parent.append(block); continue;
+      }
+      const title = heading(line);
+      if (title) { const element = make('h' + title[1].length); inline(element, title[2].replace(/\s+#+\s*$/, '')); parent.append(element); i++; continue; }
+      if (rule(line)) { parent.append(make('hr')); i++; continue; }
+      if (/^\s{0,3}>/.test(line) && depth < 4) {
+        const quoteLines = [];
+        while (i < lines.length && /^\s{0,3}>/.test(lines[i])) quoteLines.push(lines[i++].replace(/^\s{0,3}> ?/, ''));
+        const quote = make('blockquote'); blocks(quote, quoteLines, depth + 1); parent.append(quote); continue;
+      }
+      if (i + 1 < lines.length && line.includes('|') && isDivider(lines[i + 1])) {
+        const headers = tableCells(line).slice(0, 32); const dividers = tableCells(lines[i + 1]);
+        const wrapper = make('div', 'markdown-table'); const table = make('table'); const head = make('thead');
+        const row = make('tr');
+        headers.forEach((value, column) => {
+          const cell = make('th'); cell.scope = 'col'; inline(cell, value);
+          const divider = dividers[column] || '';
+          if (divider.endsWith(':')) cell.style.textAlign = divider.startsWith(':') ? 'center' : 'right';
+          row.append(cell);
+        });
+        head.append(row); const body = make('tbody'); i += 2;
+        while (i < lines.length && lines[i].trim() && lines[i].includes('|')) {
+          const values = tableCells(lines[i++]); const bodyRow = make('tr');
+          headers.forEach((_, column) => { const cell = make('td'); inline(cell, values[column] || ''); cell.style.textAlign = row.children[column].style.textAlign; bodyRow.append(cell); });
+          body.append(bodyRow);
+        }
+        table.append(head, body); wrapper.append(table); parent.append(wrapper); continue;
+      }
+      const firstItem = listItem(line);
+      if (firstItem) {
+        const ordered = /^\d/.test(firstItem[1]); const list = make(ordered ? 'ol' : 'ul');
+        if (ordered) list.start = parseInt(firstItem[1], 10);
+        while (i < lines.length) {
+          const match = listItem(lines[i]); if (!match || /^\d/.test(match[1]) !== ordered || rule(lines[i])) break;
+          const item = make('li'); let content = match[2]; i++;
+          while (i < lines.length && /^\s{2,}\S/.test(lines[i]) && !listItem(lines[i]) && !fence(lines[i])) content += '\n' + lines[i++].trim();
+          inline(item, content); list.append(item);
+        }
+        parent.append(list); continue;
+      }
+      const paragraph = [line]; i++;
+      while (i < lines.length && lines[i].trim() && !fence(lines[i]) && !heading(lines[i]) && !rule(lines[i]) && !listItem(lines[i]) && !/^\s{0,3}>/.test(lines[i]) && !(i + 1 < lines.length && lines[i].includes('|') && isDivider(lines[i + 1]))) paragraph.push(lines[i++]);
+      const element = make('p'); inline(element, paragraph.join('\n')); parent.append(element);
+    }
+  };
+  blocks(fragment, source.split('\n'));
+  target.replaceChildren(fragment);
+}
+</script></body></html>

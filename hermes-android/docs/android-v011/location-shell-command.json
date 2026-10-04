@@ -1,0 +1,20 @@
+{
+  "sdk": 35,
+  "serial": "emulator-5554",
+  "before": "true",
+  "checks": [
+    {
+      "requested": "false",
+      "output": "",
+      "actual": "false",
+      "passed": true
+    },
+    {
+      "requested": "true",
+      "output": "",
+      "actual": "true",
+      "passed": true
+    }
+  ],
+  "restored": "true"
+}

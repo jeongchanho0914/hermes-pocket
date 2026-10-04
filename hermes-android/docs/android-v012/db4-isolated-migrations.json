@@ -1,0 +1,136 @@
+{
+  "cases": [
+    {
+      "from": 1,
+      "to": 4,
+      "messages": [
+        {
+          "role": "user",
+          "content": "PUBLIC_LEGACY_USER",
+          "created": 100,
+          "id": 1,
+          "messageId": 1,
+          "timelineOrder": 1,
+          "runId": ""
+        },
+        {
+          "role": "assistant",
+          "content": "PUBLIC_LEGACY_ANSWER",
+          "created": 400,
+          "id": 2,
+          "messageId": 2,
+          "timelineOrder": 2,
+          "runId": ""
+        }
+      ],
+      "activities": [],
+      "thoughts": [],
+      "credentialPreserved": true,
+      "memoryPreserved": true,
+      "messageCountPreserved": true,
+      "activityCountPreserved": true,
+      "thoughtCountPreserved": true,
+      "allOrdersPositiveUnique": true,
+      "transcriptPreserved": true,
+      "auditPreserved": true
+    },
+    {
+      "from": 2,
+      "to": 4,
+      "messages": [
+        {
+          "role": "user",
+          "content": "PUBLIC_LEGACY_USER",
+          "created": 100,
+          "id": 1,
+          "messageId": 1,
+          "timelineOrder": 1,
+          "runId": ""
+        },
+        {
+          "role": "assistant",
+          "content": "PUBLIC_LEGACY_ANSWER",
+          "created": 400,
+          "id": 2,
+          "messageId": 2,
+          "timelineOrder": 3,
+          "runId": ""
+        }
+      ],
+      "activities": [
+        {
+          "session": "public_session",
+          "runId": "legacy_run",
+          "kind": "tool",
+          "toolCallId": "legacy_tool",
+          "summary": "PUBLIC_LEGACY_TOOL",
+          "timelineOrder": 2
+        }
+      ],
+      "thoughts": [],
+      "credentialPreserved": true,
+      "memoryPreserved": true,
+      "messageCountPreserved": true,
+      "activityCountPreserved": true,
+      "thoughtCountPreserved": true,
+      "allOrdersPositiveUnique": true,
+      "transcriptPreserved": true,
+      "auditPreserved": true
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "messages": [
+        {
+          "role": "user",
+          "content": "PUBLIC_LEGACY_USER",
+          "created": 100,
+          "id": 1,
+          "messageId": 1,
+          "timelineOrder": 1,
+          "runId": ""
+        },
+        {
+          "role": "assistant",
+          "content": "PUBLIC_LEGACY_ANSWER",
+          "created": 400,
+          "id": 2,
+          "messageId": 2,
+          "timelineOrder": 4,
+          "runId": ""
+        }
+      ],
+      "activities": [
+        {
+          "session": "public_session",
+          "runId": "legacy_run",
+          "kind": "tool",
+          "toolCallId": "legacy_tool",
+          "summary": "PUBLIC_LEGACY_TOOL",
+          "timelineOrder": 3
+        }
+      ],
+      "thoughts": [
+        {
+          "session": "public_session",
+          "runId": "legacy_run",
+          "round": 1,
+          "provider": "mimo",
+          "source": "mimo.reasoning_content",
+          "text": "PUBLIC_LEGACY_THOUGHT",
+          "timelineOrder": 2
+        }
+      ],
+      "credentialPreserved": true,
+      "memoryPreserved": true,
+      "messageCountPreserved": true,
+      "activityCountPreserved": true,
+      "thoughtCountPreserved": true,
+      "allOrdersPositiveUnique": true,
+      "clockSkewThoughtClampedAfterUser": true,
+      "transcriptPreserved": true,
+      "auditPreserved": true
+    }
+  ],
+  "artifactSha256": "d2e353af3d6f73acc4c4542f31e9794413c4f4af4cf1372c72f9b7acf20a1d08"
+}

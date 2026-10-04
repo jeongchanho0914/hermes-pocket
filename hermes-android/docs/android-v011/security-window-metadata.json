@@ -1,0 +1,40 @@
+{
+  "probe": {
+    "serviceBound": true,
+    "windows": [
+      {
+        "title": "Navigation bar",
+        "id": 171,
+        "type": 3,
+        "layer": 2,
+        "active": false,
+        "focused": false,
+        "bounds": "[0,2274][1080,2400]",
+        "rootBounds": "[0,2274][1080,2400]",
+        "package": "com.android.launcher3"
+      },
+      {
+        "title": "null",
+        "id": 167,
+        "type": 3,
+        "layer": 1,
+        "active": false,
+        "focused": false,
+        "bounds": "[0,0][1080,128]",
+        "rootBounds": "[0,0][1080,128]",
+        "package": "com.android.systemui"
+      },
+      {
+        "title": "Security & privacy",
+        "id": 174,
+        "type": 1,
+        "layer": 0,
+        "active": true,
+        "focused": true,
+        "bounds": "[0,0][1080,2400]",
+        "rootBounds": "[0,0][0,0]",
+        "package": ""
+      }
+    ]
+  }
+}

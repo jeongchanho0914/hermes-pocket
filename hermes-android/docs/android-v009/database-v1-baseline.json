@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "sessionId": "bf5730c4-de50-4b9a-990d-3caa21b0221f",
+  "tables": [
+    "android_metadata",
+    "audit",
+    "messages",
+    "sessions",
+    "sqlite_sequence",
+    "transcripts"
+  ],
+  "sessionsCount": 21,
+  "messagesCount": 55,
+  "transcriptsCount": 21,
+  "auditCount": 235
+}

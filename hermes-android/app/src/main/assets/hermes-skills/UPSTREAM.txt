@@ -1,0 +1,7 @@
+Hermes Agent skill source packages
+https://github.com/NousResearch/hermes-agent
+Commit: d795726f78e532ca31655f74656b4be63a907581
+Copyright (c) 2025 Nous Research
+The repository MIT license is preserved in UPSTREAM-LICENSE.txt.
+Per-package license files and frontmatter are preserved unchanged in each archive.
+Packaging does not grant host tools, credentials, runtime access, activation, or execution.

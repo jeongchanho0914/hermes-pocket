@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "result": {
+    "version": "0.04",
+    "writeSettings": true,
+    "result": {
+      "ok": false,
+      "denied": true,
+      "error": "사용자가 승인하지 않았습니다. 같은 작업을 자동 재시도하지 마세요."
+    }
+  },
+  "restoredBrightnessMode": "1"
+}

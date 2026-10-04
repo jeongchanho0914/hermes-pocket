@@ -1,0 +1,35 @@
+{
+  "artifactSha256": "98e5fa2fbf5908a0dadb55ccbd02f2fdf76783d3a96f72b3f3212df6efcbdcf7",
+  "device": "emulator-5554",
+  "api": 35,
+  "finalExactArtifact": {
+    "installedHashMatches": true,
+    "brainPublicThought": 14,
+    "forwardGuards": 17,
+    "securityRootNullRefusals": 2,
+    "compact": {
+      "configuredLocalSSE": true,
+      "visibleMessagesPreserved": 16,
+      "originalTranscriptRowsPreserved": 17,
+      "originalTranscriptShaUnchanged": true,
+      "checkpointPersisted": true
+    }
+  },
+  "unchangedImplementationCandidateEvidence": {
+    "artifactSha256": "d2e353af3d6f73acc4c4542f31e9794413c4f4af4cf1372c72f9b7acf20a1d08",
+    "nativeDB4Migrations": [
+      1,
+      2,
+      3
+    ],
+    "releaseDiagnosticsPermissionsAndCorruptRead": "passed",
+    "threeRoundNativeChronology": 8
+  },
+  "initialQSFailureRetained": "native-forward-guards-d2-failed.json",
+  "remainingKnownNativeBlockers": [],
+  "limitations": [
+    "Keyless local public SSE fixtures; no claim of remote provider availability.",
+    "Emulator verification only; no physical phone install or functional action by this agent.",
+    "Original engine ARM candidate runtime and root are not proved."
+  ]
+}

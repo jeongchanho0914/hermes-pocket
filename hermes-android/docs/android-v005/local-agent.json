@@ -1,0 +1,66 @@
+{
+  "probe": {
+    "result": {
+      "ok": true,
+      "result": {
+        "checks": {
+          "twenty_registered_tools_with_all_plugins": true,
+          "memory_denial_preserves_original": true,
+          "native_approved_memory_saved": true,
+          "native_sqlite_session_search": true,
+          "native_approved_skill_saved": true,
+          "actual_skill_markdown_read": true,
+          "actual_skill_list": true,
+          "separate_web_key_saved": true,
+          "web_key_cleared_model_key_preserved": true,
+          "web_missing_key_explicit_refusal": true,
+          "actual_fixture_chat_completed_with_local_knowledge": true
+        },
+        "version": "0.05",
+        "memoryMarker": true,
+        "selectedSkill": "emulator-public-knowledge",
+        "model": "fixture-model-14",
+        "reasoningEffort": "low",
+        "availableTools": {
+          "count": 20,
+          "names": [
+            "get_device_state",
+            "list_apps",
+            "launch_app",
+            "open_settings",
+            "set_volume",
+            "set_brightness",
+            "root_processes",
+            "set_wifi",
+            "force_stop_app",
+            "read_screen",
+            "click_element",
+            "type_text",
+            "scroll_element",
+            "web_search",
+            "web_fetch",
+            "memory",
+            "session_search",
+            "skills_list",
+            "skill_view",
+            "skill_manage"
+          ]
+        }
+      }
+    }
+  },
+  "approvalUiEvents": [
+    {
+      "decision": "거부",
+      "detail": "      로컬 지식 변경 승인     다음 메모리 내용을 기기에 저장합니다. 다음 대화부터 모델 API에 전달될 수 있습니다.\n\nPUBLIC_ANDROID_MEMORY_MARKER\nDENY_PUBLIC_TEST\n\n이번 작업 한 번에만 적용됩니다.   거부 이번만 허용"
+    },
+    {
+      "decision": "이번만 허용",
+      "detail": "      로컬 지식 변경 승인     다음 메모리 내용을 기기에 저장합니다. 다음 대화부터 모델 API에 전달될 수 있습니다.\n\nPUBLIC_ANDROID_MEMORY_MARKER\nPUBLIC_ANDROID_MEMORY_MARKER\n\n이번 작업 한 번에만 적용됩니다.   거부 이번만 허용"
+    },
+    {
+      "decision": "이번만 허용",
+      "detail": "      로컬 지식 변경 승인     스킬: emulator-public-knowledge\n작업: 기존 문서 교체\nExplicit public emulator test fixture\n\n# Public fixture\nPUBLIC_ANDROID_SKILL_MARKER. Reply clearly and cite actual tool results.\n\n이번 작업 한 번에만 적용됩니다.   거부 이번만 허용"
+    }
+  ]
+}

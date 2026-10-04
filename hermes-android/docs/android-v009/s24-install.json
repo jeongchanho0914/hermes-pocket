@@ -1,0 +1,9 @@
+{
+  "versionCode": "9",
+  "versionName": "0.09",
+  "serviceBound": true,
+  "screenshotCapability": true,
+  "capabilities": [
+    "161"
+  ]
+}

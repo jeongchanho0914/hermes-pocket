@@ -1,0 +1,11 @@
+{
+  "installed": true,
+  "versionName": "0.10",
+  "versionCode": 10,
+  "sha256": "252ce0e35bfa128d59ebba18f4bb04c8b75a946b34c235361bfabe0cae66c9e0",
+  "bytes": 7026183,
+  "device": "Galaxy S24 Ultra SM-S928N",
+  "androidApi": "36",
+  "method": "adb install -r; existing app data preserved; no activity launch",
+  "functionalUiVerified": false
+}

@@ -1,0 +1,110 @@
+{
+  "ok": true,
+  "result": {
+    "config": {
+      "mode": "direct",
+      "providerId": "custom",
+      "endpoint": "http://127.0.0.1:8877/v1",
+      "model": "android-fixture",
+      "hasToken": true,
+      "allowLan": true,
+      "rootEnabled": false,
+      "allowedApps": [],
+      "memory": "",
+      "maxRounds": 8,
+      "contextChars": 48000,
+      "skillId": "code",
+      "enabledPlugins": [
+        "screen",
+        "root"
+      ],
+      "reasoningEffort": "high",
+      "effectiveReasoningEffort": "high"
+    },
+    "sessions": [
+      {
+        "id": "494de8ca-e831-430e-90ff-d89f3c6b3857",
+        "title": "NativeCancelCheck",
+        "created": 1791060655003,
+        "count": 3
+      },
+      {
+        "id": "3bdbf159-1df0-4c14-951a-ef698f71f3db",
+        "title": "NativeDisabledToolCheck",
+        "created": 1791060654810,
+        "count": 2
+      },
+      {
+        "id": "ec53338a-0357-415e-ae68-763bea5f1760",
+        "title": "NativeOrdinary",
+        "created": 1791060654691,
+        "count": 2
+      },
+      {
+        "id": "8497f863-2c51-4749-97e8-612076fd7a49",
+        "title": "NativeCancelCheck",
+        "created": 1791060593006,
+        "count": 3
+      },
+      {
+        "id": "c46ef581-9ff5-424d-8510-fc1ffbdcb61f",
+        "title": "NativeDisabledToolCheck",
+        "created": 1791060592890,
+        "count": 2
+      },
+      {
+        "id": "00bf159e-c6a1-4d16-9bea-d7298fa496ee",
+        "title": "NativeOrdinary",
+        "created": 1791060592772,
+        "count": 2
+      },
+      {
+        "id": "2bb6a670-3187-4705-91ae-db540a1834f6",
+        "title": "FinalApkCheck",
+        "created": 1791046920094,
+        "count": 2
+      },
+      {
+        "id": "605a3231-495e-4bd1-926f-7ca949a23535",
+        "title": "InsetsCheck",
+        "created": 1791046793241,
+        "count": 2
+      },
+      {
+        "id": "0f294ea5-fa02-4a36-ae05-0024aba920a3",
+        "title": "ReleaseCheck",
+        "created": 1791046542222,
+        "count": 2
+      },
+      {
+        "id": "217fc198-5777-4d0f-bec1-1d6da09d975b",
+        "title": "FastOne",
+        "created": 1791046391768,
+        "count": 11
+      },
+      {
+        "id": "df88c5ec-3ca3-4842-8771-5b30efe2bfb9",
+        "title": "Hello",
+        "created": 1791046192026,
+        "count": 2
+      }
+    ],
+    "device": {
+      "model": "unknown Android SDK built for x86_64",
+      "android": "15",
+      "sdk": 35,
+      "battery": 100,
+      "charging": true,
+      "memoryTotalGb": 2.4,
+      "memoryAvailableGb": 1.6,
+      "volume": 53,
+      "brightness": 102,
+      "wifi": true,
+      "root": false,
+      "rootEnabled": false,
+      "systemUid": false,
+      "accessibility": false,
+      "writeSettings": false
+    }
+  }
+}

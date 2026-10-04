@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "result": {
+    "checks": {
+      "automatic_setup_guide": true,
+      "unconfigured_both_pickers_disabled": true,
+      "no_brand_button": true,
+      "no_current_chat_navigation": true,
+      "setup_cta_model_settings": true
+    },
+    "version": "0.03"
+  }
+}

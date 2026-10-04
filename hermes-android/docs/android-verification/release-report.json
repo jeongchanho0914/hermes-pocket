@@ -1,0 +1,35 @@
+{
+  "artifact_sha256": "ed0f0c5837310319b9cf6512d2eb7bdbcc45d72076bd90f6c97645f961e2d1d9",
+  "android_api": 35,
+  "android_version": "15",
+  "emulator": "official Android35 default x86_64 r02 / emulator37.2.12 / KVM",
+  "webview": "124.0.6367.219",
+  "real_provider_tested": false,
+  "model_api": "localhost fixture through installed APK native API; adb reverse tcp8877",
+  "settings_restored_after_upgrade": true,
+  "credential_encrypted_at_rest": true,
+  "sessions": 5,
+  "message_count": 19,
+  "fast_user_messages": [
+    "FastOne",
+    "FastTwo",
+    "FastThree",
+    "ToolCheck",
+    "CancelCheck",
+    "ReleaseCheck",
+    "InsetsCheck"
+  ],
+  "cancel_incomplete_preserved": true,
+  "cancel_tail_absent": true,
+  "native_tool_result_forwarded": true,
+  "volume_denied_unchanged": "5/15 before and after native deny",
+  "release_androidruntime_crash_log_empty": true,
+  "limitations": [
+    "API fixture, no live commercial model/provider test",
+    "One Android15 emulator; no physical Android phone test",
+    "Root/accessibility actions and manufacturer-specific permission flows not exercised"
+  ],
+  "final_artifact_fast_chat_completed": true,
+  "volume_approved_changed": "Native once-only approval changed STREAM_MUSIC 5/15 -> 8/15 for requested50%",
+  "volume_dialog_contrast": "Visible light button labels on native darkgray dialog"
+}

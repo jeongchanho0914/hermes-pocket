@@ -1,0 +1,23 @@
+test_authenticated_e2e_phone_roundtrip (test_transport.Tests.test_authenticated_e2e_phone_roundtrip) ... ok
+test_cancel_wakes_waiting_tool (test_transport.Tests.test_cancel_wakes_waiting_tool) ... ok
+test_event_cursor_monotonic (test_transport.Tests.test_event_cursor_monotonic) ... ok
+test_result_idempotency_and_conflict (test_transport.Tests.test_result_idempotency_and_conflict) ... ok
+test_schema_fails_closed (test_transport.Tests.test_schema_fails_closed) ... ok
+test_session_and_request_isolation (test_transport.Tests.test_session_and_request_isolation) ... ok
+Hermes run ended: InterruptedError
+test_tools_are_phone_only (test_transport.Tests.test_tools_are_phone_only) ... ok
+test_unconfigured_engine_refuses_run (test_transport.Tests.test_unconfigured_engine_refuses_run) ... ok
+test_uuid_rejects_paths (test_transport.Tests.test_uuid_rejects_paths) ... ok
+test_weak_token_rejected (test_transport.Tests.test_weak_token_rejected) ... ok
+test_browser_preview_is_honest (test_ui.UITest.test_browser_preview_is_honest) ... ok
+test_five_tabs_render_without_overflow (test_ui.UITest.test_five_tabs_render_without_overflow) ... ok
+test_mode_switch_clears_unsaved_secret (test_ui.UITest.test_mode_switch_clears_unsaved_secret) ... ok
+test_model_text_is_not_html (test_ui.UITest.test_model_text_is_not_html) ... ok
+test_stream_and_stop_state (test_ui.UITest.test_stream_and_stop_state) ... ok
+test_tool_catalog_has_thirteen (test_ui.UITest.test_tool_catalog_has_thirteen) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 3.542s
+
+OK
+PASS: 12 Java files parsed. Android symbol resolution and APK compilation were NOT performed.

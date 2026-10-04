@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "targetVersion": "v0.12",
+  "collectedAt": "2026-10-04T06:55:19.526393+00:00",
+  "package": "dev.chanho.hermes",
+  "source": "app-private-diagnostics",
+  "status": "collected",
+  "records": [
+    {
+      "schema": 1,
+      "id": "ed49bffc3a9dd53254e1d354dc499a1c8e7dd5d3c36f2c85c2960ab7a3a79439",
+      "versionCode": 12,
+      "versionName": "0.12",
+      "phase": "tool",
+      "type": "caught",
+      "firstSeen": 1791095107476,
+      "lastSeen": 1791095107476,
+      "count": 1,
+      "exceptions": [
+        {
+          "class": "java.lang.IllegalStateException",
+          "frames": [
+            {
+              "class": "dev.chanho.hermes.WebTools",
+              "method": "execute",
+              "source": "WebTools.java",
+              "line": 40
+            },
+            {
+              "class": "dev.chanho.hermes.AgentRuntime",
+              "method": "dispatchTool",
+              "source": "AgentRuntime.java",
+              "line": 255
+            },
+            {
+              "class": "dev.chanho.hermes.AgentRuntime",
+              "method": "executeTool",
+              "source": "AgentRuntime.java",
+              "line": 240
+            },
+            {
+              "class": "dev.chanho.hermes.DirectAgent",
+              "method": "run",
+              "source": "DirectAgent.java",
+              "line": 364
+            },
+            {
+              "class": "dev.chanho.hermes.AgentRuntime",
+              "method": "lambda$start$3$dev-chanho-hermes-AgentRuntime",
+              "source": "AgentRuntime.java",
+              "line": 126
+            },
+            {
+              "class": "dev.chanho.hermes.AgentRuntime$$ExternalSyntheticLambda1",
+              "method": "run",
+              "source": "D8$$SyntheticClass",
+              "line": 0
+            },
+            {
+              "class": "java.util.concurrent.Executors$RunnableAdapter",
+              "method": "call",
+              "source": "Executors.java",
+              "line": 520
+            },
+            {
+              "class": "java.util.concurrent.FutureTask",
+              "method": "run",
+              "source": "FutureTask.java",
+              "line": 328
+            },
+            {
+              "class": "java.util.concurrent.ThreadPoolExecutor",
+              "method": "runWorker",
+              "source": "ThreadPoolExecutor.java",
+              "line": 1100
+            },
+            {
+              "class": "java.util.concurrent.ThreadPoolExecutor$Worker",
+              "method": "run",
+              "source": "ThreadPoolExecutor.java",
+              "line": 624
+            },
+            {
+              "class": "java.lang.Thread",
+              "method": "run",
+              "source": "Thread.java",
+              "line": 1571
+            }
+          ]
+        }
+      ],
+      "fingerprint": "16ac38a279f0e218f10c4e7a359636a043ba2137b29603cb80c7428c868cd249",
+      "severity": "error"
+    }
+  ]
+}

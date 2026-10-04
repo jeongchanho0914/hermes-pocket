@@ -1,0 +1,7 @@
+PASS official MiMo and API metadata budgets exceed old char cap without inventing unknown limits
+PASS pair-aligned checkpoint preserves facts, current user, original history, and full reasoning replay in retained tail
+PASS incomplete summary does not commit or mutate original
+PASS typed overflow differs from quota authentication and opaque errors; error text stays private
+PASS real HTTP overflow summarizes once resubmits model and retains all local messages without executing a tool
+ContextCompactor: 5 checks; HTTP fixtures only, no live provider claim.
+MemoryDocumentsHarness: 21 checks passed

@@ -1,0 +1,1008 @@
+{
+  "schema_version": 1,
+  "evidence_type": "public_system_apk_static_resource_analysis",
+  "source": {
+    "local_path": "/tmp/hermes-s24-system-settings.apk",
+    "bytes": 77113943,
+    "sha256": "6922d96558d4a136792ea89c9b90910d994fcdadd9a90a962b047411577eea0a",
+    "package": "com.android.settings",
+    "version_name": "16",
+    "version_code": 36,
+    "min_sdk": 36,
+    "target_sdk": 36
+  },
+  "method": {
+    "tool": "hermes-android/.toolchain/build-tools/android-15/aapt2",
+    "operations": [
+      "dump badging",
+      "dump resources",
+      "dump xmltree --file <public resource XML>"
+    ],
+    "adb_used": false,
+    "apk_modified": false,
+    "activities_launched": false,
+    "private_userdata_read": false,
+    "physical_accessibility_observed": false
+  },
+  "exact_heading_string_resources": [
+    {
+      "resource_name": "com.android.settings:string/settings_label",
+      "id": "0x7f152f57",
+      "aapt2_values": {
+        "default": "\"Settings\"",
+        "ko": "\"설정\"",
+        "en-rUS": "\"Settings\""
+      }
+    },
+    {
+      "resource_name": "com.android.settings:string/settings_label_launcher",
+      "id": "0x7f152f58",
+      "aapt2_values": {
+        "default": "\"Settings\"",
+        "ko": "\"설정\"",
+        "en-rUS": "\"Settings\""
+      }
+    },
+    {
+      "resource_name": "com.android.settings:string/display_settings",
+      "id": "0x7f150e4d",
+      "aapt2_values": {
+        "default": "@string/display_settings_title"
+      }
+    },
+    {
+      "resource_name": "com.android.settings:string/display_settings_title",
+      "id": "0x7f150e4e",
+      "aapt2_values": {
+        "default": "\"Display\"",
+        "ko": "\"디스플레이\"",
+        "en-rUS": "\"Display\""
+      }
+    },
+    {
+      "resource_name": "com.android.settings:string/sound_settings",
+      "id": "0x7f153108",
+      "aapt2_values": {
+        "default": "\"Sound\"",
+        "ko": "\"소리\"",
+        "en-rUS": "\"Sound\""
+      }
+    },
+    {
+      "resource_name": "com.android.settings:string/sound_and_vibrations_title",
+      "id": "0x7f1530fb",
+      "aapt2_values": {
+        "default": "\"Sounds and vibration\"",
+        "ko": "\"소리 및 진동\"",
+        "en-rUS": "\"Sounds and vibration\""
+      }
+    },
+    {
+      "resource_name": "com.android.settings:string/wifi_settings",
+      "id": "0x7f153b66",
+      "aapt2_values": {
+        "default": "\"Wi‑Fi\"",
+        "ko": "\"Wi-Fi\"",
+        "en-rUS": "(styled string) \"Wi-Fi\" cst:0,4"
+      }
+    },
+    {
+      "resource_name": "com.android.settings:string/wifi_settings_title",
+      "id": "0x7f153b6f",
+      "aapt2_values": {
+        "default": "\"Wi‑Fi\"",
+        "ko": "\"Wi-Fi\"",
+        "en-rUS": "(styled string) \"Wi-Fi\" cst:0,4"
+      }
+    },
+    {
+      "resource_name": "com.android.settings:string/bluetooth_settings",
+      "id": "0x7f15088b",
+      "aapt2_values": {
+        "default": "\"Bluetooth\"",
+        "ko": "\"블루투스\"",
+        "en-rUS": "\"Bluetooth\""
+      }
+    },
+    {
+      "resource_name": "com.android.settings:string/tab_category_connections",
+      "id": "0x7f1532bc",
+      "aapt2_values": {
+        "default": "\"Connections\"",
+        "ko": "\"연결\"",
+        "en-rUS": "\"Connections\""
+      }
+    },
+    {
+      "resource_name": "com.android.settings:string/sec_multi_devices_menu_name",
+      "id": "0x7f152952",
+      "aapt2_values": {
+        "default": "\"Connected devices\"",
+        "ko": "\"기기 간 연결\"",
+        "en-rUS": "\"Connected devices\""
+      }
+    }
+  ],
+  "existing_id_resources": [
+    {
+      "resource_name": "com.android.settings:id/action_bar",
+      "id": "0x7f0b0073",
+      "static_presence_only": true
+    },
+    {
+      "resource_name": "com.android.settings:id/action_bar_title",
+      "id": "0x7f0b0079",
+      "static_presence_only": true
+    },
+    {
+      "resource_name": "com.android.settings:id/collapsing_app_bar",
+      "id": "0x7f0b03f3",
+      "static_presence_only": true
+    },
+    {
+      "resource_name": "com.android.settings:id/collapsing_appbar_extended_title",
+      "id": "0x7f0b03f5",
+      "static_presence_only": true
+    },
+    {
+      "resource_name": "com.android.settings:id/collapsing_toolbar",
+      "id": "0x7f0b03f8",
+      "static_presence_only": true
+    },
+    {
+      "resource_name": "com.android.settings:id/settings_title",
+      "id": "0x7f0b0f57",
+      "static_presence_only": true
+    },
+    {
+      "resource_name": "com.android.settings:id/wifi_settings_nested_scroll_view",
+      "id": "0x7f0b133c",
+      "static_presence_only": true
+    },
+    {
+      "resource_name": "com.android.settings:id/bluetooth_settings_nested_scroll_view",
+      "id": "0x7f0b0271",
+      "static_presence_only": true
+    }
+  ],
+  "absent_id_resources": [
+    "com.android.settings:id/homepage_title"
+  ],
+  "xml_resources_checked": [
+    {
+      "archive_path": "res/layout/sec_settings_homepage_base_layout.xml",
+      "observed_static_refs": [
+        {
+          "attribute": "id",
+          "resource_id": "0x7f0b088b",
+          "resource_name": "id/included_window_inset",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@0x7f0b088b"
+        },
+        {
+          "attribute": "id",
+          "resource_id": "0x7f0b048d",
+          "resource_name": "id/content_parent",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@0x7f0b048d"
+        },
+        {
+          "attribute": "id",
+          "resource_id": "0x7f0b04aa",
+          "resource_name": "id/coordinator",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@0x7f0b04aa"
+        },
+        {
+          "attribute": "id",
+          "resource_id": "0x7f0b012b",
+          "resource_name": "id/app_bar",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@0x7f0b012b"
+        },
+        {
+          "attribute": "id",
+          "resource_id": "0x7f0b03f3",
+          "resource_name": "id/collapsing_app_bar",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@0x7f0b03f3"
+        },
+        {
+          "attribute": "id",
+          "resource_id": "0x7f0b048c",
+          "resource_name": "id/content_layout",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@0x7f0b048c"
+        },
+        {
+          "attribute": "id",
+          "resource_id": "0x7f0b048b",
+          "resource_name": "id/content_frame",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@0x7f0b048b"
+        },
+        {
+          "attribute": "id",
+          "resource_id": "0x7f0b09f4",
+          "resource_name": "id/main_content",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@0x7f0b09f4"
+        },
+        {
+          "attribute": "id",
+          "resource_id": "0x7f0b0de7",
+          "resource_name": "id/round_corner",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@0x7f0b0de7"
+        },
+        {
+          "attribute": "id",
+          "resource_id": "0x7f0b0f2f",
+          "resource_name": "id/sesl_floating_toolbar_layout",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@0x7f0b0f2f"
+        },
+        {
+          "attribute": "id",
+          "resource_id": "0x7f0b0073",
+          "resource_name": "id/action_bar",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@0x7f0b0073"
+        },
+        {
+          "attribute": "id",
+          "resource_id": "0x7f0b06f4",
+          "resource_name": "id/floating_bottom_container",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@0x7f0b06f4"
+        },
+        {
+          "attribute": "id",
+          "resource_id": "0x7f0b0e5f",
+          "resource_name": "id/search_view",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@0x7f0b0e5f"
+        }
+      ]
+    },
+    {
+      "archive_path": "res/layout-v31/collapsing_toolbar_base_layout.xml",
+      "observed_static_refs": [
+        {
+          "attribute": "id",
+          "resource_id": "0x7f0b048d",
+          "resource_name": "id/content_parent",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@0x7f0b048d"
+        }
+      ]
+    },
+    {
+      "archive_path": "res/layout-v31/collapsing_toolbar_content_layout.xml",
+      "observed_static_refs": [
+        {
+          "attribute": "id",
+          "resource_id": "0x7f0b012b",
+          "resource_name": "id/app_bar",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@0x7f0b012b"
+        },
+        {
+          "attribute": "id",
+          "resource_id": "0x7f0b03f8",
+          "resource_name": "id/collapsing_toolbar",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@0x7f0b03f8"
+        },
+        {
+          "attribute": "id",
+          "resource_id": "0x7f0b0073",
+          "resource_name": "id/action_bar",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@0x7f0b0073"
+        },
+        {
+          "attribute": "id",
+          "resource_id": "0x7f0b048b",
+          "resource_name": "id/content_frame",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@0x7f0b048b"
+        }
+      ]
+    },
+    {
+      "archive_path": "res/layout/sec_settings_main_prefs.xml",
+      "observed_static_refs": [
+        {
+          "attribute": "id",
+          "resource_id": "0x7f0b1104",
+          "resource_name": "id/switch_bar",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@0x7f0b1104"
+        },
+        {
+          "attribute": "id",
+          "resource_id": "0x7f0b09f4",
+          "resource_name": "id/main_content",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@0x7f0b09f4"
+        }
+      ]
+    },
+    {
+      "archive_path": "res/layout/sesl_action_bar_title_item.xml",
+      "observed_static_refs": [
+        {
+          "attribute": "id",
+          "resource_id": "0x7f0b0079",
+          "resource_name": "id/action_bar_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@0x7f0b0079"
+        },
+        {
+          "attribute": "id",
+          "resource_id": "0x7f0b0078",
+          "resource_name": "id/action_bar_subtitle",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@0x7f0b0078"
+        }
+      ]
+    },
+    {
+      "archive_path": "res/layout/sec_wifi_settings.xml",
+      "observed_static_refs": [
+        {
+          "attribute": "id",
+          "resource_id": "0x7f0b0d82",
+          "resource_name": "id/refresh",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@0x7f0b0d82"
+        },
+        {
+          "attribute": "id",
+          "resource_id": "0x7f0b133c",
+          "resource_name": "id/wifi_settings_nested_scroll_view",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@0x7f0b133c"
+        },
+        {
+          "attribute": "id",
+          "resource_id": "0x7f0b09a9",
+          "resource_name": "id/list_switch_bar",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@0x7f0b09a9"
+        },
+        {
+          "attribute": "id",
+          "resource_id": "0x7f0b048c",
+          "resource_name": "id/content_layout",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@0x7f0b048c"
+        },
+        {
+          "attribute": "id",
+          "resource_id": "0x7f0b028b",
+          "resource_name": "id/bottom_footer",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@0x7f0b028b"
+        },
+        {
+          "attribute": "id",
+          "resource_id": "0x7f0b0de9",
+          "resource_name": "id/rounded_background",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@0x7f0b0de9"
+        }
+      ]
+    },
+    {
+      "archive_path": "res/layout/settings_homepage.xml",
+      "observed_static_refs": [
+        {
+          "attribute": "id",
+          "resource_id": "0x7f0b032f",
+          "resource_name": "id/card_container",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:id(0x010100d0)=@0x7f0b032f"
+        }
+      ]
+    },
+    {
+      "archive_path": "res/xml/sec_display_settings.xml",
+      "observed_static_refs": [
+        {
+          "attribute": "title",
+          "resource_id": "0x7f150e4d",
+          "resource_name": "string/display_settings",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f150e4d"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f15264c",
+          "resource_name": "string/sec_dark_mode_settings",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f15264c"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f15264c",
+          "resource_name": "string/sec_dark_mode_settings",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f15264c"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f15090b",
+          "resource_name": "string/brightness_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f15090b"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f15090b",
+          "resource_name": "string/brightness_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f15090b"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f15054a",
+          "resource_name": "string/auto_adjust_brightness",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f15054a"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f1510bd",
+          "resource_name": "string/extra_brightness",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f1510bd"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f151e36",
+          "resource_name": "string/outdoor_mode_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f151e36"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152819",
+          "resource_name": "string/sec_high_refresh_rate_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152819"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152721",
+          "resource_name": "string/sec_eye_comfort_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152721"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f1526c9",
+          "resource_name": "string/sec_ead",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f1526c9"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152a75",
+          "resource_name": "string/sec_screen_mode_setting",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152a75"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f1527c5",
+          "resource_name": "string/sec_font_size_and_style_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f1527c5"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f1522f1",
+          "resource_name": "string/screen_resolution_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f1522f1"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f1511c8",
+          "resource_name": "string/full_screen_apps_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f1511c8"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f1511ac",
+          "resource_name": "string/full_screen_apps_camera_cutout",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f1511ac"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f1522f8",
+          "resource_name": "string/screen_timeout",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f1522f8"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f1522fc",
+          "resource_name": "string/screen_timeout_for_connected_display_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f1522fc"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f150eca",
+          "resource_name": "string/easy_mode",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f150eca"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f150edc",
+          "resource_name": "string/edge_panels",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f150edc"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f1532dc",
+          "resource_name": "string/task_bar",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f1532dc"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f151b89",
+          "resource_name": "string/navigationbar_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f151b89"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f1511aa",
+          "resource_name": "string/front_screen_apps_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f1511aa"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152620",
+          "resource_name": "string/sec_continue_apps_folding_unfolding",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152620"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152e8f",
+          "resource_name": "string/sem_scroll_filter_for_chrome_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152e8f"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f1524ae",
+          "resource_name": "string/sec_block_accidental_touches_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f1524ae"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f1513d3",
+          "resource_name": "string/increase_touch_sensetivity_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f1513d3"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152b06",
+          "resource_name": "string/sec_show_charging_info_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152b06"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152323",
+          "resource_name": "string/screensaver_homehub_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152323"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152330",
+          "resource_name": "string/screensaver_settings_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152330"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f153225",
+          "resource_name": "string/sub_lcd_auto_lock",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f153225"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f151469",
+          "resource_name": "string/key_night_mode",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f151469"
+        }
+      ]
+    },
+    {
+      "archive_path": "res/xml/as_sound_vibration_settings_v2.xml",
+      "observed_static_refs": [
+        {
+          "attribute": "title",
+          "resource_id": "0x7f1530fb",
+          "resource_name": "string/sound_and_vibrations_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f1530fb"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152b5d",
+          "resource_name": "string/sec_sound_temporary_mute",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152b5d"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152b54",
+          "resource_name": "string/sec_sound_mute_duration",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152b54"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152c02",
+          "resource_name": "string/sec_vibrate_on_ring_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152c02"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152a38",
+          "resource_name": "string/sec_ringtone_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152a38"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152b55",
+          "resource_name": "string/sec_sound_notification",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152b55"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152b57",
+          "resource_name": "string/sec_sound_system",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152b57"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f150393",
+          "resource_name": "string/all_volume_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f150393"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152c07",
+          "resource_name": "string/sec_vibration_call_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152c07"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152c0d",
+          "resource_name": "string/sec_vibration_notification_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152c0d"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152c13",
+          "resource_name": "string/sec_vibration_system_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152c13"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152c0a",
+          "resource_name": "string/sec_vibration_intensity",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152c0a"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152b4b",
+          "resource_name": "string/sec_sound_effect_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152b4b"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152954",
+          "resource_name": "string/sec_multi_sound_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152954"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152b61",
+          "resource_name": "string/sec_sound_work_settings",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152b61"
+        }
+      ]
+    },
+    {
+      "archive_path": "res/xml/bluetooth_settings.xml",
+      "observed_static_refs": [
+        {
+          "attribute": "title",
+          "resource_id": "0x7f15088b",
+          "resource_name": "string/bluetooth_settings",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f15088b"
+        }
+      ]
+    },
+    {
+      "archive_path": "res/xml/sec_connections_settings.xml",
+      "observed_static_refs": [
+        {
+          "attribute": "title",
+          "resource_id": "0x7f1532bc",
+          "resource_name": "string/tab_category_connections",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f1532bc"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f153b6f",
+          "resource_name": "string/wifi_settings_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f153b6f"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f15034f",
+          "resource_name": "string/ais_mptcp_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f15034f"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f150893",
+          "resource_name": "string/bluetooth_settings_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f150893"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f151c5a",
+          "resource_name": "string/nfcpayment_quick_toggle_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f151c5a"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f151bf7",
+          "resource_name": "string/nfc_osaifukeitai_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f151bf7"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f15361b",
+          "resource_name": "string/uwb_settings_samsung_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f15361b"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f15033a",
+          "resource_name": "string/airplane_mode",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f15033a"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f15303e",
+          "resource_name": "string/sim_manager",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f15303e"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f151bb4",
+          "resource_name": "string/network_settings_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f151bb4"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f151e17",
+          "resource_name": "string/operator_choose",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f151e17"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f150cb1",
+          "resource_name": "string/data_usage_summary_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f150cb1"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152bbf",
+          "resource_name": "string/sec_tether_settings_title_all",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152bbf"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f153330",
+          "resource_name": "string/tether_settings_title_usb_bluetooth",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f153330"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152a4d",
+          "resource_name": "string/sec_satellite_networks_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152a4d"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f15313f",
+          "resource_name": "string/ss_advanced_calling_header_us",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f15313f"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f1516a9",
+          "resource_name": "string/lgt_service_global_auto_roaming",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f1516a9"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f151a7d",
+          "resource_name": "string/more_connection_settings_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f151a7d"
+        }
+      ]
+    },
+    {
+      "archive_path": "res/xml/sec_top_level_settings.xml",
+      "observed_static_refs": [
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152a3f",
+          "resource_name": "string/sec_samsung_account",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152a3f"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f15043e",
+          "resource_name": "string/app_name_buds_unite",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f15043e"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f1532bc",
+          "resource_name": "string/tab_category_connections",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f1532bc"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152952",
+          "resource_name": "string/sec_multi_devices_menu_name",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152952"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f1533f9",
+          "resource_name": "string/troaming_activity_name",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f1533f9"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f151ddf",
+          "resource_name": "string/olleh_setting",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f151ddf"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152857",
+          "resource_name": "string/sec_intelligence_service_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152857"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152941",
+          "resource_name": "string/sec_modes_and_routines",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152941"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f1530fb",
+          "resource_name": "string/sound_and_vibrations_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f1530fb"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f150b08",
+          "resource_name": "string/configure_notification_settings",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f150b08"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f150e4e",
+          "resource_name": "string/display_settings_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f150e4e"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f15043d",
+          "resource_name": "string/app_name_battery",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f15043d"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f1536ea",
+          "resource_name": "string/wallpaper_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f1536ea"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f151360",
+          "resource_name": "string/home_screen_settings_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f151360"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152638",
+          "resource_name": "string/sec_cover_screen_settings_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152638"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152ce7",
+          "resource_name": "string/security_and_privacy_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152ce7"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f1516f6",
+          "resource_name": "string/location_settings_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f1516f6"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f150eff",
+          "resource_name": "string/emergency_settings_preference_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f150eff"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f150a29",
+          "resource_name": "string/cloud_and_accounts_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f150a29"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f153546",
+          "resource_name": "string/useful_feature_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f153546"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f150440",
+          "resource_name": "string/app_name_digital_wellbeing",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f150440"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f15043f",
+          "resource_name": "string/app_name_device_care",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f15043f"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f1530b7",
+          "resource_name": "string/smart_manager",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f1530b7"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f1509a9",
+          "resource_name": "string/category_applications",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f1509a9"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f1511ee",
+          "resource_name": "string/general_device_management_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f1511ee"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f1501b0",
+          "resource_name": "string/accessibility_settings",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f1501b0"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152b3f",
+          "resource_name": "string/sec_software_update_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152b3f"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f153598",
+          "resource_name": "string/user_manual",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f153598"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152bc8",
+          "resource_name": "string/sec_tips_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152bc8"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152a1d",
+          "resource_name": "string/sec_remote_support",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152a1d"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f15237b",
+          "resource_name": "string/sec_about_settings",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f15237b"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f150d63",
+          "resource_name": "string/development_settings_title",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f150d63"
+        },
+        {
+          "attribute": "title",
+          "resource_id": "0x7f152a47",
+          "resource_name": "string/sec_samsung_dex",
+          "aapt2_line": "A: http://schemas.android.com/apk/res/android:title(0x010101e1)=@0x7f152a47"
+        }
+      ]
+    }
+  ],
+  "interpretation": [
+    "Korean strings are exact ko resource values; default Wi-Fi uses U+2011 non-breaking hyphen whereas ko Wi-Fi uses ASCII U+002D.",
+    "Samsung sound heading is Sounds and vibration / 소리 및 진동; generic sound_settings is Sound / 소리 and is a distinct resource.",
+    "Samsung homepage base XML has collapsing_app_bar and action_bar containers; checked subpage base content XML has collapsing_toolbar and action_bar. action_bar_title is a TextView in sesl_action_bar_title_item.xml.",
+    "The existence of an ID/string and static title references does not establish current visible AccessibilityNodeInfo IDs, window titles, content descriptions, or route identity on the physical phone.",
+    "No runtime association between the homepage title and a particular accessibility node is proven by these resources. Strict classifier must continue to require live package and positive heading evidence; unknown pages must remain denied."
+  ]
+}

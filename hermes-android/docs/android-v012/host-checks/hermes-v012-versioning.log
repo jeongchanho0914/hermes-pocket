@@ -1,0 +1,10 @@
+test_invalid_releases (test_versioning.VersionTests.test_invalid_releases) ... ok
+test_major_and_channel_promotion_increase_code (test_versioning.VersionTests.test_major_and_channel_promotion_increase_code) ... ok
+test_numbering_and_rollovers (test_versioning.VersionTests.test_numbering_and_rollovers) ... ok
+test_sync_preserves_manifest_and_check_rejects_stale_metadata (test_versioning.VersionTests.test_sync_preserves_manifest_and_check_rejects_stale_metadata) ... ok
+test_version_json_rejects_unknown_fields (test_versioning.VersionTests.test_version_json_rejects_unknown_fields) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+OK

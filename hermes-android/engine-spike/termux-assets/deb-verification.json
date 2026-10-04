@@ -1,0 +1,7 @@
+{
+  "url": "https://hermes-assets.nousresearch.com/releases/termux/canary/pool/h/hermes-agent_0.27.1~canary.20260917131241-1_aarch64.deb",
+  "path": "engine-spike/termux-assets/hermes-agent_0.27.1~canary.20260917131241-1_aarch64.deb",
+  "bytes": 161855904,
+  "sha256": "324397ce52887ce24f124e0396fde3974062d20451b0254613f9c3c5f4064fb4",
+  "matchesSignedPackages": true
+}

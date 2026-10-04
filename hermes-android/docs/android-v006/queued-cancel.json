@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "result": {
+    "version": "0.06"
+  },
+  "lifecycle": {
+    "callerInterruptCancelsQueuedAction": true,
+    "runtimeStopPreventsLateAction": true,
+    "readonlyEntrySettlesAfterTest": true
+  }
+}

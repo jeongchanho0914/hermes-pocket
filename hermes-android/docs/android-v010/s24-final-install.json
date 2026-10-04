@@ -1,0 +1,8 @@
+{
+  "installed": true,
+  "versionName": "0.10",
+  "sha256": "c191bfbfb1bb8b0f77d9fc6d3939b93918ab56805a6cc14ba0c417382da1b923",
+  "bytes": 7026183,
+  "expectedHashMatch": true,
+  "method": "adb install -r; explicit direct-phone-install instruction; preserved app data"
+}

@@ -1,0 +1,4 @@
+Performing Push Install
+/tmp/hermes-v001-delivered/hermes-pocket-v0.01.apk: 1 file pushed, 0 skipped. 17.5 MB/s (86807 bytes in 0.005s)
+Success
+rm: /data/local/tmp/hermes-pocket-v0.01.apk: No such file or directory

@@ -1,0 +1,37 @@
+{
+  "apk": {
+    "bytes": 1598308,
+    "sha256": "a2899a711ba7a6fbcb0801b5de9fd53db0ed9d9935bd63bf90a5f17d18c2246b"
+  },
+  "sdk": 35,
+  "serial": "emulator-5554",
+  "capture": {
+    "nativeWindowCapture": true,
+    "inlineApiImageDecoded": true,
+    "rgbPixelCounts": [
+      13689,
+      15516,
+      16911
+    ],
+    "editableMaskDarkRatio": 1.0,
+    "passwordScreenRefused": true,
+    "secureWindowRefused": true,
+    "secureAndroidErrorCode": 6,
+    "protectedCurrentSettingsAppRefused": true,
+    "ownOverlayExcludedWithSimultaneousGuiProof": true,
+    "inFlightUnprotectedAppSwitchRefusal": "not independently exercised"
+  },
+  "overlay": {
+    "initialCandidateHash": "bce1748aaf0f4e88472099f0b2b84435fa9a060c5b8db711ecb580b87d6212a8",
+    "liveStop": true,
+    "noAutomaticImeFocus": true,
+    "actualDragMovedBounds": true,
+    "idleNativeFollowupSameConversation": true,
+    "finalReleaseOwnPanelVisibleDuringNativeCapture": true,
+    "screenOffRemovedActualPanelWindow": true,
+    "accessibilityRevokeRemovedActualPanelWindow": true,
+    "openControl": "pending new continuous-XML probe",
+    "underlyingAgentTap": "FAILED: own overlay intercepted preflight actionDescription before prepareForPhoneAction; actual guard refusal saved. Screen owner fixed, awaiting next frozen release."
+  },
+  "limitation": "Local responder proves native image/tool transport and pixel validity; it does not demonstrate real provider vision intelligence."
+}

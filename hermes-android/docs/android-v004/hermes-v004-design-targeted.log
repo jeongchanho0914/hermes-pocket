@@ -1,0 +1,9 @@
+test_design_switch_preserves_unsaved_data (test_designs.DesignUITest.test_design_switch_preserves_unsaved_data) ... ok
+test_design_switch_sends_matching_native_system_bar_appearance (test_designs.DesignUITest.test_design_switch_sends_matching_native_system_bar_appearance) ... ok
+test_every_design_all_tabs_fit_mobile_and_wide (test_designs.DesignUITest.test_every_design_all_tabs_fit_mobile_and_wide) ... ok
+test_stream_completion_and_failure_all_designs (test_designs.DesignUITest.test_stream_completion_and_failure_all_designs) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 8.176s
+
+OK

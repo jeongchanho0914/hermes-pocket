@@ -1,0 +1,77 @@
+test_stream_completion_and_failure_all_designs (test_designs.DesignUITest.test_stream_completion_and_failure_all_designs) ... ok
+test_skill_editor_save_read_and_confirmed_delete_native_requests (test_preferences.PreferencesUITest.test_skill_editor_save_read_and_confirmed_delete_native_requests) ... ok
+test_failed_resource_save_preserves_draft_and_disabled_plugin_blocks_editor (test_skill_packages.SkillPackageUITest.test_failed_resource_save_preserves_draft_and_disabled_plugin_blocks_editor) ... ERROR
+test_full_yaml_editor_preserves_metadata_in_native_save (test_skill_packages.SkillPackageUITest.test_full_yaml_editor_preserves_metadata_in_native_save) ... ok
+test_import_export_cancel_and_unverified_response_never_claim_saved_package (test_skill_packages.SkillPackageUITest.test_import_export_cancel_and_unverified_response_never_claim_saved_package) ... Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/usr/lib/python3.14/unittest/__main__.py", line 18, in <module>
+    main(module=None)
+    ~~~~^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/unittest/main.py", line 104, in __init__
+    self.runTests()
+    ~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.14/unittest/main.py", line 270, in runTests
+    self.result = testRunner.run(self.test)
+                  ~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/usr/lib/python3.14/unittest/runner.py", line 257, in run
+    test(result)
+    ~~~~^^^^^^^^
+  File "/usr/lib/python3.14/unittest/suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+           ~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/unittest/suite.py", line 122, in run
+    test(result)
+    ~~~~^^^^^^^^
+  File "/usr/lib/python3.14/unittest/suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+           ~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/unittest/suite.py", line 122, in run
+    test(result)
+    ~~~~^^^^^^^^
+  File "/usr/lib/python3.14/unittest/suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+           ~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/unittest/suite.py", line 122, in run
+    test(result)
+    ~~~~^^^^^^^^
+  File "/usr/lib/python3.14/unittest/case.py", line 725, in __call__
+    return self.run(*args, **kwds)
+           ~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/unittest/case.py", line 669, in run
+    self._callTestMethod(testMethod)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/usr/lib/python3.14/unittest/case.py", line 615, in _callTestMethod
+    result = method()
+  File "/home/chanho/Desktop/hermes-pocket-source/hermes-android/tests/test_skill_packages.py", line 68, in test_import_export_cancel_and_unverified_response_never_claim_saved_package
+    self.bridge();self.open_skill();original=self.page.locator('#skillContent').input_value()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chanho/.local/lib/python3.14/site-packages/playwright/sync_api/_generated.py", line 18242, in fill
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.fill(
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        )
+        ^
+    )
+    ^
+  File "/home/chanho/.local/lib/python3.14/site-packages/playwright/_impl/_sync_base.py", line 113, in _sync
+    self._dispatcher_fiber.switch()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/chanho/.local/lib/python3.14/site-packages/playwright/sync_api/_context_manager.py", line 56, in greenlet_main
+    self._loop.run_until_complete(self._connection.run_as_sync())
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/asyncio/base_events.py", line 706, in run_until_complete
+    self.run_forever()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.14/asyncio/base_events.py", line 677, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.14/asyncio/base_events.py", line 2019, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.14/selectors.py", line 452, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+Task was destroyed but it is pending!
+task: <Task pending name='Task-161' coro=<Locator.fill() running at /home/chanho/.local/lib/python3.14/site-packages/playwright/_impl/_locator.py:219> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[SyncBase._sync.<locals>.<lambda>() at /home/chanho/.local/lib/python3.14/site-packages/playwright/_impl/_sync_base.py:111, ProtocolCallback.__init__.<locals>.cb() at /home/chanho/.local/lib/python3.14/site-packages/playwright/_impl/_connection.py:264]>

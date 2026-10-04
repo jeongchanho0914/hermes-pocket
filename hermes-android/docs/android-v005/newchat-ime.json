@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "result": {
+    "version": "0.05",
+    "newChatInputUnfocused": true
+  },
+  "lifecycle": {
+    "actualImeVisibleBefore": true,
+    "actualImeHiddenAfter": true,
+    "focusBefore": "\"messageInput\"",
+    "focusAfter": "\"\"",
+    "inputEmptyAfter": "true"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "time": "2026-10-03T20:25:39.182580+00:00",
+  "device": "emulator-5554",
+  "androidApi": 35,
+  "artifact": "hermes-pocket-v0.02.apk",
+  "sha256": "4ba59caf3815ed7736ce74be3c34f6b6a362ad58e08c1a65279744da2db47914",
+  "command": "adb -s emulator-5554 install --no-incremental -r dist/hermes-pocket-v0.02.apk",
+  "result": "Success",
+  "installation": "upgrade from v0.01; app data retained",
+  "installedVersionCode": 2,
+  "installedVersionName": "0.02",
+  "physicalSamsungValidation": false
+}

@@ -1,0 +1,26 @@
+{
+  "security": {
+    "explicitPublicLaunch": "Starting: Intent { act=android.settings.SECURITY_SETTINGS }\nStatus: ok\nLaunchState: COLD\nActivity: com.android.permissioncontroller/.safetycenter.ui.SafetyCenterActivity\nTotalTime: 822\nWaitTime: 828\nComplete\n",
+    "probe": {
+      "ok": true,
+      "result": {
+        "version": "0.12",
+        "checks": {
+          "actual_sensitive_Settings_read_refused": true,
+          "actual_sensitive_Settings_capture_refused": true
+        },
+        "results": {
+          "read_screen": {
+            "ok": false,
+            "error": "읽을 수 있는 활성 화면이 없습니다."
+          },
+          "capture_screen": {
+            "ok": false,
+            "error": "읽을 수 있는 활성 화면이 없습니다."
+          }
+        }
+      }
+    },
+    "artifactSha256": "98e5fa2fbf5908a0dadb55ccbd02f2fdf76783d3a96f72b3f3212df6efcbdcf7"
+  }
+}

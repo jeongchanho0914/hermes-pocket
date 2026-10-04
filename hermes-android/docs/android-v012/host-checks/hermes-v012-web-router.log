@@ -1,0 +1,16 @@
+PASS default web search routes to browser without implicit API request and explicit API strips only router fields
+PASS built-in Android terminal skill seeds real document once without executing or granting authority
+PASS built-in skill migration preserves existing owner document and malformed bytes
+PASS full owner skill library skips built-in seed without discarding a document
+PASS SKILL.md UTF8 persists reloads replaces lists and deletes
+PASS skill paths frontmatter bounds and symlinks cannot escape storage
+PASS skill library admits more than 64 documents and rejects a 257th without losing owner files
+PASS local memory writes require approval and refuse stale or ambiguous changes
+PASS real local skill tools honor approval and do not execute document text
+PASS Tavily search actual TCP bearer contract filters unsafe sources and bounds text
+PASS web key args URLs cancellation and API failures do not fabricate results
+PASS Tavily extract retains requested and returned sources and bounds content
+PASS keyless Mwmbl TCP search sends no credentials and parses segmented text
+PASS keyless SearXNG TCP search uses explicit JSON format and no auth
+PASS keyless failures empty results unsupported fetch and unsafe endpoints are honest
+Production local skill storage + web API contract checks: 15 passed. Search APIs are TCP fixtures, never live accounts.

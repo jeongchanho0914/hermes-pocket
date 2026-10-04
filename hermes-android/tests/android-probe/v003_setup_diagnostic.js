@@ -1,0 +1,1 @@
+await new Promise(r=>setTimeout(r,2500));return {stateConfig:state.config,page:state.page,sheet:activeSheet?.id,setupClass:document.getElementById('setupDialog').className,toast:document.getElementById('toast').textContent,native:(await native('boot')).config};

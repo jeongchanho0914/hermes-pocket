@@ -1,0 +1,29 @@
+{
+  "serial": "emulator-5554",
+  "sdk": 35,
+  "version": "0.11",
+  "sha256": "d3e484dff19c480be498b414a50eeb3195220cf2111cd861d91a18a31a7b0d75",
+  "artifactBytes": 7042567,
+  "actualPassed": {
+    "native_public_thought_SSE_WebView": 10,
+    "native_long_click_slider_and_scope": 11,
+    "native_intent_dispatch_and_policy": 11,
+    "actual_intent_sink_receipts": 9,
+    "native_volume_and_rotation_positive": 12,
+    "native_Display_read_scroll_protected_force_stop": 4,
+    "native_Accessibility_Settings_read_capture_refusals": 2
+  },
+  "database": "Existing DB2 records preserved in DB3; separate public_thoughts cumulative update retains first timestamp, session isolation and separate process reopen; raw extras excluded.",
+  "phoneScope": "Only emulator targeted by this verifier; parent owns physical S24.",
+  "observedRemaining": {
+    "expandedQS_dismiss": "Single BACK collapses expanded QS into notifications instead of closing. Forward fix prepared by scope_actions_v012, not verified yet.",
+    "none_scope_volume": "v011 ordinary volume action allowed with none; subsequent original media index8 restored. v012 global write scope fix pending final test.",
+    "Security_active_root_missing": "Protected app active application root inaccessible; old foreground fallback read only navigation bar metadata. No protected content exported. Fail-closed v012 fix pending.",
+    "WiFi_heading": "Actual cold Activity correct, fresh active root unavailable; no Wi-Fi heading success claimed."
+  },
+  "notClaimed": [
+    "v011 actual secure-lock terminal/drop transport tests",
+    "v011 direct original arm64 engine runtime on x86_64 emulator",
+    "v012 tests before frozen APK"
+  ]
+}

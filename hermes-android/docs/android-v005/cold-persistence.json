@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "result": {
+    "version": "0.05",
+    "memoryPersisted": true,
+    "selectedSkillPersisted": true,
+    "skillFilePersisted": true,
+    "modelPersisted": true,
+    "lowEffortPersisted": true,
+    "chatHistoryPersisted": true
+  }
+}

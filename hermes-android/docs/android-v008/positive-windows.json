@@ -1,0 +1,38 @@
+{
+  "serviceBound": true,
+  "windows": [
+    {
+      "title": "Navigation bar",
+      "id": 147,
+      "type": 3,
+      "layer": 2,
+      "active": false,
+      "focused": false,
+      "bounds": "[0,2274][1080,2400]",
+      "rootBounds": "[0,2274][1080,2400]",
+      "package": "com.android.launcher3"
+    },
+    {
+      "title": "null",
+      "id": 140,
+      "type": 3,
+      "layer": 1,
+      "active": false,
+      "focused": false,
+      "bounds": "[0,0][1080,128]",
+      "rootBounds": "[0,0][1080,128]",
+      "package": "com.android.systemui"
+    },
+    {
+      "title": "Hermes Test Fixture",
+      "id": 150,
+      "type": 1,
+      "layer": 0,
+      "active": true,
+      "focused": true,
+      "bounds": "[0,0][1080,2400]",
+      "rootBounds": "[0,0][1080,2400]",
+      "package": "dev.hermesfixture.android"
+    }
+  ]
+}

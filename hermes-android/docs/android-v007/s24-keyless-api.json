@@ -1,0 +1,16 @@
+{
+  "device": "SM-S928N",
+  "android": 16,
+  "execution": "Standalone Android shell network probe; not a production model tool-loop",
+  "result": {
+    "endpoint": "api.mwmbl.org",
+    "authorizationSent": false,
+    "http": 200,
+    "ok": true,
+    "count": 79,
+    "first": {
+      "title": "GitHub - dandclark/html-aam: HTML Accessibility API Mappings",
+      "url": "https://github.com/dandclark/html-aam"
+    }
+  }
+}

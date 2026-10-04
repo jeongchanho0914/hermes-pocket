@@ -1,0 +1,28 @@
+# Local secrets and configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.jks
+*.keystore
+*.p12
+*.pfx
+.signing/
+local.properties
+
+# Build output, tool installations and local snapshots
+build/
+.gradle/
+.tools/
+.toolchain/
+.snapshots/
+__pycache__/
+*.pyc
+/hermes-android/dist/
+/hermes-android/engine-spike/toolchains/
+/hermes-android/engine-spike/termux-assets/extracted/
+/hermes-android/engine-spike/termux-assets/gnupg/
+/hermes-android/engine-spike/termux-assets/*.deb
+/hermes-android/engine-spike/dependencies/upstream.tar.gz
+/hermes-android/engine-spike/exploratory/webp-build-arm64/

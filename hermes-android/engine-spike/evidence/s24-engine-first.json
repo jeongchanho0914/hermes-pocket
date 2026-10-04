@@ -1,0 +1,65 @@
+{
+  "python": "3.14.0 (main, Nov 20 2025, 09:47:34) [Clang 18.0.4 (https://android.googlesource.com/toolchain/llvm-project d8003a456",
+  "machine": "aarch64",
+  "sqlite": "3.50.4",
+  "persisted_runs": 2,
+  "upstream_engine": {
+    "imported": true,
+    "class": "<class 'run_agent.AIAgent'>"
+  },
+  "upstream_components": {
+    "iteration_budget": {
+      "success": true,
+      "result": {
+        "allowed": [
+          true,
+          true,
+          false
+        ],
+        "remaining_after_refund": 1
+      }
+    },
+    "session_store": {
+      "success": true,
+      "result": {
+        "persisted_messages": 2,
+        "source": "unchanged upstream SessionDB"
+      }
+    },
+    "skill_metadata": {
+      "success": true,
+      "result": [
+        {
+          "name": "android-probe",
+          "description": "Local runtime proof"
+        },
+        "# Instructions\n"
+      ]
+    },
+    "memory_store": {
+      "success": true,
+      "result": {
+        "write": {
+          "success": true,
+          "done": true,
+          "target": "memory",
+          "usage": "3% — 69/2,200 chars",
+          "entry_count": 1,
+          "message": "Entry already exists (no duplicate added).",
+          "note": "Write saved. This update is complete — do not repeat it."
+        },
+        "entries": [
+          "Android runtime probe uses only this application's private directory."
+        ]
+      }
+    },
+    "native_core": {
+      "success": true,
+      "result": {
+        "pydantic": "2.13.4",
+        "pydantic_core": "2.46.4",
+        "value": 42
+      }
+    }
+  }
+}

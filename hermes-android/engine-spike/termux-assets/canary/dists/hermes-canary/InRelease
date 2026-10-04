@@ -1,0 +1,25 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Hermes Agent
+Label: hermes-agent
+Suite: hermes-canary
+Codename: hermes-canary
+Architectures: aarch64
+Components: main
+Acquire-By-Hash: yes
+Description: Hermes Agent apt repository (hermes-canary)
+Date: Thu, 17 Sep 2026 13:46:38 UTC
+SHA256:
+ b9043435fa8c0c0788746d30f61b46c9938fcbef105b66d36fd1f74c3829b417      378 main/binary-aarch64/Packages
+ 2dbf8940fd4ef4aafc1d55a6e3fb9dec7fabe5c0307cb940b17d50fcb885207a      284 main/binary-aarch64/Packages.gz
+SHA512:
+ bc64310fb11267151499087520443074897c993ea047a747d4e9648249cfa884f0501d0f279c75e5e3485d686b7209101f2cde9227129986b25d63c83228a379      378 main/binary-aarch64/Packages
+ 3fb1e0c1a5b13e0b7d058cbd2e4ce3e410fd33703b993fc61d6b292c5699470f6d5904599a92baf0e67d640452bc1a229f678d25b8c5d86737da90384bdb6fa4      284 main/binary-aarch64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQTFcrX90aKcz6mpEraECwhI4TkVbQUCaqvvPgAKCRCECwhI4TkV
+bWqzAPwPW4/zxtmo+x8zMT7KeW1DeGsT77Z09sfEVML6yQYxTQEA9VvQMpBgGhYV
+0HoIHg3j69w+MXZY5BuNJnS3iMF7aAA=
+=lS96
+-----END PGP SIGNATURE-----

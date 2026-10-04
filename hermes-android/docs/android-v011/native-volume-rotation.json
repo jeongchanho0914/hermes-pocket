@@ -1,0 +1,419 @@
+{
+  "ok": true,
+  "result": {
+    "checks": {
+      "actual_phone_settings_read": true,
+      "actual_media_volume_readback": true,
+      "actual_media_volume_restored": true,
+      "actual_ring_volume_readback": true,
+      "actual_ring_volume_restored": true,
+      "actual_alarm_volume_readback": true,
+      "actual_alarm_volume_restored": true,
+      "actual_notification_volume_readback": true,
+      "actual_notification_volume_restored": true,
+      "actual_portrait_rotation_readback": true,
+      "actual_landscape_rotation_readback": true,
+      "actual_rotation_configuration_restored": true,
+      "actual_none_scope_volume_refused": false
+    },
+    "results": {
+      "before": {
+        "ok": true,
+        "result": {
+          "volumes": {
+            "media": {
+              "percent": 53,
+              "index": 8,
+              "maximumIndex": 15,
+              "muted": false
+            },
+            "ring": {
+              "percent": 71,
+              "index": 5,
+              "maximumIndex": 7,
+              "muted": false
+            },
+            "alarm": {
+              "percent": 86,
+              "index": 6,
+              "maximumIndex": 7,
+              "muted": false
+            },
+            "notification": {
+              "percent": 71,
+              "index": 5,
+              "maximumIndex": 7,
+              "muted": false
+            }
+          },
+          "rotation_lock": {
+            "enabled": false,
+            "rotation": 0
+          },
+          "auto_rotate": true,
+          "screen_timeout_seconds": 2147483,
+          "brightness_auto": false,
+          "writeSettings": true,
+          "shizuku": {
+            "enabled": true,
+            "installed": true,
+            "binderAlive": false,
+            "permissionGranted": false,
+            "serviceConnected": false,
+            "uid": -1,
+            "available": false,
+            "state": "not_running",
+            "reason": "휴대폰에서 Shizuku를 먼저 시작해 주세요.",
+            "transport": "shizuku",
+            "terminalAvailable": false,
+            "privilege": "unavailable"
+          }
+        }
+      },
+      "volumes": {
+        "media": {
+          "target": {
+            "ok": true,
+            "result": {
+              "stream": "media",
+              "requested": 43,
+              "requestedIndex": 6,
+              "actual": 40,
+              "actualIndex": 6,
+              "maximumIndex": 15,
+              "minimumIndex": 0,
+              "muted": false,
+              "verified": true
+            }
+          },
+          "readback": {
+            "percent": 40,
+            "index": 6,
+            "maximumIndex": 15,
+            "muted": false
+          }
+        },
+        "ring": {
+          "target": {
+            "ok": true,
+            "result": {
+              "stream": "ring",
+              "requested": 43,
+              "requestedIndex": 3,
+              "actual": 43,
+              "actualIndex": 3,
+              "maximumIndex": 7,
+              "minimumIndex": 0,
+              "muted": false,
+              "verified": true
+            }
+          },
+          "readback": {
+            "percent": 43,
+            "index": 3,
+            "maximumIndex": 7,
+            "muted": false
+          }
+        },
+        "alarm": {
+          "target": {
+            "ok": true,
+            "result": {
+              "stream": "alarm",
+              "requested": 43,
+              "requestedIndex": 3,
+              "actual": 43,
+              "actualIndex": 3,
+              "maximumIndex": 7,
+              "minimumIndex": 1,
+              "muted": false,
+              "verified": true
+            }
+          },
+          "readback": {
+            "percent": 43,
+            "index": 3,
+            "maximumIndex": 7,
+            "muted": false
+          }
+        },
+        "notification": {
+          "target": {
+            "ok": true,
+            "result": {
+              "stream": "notification",
+              "requested": 43,
+              "requestedIndex": 3,
+              "actual": 43,
+              "actualIndex": 3,
+              "maximumIndex": 7,
+              "minimumIndex": 0,
+              "muted": false,
+              "verified": true
+            }
+          },
+          "readback": {
+            "percent": 43,
+            "index": 3,
+            "maximumIndex": 7,
+            "muted": false
+          }
+        }
+      },
+      "portrait": {
+        "ok": true,
+        "result": {
+          "setting": "rotation_lock",
+          "requested": "portrait",
+          "rotation": 0,
+          "auto_rotate": false,
+          "verified": true,
+          "verification": "settings_readback_not_physical_orientation",
+          "settings": {
+            "volumes": {
+              "media": {
+                "percent": 53,
+                "index": 8,
+                "maximumIndex": 15,
+                "muted": false
+              },
+              "ring": {
+                "percent": 71,
+                "index": 5,
+                "maximumIndex": 7,
+                "muted": false
+              },
+              "alarm": {
+                "percent": 86,
+                "index": 6,
+                "maximumIndex": 7,
+                "muted": false
+              },
+              "notification": {
+                "percent": 71,
+                "index": 5,
+                "maximumIndex": 7,
+                "muted": false
+              }
+            },
+            "rotation_lock": {
+              "enabled": true,
+              "rotation": 0
+            },
+            "auto_rotate": false,
+            "screen_timeout_seconds": 2147483,
+            "brightness_auto": false,
+            "writeSettings": true,
+            "shizuku": {
+              "enabled": true,
+              "installed": true,
+              "binderAlive": false,
+              "permissionGranted": false,
+              "serviceConnected": false,
+              "uid": -1,
+              "available": false,
+              "state": "not_running",
+              "reason": "휴대폰에서 Shizuku를 먼저 시작해 주세요.",
+              "transport": "shizuku",
+              "terminalAvailable": false,
+              "privilege": "unavailable"
+            }
+          }
+        }
+      },
+      "landscape": {
+        "ok": true,
+        "result": {
+          "setting": "rotation_lock",
+          "requested": "landscape",
+          "rotation": 1,
+          "auto_rotate": false,
+          "verified": true,
+          "verification": "settings_readback_not_physical_orientation",
+          "settings": {
+            "volumes": {
+              "media": {
+                "percent": 53,
+                "index": 8,
+                "maximumIndex": 15,
+                "muted": false
+              },
+              "ring": {
+                "percent": 71,
+                "index": 5,
+                "maximumIndex": 7,
+                "muted": false
+              },
+              "alarm": {
+                "percent": 86,
+                "index": 6,
+                "maximumIndex": 7,
+                "muted": false
+              },
+              "notification": {
+                "percent": 71,
+                "index": 5,
+                "maximumIndex": 7,
+                "muted": false
+              }
+            },
+            "rotation_lock": {
+              "enabled": true,
+              "rotation": 1
+            },
+            "auto_rotate": false,
+            "screen_timeout_seconds": 2147483,
+            "brightness_auto": false,
+            "writeSettings": true,
+            "shizuku": {
+              "enabled": true,
+              "installed": true,
+              "binderAlive": false,
+              "permissionGranted": false,
+              "serviceConnected": false,
+              "uid": -1,
+              "available": false,
+              "state": "not_running",
+              "reason": "휴대폰에서 Shizuku를 먼저 시작해 주세요.",
+              "transport": "shizuku",
+              "terminalAvailable": false,
+              "privilege": "unavailable"
+            }
+          }
+        }
+      },
+      "rotationRestored": {
+        "restored": {
+          "ok": true,
+          "result": {
+            "setting": "rotation_lock",
+            "requested": "portrait",
+            "rotation": 0,
+            "auto_rotate": false,
+            "verified": true,
+            "verification": "settings_readback_not_physical_orientation",
+            "settings": {
+              "volumes": {
+                "media": {
+                  "percent": 53,
+                  "index": 8,
+                  "maximumIndex": 15,
+                  "muted": false
+                },
+                "ring": {
+                  "percent": 71,
+                  "index": 5,
+                  "maximumIndex": 7,
+                  "muted": false
+                },
+                "alarm": {
+                  "percent": 86,
+                  "index": 6,
+                  "maximumIndex": 7,
+                  "muted": false
+                },
+                "notification": {
+                  "percent": 71,
+                  "index": 5,
+                  "maximumIndex": 7,
+                  "muted": false
+                }
+              },
+              "rotation_lock": {
+                "enabled": true,
+                "rotation": 0
+              },
+              "auto_rotate": false,
+              "screen_timeout_seconds": 2147483,
+              "brightness_auto": false,
+              "writeSettings": true,
+              "shizuku": {
+                "enabled": true,
+                "installed": true,
+                "binderAlive": false,
+                "permissionGranted": false,
+                "serviceConnected": false,
+                "uid": -1,
+                "available": false,
+                "state": "not_running",
+                "reason": "휴대폰에서 Shizuku를 먼저 시작해 주세요.",
+                "transport": "shizuku",
+                "terminalAvailable": false,
+                "privilege": "unavailable"
+              }
+            }
+          }
+        },
+        "restoredAuto": {
+          "ok": true,
+          "result": {
+            "setting": "auto_rotate",
+            "requested": true,
+            "actual": true,
+            "verified": true,
+            "settings": {
+              "volumes": {
+                "media": {
+                  "percent": 53,
+                  "index": 8,
+                  "maximumIndex": 15,
+                  "muted": false
+                },
+                "ring": {
+                  "percent": 71,
+                  "index": 5,
+                  "maximumIndex": 7,
+                  "muted": false
+                },
+                "alarm": {
+                  "percent": 86,
+                  "index": 6,
+                  "maximumIndex": 7,
+                  "muted": false
+                },
+                "notification": {
+                  "percent": 71,
+                  "index": 5,
+                  "maximumIndex": 7,
+                  "muted": false
+                }
+              },
+              "rotation_lock": {
+                "enabled": false,
+                "rotation": 0
+              },
+              "auto_rotate": true,
+              "screen_timeout_seconds": 2147483,
+              "brightness_auto": false,
+              "writeSettings": true,
+              "shizuku": {
+                "enabled": true,
+                "installed": true,
+                "binderAlive": false,
+                "permissionGranted": false,
+                "serviceConnected": false,
+                "uid": -1,
+                "available": false,
+                "state": "not_running",
+                "reason": "휴대폰에서 Shizuku를 먼저 시작해 주세요.",
+                "transport": "shizuku",
+                "terminalAvailable": false,
+                "privilege": "unavailable"
+              }
+            }
+          }
+        }
+      }
+    },
+    "failure": "actual_none_scope_volume_refused"
+  },
+  "independentSettingsBefore": {
+    "user_rotation": "0",
+    "accelerometer_rotation": "1"
+  },
+  "independentSettingsRestored": {
+    "user_rotation": "0",
+    "accelerometer_rotation": "1"
+  },
+  "artifactSha256": "d3e484dff19c480be498b414a50eeb3195220cf2111cd861d91a18a31a7b0d75"
+}

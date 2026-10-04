@@ -1,0 +1,68 @@
+{
+  "ok": true,
+  "result": {
+    "version": "0.08",
+    "checks": {
+      "actual_accessibility_service_bound": true
+    },
+    "device": {
+      "model": "unknown Android SDK built for x86_64",
+      "android": "15",
+      "sdk": 35,
+      "battery": 100,
+      "charging": true,
+      "memoryTotalGb": 2.4,
+      "memoryAvailableGb": 1.4,
+      "volume": 53,
+      "brightness": 102,
+      "wifi": true,
+      "root": false,
+      "rootEnabled": false,
+      "rootStatus": {
+        "enabled": false,
+        "root": false,
+        "state": "disabled",
+        "message": "Root 연동이 꺼져 있습니다. Root는 기기의 실제 su 권한이 별도로 필요합니다."
+      },
+      "shizuku": {
+        "enabled": true,
+        "installed": true,
+        "binderAlive": true,
+        "permissionGranted": true,
+        "serviceConnected": true,
+        "uid": 2000,
+        "available": true,
+        "state": "ready_shell",
+        "reason": "",
+        "transport": "shizuku"
+      },
+      "deviceScope": "all",
+      "approvalMode": "auto",
+      "systemUid": false,
+      "accessibility": true,
+      "gestures": true,
+      "locked": false,
+      "writeSettings": false,
+      "floating": {
+        "enabled": true,
+        "available": true,
+        "visible": false,
+        "collapsed": false,
+        "session": "",
+        "status": ""
+      },
+      "screenshotSupported": true,
+      "screenshotCapability": true,
+      "screenshotAvailable": true,
+      "screenshotReason": "허용 앱에서만 캡처 · 키보드/보안 화면 제외"
+    },
+    "tree": {
+      "ok": false,
+      "error": "전체 앱 제어가 꺼져 있거나 현재 화면은 보호 대상입니다. 시스템 권한·인증·Hermes 화면은 제어할 수 없습니다."
+    },
+    "capture": {
+      "ok": false,
+      "error": "전체 앱 제어가 꺼져 있거나 현재 화면은 보호 대상입니다. 시스템 권한·인증·Hermes 화면은 제어할 수 없습니다."
+    }
+  }
+}

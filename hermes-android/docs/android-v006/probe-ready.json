@@ -1,0 +1,10 @@
+Serving...
+Performing Incremental Install
+Success
+Install command complete in 156 ms
+{
+  "ok": true,
+  "result": {
+    "version": "0.06"
+  }
+}

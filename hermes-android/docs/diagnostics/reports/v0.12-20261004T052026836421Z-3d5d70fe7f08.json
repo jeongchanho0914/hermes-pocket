@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "targetVersion": "v0.12",
+  "collectedAt": "2026-10-04T05:20:26.836421+00:00",
+  "package": "dev.chanho.hermes",
+  "source": "app-private-diagnostics",
+  "status": "offline",
+  "records": [],
+  "freshDiagnosticsAvailable": false,
+  "offlineReason": "User explicitly disconnected USB to use the phone; prepare the tested v0.12 APK without claiming fresh physical-device diagnostics.",
+  "cachedReports": [],
+  "cachedReportsReviewed": true,
+  "cachedReviewCompletedAt": "2026-10-04T05:20:26.837369+00:00",
+  "cachedPendingIds": [],
+  "cachedCriticalIds": [],
+  "criticalDeferral": null
+}

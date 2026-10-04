@@ -1,0 +1,5 @@
+{
+  "ok": false,
+  "error": "java.lang.IllegalStateException: No JavaScript bridge reply within45s",
+  "restoredBrightnessMode": "1"
+}

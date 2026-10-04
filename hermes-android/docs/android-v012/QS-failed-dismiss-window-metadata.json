@@ -1,0 +1,29 @@
+{
+  "probe": {
+    "serviceBound": true,
+    "windows": [
+      {
+        "title": "Navigation bar",
+        "id": 39,
+        "type": 3,
+        "layer": 1,
+        "active": false,
+        "focused": false,
+        "bounds": "[0,2274][1080,2400]",
+        "rootBounds": "[0,2274][1080,2400]",
+        "package": "com.android.launcher3"
+      },
+      {
+        "title": "null",
+        "id": 38,
+        "type": 3,
+        "layer": 0,
+        "active": true,
+        "focused": true,
+        "bounds": "[0,0][1080,2400]",
+        "rootBounds": "[0,0][1080,2400]",
+        "package": "com.android.systemui"
+      }
+    ]
+  }
+}
